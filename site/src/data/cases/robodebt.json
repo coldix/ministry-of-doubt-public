@@ -1,18 +1,18 @@
 {
   "fileNo": "001",
   "slug": "robodebt",
-  "publication": "preview",
+  "publication": "public",
   "title": "Robodebt",
   "subtitle": "When the formula says you owe us",
   "chapter": "Chapter 9",
-  "status": "Active research",
-  "lastReviewed": "10/08/2026",
-  "evidenceCutoff": "10/08/2026",
+  "status": "Living Evidence File",
+  "lastReviewed": "11/08/2026",
+  "evidenceCutoff": "11/08/2026",
   "overall": {
     "label": "Institutional failure + misconduct",
     "ledger": "PROBABLE",
     "confidence": "High",
-    "summary": "The strongest evidence supports a system that raised debts using an invalid averaging method, persisted despite serious legal and accuracy warnings, and later concealed or misstated important problems. The evidence examined so far does not require a secret cabal to explain what happened."
+    "summary": "The evidence supports: averaging-only debt decisions were not validly made under the legal pathway used (KNOWN); the scheme continued after serious legal and accuracy warnings from 2014 onwards (PROBABLE, approaching KNOWN for the 2017–2019 period); key ministerial statements between 2017 and 2019 were found by the Royal Commission to be false or misleading, and one minister admitted citing accuracy statistics he knew to be wrong (PROBABLE); the dominant explanation is systemic failure and misconduct rather than a secret conspiracy to invent unlawful debts (PROBABLE). Actual knowledge, constructive knowledge and deliberate concealment are kept distinct throughout."
   },
   "claims": [
     {
@@ -21,8 +21,8 @@
       "ledger": "KNOWN",
       "confidence": "Very high",
       "claim": "Debts raised solely from averaged ATO income, without evidence of constant fortnightly earnings, were not validly made under the legal pathway used.",
-      "why": "Federal Court proceedings, later declarations and the Commonwealth's withdrawal of averaging-based debts converge on this point.",
-      "sourceIds": ["S1", "S2"]
+      "why": "The Federal Court's consent orders in Amato v Commonwealth (VID611/2019, Davies J, 27 November 2019) established that income averaging alone could not establish a debt in the way used — the irrational-conclusion finding. Prygodicz v Commonwealth (No 2) [2021] FCA 634 approved a class action settlement including formal declarations that decisions relying solely on averaging were not validly made, and recorded the withdrawal of approximately 1.763 billion dollars in averaging-based debts covering approximately 648,000 group members from the 2015–2019 programme. The Commonwealth did not defend the sole-averaging method. A further settlement approved 23 June 2026 brought total settlement amounts to approximately 548 million dollars, the largest class action settlement in Australian legal history. This is not a finding of criminal conduct — unlawfulness here means invalid administrative debt decisions under the Social Security Act pathway used, not criminal fraud.",
+      "sourceIds": ["S1", "S2", "S5"]
     },
     {
       "id": "C2",
@@ -30,58 +30,68 @@
       "ledger": "PROBABLE",
       "confidence": "High",
       "claim": "Responsible agencies continued the scheme after substantial legal, fairness and accuracy warnings should have forced reconsideration.",
-      "why": "The developing chronology includes 2014 legal concerns, a 2015 legislative-change issue and strong Royal Commission findings about the 2017 period.",
+      "why": "The Royal Commission documented: a 2014 DSS legal concern that debt calculations from annual smoothing or averaging may not be consistent with the legislative framework; a January 2015 DSS view that legislative change was required; and Royal Commission Overview findings (p. xxvii) that from early 2017 the scheme should have been abandoned or radically revised. The RC also found that in February–March 2017 the 2014 legal advice was deliberately withheld from the Commonwealth Ombudsman and false explanations were given to limit scrutiny (RC approximately pp. 217–219). Murphy J's finding in Prygodicz that there was little evidence that ministers or senior officers actually knew averaging was an unreliable basis for debt-raising addresses a narrower actual-knowledge claim and does not resolve the separate questions of constructive knowledge, receipt of advice, and deliberate concealment documented by the RC. Actual knowledge, constructive knowledge, and deliberate concealment are treated as distinct throughout this file.",
       "sourceIds": ["S3", "S4"]
     },
     {
       "id": "C3",
       "level": "Process",
-      "ledger": "POSSIBLE",
-      "confidence": "Moderate",
-      "claim": "Public and parliamentary explanations overstated the scheme's legality or accuracy beyond what the underlying record justified.",
-      "why": "This remains open pending a systematic Hansard and statement-by-statement comparison.",
+      "ledger": "PROBABLE",
+      "confidence": "Moderate-high",
+      "claim": "Between 2017 and 2019, key ministerial statements about the scheme's accuracy, novelty and legal standing were found by the Royal Commission to be false or misleading. One minister admitted to the Royal Commission that he publicly cited accuracy statistics he knew to be wrong while being briefed on adverse legal advice.",
+      "why": "The Royal Commission Overview (p. xxvii) found that from early 2017 the government maintained 'the falsehood that the system had not changed at all.' Former Minister for Government Services Stuart Robert admitted to the Royal Commission that he publicly stated 99.2 per cent of debts were accurate — a figure the RC found he knew could not be correct — while in receipt of the Solicitor-General's adverse advice from 24 September 2019. The RC separately rejected former Minister Alan Tudge's characterisation of income averaging as an established practice dating to 1990; the RC found the pre-2015 use was occasional, usually by agreement, and supported by other evidence, making the automated at-scale sole-evidence use a novel and unlawful change. The evidence for this claim rests primarily on RC findings and one minister's own admissions to the RC. Direct primary Hansard text was not independently verified in this research pass (parlinfo.aph.gov.au was inaccessible). Earlier-period statements (2015–2016) have weaker support for the broad misrepresentation finding and are not included in this claim. Former Minister Christian Porter's conduct is better characterised as misleading by omission rather than affirmative falsehood.",
       "sourceIds": ["S4"]
     },
     {
       "id": "C4",
       "level": "Cause",
       "ledger": "PROBABLE",
-      "confidence": "Moderate-high",
-      "claim": "The dominant explanation is policy incentives, automation, weak legal gatekeeping and diffusion of responsibility rather than a single secret plan to invent unlawful debts.",
-      "why": "Current material strongly supports systemic failure and misconduct but has not produced positive evidence of a top-level conspiracy to create debts known to be unlawful.",
+      "confidence": "High",
+      "claim": "The dominant explanation for the scheme's origin and continuation is policy incentives, automation, weak legal gatekeeping and diffusion of responsibility, not a single secret plan to invent unlawful debts.",
+      "why": "Royal Commission Chapter 2 findings document savings pressure, a 'just get it done' culture, misreading of the Social Security Act by non-lawyers, and inter-agency friction. Murphy J's limited actual-knowledge finding in Prygodicz is consistent with a failure-and-misconduct model rather than a top-down conspiracy to create false debts. Individual referrals from the RC to the NACC for potential misconduct findings are ongoing and separate from the scheme-level causal finding. Misconduct by specific actors is real and documented but does not establish a secret programme-wide cabal whose purpose was inventing unlawful debts.",
       "sourceIds": ["S2", "S4"]
     }
   ],
   "timeline": [
     {
       "date": "2014",
-      "event": "Income averaging is proposed. DSS legal concerns include that annual smoothing or averaging may not be consistent with the legislative framework. DHS analysis reportedly finds a very high mismatch between averaged and manual calculations.",
-      "effect": "Early legal and accuracy red flags"
+      "event": "Income averaging is proposed within DHS. DSS legal concerns emerge: annual smoothing or averaging may not be consistent with the legislative framework. Internal analysis reportedly found a very high mismatch between averaged and manual debt calculations.",
+      "effect": "Early legal and accuracy red flags documented by the Royal Commission"
     },
     {
-      "date": "Jan-Feb 2015",
-      "event": "DSS considers legislative change necessary. The proposal proceeds through the executive process and an Executive Minute is signed on 20/02/2015.",
-      "effect": "Raises the process question: what exactly reached decision-makers?"
+      "date": "Jan–Feb 2015",
+      "event": "DSS considers that legislative change is necessary. The proposal proceeds through the executive process: the Executive Minute is signed 20 February 2015. Briefing language about the need for legislative change is modified before the Minute reaches decision-makers.",
+      "effect": "Decision made to proceed despite unresolved legal questions; the legal concern is softened in the formal brief"
     },
     {
       "date": "2017",
-      "event": "The Royal Commission later finds the scheme should by then have been abandoned or radically revised. It also identifies serious failures in dealings with the Ombudsman, including withholding earlier legal advice.",
-      "effect": "Strongly shifts C2 toward persistence and misconduct"
+      "event": "The Royal Commission found the scheme should by then have been abandoned or radically revised (RC Overview, p. xxvii). In February–March 2017, DSS officers withheld the 2014 legal advice from the Commonwealth Ombudsman and gave explanations the RC characterised as dishonest. The Ombudsman's April 2017 report made process recommendations without access to the concealed legal advice.",
+      "effect": "Active concealment from an independent oversight body; RC found the government maintained the falsehood that the system had not changed"
     },
     {
       "date": "27/11/2019",
-      "event": "Amato litigation becomes a clean legal turning point: averaged ATO income alone could not establish the asserted debt in the way used.",
-      "effect": "Strong object-level evidence against the averaging method"
+      "event": "Amato v Commonwealth (VID611/2019): consent orders establish that income averaging alone, without evidence of constant fortnightly earnings, could not establish a lawful debt under the pathway used.",
+      "effect": "Clearest legal pivot point — averaging-only method declared invalid as applied"
     },
     {
-      "date": "2021",
-      "event": "Prygodicz settlement approval records the withdrawal of a very large class of averaging-based debts. The judgment also cautions against simplistic claims that senior actors all had actual knowledge from the beginning.",
-      "effect": "Confirms scale while constraining overclaiming about intent"
+      "date": "Sep–Nov 2019",
+      "event": "Solicitor-General's advice received 24 September 2019 finding the scheme unlawful. The Minister for Government Services continued making public accuracy claims, including the 99.2 per cent figure the RC found he knew was wrong. The scheme closes in November 2019.",
+      "effect": "Continuation of false public accuracy claims after receipt of definitive adverse legal advice; RC-documented admission by the minister"
     },
     {
-      "date": "2023",
-      "event": "The Royal Commission characterises Robodebt as a costly failure of public administration and makes detailed findings about legality, fairness, advice and institutional conduct.",
-      "effect": "Strong support for institutional failure + misconduct"
+      "date": "11/06/2021",
+      "event": "Prygodicz v Commonwealth (No 2) [2021] FCA 634: class action settlement approved. Declarations that decisions relying solely on averaging were not validly made. Approximately 1.763 billion dollars in averaging-based debts withdrawn. Interest of approximately 112 million dollars paid to approximately 648,000 group members.",
+      "effect": "Confirms scale; Commonwealth concedes invalidity of averaging-only decisions without mounting a defence"
+    },
+    {
+      "date": "Jul 2023",
+      "event": "Royal Commission into the Robodebt Scheme (Commissioner Catherine Holmes AC SC) delivers report. Characterises scheme as 'crude and cruel... neither fair nor legal' and 'a costly failure of public administration.' Makes 57 recommendations. Refers matters involving specific individuals to the NACC and other bodies.",
+      "effect": "Definitive institutional assessment; individual misconduct referrals proceed separately"
+    },
+    {
+      "date": "23/06/2026",
+      "event": "A second Federal Court class action settlement is approved, adding approximately 475 million dollars. Total Robodebt-related settlements reach approximately 548 million dollars, the largest class action settlement in Australian legal history.",
+      "effect": "Further confirmation of harm scale; remediation record is the Commonwealth's own accounting of what was wrongly taken"
     }
   ],
   "hypotheses": [
@@ -89,93 +99,132 @@
       "id": "H1",
       "title": "Good-faith lawful shortcut",
       "status": "Poor fit",
-      "text": "Averaging was a lawful and reasonable shortcut, errors were incidental, and the system was corrected when problems emerged.",
-      "test": "This predicts supportive legal advice, tolerable error rates and rapid correction after serious warnings. The evidence examined so far fits poorly."
+      "text": "Averaging was a lawful and reasonable administrative shortcut, errors were incidental and correctable, and the system was stopped promptly when problems emerged.",
+      "test": "This predicts supportive legal advice, tolerable error rates and rapid correction after serious warnings. The 2014 DSS legal concern, the 2015 legislative-change view, the AAT and Federal Court decisions, the deliberate concealment from the Ombudsman in 2017, and the Royal Commission's 'neither fair nor legal' finding fit poorly with this hypothesis."
     },
     {
       "id": "H2",
       "title": "System failure + incentives",
       "status": "Strong fit",
-      "text": "A defective administrative model was reinforced by fiscal targets, automation, weak legal gatekeeping, bureaucracy and diffusion of responsibility.",
-      "test": "This predicts messy advice, ignored red flags, persistence and defensive institutional behaviour without requiring a secret command structure. Current evidence fits strongly."
+      "text": "A defective administrative model was reinforced by fiscal targets, automation, weak legal gatekeeping, bureaucracy and diffusion of responsibility, without requiring a secret command structure.",
+      "test": "This predicts messy legal advice, ignored red flags, persistence, and defensive institutional behaviour. The Royal Commission Chapter 2 savings-pressure and 'just get it done' findings, the misreading of the Act by non-lawyers, and the Murphy J actual-knowledge finding all fit this hypothesis strongly."
     },
     {
       "id": "H3",
       "title": "Senior misconduct",
       "status": "Material support",
-      "text": "Some senior actors ignored, buried or misrepresented serious legal risk after it became apparent.",
-      "test": "This requires dated evidence tying named decision-makers to warnings, concealment or misleading representations. The 2017 chronology provides material support, but actor-by-actor findings must remain precise."
+      "text": "Some senior actors ignored, buried or misrepresented serious legal risk after it became apparent to them.",
+      "test": "This requires dated evidence tying named decision-makers to warnings and subsequent concealment or misleading representations. The 2017 Ombudsman-era withholding of advice, the RC's 'dishonest explanation' finding, and Stuart Robert's admitted false accuracy claims all provide material support. RC referrals to the NACC are ongoing. Actor-level findings must remain tied to RC findings, not inferred from outcomes alone."
     },
     {
       "id": "H4",
       "title": "Secret cabal to invent debts",
       "status": "Unsupported",
-      "text": "A small group secretly coordinated to create debts they knew were unlawful from the outset.",
-      "test": "This requires positive evidence of coordination and intent. None of the material examined so far earns that conclusion."
+      "text": "A small group secretly coordinated to create debts they knew were unlawful from the outset as a matter of deliberate policy.",
+      "test": "This requires positive evidence of coordination and intent to produce known-unlawful debts as the programme's purpose. No material in the accessible record supports this. Murphy J explicitly found little evidence that ministers or senior officers actually knew averaging was an unreliable basis from the outset. Misconduct and concealment by specific actors do not establish a programme-wide conspiracy whose purpose was inventing false debts."
     }
   ],
   "independence": [
-    "Federal Court: Amato",
-    "Federal Court: Prygodicz",
-    "Commonwealth Ombudsman",
-    "Robodebt Royal Commission",
-    "Services Australia remediation records"
+    "Federal Court: Amato v Commonwealth (VID611/2019) — consent orders",
+    "Federal Court: Prygodicz v Commonwealth (No 2) [2021] FCA 634 — class action settlement and declarations",
+    "Commonwealth Ombudsman (2017) — independent integrity agency review",
+    "Robodebt Royal Commission (Holmes, 2023) — coercive inquiry with document powers",
+    "Services Australia settlement records (2021, 2026) — Commonwealth's own remediation record"
   ],
   "openQuestions": [
-    "Complete page-level verification against the full Royal Commission report and primary exhibits.",
-    "Build the dated legal-advice matrix from original documents rather than summaries alone.",
-    "Audit Hansard and ministerial statements for C3: legality, accuracy and representations to Parliament or the public.",
-    "Keep actual knowledge, constructive knowledge, negligence and deliberate concealment separate for each actor.",
-    "Test the causal model against evidence that could support a more centrally directed explanation."
+    "Individual misconduct findings: the Royal Commission referred matters to the NACC and other bodies; these proceedings are separate from the scheme-level findings in this file and their outcomes are not yet settled.",
+    "Full page-level verification against the primary Royal Commission report PDF (robodebt.royalcommission.gov.au) remains desirable for the most precise claim wording; this file currently relies on RC Overview quotations and the official Government Response document.",
+    "Direct Hansard text verification for parliamentary exchanges during 2016–2019: parlinfo.aph.gov.au was inaccessible in this research pass. C3 rests on RC findings and ministerial admissions to the RC, not independently read Hansard text.",
+    "Complete exhibit-level documentation of the 2014 DSS legal advice and the 2015 Executive Minute as primary files — currently sourced through the PMC RC summary (FOI-2024-026)."
   ],
   "wouldChange": [
-    "Primary legal material showing the averaging method was lawful in the form actually used would materially weaken C1.",
-    "Evidence that the scheme was stopped promptly on receipt of the first serious legal warning would weaken C2.",
-    "Direct documentary evidence that senior actors ordered continuation because they knew debts were unlawful would materially strengthen the intentional-coordination hypothesis.",
-    "A systematic Hansard audit showing careful, qualified public explanations would weaken C3."
+    "Primary legal material showing the averaging method was lawful in the form actually used would materially weaken C1 — no such material has been found and the Commonwealth did not advance this argument.",
+    "Evidence that the scheme was stopped promptly upon receipt of the first serious legal warning would weaken C2 — the 2014–2017 documentation of continuation and concealment makes this difficult to establish.",
+    "Direct documentary evidence that senior actors ordered continuation knowing debts were unlawful would materially strengthen the intentional-coordination hypothesis toward KNOWN — current evidence supports misconduct and concealment without establishing a secret programme-wide conspiracy.",
+    "A systematic verified Hansard audit showing careful, qualified public explanations during 2017–2019 would weaken C3 — Stuart Robert's admitted false accuracy claims and the RC's 'falsehood' finding would need to be directly rebutted.",
+    "NACC or prosecutorial outcomes clearing named individuals referred by the RC would require updating the H3 assessment."
   ],
   "sources": [
     {
       "id": "S1",
       "name": "Amato v Commonwealth, VID611/2019",
       "kind": "Court",
-      "role": "Legal validity of averaging-only debt decision",
-      "independenceGroup": "fca-amato-2019"
+      "role": "Consent orders establishing that income averaging alone, without evidence of constant fortnightly earnings, could not establish a lawful debt under the pathway used — the founding legal pivot for C1",
+      "independenceGroup": "fca-amato-2019",
+      "url": "https://www.comcourts.gov.au/file/Federal/P/VID611/2019/3859485/event/30114114/document/1513665",
+      "locator": "Davies J, consent orders, 27 November 2019, Federal Court of Australia; see also Victoria Legal Aid case summary at legalaid.vic.gov.au/depth-look-our-robo-debt-test-case"
     },
     {
       "id": "S2",
       "name": "Prygodicz v Commonwealth (No 2) [2021] FCA 634",
       "kind": "Court",
-      "role": "Settlement, scale, declarations and limits on knowledge claims",
-      "independenceGroup": "fca-prygodicz-2021"
+      "role": "Class action settlement approval with formal declarations of invalidity for sole-averaging decisions; records scale of withdrawn debts (~1.763 billion dollars, ~648,000 group members); Murphy J's caution against attributing actual knowledge to all senior actors from the outset",
+      "independenceGroup": "fca-prygodicz-2021",
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2021/2021fca0634",
+      "locator": "[2021] FCA 634, Murphy J, 11 June 2021"
     },
     {
       "id": "S3",
-      "name": "Commonwealth Ombudsman income-compliance material",
+      "name": "Commonwealth Ombudsman — Centrelink's automated debt raising and recovery system (2017)",
       "kind": "Integrity body",
-      "role": "Administrative process and averaging concerns",
-      "independenceGroup": "ombudsman-income-compliance"
+      "role": "Independent oversight review of the income compliance programme. The Royal Commission later found that key legal advice — the 2014 DSS concern — was deliberately withheld from the Ombudsman, limiting what the 2017 report could establish; the concealment itself is a C2 finding",
+      "independenceGroup": "ombudsman-income-compliance",
+      "url": "https://www.ombudsman.gov.au/__data/assets/pdf_file/0022/43528/Report-Centrelinks-automated-debt-raising-and-recovery-system-April-2017.pdf",
+      "locator": "Commonwealth Ombudsman report, April 2017"
     },
     {
       "id": "S4",
-      "name": "Royal Commission into the Robodebt Scheme",
+      "name": "Royal Commission into the Robodebt Scheme (Holmes, 2023)",
       "kind": "Royal Commission",
-      "role": "Chronology, institutional conduct and actor-level findings",
-      "independenceGroup": "robodebt-royal-commission"
+      "role": "Legal-advice chronology (2014 concern, 2015 legislative-change view), Ombudsman-era concealment findings (RC approx. pp. 217–219), Overview 'falsehood' finding (p. xxvii), Stuart Robert accuracy-claims findings, Alan Tudge 'established practice' rejection, and scheme-level causal analysis (Ch. 2)",
+      "independenceGroup": "robodebt-royal-commission",
+      "url": "https://robodebt.royalcommission.gov.au/publications/report",
+      "locator": "Three-volume report, Commissioner Catherine Holmes AC SC, 7 July 2023 (corr. 11 July 2023); 57 recommendations; Government Response text at en.wikisource.org/wiki/Government_Response_–_Royal_Commission_into_the_Robodebt_Scheme"
+    },
+    {
+      "id": "S5",
+      "name": "Services Australia — Robodebt class action settlements (2021, 2026)",
+      "kind": "Government record",
+      "role": "Commonwealth's own remediation record: 2021 settlement (~112 million dollars interest to ~648,000 group members, Federal Court approved 11 June 2021) and 2026 settlement (~475 million dollars, Federal Court approved 23 June 2026). Confirms scale of C1 without constituting original evidence of unlawfulness.",
+      "independenceGroup": "sa-settlement-records",
+      "url": "https://www.servicesaustralia.gov.au/robodebt-class-action-settlement?context=60271",
+      "locator": "Services Australia robodebt class action pages; see also Gordon Legal at gordonlegal.com.au/services/class-actions/robodebt-class-action/"
     }
   ],
   "methodAudit": [
-    { "name": "Grammar", "note": "Claims atomised and loaded terms defined." },
-    { "name": "Logic", "note": "Four competing hypotheses with discriminating predictions." },
-    { "name": "Rhetoric", "note": "Popular moral language rewritten as neutral propositions." },
-    { "name": "Reality", "note": "Court outcomes, documentary chronology and administrative records tested against claims." },
-    { "name": "Independence", "note": "Sources grouped by evidentiary origin, not URL count." },
-    { "name": "Adversarial", "note": "Hostile specialist review still required before final publication." }
+    {
+      "name": "Grammar",
+      "note": "Claims atomised into testable propositions. Loaded terms defined: 'unlawful' means invalid administrative debt decisions under the Social Security Act pathway used — not a criminal finding. 'Knew' means documented receipt of advice or admission, not inference from outcome. 'Robodebt' confined to the automated income-averaging-at-scale programme 2015–2019."
+    },
+    {
+      "name": "Logic",
+      "note": "Four competing hypotheses tested with discriminating predictions. H1 (good-faith lawful shortcut) is a poor fit given the 2014–2017 evidence. H2 (system failure + incentives) is strongly supported. H3 (senior misconduct) has material RC support. H4 (secret cabal) is unsupported. Murphy J's actual-knowledge constraint and the RC's constructive-knowledge and concealment findings coexist without contradiction — they address different questions."
+    },
+    {
+      "name": "Rhetoric",
+      "note": "Popular moral language rewritten as neutral propositions. The scheme is characterised by what courts declared about the decisions and what the RC found about institutional conduct, not emotional narrative. The identity-swap test applied: the same evidentiary standard is demanded of this government as would be demanded of any administration."
+    },
+    {
+      "name": "Reality",
+      "note": "Court outcomes, documentary chronology, class action settlement declarations and Royal Commission findings tested against each claim and each competing hypothesis. Predictions from each hypothesis compared against the observable record."
+    },
+    {
+      "name": "Independence",
+      "note": "Sources grouped by evidentiary origin: two independent Federal Court proceedings, one Ombudsman integrity-body review, one Royal Commission with coercive document powers, and the Commonwealth's own settlement records. Echo articles and secondary summaries do not increase the independence count. C3 independence is limited: primary support comes from RC findings and one minister's RC admissions — direct Hansard text not independently verified this pass."
+    },
+    {
+      "name": "Adversarial",
+      "note": "Hostile-reader pass completed 11/08/2026 from three perspectives: an Australian public-law specialist, a data/IT systems auditor, and a defender of the original government policy. Material changes from adversarial review: C3 upgraded from POSSIBLE/Moderate to PROBABLE/Moderate-high with narrowed time-bounded wording limited to the 2017–2019 period where RC findings are strongest; earlier-period statements excluded from C3 claim; Murphy J constraint made explicit in C2 and C4; actual/constructive/concealment knowledge distinction carried throughout; claim text avoids unsupported allegations against identifiable persons — named ministers appear only in 'why' fields anchored to RC findings or their own RC admissions."
+    }
   ],
   "changelog": [
     {
       "date": "10/08/2026",
-      "change": "Initial public-facing prototype assembled from the frozen pre-registration and first three research passes."
+      "change": "Initial public-facing prototype assembled from the frozen pre-registration and first three research passes. Publication state: preview."
+    },
+    {
+      "date": "11/08/2026",
+      "change": "Evidence File 001 publication pass. C3 upgraded from POSSIBLE/Moderate to PROBABLE/Moderate-high and narrowed to the documented 2017–2019 period following RC findings on the 'falsehood' (RC Overview p. xxvii) and Stuart Robert's RC admission of false accuracy claims. Sources updated with stable URLs and precise locators. S5 (Services Australia settlement records) added; 2026 second settlement (~475 million dollars, total ~548 million dollars) added to timeline and C1. Timeline expanded to eight entries. Murphy J actual-knowledge constraint made explicit in C2 and C4 why fields. Adversarial review completed; findings documented in methodAudit. Status changed from 'Active research' to 'Living Evidence File'. Publication promoted to public."
     }
   ]
 }

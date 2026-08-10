@@ -36,6 +36,24 @@
     "listing": "public"
   },
   {
+    "slug": "covid-origins",
+    "title": "COVID origins",
+    "chapter": "Chapter 15",
+    "difficulty": 3,
+    "research": "prereg",
+    "lastUpdated": "2026-08-11",
+    "listing": "public"
+  },
+  {
+    "slug": "epstein-process",
+    "title": "Epstein: network and missing map",
+    "chapter": "Chapter 14",
+    "difficulty": 3,
+    "research": "active",
+    "lastUpdated": "2026-08-11",
+    "listing": "public"
+  },
+  {
     "slug": "gulf-of-tonkin",
     "title": "Gulf of Tonkin",
     "chapter": "Chapter 4",
