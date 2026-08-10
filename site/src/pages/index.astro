@@ -1,0 +1,79 @@
+---
+import Base from "../layouts/Base.astro";
+import { SITE, AUTHOR } from "../lib/site.mjs";
+---
+
+<Base
+  title={null}
+  description="Suspicion is not proof. Authority is not proof either. Show me the evidence. A nonfiction book and companion evidence project by Colin Dixon."
+>
+  <div class="wrap">
+    <header class="hero measure-lede">
+      <p class="eyebrow">Nonfiction · in development</p>
+      <h1>{SITE.name}</h1>
+      <p class="lede">
+        Conspiracy, institutional power and the battle over what we are allowed to know —
+        written for readers who refuse both blind trust and unfalsifiable belief.
+      </p>
+      <p class="principle">{SITE.tagline}</p>
+      <div class="actions">
+        <a class="btn btn--primary" href="/book">Book overview</a>
+        <a class="btn btn--ghost" href="/music">Companion music</a>
+        <a class="btn btn--ghost" href="/author">About the author</a>
+        <a class="btn btn--ghost" href="/tracker">Evidence tracker (coming)</a>
+      </div>
+    </header>
+
+    <section class="prose measure" aria-labelledby="about-project">
+      <h2 id="about-project">The project</h2>
+      <p>
+        Governments, corporations, intelligence agencies, scientific institutions, media organisations
+        and activists have all been wrong at times. Some have lied, withheld evidence or protected
+        institutional interest. Conspiracy culture, meanwhile, often turns anomalies into proof and
+        treats every contradiction as confirmation.
+      </p>
+      <p>
+        <em>The Ministry of Doubt</em> asks how an intelligent person distinguishes genuine conspiracy,
+        institutional failure, ordinary incompetence, groupthink, financial incentives, propaganda and
+        complete nonsense — without becoming programmable by either side.
+      </p>
+    </section>
+
+    <div class="card-grid">
+      <a class="card card--link" href="/book">
+        <h3>The book</h3>
+        <p>Premise, method and the ground the manuscript will cover — without spoilers or draft chapters.</p>
+      </a>
+      <a class="card card--link author-card" href="/author">
+        <img
+          class="author-card__photo"
+          src={AUTHOR.photo}
+          alt={AUTHOR.photoAlt}
+          width="128"
+          height="128"
+          decoding="async"
+        />
+        <div>
+          <h3>{AUTHOR.name}</h3>
+          <p>Physics, mathematics and IT background. Australian voice. Builds public evidence tools.</p>
+        </div>
+      </a>
+      <a class="card card--link" href="/music">
+        <h3>Companion music</h3>
+        <p>OzeAuMusic singles for the book’s atmosphere — stream on Spotify. Room for a full album of ~20 songs.</p>
+      </a>
+      <a class="card card--link" href="/tracker">
+        <h3>Companion tracker</h3>
+        <p>
+          A public evidence ledger in the spirit of
+          <span style="white-space: nowrap">electiontracker.au</span> — planned to launch with the book.
+        </p>
+      </a>
+    </div>
+
+    <p class="note measure-lede">
+      This website is the public face of the project. Working files, research dossiers and editorial
+      notes are kept offline from this domain on purpose.
+    </p>
+  </div>
+</Base>

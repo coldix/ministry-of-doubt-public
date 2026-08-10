@@ -1,0 +1,23 @@
+{
+  "name": "@coldix/ministry-of-doubt-public",
+  "type": "module",
+  "description": "The Ministry of Doubt — public evidence and website repository.",
+  "scripts": {
+    "predev": "npm run build:meta",
+    "dev": "astro dev --root site",
+    "prebuild": "npm run case:validate && npm run build:meta",
+    "build": "astro build --root site",
+    "build:meta": "node scripts/write-build-meta.mjs",
+    "build:checked": "npm run build",
+    "preview": "astro preview --root site",
+    "case:validate": "node scripts/case-tool.mjs validate",
+    "case:list": "node scripts/case-tool.mjs list"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.3",
+    "astro": "^5.18.2"
+  },
+  "devDependencies": {
+    "wrangler": "^4.114.0"
+  }
+}

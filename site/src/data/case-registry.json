@@ -1,0 +1,128 @@
+[
+  {
+    "slug": "911-core",
+    "title": "9/11: multi-proposition core",
+    "chapter": "Chapter 13",
+    "difficulty": 3,
+    "research": "active",
+    "lastUpdated": "2026-08-11",
+    "listing": "public"
+  },
+  {
+    "slug": "apollo-hoax",
+    "title": "Apollo / Moon-landing hoax claims",
+    "chapter": "Chapter 16",
+    "difficulty": 1,
+    "research": "active",
+    "lastUpdated": "2026-08-10",
+    "listing": "public"
+  },
+  {
+    "slug": "boeing-737-max",
+    "title": "Boeing 737 MAX",
+    "chapter": "Chapter 10",
+    "difficulty": 2,
+    "research": "active",
+    "lastUpdated": "2026-08-10",
+    "listing": "public"
+  },
+  {
+    "slug": "cointelpro",
+    "title": "COINTELPRO",
+    "chapter": "Chapter 5",
+    "difficulty": 2,
+    "research": "active",
+    "lastUpdated": "2026-08-10",
+    "listing": "public"
+  },
+  {
+    "slug": "gulf-of-tonkin",
+    "title": "Gulf of Tonkin",
+    "chapter": "Chapter 4",
+    "difficulty": 1,
+    "research": "active",
+    "lastUpdated": "2026-08-10",
+    "listing": "public"
+  },
+  {
+    "slug": "iraq-wmd",
+    "title": "Iraq WMD / case for war",
+    "chapter": "Chapter 7",
+    "difficulty": 2,
+    "research": "active",
+    "lastUpdated": "2026-08-10",
+    "listing": "public"
+  },
+  {
+    "slug": "jfk",
+    "title": "JFK: archive and assassin",
+    "chapter": "Chapter 12",
+    "difficulty": 3,
+    "research": "active",
+    "lastUpdated": "2026-08-11",
+    "listing": "public"
+  },
+  {
+    "slug": "mkultra",
+    "title": "MKUltra",
+    "chapter": "Chapter 5",
+    "difficulty": 2,
+    "research": "active",
+    "lastUpdated": "2026-08-10",
+    "listing": "public"
+  },
+  {
+    "slug": "operation-northwoods",
+    "title": "Operation Northwoods",
+    "chapter": "Chapter 0/4",
+    "difficulty": 1,
+    "research": "active",
+    "lastUpdated": "2026-08-10",
+    "listing": "public"
+  },
+  {
+    "slug": "post-office-horizon",
+    "title": "Post Office Horizon",
+    "chapter": "Chapter 8",
+    "difficulty": 1,
+    "research": "active",
+    "lastUpdated": "2026-08-10",
+    "listing": "public"
+  },
+  {
+    "slug": "robodebt",
+    "title": "Robodebt",
+    "chapter": "Chapter 9",
+    "difficulty": 1,
+    "research": "active",
+    "lastUpdated": "2026-08-10",
+    "listing": "public"
+  },
+  {
+    "slug": "tobacco-merchants-of-doubt",
+    "title": "Tobacco / Merchants of Doubt",
+    "chapter": "Chapter 6",
+    "difficulty": 1,
+    "research": "active",
+    "lastUpdated": "2026-08-10",
+    "listing": "public"
+  },
+  {
+    "slug": "wakefield-mmr",
+    "title": "Wakefield / MMR",
+    "chapter": "Chapter 11",
+    "difficulty": 1,
+    "research": "active",
+    "lastUpdated": "2026-08-10",
+    "listing": "public"
+  },
+  {
+    "slug": "wtc7",
+    "title": "WTC 7 technical module",
+    "chapter": "Chapter 13",
+    "difficulty": 3,
+    "research": "active",
+    "lastUpdated": "2026-08-11",
+    "listing": "public"
+  }
+]

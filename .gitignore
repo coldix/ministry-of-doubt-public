@@ -1,0 +1,38 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Secrets and local env
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+token.json
+
+# Local scratch
+scratch/
+.tmp/
+*.log
+
+# Node / Astro / Cloudflare
+node_modules/
+site/node_modules/
+site/dist/
+# Generated at build time by scripts/write-build-meta.mjs
+site/src/generated/
+site/public/build-meta.json
+site/.astro/
+.wrangler/
+dist/
+*.tsbuildinfo

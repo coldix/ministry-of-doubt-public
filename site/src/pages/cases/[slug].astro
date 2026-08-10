@@ -1,0 +1,28 @@
+---
+import Base from "../../layouts/Base.astro";
+import EvidenceFile from "../../components/EvidenceFile.astro";
+
+export function getStaticPaths() {
+  const modules = import.meta.glob("../../data/cases/*.json", { eager: true });
+  const showPreview = import.meta.env.PUBLIC_SITE_MODE === "preview" || import.meta.env.DEV;
+  const cases = Object.values(modules)
+    .map((module) => module.default)
+    .filter((item) => item && (item.publication === "public" || (showPreview && item.publication === "preview")));
+
+  return cases.map((data) => ({
+    params: { slug: data.slug },
+    props: { data },
+  }));
+}
+
+const { data } = Astro.props;
+const isPublic = data.publication === "public";
+---
+
+<Base
+  title={`${data.title} Evidence File`}
+  description={`${data.title}: claims, evidence, competing explanations, source lineage and open questions under the Ministry of Doubt method.`}
+  noindex={!isPublic}
+>
+  <EvidenceFile data={data} />
+</Base>

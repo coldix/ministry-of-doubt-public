@@ -1,0 +1,56 @@
+---
+import Base from "../layouts/Base.astro";
+import { SITE, AUTHOR } from "../lib/site.mjs";
+---
+
+<Base
+  title="About"
+  description="About ministryofdoubt.com — public site for The Ministry of Doubt. Independence, contact and what is not published here."
+>
+  <div class="wrap-narrow prose">
+    <header class="hero" style="border-bottom: none; margin-bottom: 0; padding-bottom: 0.5rem;">
+      <p class="eyebrow">About this site</p>
+      <h1>Public face, private workshop</h1>
+      <p class="lede">
+        ministryofdoubt.com publishes only what is meant for readers. Drafts, case dossiers and editorial
+        working notes stay off this domain.
+      </p>
+    </header>
+
+    <h2>What you will find here</h2>
+    <ul>
+      <li>Book premise and public overview</li>
+      <li>Author information</li>
+      <li>Plans for the companion evidence tracker</li>
+      <li>Contact for legitimate enquiries</li>
+    </ul>
+
+    <h2>What you will not find here</h2>
+    <ul>
+      <li>Manuscript chapters or outline dumps</li>
+      <li>Internal research files and source workbooks</li>
+      <li>Unverified claim databases (tracker not launched)</li>
+      <li>Comment sections optimised for outrage</li>
+    </ul>
+
+    <h2>Independence</h2>
+    <p>
+      This is an independent project by {AUTHOR.name}, published under {SITE.publisher}. It is not
+      affiliated with any political party, intelligence agency, activist organisation or media group.
+      Related public work includes the <a href={AUTHOR.electionTracker}>Australian Election Tracker</a>.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      Email: <a href={`mailto:${SITE.email}`}>{SITE.email}</a><br />
+      Tips and corrections for future tracker records will require a public source and a date — same
+      standard as electiontracker.au. For author professional context, see
+      <a href={AUTHOR.linkedin}>LinkedIn</a> or <a href={AUTHOR.x}>{AUTHOR.xHandle}</a>.
+    </p>
+
+    <p class="note">
+      If you represent a publisher, producer or rights interest, include organisation, territory and
+      timeline in your first email. Unsolicited manuscript attachments are not required at this stage.
+    </p>
+  </div>
+</Base>

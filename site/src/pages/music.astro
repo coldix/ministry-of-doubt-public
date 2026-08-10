@@ -1,0 +1,362 @@
+---
+import Base from "../layouts/Base.astro";
+import {
+  MUSIC,
+  TRACKS,
+  defaultTrack,
+  releasedTracks,
+  spotifyEmbedUrl,
+  spotifyOpenUrl,
+  youtubeUrl,
+  youtubeEmbedUrl,
+  padN,
+} from "../lib/music.mjs";
+import { SITE } from "../lib/site.mjs";
+
+const released = releasedTracks();
+const featured = defaultTrack();
+const featuredEmbed = spotifyEmbedUrl(featured);
+const releasedCount = released.length;
+const capacity = MUSIC.capacity;
+---
+
+<Base
+  title="Music"
+  description="Companion music for The Ministry of Doubt — stream OzeAuMusic singles on Spotify. Designed for a full album of about twenty songs."
+>
+  <div class="wrap music-page">
+    <header class="hero music-hero">
+      <div class="music-hero__copy">
+        <p class="eyebrow">Companion album · OzeAuMusic</p>
+        <h1>{MUSIC.seriesTitle}</h1>
+        <p class="lede">{MUSIC.intro}</p>
+        <p class="music-meta">
+          <span>{releasedCount} released</span>
+          <span aria-hidden="true">·</span>
+          <span>{capacity} slots</span>
+          <span aria-hidden="true">·</span>
+          <a href={MUSIC.artistSpotify} rel="noopener noreferrer" target="_blank">Spotify artist</a>
+        </p>
+        <div class="actions">
+          <a class="btn btn--spotify" href={spotifyOpenUrl(featured)} rel="noopener noreferrer" target="_blank">
+            Listen on Spotify
+          </a>
+          {
+            youtubeUrl(featured) && (
+              <a class="btn btn--ghost" href={youtubeUrl(featured)} rel="noopener noreferrer" target="_blank">
+                Watch on YouTube
+              </a>
+            )
+          }
+          <a class="btn btn--ghost" href="/book">About the book</a>
+        </div>
+      </div>
+      {
+        featured.cover && (
+          <figure class="music-hero__art">
+            <img src={featured.cover} alt="" width="800" height="800" decoding="async" fetchpriority="high" />
+            <figcaption class="sr-only">{featured.title} cover art</figcaption>
+          </figure>
+        )
+      }
+    </header>
+
+    <section class="music-stage" aria-labelledby="now-listening">
+      <div class="music-stage__head">
+        <h2 id="now-listening">Listen</h2>
+        <p class="music-stage__hint">Pick a track from the list. Playback uses Spotify — best quality and keeps this site light.</p>
+      </div>
+
+      <div class="music-stage__grid">
+        <div class="music-player card">
+          <div class="music-player__now" id="now-meta" data-default-title={featured.title}>
+            <p class="pill" id="now-status">Now selected</p>
+            <h3 id="now-title">{featured.title}</h3>
+            <p class="music-player__artist" id="now-artist">{MUSIC.artist}</p>
+            <p class="music-player__note" id="now-note">{featured.note ?? ""}</p>
+            <div class="music-player__links" id="now-links">
+              <a
+                class="btn btn--spotify btn--sm"
+                id="now-spotify"
+                href={spotifyOpenUrl(featured)}
+                rel="noopener noreferrer"
+                target="_blank">Open in Spotify</a
+              >
+              {
+                youtubeUrl(featured) && (
+                  <a
+                    class="btn btn--ghost btn--sm"
+                    id="now-youtube"
+                    href={youtubeUrl(featured)}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    YouTube
+                  </a>
+                )
+              }
+            </div>
+          </div>
+          <div class="music-player__embed">
+            {
+              featuredEmbed ? (
+                <iframe
+                  id="spotify-embed"
+                  title={`Spotify — ${featured.title}`}
+                  src={featuredEmbed}
+                  width="100%"
+                  height="352"
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                  style="border-radius: 12px; border: 0;"
+                />
+              ) : (
+                <p class="note">Spotify link coming soon for this track.</p>
+              )
+            }
+          </div>
+          <div class="music-player__yt" id="youtube-wrap" hidden={!youtubeEmbedUrl(featured)}>
+            {
+              youtubeEmbedUrl(featured) && (
+                <iframe
+                  id="youtube-embed"
+                  title={`YouTube — ${featured.title}`}
+                  src={youtubeEmbedUrl(featured)}
+                  width="100%"
+                  height="315"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                  loading="lazy"
+                  style="border: 0; border-radius: 12px;"
+                />
+              )
+            }
+          </div>
+        </div>
+
+        <div class="music-list-wrap card">
+          <h2 class="music-list-title">Tracklist</h2>
+          <ol class="music-list" id="tracklist">
+            {
+              TRACKS.map((t) => {
+                const isReleased = t.status === "released";
+                const embed = isReleased ? spotifyEmbedUrl(t) : null;
+                return (
+                  <li
+                    class:list={["music-list__item", !isReleased && "is-coming", t.n === featured.n && "is-active"]}
+                    data-n={t.n}
+                    data-status={t.status}
+                    data-title={t.title}
+                    data-note={t.note ?? ""}
+                    data-artist={MUSIC.artist}
+                    data-cover={t.cover ?? ""}
+                    data-spotify-embed={embed ?? ""}
+                    data-spotify-open={isReleased ? spotifyOpenUrl(t) : ""}
+                    data-youtube={youtubeUrl(t) ?? ""}
+                    data-youtube-embed={youtubeEmbedUrl(t) ?? ""}
+                  >
+                    {isReleased ? (
+                      <button type="button" class="music-list__btn" data-select-track>
+                        <span class="music-list__n">{padN(t.n)}</span>
+                        {t.cover ? (
+                          <img class="music-list__thumb" src={t.cover} alt="" width="48" height="48" loading="lazy" />
+                        ) : (
+                          <span class="music-list__thumb music-list__thumb--empty" />
+                        )}
+                        <span class="music-list__body">
+                          <span class="music-list__name">{t.title}</span>
+                          <span class="music-list__sub">
+                            {t.duration ?? ""}
+                            {t.youtube ? " · Video" : ""}
+                          </span>
+                        </span>
+                        <span class="music-list__badge">Play</span>
+                      </button>
+                    ) : (
+                      <div class="music-list__btn music-list__btn--static">
+                        <span class="music-list__n">{padN(t.n)}</span>
+                        <span class="music-list__thumb music-list__thumb--empty" />
+                        <span class="music-list__body">
+                          <span class="music-list__name">Coming soon</span>
+                          <span class="music-list__sub">Reserved</span>
+                        </span>
+                      </div>
+                    )}
+                  </li>
+                );
+              })
+            }
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="music-covers" aria-labelledby="covers-heading">
+      <h2 id="covers-heading">Released</h2>
+      <div class="music-covers__grid">
+        {
+          released.map((t) => (
+            <article class="music-cover-card">
+              <a
+                class="music-cover-card__art"
+                href={spotifyOpenUrl(t)}
+                rel="noopener noreferrer"
+                target="_blank"
+                aria-label={`${t.title} on Spotify`}
+              >
+                {t.cover ? (
+                  <img src={t.cover} alt="" width="800" height="800" loading="lazy" />
+                ) : (
+                  <div class="music-cover-card__placeholder" />
+                )}
+              </a>
+              <div class="music-cover-card__meta">
+                <h3>{t.title}</h3>
+                <p>
+                  {t.year ?? ""}
+                  {t.duration ? ` · ${t.duration}` : ""}
+                </p>
+                <div class="music-cover-card__links">
+                  <a href={spotifyOpenUrl(t)} rel="noopener noreferrer" target="_blank">
+                    Spotify
+                  </a>
+                  {youtubeUrl(t) && (
+                    <a href={youtubeUrl(t)} rel="noopener noreferrer" target="_blank">
+                      YouTube
+                    </a>
+                  )}
+                </div>
+              </div>
+            </article>
+          ))
+        }
+        {
+          /* Ghost cards so the grid reads as a full album-in-progress */
+          Array.from({ length: Math.min(4, capacity - releasedCount) }, (_, i) => (
+            <article class="music-cover-card music-cover-card--ghost" aria-hidden="true">
+              <div class="music-cover-card__art">
+                <div class="music-cover-card__placeholder">
+                  <span>{padN(releasedCount + i + 1)}</span>
+                </div>
+              </div>
+              <div class="music-cover-card__meta">
+                <h3>Coming soon</h3>
+                <p>Track slot</p>
+              </div>
+            </article>
+          ))
+        }
+      </div>
+    </section>
+
+    <section class="prose music-footnote">
+      <h2>About this album</h2>
+      <p>
+        Companion music for <em>{SITE.name}</em> — thematic, not a substitute for evidence. Lyrics and films explore
+        mood and moral hazard of belief; they do not settle contested historical claims. Artist:
+        <a href={MUSIC.artistSpotify} rel="noopener noreferrer" target="_blank">{MUSIC.artist}</a>.
+      </p>
+      <p class="note">
+        <strong>Why Spotify, not MP3 on this site?</strong> Streaming on Spotify (and YouTube for film) is better for
+        listeners — playlists, offline apps, quality, and stats — and keeps this domain fast. Master files and lyrics sit
+        in a private working folder; only cover art is hosted here. As tracks 03–{capacity} land, they appear in the
+        tracklist and on Spotify the same way.
+      </p>
+    </section>
+  </div>
+
+  <script is:inline>
+    (function () {
+      var list = document.getElementById("tracklist");
+      if (!list) return;
+
+      var embed = document.getElementById("spotify-embed");
+      var ytWrap = document.getElementById("youtube-wrap");
+      var ytEmbed = document.getElementById("youtube-embed");
+      var titleEl = document.getElementById("now-title");
+      var noteEl = document.getElementById("now-note");
+      var spotifyA = document.getElementById("now-spotify");
+      var youtubeA = document.getElementById("now-youtube");
+
+      function selectItem(item) {
+        if (!item || item.getAttribute("data-status") !== "released") return;
+        list.querySelectorAll(".music-list__item").forEach(function (li) {
+          li.classList.toggle("is-active", li === item);
+        });
+        var title = item.getAttribute("data-title") || "";
+        var note = item.getAttribute("data-note") || "";
+        var spEmbed = item.getAttribute("data-spotify-embed") || "";
+        var spOpen = item.getAttribute("data-spotify-open") || "";
+        var yt = item.getAttribute("data-youtube") || "";
+        var ytEmb = item.getAttribute("data-youtube-embed") || "";
+
+        if (titleEl) titleEl.textContent = title;
+        if (noteEl) noteEl.textContent = note;
+        if (embed && spEmbed) {
+          embed.src = spEmbed;
+          embed.title = "Spotify — " + title;
+        }
+        if (spotifyA && spOpen) spotifyA.href = spOpen;
+
+        if (ytWrap) {
+          if (ytEmb) {
+            ytWrap.hidden = false;
+            if (ytEmbed) {
+              ytEmbed.src = ytEmb;
+              ytEmbed.title = "YouTube — " + title;
+            } else {
+              var iframe = document.createElement("iframe");
+              iframe.id = "youtube-embed";
+              iframe.title = "YouTube — " + title;
+              iframe.src = ytEmb;
+              iframe.width = "100%";
+              iframe.height = "315";
+              iframe.allow =
+                "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+              iframe.allowFullscreen = true;
+              iframe.loading = "lazy";
+              iframe.style.border = "0";
+              iframe.style.borderRadius = "12px";
+              ytWrap.appendChild(iframe);
+              ytEmbed = iframe;
+            }
+          } else {
+            ytWrap.hidden = true;
+            if (ytEmbed) ytEmbed.removeAttribute("src");
+          }
+        }
+
+        if (youtubeA) {
+          if (yt) {
+            youtubeA.hidden = false;
+            youtubeA.href = yt;
+          } else {
+            youtubeA.hidden = true;
+          }
+        } else if (yt && spotifyA && spotifyA.parentElement) {
+          var a = document.createElement("a");
+          a.className = "btn btn--ghost btn--sm";
+          a.id = "now-youtube";
+          a.href = yt;
+          a.target = "_blank";
+          a.rel = "noopener noreferrer";
+          a.textContent = "YouTube";
+          spotifyA.parentElement.appendChild(a);
+          youtubeA = a;
+        }
+
+        var stage = document.getElementById("now-listening");
+        if (stage && window.matchMedia("(max-width: 900px)").matches) {
+          stage.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+      }
+
+      list.addEventListener("click", function (e) {
+        var btn = e.target.closest("[data-select-track]");
+        if (!btn) return;
+        var item = btn.closest(".music-list__item");
+        selectItem(item);
+      });
+    })();
+  </script>
+</Base>

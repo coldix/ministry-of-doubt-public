@@ -1,0 +1,112 @@
+---
+import { SITE, AUTHOR } from "../lib/site.mjs";
+import buildMeta from "../generated/build-meta.json";
+
+const year = new Date().getFullYear();
+const version = buildMeta?.version ?? "dev";
+const builtLocal = buildMeta?.built_at_local ?? null;
+const builtUtc = buildMeta?.built_at_utc ?? null;
+// The working repository is private, so the build stamp is not a link.
+const stampTitle = buildMeta?.git_sha_full
+  ? `Commit ${buildMeta.git_sha_full}${buildMeta.git_branch ? ` on ${buildMeta.git_branch}` : ""}`
+  : "Build identity";
+const previewBuild = import.meta.env.PUBLIC_SITE_MODE === "preview";
+
+// Same publication filter as the tracker: never link a case the build did not
+// generate, or a production footer would carry dead links to preview cases.
+const caseModules = import.meta.glob("../data/cases/*.json", { eager: true });
+const showPreview = previewBuild || import.meta.env.DEV;
+const footerCases = Object.values(caseModules)
+  .map((module) => module.default)
+  .filter((item) => item && (item.publication === "public" || (showPreview && item.publication === "preview")))
+  .sort((a, b) => String(a.fileNo).localeCompare(String(b.fileNo), undefined, { numeric: true }))
+  .slice(0, 3);
+---
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-cols">
+      <div class="footer-col footer-col--brand">
+        <p class="eyebrow">{SITE.name}</p>
+        <p class="muted">
+          A nonfiction book and companion evidence project by {AUTHOR.name}. Published by {SITE.publisher}.
+          Working drafts and research notes are not published on this site.
+        </p>
+        <p class="muted footer-principle">{SITE.tagline}</p>
+      </div>
+
+      <div class="footer-col">
+        <p class="eyebrow">The project</p>
+        <ul>
+          <li><a href="/book">Book overview</a></li>
+          <li><a href="/music">Companion music</a></li>
+          <li><a href="/author">The author</a></li>
+          <li><a href="/about">About this site</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <p class="eyebrow">Evidence</p>
+        <ul>
+          <li><a href="/tracker">Evidence tracker</a></li>
+          {
+            footerCases.map((item) => (
+              <li>
+                <a href={`/cases/${item.slug}`}>File {item.fileNo} — {item.shortTitle ?? item.title}</a>
+              </li>
+            ))
+          }
+          <li><a href="/about">Method &amp; independence</a></li>
+          <li><a href={`mailto:${SITE.email}`}>Submit a correction</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <p class="eyebrow">Elsewhere</p>
+        <ul>
+          <li><a href={AUTHOR.electionTracker}>electiontracker.au</a></li>
+          <li><a href={SITE.publisherUrl}>{SITE.publisher}</a></li>
+          <li><a href={AUTHOR.x} rel="me noopener">X · {AUTHOR.xHandle}</a></li>
+          <li><a href={AUTHOR.linkedin} rel="me noopener">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-meta muted">
+        <span class="copyright">© {year} {AUTHOR.name}.</span>
+        <span class="meta-sep" aria-hidden="true">·</span>
+        <span class="licence">
+          Evidence files are published with sources named so the reasoning can be checked and contested.
+        </span>
+        <span class="meta-sep" aria-hidden="true">·</span>
+        <span class="build-stamp">
+          <span class="build-label">Build</span>
+          <span class="build-ver" title={stampTitle}>{version}</span>
+          {
+            builtLocal && (
+              <>
+                <span class="build-sep" aria-hidden="true">·</span>
+                <time datetime={builtUtc}>{builtLocal}</time>
+              </>
+            )
+          }
+          {previewBuild && <span class="build-flag">preview</span>}
+        </span>
+      </p>
+
+      <a class="design-credit" href={SITE.publisherUrl} rel="noopener">
+        <span class="design-credit-text">Website design</span>
+        <img
+          class="design-credit-logo"
+          src="/images/oze-logo.png"
+          alt="Oze"
+          width="88"
+          height="41"
+          loading="lazy"
+          decoding="async"
+        />
+      </a>
+    </div>
+  </div>
+</footer>

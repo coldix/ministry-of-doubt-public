@@ -1,0 +1,16 @@
+---
+import Base from "../layouts/Base.astro";
+---
+
+<Base title="Not found" description="Page not found." noindex={true}>
+  <div class="wrap-narrow not-found">
+    <h1>Page not found</h1>
+    <p class="lede" style="margin-inline: auto;">
+      No evidence for this URL. It may have moved, or it never existed.
+    </p>
+    <div class="actions" style="justify-content: center;">
+      <a class="btn btn--primary" href="/">Home</a>
+      <a class="btn btn--ghost" href="/book">The book</a>
+    </div>
+  </div>
+</Base>

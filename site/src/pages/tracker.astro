@@ -1,0 +1,231 @@
+---
+import Base from "../layouts/Base.astro";
+import { AUTHOR, SITE } from "../lib/site.mjs";
+
+import registry from "../data/case-registry.json";
+
+const modules = import.meta.glob("../data/cases/*.json", { eager: true });
+const showPreview = import.meta.env.PUBLIC_SITE_MODE === "preview" || import.meta.env.DEV;
+const cases = Object.values(modules)
+  .map((module) => module.default)
+  .filter((item) => item && (item.publication === "public" || (showPreview && item.publication === "preview")))
+  .sort((a, b) => String(a.fileNo).localeCompare(String(b.fileNo), undefined, { numeric: true }));
+
+// Slugs that this build actually generated a page for — the only ones safe to link.
+const builtSlugs = new Set(cases.map((item) => item.slug));
+
+// Research index: every case with a dossier behind it. Entries listed as
+// "preview" stay out of production, matching the Evidence File guard.
+const researched = registry
+  .filter((entry) => entry.listing === "public" || (showPreview && entry.listing === "preview"))
+  .map((entry) => ({ ...entry, published: builtSlugs.has(entry.slug) }))
+  .sort((a, b) => Number(b.published) - Number(a.published) || a.title.localeCompare(b.title));
+
+const publishedCount = researched.filter((entry) => entry.published).length;
+---
+
+<Base
+  title="Evidence Tracker"
+  description="The Ministry of Doubt evidence ledger: sourced claims, competing explanations, confidence judgements and visible updates."
+>
+  <div class="wrap prose">
+    <header class="hero measure-lede" style="border-bottom: none; margin-bottom: 0; padding-bottom: 0.5rem;">
+      <p class="eyebrow">Companion evidence system</p>
+      <h1>Evidence tracker</h1>
+      <p class="lede">
+        Books argue in chapters. The tracker argues in records: narrow claims, named evidence, competing explanations,
+        source lineage, uncertainty and a visible history when the assessment changes.
+      </p>
+      <p class="pill">
+        {researched.length} case{researched.length === 1 ? "" : "s"} under research ·
+        {publishedCount} evidence file{publishedCount === 1 ? "" : "s"} published
+      </p>
+    </header>
+
+    <section aria-labelledby="evidence-files">
+      <h2 id="evidence-files">Evidence files</h2>
+      <div class="case-list auto-grid auto-grid--wide-items">
+        {cases.map((item) => (
+          <article class="case-card">
+            <div class="case-card__meta">
+              <span>File {item.fileNo}</span>
+              <span>{item.chapter}</span>
+              <span class={`case-state case-state--${item.publication}`}>{item.publication}</span>
+            </div>
+            <h3><a href={`/cases/${item.slug}`}>{item.title}</a></h3>
+            <p class="case-subtitle">{item.subtitle}</p>
+            <p>{item.overall.summary}</p>
+            <div class="case-card__footer">
+              <div>
+                <span class="label">Assessment</span>
+                <strong>{item.overall.ledger} · {item.overall.confidence}</strong>
+              </div>
+              <div>
+                <span class="label">Evidence cut-off</span>
+                <strong>{item.evidenceCutoff}</strong>
+              </div>
+              <a class="btn btn--ghost" href={`/cases/${item.slug}`}>Open evidence file</a>
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <section aria-labelledby="research-index">
+      <div class="index-head">
+        <div>
+          <h2 id="research-index">Research index</h2>
+          <p class="index-lede">
+            Every case with an open research dossier behind it. A case earns an Evidence File only once selected
+            findings have been promoted into validated structured data; until then it is listed here as in preparation.
+          </p>
+        </div>
+        <p class="index-count">
+          <strong>{publishedCount}</strong> of <strong>{researched.length}</strong> promoted to an Evidence File
+        </p>
+      </div>
+
+      {researched.length === 0 && (
+        <p class="note measure-lede">
+          No case is listed publicly yet. Cases appear here as they are promoted from private research.
+        </p>
+      )}
+
+      {researched.length > 0 && (
+      <div class="index-table-wrap">
+        <table class="index-table">
+          <thead>
+            <tr>
+              <th scope="col">Case</th>
+              <th scope="col">Chapter</th>
+              <th scope="col">Research</th>
+              <th scope="col">Last worked</th>
+              <th scope="col">Evidence File</th>
+            </tr>
+          </thead>
+          <tbody>
+            {researched.map((entry) => (
+              <tr class={entry.published ? "is-published" : undefined}>
+                <th scope="row">
+                  {entry.published ? <a href={`/cases/${entry.slug}`}>{entry.title}</a> : entry.title}
+                </th>
+                <td>{entry.chapter}</td>
+                <td><span class="research-state">{entry.research}</span></td>
+                <td><time>{entry.lastUpdated}</time></td>
+                <td>
+                  {entry.published ? (
+                    <a class="index-open" href={`/cases/${entry.slug}`}>Open evidence file</a>
+                  ) : (
+                    <span class="index-pending">In preparation</span>
+                  )}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      )}
+
+      <p class="note measure-lede">
+        Research dossiers themselves are not published. This index states what is being worked on and how far it has
+        got — nothing on this page is drawn from the private research files beyond the case name, chapter and status.
+      </p>
+    </section>
+
+    <div class="measure">
+      <h2>What the tracker adds to the book</h2>
+      <p>
+        The chapter provides narrative, context and argument. The Evidence File exposes the machinery underneath it:
+        which claim is being made, what supports it, what competes with it, which sources are genuinely independent,
+        what remains unknown and what evidence would force a change of mind.
+      </p>
+      <p>
+        For <em>{SITE.name}</em>, that distinction matters. The public record can evolve without silently rewriting the
+        earlier judgement, while the private research journal remains private.
+      </p>
+    </div>
+
+    <div class="card-grid">
+      <div class="card">
+        <h3>Claim ledger</h3>
+        <p>KNOWN, PROBABLE, POSSIBLE, UNSUPPORTED and UNKNOWN are applied claim by claim rather than to whole stories.</p>
+      </div>
+      <div class="card">
+        <h3>Source lineage</h3>
+        <p>Claims point to source IDs, and sources carry independence groups so repetition is not mistaken for corroboration.</p>
+      </div>
+      <div class="card">
+        <h3>Competing explanations</h3>
+        <p>The strongest conventional and alternative accounts are kept alive until discriminating evidence separates them.</p>
+      </div>
+      <div class="card">
+        <h3>Update history</h3>
+        <p>Changed conclusions keep a dated record of what moved and why.</p>
+      </div>
+    </div>
+
+    <div class="measure">
+      <h2>Publication boundary</h2>
+      <p>
+        Research dossiers under <code>docs/cases/</code> are not website content. A case appears here only after selected
+        findings have been promoted into validated structured data. Preview records remain marked as preview and are
+        excluded from normal production builds.
+      </p>
+
+      <p class="note">
+        The tracker is still being built. A preview case can contain unresolved questions and incomplete source links;
+        promotion to public status uses stricter validation.
+      </p>
+    </div>
+
+    <div class="actions">
+      <a class="btn btn--ghost" href={AUTHOR.electionTracker}>Election Tracker model</a>
+      <a class="btn btn--ghost" href="/book">Book overview</a>
+      <a class="btn btn--ghost" href="/about">Contact</a>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .case-list { margin: 1rem 0 2.5rem; align-items: start; }
+  /* Card-relative, not viewport-relative: the same card sits full-width on a
+     laptop and half-width in the two-up grid on a 1920px screen. */
+  .case-card { container-type: inline-size; border: 1px solid var(--rule); border-radius: var(--radius); background: var(--surface); padding: 1.2rem; box-shadow: var(--shadow); }
+  .case-card__meta { display: flex; flex-wrap: wrap; gap: .4rem .8rem; align-items: center; color: var(--ink-3); font-size: .76rem; text-transform: uppercase; letter-spacing: .06em; }
+  .case-state { border: 1px solid var(--rule-strong); border-radius: 999px; padding: .08rem .45rem; }
+  .case-state--preview { color: var(--accent-ink); background: var(--accent-wash); }
+  .case-state--public { color: var(--ink); }
+  .case-card h3 { margin: .75rem 0 .15rem; font-size: 1.45rem; }
+  .case-card h3 a { color: var(--ink); text-decoration: none; }
+  .case-card h3 a:hover { color: var(--accent-ink); }
+  .case-subtitle { font-family: var(--font-serif); font-size: 1.05rem; color: var(--ink-3) !important; }
+  .case-card__footer { display: grid; gap: .8rem 1.2rem; align-items: end; border-top: 1px solid var(--rule); margin-top: 1rem; padding-top: 1rem; }
+  @container (min-width: 34rem) { .case-card__footer { grid-template-columns: 1fr 1fr auto; } }
+  .case-card__footer div { display: grid; gap: .15rem; }
+  .label { color: var(--ink-3); text-transform: uppercase; letter-spacing: .05em; font-size: .7rem; }
+  .case-card__footer strong { font-size: .9rem; }
+
+  /* Research index */
+  .index-head { display: grid; gap: .5rem 2rem; align-items: end; margin: 2.5rem 0 1.1rem; }
+  @media (min-width: 900px) { .index-head { grid-template-columns: minmax(0, 1fr) auto; } }
+  .index-head h2 { margin: 0 0 .4rem; }
+  .index-lede { margin: 0; color: var(--ink-3) !important; max-width: 46rem; }
+  .index-count { margin: 0; color: var(--ink-3) !important; font-size: .9rem; white-space: nowrap; }
+  .index-count strong { color: var(--ink); }
+
+  .index-table-wrap { overflow-x: auto; border: 1px solid var(--rule); border-radius: var(--radius); background: var(--surface); }
+  .index-table { width: 100%; border-collapse: collapse; min-width: 44rem; font-size: .94rem; }
+  .index-table th, .index-table td { padding: .7rem .9rem; text-align: left; vertical-align: baseline; border-bottom: 1px solid var(--rule); }
+  .index-table thead th { color: var(--ink-3); font-size: .72rem; text-transform: uppercase; letter-spacing: .06em; font-weight: 600; }
+  .index-table tbody th { font-weight: 600; color: var(--ink); }
+  .index-table tbody tr:last-child th, .index-table tbody tr:last-child td { border-bottom: 0; }
+  .index-table tbody tr:hover { background: var(--surface-2); }
+  .index-table td { color: var(--ink-2); }
+  .index-table time { font-family: var(--font-mono); font-size: .82rem; color: var(--ink-3); }
+
+  .research-state { border: 1px solid var(--rule-strong); border-radius: 999px; padding: .05rem .45rem; font-size: .72rem; text-transform: uppercase; letter-spacing: .05em; color: var(--ink-3); }
+  .is-published .research-state { color: var(--accent-ink); background: var(--accent-wash); border-color: color-mix(in srgb, var(--accent) 35%, var(--rule)); }
+  .index-open { font-weight: 600; text-decoration: none; white-space: nowrap; }
+  .index-open:hover { text-decoration: underline; }
+  .index-pending { color: var(--ink-3); font-size: .88rem; white-space: nowrap; }
+</style>

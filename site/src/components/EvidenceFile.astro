@@ -1,0 +1,296 @@
+---
+const { data: d } = Astro.props;
+const sourceMap = new Map(d.sources.map((source) => [source.id, source]));
+---
+
+<article class="evidence-file wrap">
+  <header class="file-hero">
+    <div>
+      <p class="eyebrow">Evidence File {d.fileNo} · {d.chapter}</p>
+      <h1>{d.title}</h1>
+      <p class="file-subtitle">{d.subtitle}</p>
+    </div>
+    <div class="file-stamp" aria-label="Research status">
+      <span>{d.publication === "public" ? "Published evidence file" : "Preview evidence file"}</span>
+      <strong>{d.overall.ledger}</strong>
+      <small>Last reviewed {d.lastReviewed}</small>
+    </div>
+  </header>
+
+  {d.publication !== "public" && (
+    <div class="preview-banner">
+      <strong>Preview.</strong> This evidence file is still under active research and is excluded from search indexing.
+    </div>
+  )}
+
+  <section class="verdict-panel" aria-labelledby="current-assessment">
+    <div class="verdict-label">Current assessment</div>
+    <div>
+      <h2 id="current-assessment">{d.overall.label}</h2>
+      <p>{d.overall.summary}</p>
+    </div>
+    <dl class="verdict-meta">
+      <div><dt>Confidence</dt><dd>{d.overall.confidence}</dd></div>
+      <div><dt>Evidence cut-off</dt><dd>{d.evidenceCutoff}</dd></div>
+      <div><dt>Status</dt><dd>{d.status}</dd></div>
+    </dl>
+  </section>
+
+  <p class="method-note">
+    This is an evidence ledger, not a declaration of final truth. Process findings and object-level claims are scored separately. A bad process does not automatically prove the most dramatic alternative explanation.
+  </p>
+
+  <section aria-labelledby="claim-ledger">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">What has the evidence earned?</p>
+        <h2 id="claim-ledger">Claim ledger</h2>
+      </div>
+      <p>Claims are kept narrow so evidence can raise, lower or kill one conclusion without dragging unrelated claims with it.</p>
+    </div>
+
+    <div class="claims-grid">
+      {d.claims.map((claim) => (
+        <article class="claim-card" id={`claim-${claim.id.toLowerCase()}`}>
+          <div class="claim-topline">
+            <span class="claim-id">{claim.id}</span>
+            <span class="claim-level">{claim.level}</span>
+            <span class={`ledger ledger--${claim.ledger.toLowerCase()}`}>{claim.ledger}</span>
+          </div>
+          <h3>{claim.claim}</h3>
+          <p>{claim.why}</p>
+          <div class="claim-evidence">
+            <span>Evidence:</span>
+            {claim.sourceIds.map((id) => {
+              const source = sourceMap.get(id);
+              return <a href={`#source-${id.toLowerCase()}`} title={source?.name}>{id}</a>;
+            })}
+          </div>
+          <div class="claim-confidence">Confidence: <strong>{claim.confidence}</strong></div>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section aria-labelledby="timeline">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Evidence over time</p>
+        <h2 id="timeline">The chronology that matters</h2>
+      </div>
+      <p>The question is not merely whether the system was wrong. It is when the available evidence made continuation harder to explain as ordinary error.</p>
+    </div>
+
+    <ol class="timeline">
+      {d.timeline.map((item) => (
+        <li>
+          <div class="timeline-date">{item.date}</div>
+          <div class="timeline-body">
+            <p>{item.event}</p>
+            <div class="timeline-effect">Why it matters: {item.effect}</div>
+          </div>
+        </li>
+      ))}
+    </ol>
+  </section>
+
+  <section aria-labelledby="hypotheses">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Logic test</p>
+        <h2 id="hypotheses">Competing explanations</h2>
+      </div>
+      <p>Evidence matters most when it discriminates between serious alternatives, not when it merely sounds suspicious.</p>
+    </div>
+
+    <div class="hypothesis-grid">
+      {d.hypotheses.map((h) => (
+        <article class="hypothesis-card">
+          <div class="hypothesis-head"><span>{h.id}</span><strong>{h.status}</strong></div>
+          <h3>{h.title}</h3>
+          <p>{h.text}</p>
+          <p class="test"><strong>Test:</strong> {h.test}</p>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="two-col" aria-label="Evidence quality and open questions">
+    <div class="panel">
+      <p class="eyebrow">Independence audit</p>
+      <h2>Count evidentiary lines, not headlines</h2>
+      <p>Repeated reporting from one original source remains one line of evidence.</p>
+      <ul>{d.independence.map((source) => <li>{source}</li>)}</ul>
+    </div>
+
+    <div class="panel">
+      <p class="eyebrow">Still open</p>
+      <h2>What we do not yet know</h2>
+      <ul>{d.openQuestions.map((q) => <li>{q}</li>)}</ul>
+    </div>
+  </section>
+
+  <section class="change-test" aria-labelledby="change-mind">
+    <p class="eyebrow">Falsification test</p>
+    <h2 id="change-mind">What would change this assessment?</h2>
+    <div class="change-grid">
+      {d.wouldChange.map((item, index) => (
+        <div class="change-item"><span>{String(index + 1).padStart(2, "0")}</span><p>{item}</p></div>
+      ))}
+    </div>
+  </section>
+
+  <section aria-labelledby="source-room">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Evidence room</p>
+        <h2 id="source-room">Sources behind the claims</h2>
+      </div>
+      <p>Each claim above links to the specific source records used to support it. Independence groups expose when apparently different sources share one evidentiary origin.</p>
+    </div>
+
+    <div class="source-table-wrap">
+      <table class="source-table">
+        <thead><tr><th>ID</th><th>Source</th><th>Type</th><th>Independence group</th><th>Contribution</th></tr></thead>
+        <tbody>
+          {d.sources.map((source) => (
+            <tr id={`source-${source.id.toLowerCase()}`}>
+              <td><strong>{source.id}</strong></td>
+              <td>
+                {source.url ? <a href={source.url} rel="noreferrer">{source.name}</a> : source.name}
+                {source.locator && <div class="locator">{source.locator}</div>}
+              </td>
+              <td>{source.kind}</td>
+              <td><code>{source.independenceGroup}</code></td>
+              <td>{source.role}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="method-audit" aria-labelledby="method-audit">
+    <p class="eyebrow">Trivium+ audit</p>
+    <h2 id="method-audit">How this file was tested</h2>
+    <div class="audit-grid">
+      {d.methodAudit.map((item) => <div><strong>{item.name}</strong><span>{item.note}</span></div>)}
+    </div>
+  </section>
+
+  <section class="changelog" aria-labelledby="changelog">
+    <p class="eyebrow">Version history</p>
+    <h2 id="changelog">Assessment changelog</h2>
+    {d.changelog.map((item) => (
+      <div class="change-log-row"><time>{item.date}</time><p>{item.change}</p></div>
+    ))}
+    <p class="small-note">Changed conclusions remain visible. Earlier assessments are not silently rewritten.</p>
+  </section>
+
+  <footer class="file-footer">
+    <p><strong>Research status:</strong> {d.status}. The private research journal is not published on this page.</p>
+    <div class="actions">
+      <a class="btn btn--ghost" href="/tracker">Evidence tracker</a>
+      <a class="btn btn--ghost" href="/book">Book overview</a>
+    </div>
+  </footer>
+</article>
+
+<style>
+  /* Inherits the page shell width (--maxw-wide), which widens at 1400/1700px. */
+  .evidence-file { width: min(100% - (var(--gutter) * 2), var(--maxw-wide)); }
+  .file-hero { display:grid; gap:1.5rem; align-items:end; padding:1.5rem 0 2rem; border-bottom:1px solid var(--rule); }
+  @media (min-width:760px){ .file-hero{ grid-template-columns:1fr auto; } }
+  .file-hero h1 { font-size:clamp(2.5rem,7vw,5.2rem); max-width:none; margin-bottom:.25rem; }
+  .file-subtitle { margin:0; font-family:var(--font-serif); font-size:1.35rem; color:var(--ink-2); }
+  .file-stamp { min-width:13rem; border:1px solid var(--rule-strong); border-radius:var(--radius); padding:1rem 1.1rem; background:var(--surface); display:grid; gap:.2rem; }
+  .file-stamp span,.file-stamp small { color:var(--ink-3); }
+  .file-stamp strong { font-size:1.3rem; letter-spacing:.08em; }
+  .preview-banner { margin:1rem 0; border:1px dashed var(--accent); background:var(--accent-wash); color:var(--ink-2); border-radius:var(--radius); padding:.75rem 1rem; font-size:.9rem; }
+
+  section { margin:3.5rem 0; }
+  .verdict-panel { display:grid; gap:1rem 1.5rem; margin:2rem 0 1rem; padding:1.4rem; background:var(--accent-wash); border:1px solid color-mix(in srgb,var(--accent) 40%,var(--rule)); border-radius:var(--radius); }
+  @media (min-width:900px){ .verdict-panel{ grid-template-columns:9rem minmax(0,1fr) 12rem; } }
+  .verdict-label { color:var(--accent-ink); text-transform:uppercase; letter-spacing:.1em; font-size:.76rem; font-weight:700; }
+  .verdict-panel h2 { margin:0 0 .45rem; font-size:1.7rem; }
+  .verdict-panel p { margin:0; color:var(--ink-2); }
+  .verdict-meta { margin:0; display:grid; gap:.6rem; }
+  .verdict-meta div { border-top:1px solid color-mix(in srgb,var(--accent) 22%,var(--rule)); padding-top:.45rem; }
+  .verdict-meta dt { color:var(--ink-3); font-size:.72rem; text-transform:uppercase; letter-spacing:.06em; }
+  .verdict-meta dd { margin:.08rem 0 0; font-weight:600; }
+  .method-note { margin:1rem 0 3rem; padding-left:1rem; border-left:3px solid var(--rule-strong); color:var(--ink-3); font-size:.95rem; }
+
+  .section-head { display:grid; gap:.5rem 2rem; align-items:end; margin-bottom:1.2rem; }
+  @media (min-width:800px){ .section-head{ grid-template-columns:minmax(0,1fr) minmax(18rem,.8fr); } }
+  .section-head h2,.panel h2,.change-test h2,.method-audit h2,.changelog h2 { margin:0; font-size:clamp(1.6rem,3vw,2.2rem); }
+  .section-head p:last-child { margin:0; color:var(--ink-3); }
+
+  /* 1 → 2 → 3 → 4 columns. Claim cards are short enough to read four-up at 1920. */
+  .claims-grid { --cols:1; display:grid; grid-template-columns:repeat(var(--cols),minmax(0,1fr)); gap:var(--grid-gap); align-items:start; }
+  @media (min-width:700px){ .claims-grid{ --cols:2; } }
+  @media (min-width:1200px){ .claims-grid{ --cols:3; } }
+  @media (min-width:1600px){ .claims-grid{ --cols:4; } }
+  .claim-card { border:1px solid var(--rule); border-radius:var(--radius); background:var(--surface); padding:1.15rem; }
+  .claim-topline { display:flex; flex-wrap:wrap; align-items:center; gap:.45rem; }
+  .claim-id { font-family:var(--font-mono); font-weight:700; }
+  .claim-level { color:var(--ink-3); font-size:.78rem; text-transform:uppercase; letter-spacing:.06em; }
+  .ledger { margin-left:auto; border-radius:999px; padding:.15rem .5rem; border:1px solid var(--rule-strong); font-size:.72rem; font-weight:700; letter-spacing:.05em; }
+  .ledger--known,.ledger--probable { background:var(--accent-wash); color:var(--accent-ink); }
+  .claim-card h3 { font-family:var(--font-sans); font-size:1.03rem; line-height:1.45; margin:.9rem 0 .6rem; }
+  .claim-card p { color:var(--ink-2); font-size:.94rem; }
+  .claim-confidence { margin-top:.8rem; padding-top:.7rem; border-top:1px solid var(--rule); color:var(--ink-3); font-size:.82rem; }
+  .claim-evidence { display:flex; flex-wrap:wrap; gap:.35rem; align-items:center; color:var(--ink-3); font-size:.8rem; }
+  .claim-evidence a { border:1px solid var(--rule-strong); border-radius:999px; padding:.05rem .4rem; text-decoration:none; font-family:var(--font-mono); }
+
+  .timeline { list-style:none; padding:0; margin:0; border-top:1px solid var(--rule); }
+  .timeline li { display:grid; gap:.5rem 1.5rem; padding:1.15rem 0; border-bottom:1px solid var(--rule); }
+  @media (min-width:700px){ .timeline li{ grid-template-columns:10rem 1fr; } }
+  .timeline-date { font-family:var(--font-mono); color:var(--accent-ink); font-weight:700; }
+  .timeline-body p { margin:0 0 .5rem; color:var(--ink-2); }
+  .timeline-effect { color:var(--ink-3); font-size:.86rem; }
+
+  .hypothesis-grid { --cols:1; display:grid; grid-template-columns:repeat(var(--cols),minmax(0,1fr)); gap:var(--grid-gap); align-items:start; }
+  @media (min-width:700px){ .hypothesis-grid{ --cols:2; } }
+  @media (min-width:1200px){ .hypothesis-grid{ --cols:3; } }
+  @media (min-width:1600px){ .hypothesis-grid{ --cols:4; } }
+  .hypothesis-card { border-top:3px solid var(--rule-strong); background:var(--surface); padding:1rem; }
+  .hypothesis-head { display:flex; justify-content:space-between; gap:.75rem; color:var(--ink-3); font-size:.78rem; text-transform:uppercase; letter-spacing:.05em; }
+  .hypothesis-head strong { color:var(--accent-ink); }
+  .hypothesis-card h3 { margin:.7rem 0 .45rem; }
+  .hypothesis-card p { color:var(--ink-2); font-size:.92rem; }
+  .hypothesis-card .test { border-top:1px solid var(--rule); padding-top:.65rem; }
+
+  .two-col { display:grid; gap:1rem; }
+  @media (min-width:850px){ .two-col{ grid-template-columns:1fr 1fr; } }
+  .panel { border:1px solid var(--rule); border-radius:var(--radius); padding:1.2rem; background:var(--surface); }
+  .panel p,.panel li { color:var(--ink-2); }
+
+  .change-test { border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:2rem 0; }
+  .change-grid { --cols:1; margin-top:1.2rem; display:grid; gap:.75rem 2rem; grid-template-columns:repeat(var(--cols),minmax(0,1fr)); align-items:start; }
+  @media (min-width:1200px){ .change-grid{ --cols:2; } }
+  @media (min-width:1700px){ .change-grid{ --cols:3; } }
+  .change-item { display:grid; grid-template-columns:2.5rem 1fr; gap:.75rem; align-items:start; }
+  .change-item span { font-family:var(--font-mono); color:var(--ink-3); }
+  .change-item p { margin:0; color:var(--ink-2); }
+
+  .source-table-wrap { overflow-x:auto; border:1px solid var(--rule); border-radius:var(--radius); }
+  .source-table { width:100%; border-collapse:collapse; min-width:52rem; background:var(--surface); font-size:.9rem; }
+  .source-table th,.source-table td { padding:.8rem; text-align:left; vertical-align:top; border-bottom:1px solid var(--rule); }
+  .source-table th { color:var(--ink-3); font-size:.74rem; text-transform:uppercase; letter-spacing:.05em; }
+  .source-table tr:last-child td { border-bottom:0; }
+  .source-table code { font-size:.78rem; }
+  .locator { margin-top:.25rem; color:var(--ink-3); font-size:.8rem; }
+
+  .audit-grid { --cols:1; margin-top:1.2rem; display:grid; grid-template-columns:repeat(var(--cols),minmax(0,1fr)); gap:.7rem 1.5rem; }
+  @media (min-width:700px){ .audit-grid{ --cols:2; } }
+  @media (min-width:1200px){ .audit-grid{ --cols:3; } }
+  @media (min-width:1600px){ .audit-grid{ --cols:4; } }
+  .audit-grid div { border-top:1px solid var(--rule); padding:.8rem 0; display:grid; gap:.2rem; }
+  .audit-grid span { color:var(--ink-2); font-size:.9rem; }
+  .change-log-row { display:grid; gap:.3rem 1rem; padding:.8rem 0; border-top:1px solid var(--rule); }
+  @media (min-width:650px){ .change-log-row{ grid-template-columns:8rem 1fr; } }
+  .change-log-row time { font-family:var(--font-mono); color:var(--ink-3); font-size:.84rem; }
+  .change-log-row p { margin:0; color:var(--ink-2); }
+  .small-note { color:var(--ink-3); font-size:.85rem; }
+  .file-footer { border-top:1px solid var(--rule); padding-top:1.5rem; color:var(--ink-3); }
+</style>

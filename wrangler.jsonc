@@ -1,0 +1,16 @@
+{
+  // Public evidence repository Worker: static hosting on Cloudflare Workers.
+  // This is the public evidence repo worker — ministry-of-doubt-public.
+  // Static assets served from site/dist (output of `npm run build`).
+  // Private working notes are in a separate private workbench and are never included here.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ministry-of-doubt-public",
+  "compatibility_date": "2026-08-10",
+  "workers_dev": true,
+  "preview_urls": true,
+  "assets": {
+    "directory": "./site/dist",
+    "not_found_handling": "404-page",
+    "html_handling": "drop-trailing-slash"
+  }
+}

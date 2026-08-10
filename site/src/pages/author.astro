@@ -1,0 +1,83 @@
+---
+import Base from "../layouts/Base.astro";
+import { AUTHOR, SITE } from "../lib/site.mjs";
+---
+
+<Base
+  title="Author"
+  description="Colin Dixon — author of The Ministry of Doubt. Physics, mathematics and IT background; Australian technologist and builder of electiontracker.au."
+>
+  <div class="wrap-narrow prose">
+    <header class="hero author-hero">
+      <div class="author-hero__text">
+        <p class="eyebrow">Author</p>
+        <h1>{AUTHOR.name}</h1>
+        <p class="lede">{AUTHOR.shortBio}</p>
+        <p class="pill">Based in {AUTHOR.location}</p>
+      </div>
+      <figure class="author-portrait">
+        <img
+          src={AUTHOR.photo}
+          alt={AUTHOR.photoAlt}
+          width="1024"
+          height="1024"
+          decoding="async"
+          fetchpriority="high"
+        />
+      </figure>
+    </header>
+
+    <h2>Approach</h2>
+    <p>
+      The narrator of <em>{SITE.name}</em> comes from physics, mathematics and information technology —
+      models, assumptions, probability, systems and falsifiability — not from a career in punditry.
+      The voice aims to be calm, dry and unimpressed by pomposity from either establishment institutions
+      or conspiracy culture.
+    </p>
+    <p>
+      Influences in quality rather than imitation: investigative technical storytelling, first-principles
+      honesty about self-deception, the psychology of belief, and a stubborn insistence that objective
+      reality is not optional.
+    </p>
+
+    <h2>Public work</h2>
+    <p>
+      Colin publishes independent, sourced public-interest tools. The flagship example is the
+      <a href={AUTHOR.electionTracker}>Australian Election Tracker</a> — a candidacy and polling ledger
+      where material claims carry dated public sources, open data exports and a written methodology.
+      That same evidence discipline is the design north star for the Ministry of Doubt companion tracker.
+    </p>
+
+    <ul class="meta-list">
+      <li>
+        <span>Book</span>
+        <span><a href="/book">{SITE.name}</a></span>
+      </li>
+      <li>
+        <span>Election data</span>
+        <span><a href={AUTHOR.electionTracker}>electiontracker.au</a></span>
+      </li>
+      <li>
+        <span>Profile</span>
+        <span><a href={AUTHOR.ozol}>ozol.com</a></span>
+      </li>
+      <li>
+        <span>Publisher</span>
+        <span><a href={AUTHOR.oze}>OZE</a></span>
+      </li>
+      <li>
+        <span>X</span>
+        <span><a href={AUTHOR.x}>{AUTHOR.xHandle}</a></span>
+      </li>
+      <li>
+        <span>LinkedIn</span>
+        <span><a href={AUTHOR.linkedin}>colindixon</a></span>
+      </li>
+    </ul>
+
+    <p class="note" style="margin-top: 2rem;">
+      This page is a public author bio for the book project. It is not a dump of private research notes,
+      draft chapters or case dossiers.
+    </p>
+  </div>
+</Base>

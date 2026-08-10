@@ -1,0 +1,22 @@
+# The Ministry of Doubt
+
+> Suspicion is not proof. Authority is not proof either. Show me the evidence.
+
+Public site for a nonfiction book and planned companion evidence tracker by Colin Dixon (Australia).
+
+## Public pages
+
+- https://ministryofdoubt.com/ — project home
+- https://ministryofdoubt.com/book — book overview (no chapter dump)
+- https://ministryofdoubt.com/music — companion music (Spotify; OzeAuMusic)
+- https://ministryofdoubt.com/author — author
+- https://ministryofdoubt.com/tracker — planned evidence ledger (not launched)
+- https://ministryofdoubt.com/about — independence and contact
+
+## Not on this site
+
+Working research notes, case dossiers, full outline and manuscript drafts are private and not served from this domain.
+
+## Related public work
+
+- https://electiontracker.au/ — model for sourced public ledgers

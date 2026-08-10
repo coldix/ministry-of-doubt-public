@@ -1,0 +1,23 @@
+name: Preview build check
+on:
+  push:
+    branches: ["preview/**", "preview"]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  preview-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run case:validate
+        name: Validate case data
+      - run: npm run build
+        name: Preview build (includes preview cases)
+        env:
+          PUBLIC_SITE_MODE: preview

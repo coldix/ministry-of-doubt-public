@@ -1,0 +1,118 @@
+---
+import "../styles/global.css";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE, AUTHOR } from "../lib/site.mjs";
+
+const {
+  title,
+  description = SITE.tagline,
+  noindex = false,
+} = Astro.props;
+
+const previewBuild = import.meta.env.PUBLIC_SITE_MODE === "preview";
+const effectiveNoindex = noindex || previewBuild;
+const pageTitle = title ? `${title} — ${SITE.name}` : `${SITE.name}`;
+const path = Astro.url.pathname.replace(/\/$/, "") || "/";
+const canonical = new URL(path === "/" ? "/" : path, SITE.url).href;
+const ogImage = new URL(AUTHOR.photo, SITE.url).href;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": `${SITE.url}/#website`,
+      url: SITE.url,
+      name: SITE.name,
+      description: SITE.tagline,
+      inLanguage: "en-AU",
+      publisher: { "@id": `${SITE.url}/#person` },
+    },
+    {
+      "@type": "Person",
+      "@id": `${SITE.url}/#person`,
+      name: AUTHOR.name,
+      url: `${SITE.url}/author`,
+      jobTitle: "Author",
+      image: ogImage,
+      sameAs: [AUTHOR.x, AUTHOR.linkedin, AUTHOR.ozol, AUTHOR.electionTracker].filter(Boolean),
+    },
+    {
+      "@type": "Book",
+      "@id": `${SITE.url}/book#book`,
+      name: SITE.name,
+      author: { "@id": `${SITE.url}/#person` },
+      url: `${SITE.url}/book`,
+      inLanguage: "en-AU",
+      description:
+        "Nonfiction investigation of conspiracy, institutional power and how to weigh evidence when authorities and critics can both be wrong.",
+      creativeWorkStatus: "Incomplete",
+    },
+  ],
+};
+---
+
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script is:inline>
+      (function () {
+        try {
+          var t = localStorage.getItem("mod-theme");
+          if (t !== "light" && t !== "dark") {
+            t = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          }
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {effectiveNoindex && <meta name="robots" content="noindex, nofollow" />}
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={SITE.name} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:locale" content="en_AU" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+    <meta name="theme-color" content="#0e0e12" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to main content</a>
+    <Header current={path} />
+    <main id="main">
+      <slot />
+    </main>
+    <Footer />
+    <script is:inline>
+      (function () {
+        var btn = document.getElementById("theme-toggle");
+        if (!btn) return;
+        function label(current) {
+          btn.setAttribute("aria-label", current === "light" ? "Switch to dark theme" : "Switch to light theme");
+        }
+        label(document.documentElement.getAttribute("data-theme"));
+        btn.addEventListener("click", function () {
+          var cur = document.documentElement.getAttribute("data-theme") === "light" ? "light" : "dark";
+          var next = cur === "light" ? "dark" : "light";
+          document.documentElement.setAttribute("data-theme", next);
+          label(next);
+          try {
+            localStorage.setItem("mod-theme", next);
+          } catch (e) {}
+        });
+      })();
+    </script>
+  </body>
+</html>

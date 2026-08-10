@@ -1,0 +1,7 @@
+# ministryofdoubt.com — public site only.
+# Working research and drafts are not published on this domain.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://ministryofdoubt.com/sitemap-index.xml
