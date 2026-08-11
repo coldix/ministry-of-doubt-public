@@ -1,0 +1,424 @@
+{
+  "fileNo": "002",
+  "slug": "horizon",
+  "publication": "public",
+  "title": "Post Office Horizon",
+  "subtitle": "When the computer says you owe us",
+  "chapter": "Chapter 8",
+  "livingFile": true,
+  "livingFileNotice": "This is a living Evidence File. It records our assessment of the available evidence at the date shown. New evidence — including remaining Post Office Horizon IT Inquiry final report volumes — may strengthen, weaken or overturn a conclusion. Material changes are recorded in the changelog.",
+  "status": "Living Evidence File",
+  "firstPublished": "11/08/2026",
+  "lastReviewed": "11/08/2026",
+  "evidenceCutoff": "11/08/2026",
+  "overall": {
+    "label": "Institutional failure + misconduct",
+    "ledger": "KNOWN",
+    "confidence": "High",
+    "summary": "The strongest evidence establishes that relevant Horizon versions could and did generate branch discrepancies through software failures; that prosecution practices relied on Horizon output without adequate investigation or disclosure of its limitations; that by mid-2013 documented warnings had reached Fujitsu technical staff, Post Office senior management at CEO-briefing level, and Post Office lawyers; and that in the class of prosecutions where Horizon reliability was essential and no independent loss evidence existed, the prosecution process was so fundamentally compromised that it constituted an abuse of process. The evidence is best explained by complex-system failure, automation bias and escalating institutional self-protection rather than a central conspiracy to frame subpostmasters from the outset. Remaining Inquiry final report volumes (2–6) will address the technical, knowledge and accountability questions in more detail."
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "level": "Object / Technical",
+      "ledger": "KNOWN",
+      "confidence": "High",
+      "claim": "Relevant Horizon system versions — Legacy Horizon and Horizon Online (HNG-X) — were capable of producing and in fact did produce branch-account discrepancies through software bugs, data errors, transaction-correction failures and remote-support interventions that could not safely be assumed to represent theft or accounting misconduct by subpostmasters. The later HNG-A iteration was found to be materially more robust. These version distinctions are load-bearing: a defect in Legacy Horizon or HNG-X cannot be projected onto HNG-A without a technical link.",
+      "why": "Fraser J in the Horizon Issues Judgment [2019] found that Legacy Horizon was 'not remotely robust' and HNG-X's robustness was 'questionable', while HNG-A was 'robust'. The court found bugs, errors and defects of the relevant kinds had the potential to cause and in fact did cause apparent discrepancies and undermine accurate processing. The court also found that Fujitsu could alter transactions and data remotely without branch knowledge or consent, and that Post Office's 2015 public denial of this capability was untrue. Second Sight (2013) documented that Post Office had itself disclosed defects in Horizon Online affecting 76 branches. The branch user lacked symmetrical access to the backend audit data needed to challenge Horizon output. Aggregate reliability (a high proportion of transactions correctly processed) does not establish evidentiary safety in an individual case where a specific failure mode cannot be excluded.",
+      "sourceIds": [
+        "S1",
+        "S2",
+        "S5",
+        "S11"
+      ]
+    },
+    {
+      "id": "C2",
+      "level": "Process",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "In the category of prosecutions where Horizon reliability was essential to the case and no independent evidence of an actual loss existed, Post Office investigation and prosecution practices gave Horizon output more evidentiary authority than the underlying technical uncertainty justified. The effective burden was inverted: subpostmasters were placed in the position of having to disprove the machine. This finding is limited to the class of prosecutions where Horizon was essential and independent evidence was absent.",
+      "why": "The Court of Appeal in Hamilton [2021] allowed 39 appeals on this basis, holding that a fair trial was impossible because Horizon reliability was essential, independent evidence of actual loss was absent, and Post Office had failed to investigate or disclose reliability concerns. Three appeals (Wendy Cousins, Stanley Fell, Neelam Hussain) were dismissed because Horizon reliability was not essential to those prosecutions, providing a built-in negative control. The discriminating variable throughout was the presence or absence of genuinely independent evidence of loss — not a wholesale rejection of computer evidence.",
+      "sourceIds": [
+        "S3",
+        "S4"
+      ]
+    },
+    {
+      "id": "C3",
+      "level": "Process / Knowledge",
+      "ledger": "KNOWN",
+      "confidence": "High",
+      "claim": "By mid-2013 at the latest, material warnings about Horizon bugs, resulting discrepancies and their prosecution implications had reached Fujitsu technical staff, Post Office senior management at CEO-briefing level, and Post Office lawyers — producing institutional knowledge that categorical reliability claims could not be maintained without serious qualification. Named-person findings on individual response and culpability are deferred pending the remaining Inquiry final report volumes.",
+      "why": "Contemporaneous Fujitsu emails show named defects (Callendar Square bug, RPM bug) were known internally by 2010 at the latest. A 2010 Fujitsu/Post Office meeting note cited in Hamilton (para 40-41) shows the RPM bug was then affecting approximately 40 branches, that no communication to those branches had occurred, and explicitly flagged 'Potential impact upon ongoing legal cases where branches are disputing the integrity of Horizon Data'. Rod Ismay's August 2010 Post Office report (cited in Hamilton para 24) recorded that commissioning an independent review 'would also beg a question for the Court of Appeal over past prosecutions and imprisonments'. By 8 July 2013 Second Sight's Interim Report had documented two Horizon Online defect classes and criticised Post Office investigation practices. A Post Office internal briefing was addressed to CEO Paula Vennells on 2 July 2013 (POL00111625 — document confirmed; full content not independently extracted in this research pass). Martin Edwards emailed Vennells on 8 July 2013 regarding the final draft of the Interim Report (POL00297497 — confirmed; content not extracted). Clarke's advice cluster of 15-19 July 2013 shows Post Office lawyers were formally advising on the expert-evidence and prosecution implications of Horizon reliability concerns. This chain does not collapse institutional knowledge into personal misconduct; named-person findings require the remaining Inquiry volumes.",
+      "sourceIds": [
+        "S3",
+        "S5",
+        "S6",
+        "S8",
+        "S9",
+        "S10",
+        "S11",
+        "S13",
+        "S14",
+        "S15",
+        "S16"
+      ]
+    },
+    {
+      "id": "C4",
+      "level": "Misconduct",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "In the category of Horizon-dependent prosecutions, Post Office's failure to investigate the reliability of Horizon output and to disclose relevant technical material to defendants was so fundamental that the prosecution process constituted an abuse of process amounting to an affront to the conscience of the court. This is a category-level finding supported by the Court of Appeal. Named-person findings and case-specific deliberate-concealment findings await the remaining Inquiry final report volumes.",
+      "why": "Hamilton [2021] is the primary legal authority. The Court held that Post Office failed adequately to investigate causes of apparent shortfalls before prosecuting Horizon-dependent cases, and failed to disclose the full and accurate position regarding Horizon reliability, leaving defendants at a significant disadvantage. The Court further held the failures were so egregious that prosecution was an affront to the conscience of the court. Guilty pleas entered in this distorted process did not make convictions safe. Clarke's 19 July 2013 advice (POL00006800, fully read) confirms that by that date Post Office lawyers were advising on prosecution and compensation implications of the Second Sight Interim Report and the 'Helen Rose material' — both already in Post Office possession. The disclosure-obligation conclusions in later pages of Clarke's 15 July 2013 expert-evidence advice (POL00113694) have not been independently extracted in this research pass and are flagged as an open question. Late disclosure of thousands of Jenkins-related documents to the Inquiry in 2023 is relevant process evidence but does not by itself establish deliberate concealment in individual earlier prosecutions.",
+      "sourceIds": [
+        "S3",
+        "S4",
+        "S8",
+        "S9",
+        "S10"
+      ]
+    },
+    {
+      "id": "C5",
+      "level": "Causal",
+      "ledger": "PROBABLE",
+      "confidence": "High",
+      "claim": "The pattern is better explained by complex-system failure, automation bias, fragmented technical knowledge, legal incentives and escalating institutional self-protection than by a single centrally planned conspiracy to frame innocent subpostmasters from the outset.",
+      "why": "The chronology consistently fits an evolving institutional failure: real but difficult-to-attribute defects; a branch-user information asymmetry that made challenges difficult; accumulating prosecutions whose institutional and financial stakes created strong incentives to defend rather than investigate earlier decisions; explicit internal acknowledgement by 2010 that an independent review would trigger appellate consequences. Second Sight's own finding that Horizon appeared to work correctly almost all of the time and that no system-wide software defect was found supports a complex-failure rather than designed-fraud explanation. No examined document suggests Horizon was designed or originally deployed as a plan to manufacture theft cases. Direct documentary evidence of secret coordinated intent to frame subpostmasters from the outset would move this toward H5; none has been found.",
+      "sourceIds": [
+        "S1",
+        "S3",
+        "S5",
+        "S11"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1999–2000",
+      "event": "Legacy Horizon deployed across the Post Office branch network.",
+      "effect": "Foundation system — later found by the High Court to be 'not remotely robust'."
+    },
+    {
+      "date": "2002 onwards",
+      "event": "Horizon Online (HNG-X) progressively replaces Legacy Horizon. Prosecutions of subpostmasters continue under both systems.",
+      "effect": "First-generation online system — later found to have 'questionable' robustness. Version transition is load-bearing for any reliability claim."
+    },
+    {
+      "date": "February 2010",
+      "event": "Contemporaneous Fujitsu emails (Anne Chambers / Gareth Jenkins) discuss the Callendar Square bug by name. Jenkins is also providing expert evidence in Post Office prosecutions.",
+      "effect": "Named defect known to Fujitsu technical staff, including the expert witness used in prosecution proceedings."
+    },
+    {
+      "date": "2010",
+      "event": "A Fujitsu/Post Office meeting note records the RPM (Receipts and Payments Mismatch) bug was then affecting approximately 40 branches, with no communication to those branches. The note flags 'Potential impact upon ongoing legal cases where branches are disputing the integrity of Horizon Data' and 'Could potentially highlight to branches that Horizon can lose data' (cited in Hamilton [2021], paras 40–41).",
+      "effect": "Direct documentary evidence that the prosecution implications of a known active defect were flagged internally."
+    },
+    {
+      "date": "August 2010",
+      "event": "Post Office head-of-department Rod Ismay produces an internal report ('Horizon — Response to Challenges Regarding Systems Integrity') noting that commissioning an independent review 'would also beg a question for the Court of Appeal over past prosecutions and imprisonments' (cited in Hamilton [2021], para 24).",
+      "effect": "Post Office management-level awareness of appellate implications of Horizon reliability questions, as early as 2010."
+    },
+    {
+      "date": "2011–2012",
+      "event": "Post Office discloses to Second Sight that in 2011–2012 it had itself discovered 'defects in Horizon online that had impacted 76 branches' (Second Sight Interim Report, para 6.4). Second Sight appointed following discussions with Post Office senior management, MP James Arbuthnot and JFSA representatives.",
+      "effect": "Post Office's own disclosure establishes that Horizon Online defects affecting branch accounts were known internally before Second Sight's appointment."
+    },
+    {
+      "date": "2 July 2013",
+      "event": "An internal Post Office briefing note is addressed to CEO Paula Vennells on the Second Sight review and implications of the upcoming Interim Report (POL00111625 — document confirmed by Inquiry evidence portal; full content not independently extracted in this research pass).",
+      "effect": "CEO-level briefing six days before publication of the Interim Report. Full content implications to be established from primary text."
+    },
+    {
+      "date": "8 July 2013",
+      "event": "Second Sight publishes its Interim Report (POL00099063). Key findings: (a) Horizon appeared to achieve its intended purpose almost all of the time; (b) Second Sight had not found system-wide software problems at this stage; (c) two known Horizon Online defect classes affecting 76 branches (Post Office's own disclosure); (d) Post Office provided 'only limited assistance' to subpostmasters in every case examined; (e) investigation focus was on recovery/prosecution rather than root-cause determination. Martin Edwards also emails Vennells regarding the final draft (POL00297497 — confirmed; content not extracted).",
+      "effect": "Mixed but significant finding: Horizon broadly functional in aggregate but defects with real branch-account effects acknowledged; investigation practices criticised. The 'no system-wide defect' finding is one of the strongest pieces of contrary evidence against overbroad claims."
+    },
+    {
+      "date": "15 July 2013",
+      "event": "Simon Clarke (barrister, Cartwright King) provides advice on the use of expert evidence in past and ongoing Horizon prosecutions (POL00113694 / POL00066790). Pages 1–2 read: prosecution 'is almost always dependant upon the proper analysis and presentation of Horizon data'. Disclosure-obligation conclusions in later pages not independently extracted in this research pass.",
+      "effect": "Post Office legal/prosecution function formally addressing the expert-evidence implications of Horizon reliability concerns in ongoing and past cases."
+    },
+    {
+      "date": "19 July 2013",
+      "event": "Clarke provides a second advice on statutory compensation under Criminal Justice Act 1988 s.133 (POL00006800, fully read). The Second Sight Interim Report and the 'Helen Rose material' are cited as already known to Post Office. Clarke concludes that no s.133 compensation would be payable because the material 'may have assisted a defendant in preparing his case on Horizon issues but... a jury may have convicted even had they known of the reports'.",
+      "effect": "Post Office legal advice framed around compensation liability rather than disclosure obligations to defendants in ongoing cases."
+    },
+    {
+      "date": "c.2014",
+      "event": "HNG-A (later Horizon Online iteration) deployed.",
+      "effect": "Later found by the High Court to be 'robust' — materially different reliability profile from Legacy Horizon and HNG-X."
+    },
+    {
+      "date": "16 December 2019",
+      "event": "Fraser J delivers the Horizon Issues Judgment in Bates & Ors v Post Office Ltd [2019] EWHC 3408 (QB). Legacy Horizon 'not remotely robust'; HNG-X 'questionable'; HNG-A 'robust'. Bugs/errors/defects caused discrepancies. Fujitsu remote-alteration capability without branch knowledge or consent established. Post Office's 2015 denial of remote-alteration capability found to be untrue.",
+      "effect": "Landmark technical findings. Version distinctions are load-bearing for all reliability claims."
+    },
+    {
+      "date": "23 April 2021",
+      "event": "Court of Appeal delivers Hamilton & others v Post Office Limited [2021] EWCA Crim 577. 39 convictions quashed: fair trial was impossible in Horizon-dependent cases without independent evidence of actual loss; prosecution was an affront to the conscience of the court given investigation/disclosure failures. Three appeals dismissed (Wendy Cousins, Stanley Fell, Neelam Hussain) where Horizon was not essential to the prosecution case.",
+      "effect": "Definitive criminal-appeals finding. The three dismissals are as analytically important as the 39 quashed convictions."
+    },
+    {
+      "date": "8 July 2025",
+      "event": "Post Office Horizon IT Inquiry publishes Volume 1 of the final report (human impact and redress). Volumes 2–6 enter Maxwellisation.",
+      "effect": "Volume 1 addresses impact and compensation. Technical, knowledge and accountability findings are reserved for later volumes."
+    },
+    {
+      "date": "August 2026",
+      "event": "Evidence cut-off for this Evidence File. Volumes 2–6 of the Inquiry final report remain unpublished. Sir Wyn Williams has confirmed he is 'still some months away' from completing the Maxwellisation process.",
+      "effect": "This is a living Evidence File. Actor-level knowledge and accountability findings will be reassessed when the remaining volumes publish."
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H1",
+      "title": "Horizon broadly reliable; disputed losses were local human error",
+      "status": "Poor fit for Legacy/HNG-X era; preserved for HNG-A and cases with independent evidence",
+      "text": "Horizon operated reliably across most of its network; cash and stock losses primarily reflected theft, bookkeeping mistakes or training failures; defects were minor exceptions that do not explain the pattern of prosecutions.",
+      "test": "This predicts few defect classes capable of causing unexplained branch balances, strong independent evidence in most prosecuted cases, prompt correction when faults emerged, and adequate disclosure. Evidence fits poorly for Legacy/HNG-X but the hypothesis is preserved for HNG-A and for cases where genuinely independent evidence of loss existed (Cousins, Fell, Hussain). Second Sight's finding that Horizon appeared to work as intended almost all of the time is preserved as genuine contrary evidence."
+    },
+    {
+      "id": "H2",
+      "title": "Complex-system failure + automation bias",
+      "status": "Strong fit",
+      "text": "A socio-technical system — software, communications, transaction corrections, support processes and branch hardware — produced a small but significant class of branch discrepancies that were difficult to reproduce, investigate or attribute. Automation bias reinforced institutional trust in Horizon output.",
+      "test": "This predicts multiple defect pathways, difficult reproducibility, asymmetric information between branches and Fujitsu's technical team, weak branch-user ability to challenge backend state, and many disputes treated individually rather than as system signals. Evidence fits strongly on all predictions."
+    },
+    {
+      "id": "H3",
+      "title": "Escalating institutional self-protection",
+      "status": "Strong fit; secondary support",
+      "text": "Once prosecutions had accumulated and money had been recovered, institutions had strong incentives to defend prior decisions. As technical uncertainty became harder to suppress, the defensive response escalated rather than producing disclosure and review.",
+      "test": "This predicts increasing institutional certainty following early uncertainty; warnings treated primarily as legal-exposure questions rather than subpostmaster-welfare questions; reluctance to revisit earlier cases. The 2010 Ismay note (appellate implications of independent review) and the 2013 Clarke compensation advice (s.133 liability assessment) show exactly this pattern. Fits strongly."
+    },
+    {
+      "id": "H4",
+      "title": "Knowing misconduct by identifiable actors",
+      "status": "Plausible; named-person findings await remaining Inquiry volumes",
+      "text": "Some specific, identifiable Post Office or Fujitsu personnel received material information about Horizon reliability, understood the prosecution implications, and deliberately failed to disclose it or continued to authorise misleading expert evidence.",
+      "test": "Requires dated documents showing named individuals received specific propositions and took actions inconsistent with their knowledge. The 2010 Fujitsu emails, the Vennells briefing, the Clarke advice cluster and Gareth Jenkins's dual roles as technical expert and court witness provide documentary chains under active investigation. The Inquiry's 2023 late disclosure of thousands of Jenkins-related documents suggests named-person findings are still being assembled. Remains under assessment — not supported at publication level without remaining Inquiry volumes."
+    },
+    {
+      "id": "H5",
+      "title": "Central conspiracy from outset to manufacture theft cases",
+      "status": "Unsupported",
+      "text": "A small group deliberately designed or deployed Horizon from the beginning to create false losses and frame innocent subpostmasters.",
+      "test": "Requires positive evidence of coordinated original intent to fabricate thefts. Nothing in the Bates, Hamilton or Second Sight records supports this. The chronology — genuine but difficult defects; institutional reliance on computer output; escalating defensive behaviour as technical problems became harder to ignore — fits H2/H3 much more naturally than a designed fraud from the outset."
+    }
+  ],
+  "independence": [
+    "bates-horizon-issues-2019 — High Court civil litigation (Bates group)",
+    "hamilton-coa-2021 — Court of Appeal (Criminal Division), 42 appellants / CCRC",
+    "second-sight-2013 — independent review commissioned jointly by Post Office and JFSA",
+    "fujitsu-technical — Fujitsu internal technical documentation and contemporaneous emails",
+    "post-office-inquiry-exhibits — contemporaneous Post Office/Fujitsu documents published by the Inquiry",
+    "clarke-legal-advice-2013 — Post Office external barrister, two advice documents July 2013"
+  ],
+  "strongestContraryEvidence": [
+    "Second Sight's own preliminary conclusion: 'We have not, to date, found evidence of system-wide problems with the Horizon software.' Horizon appeared to achieve its intended purpose almost all of the time (Interim Report, 8 July 2013). This constrains any claim that Horizon was generally unreliable or always unsafe evidence.",
+    "HNG-A was found 'robust' by the High Court. The most serious technical problems relate to Legacy Horizon and HNG-X. Reliability claims must be versioned and must not be projected across twenty years and three system generations without technical linkage.",
+    "Three Hamilton appeals dismissed (Wendy Cousins, Stanley Fell, Neelam Hussain): where independent evidence of an actual loss existed and Horizon reliability was not essential, the Court of Appeal upheld the convictions. The Court applied an evidence-specific test, not an anti-computer ideology.",
+    "The enterprise-software hostile reading: the 76 affected branches sit against a network of approximately 68,000 users processing over 6 million daily transactions. The defect population does not make Horizon evidentially worthless in aggregate — it makes it unsafe as the sole evidence in a specific case where the failure mode cannot be excluded.",
+    "Clarke's 19 July 2013 compensation advice (POL00006800) concluded that no s.133 compensation would be payable for quashed convictions. This gave Post Office a legal basis to believe it faced no automatic compensation liability — context relevant to understanding the institutional response, even if it does not excuse the investigation and disclosure failures found by Hamilton."
+  ],
+  "openQuestions": [
+    "Volumes 2–6 of the Post Office Horizon IT Inquiry final report remain unpublished as of August 2026. These are expected to address technical findings, actor-level knowledge chains, accountability and individual misconduct. All actor-level C3/C4 findings in this Evidence File will be reassessed when those volumes publish.",
+    "Full content of POL00111625 (Vennells briefing 2 July 2013) not independently extracted from primary document. Circulation and exact propositions require primary-text verification.",
+    "Full content of POL00297497 (Edwards to Vennells 8 July 2013) not independently extracted.",
+    "Disclosure-obligation conclusions in later pages of Clarke's 15 July 2013 expert-evidence advice (POL00113694) not extracted. The visible pages 1–2 establish background; whether Clarke identified clear disclosure obligations, and what review machinery was recommended, remains an open question for this research pass.",
+    "Named-person H4 findings: documentary chains to named individuals exist but conversion from 'document was received' to 'named person knew and then acted contrary to that knowledge' requires the remaining Inquiry volumes and further primary-document extraction.",
+    "Scale and denominator: the 76-branch figure comes from Post Office's own disclosure to Second Sight. A systematic defect-by-defect frequency analysis from contemporaneous KEL/PEAK records against the full branch-period denominator has not been completed.",
+    "Branch-level causal reconstruction: no individual case has yet been reconstructed step-by-step from a specific shortfall to a specific technical failure mechanism. This would be the strongest possible C1 evidence.",
+    "Gareth Jenkins's July 2024 Inquiry testimony (three hearing days) has not been extracted in this research pass. His dual role as Fujitsu technical expert and Post Office prosecution witness is a high-priority source for H4."
+  ],
+  "wouldChange": [
+    "Remaining Inquiry volumes (2–6) are expected to provide actor-level knowledge and accountability findings. Evidence naming individuals who received specific propositions and acted contrary to their knowledge would move C3 and C4 toward named-person findings.",
+    "Evidence that Clarke's 15 July 2013 advice (POL00113694, later pages) explicitly identified disclosure obligations to existing defendants and triggered a systematic review would materially complicate the C4 disclosure-failure finding.",
+    "Technical evidence showing that the RPM, Callendar Square or local-suspense-account defects could not in fact have caused branch shortfalls of the type and scale alleged in prosecuted cases would weaken C1 for those specific defect classes.",
+    "Evidence that Horizon-dependent prosecuted cases routinely involved genuinely independent corroborating evidence of branch loss would reduce the class of cases to which C2 applies.",
+    "Positive documentary evidence of coordinated deliberate intent to frame subpostmasters from the outset would move C5 from systemic explanation (H2/H3) toward intentional conspiracy (H5)."
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "name": "Bates & Ors v Post Office Ltd (No 6: Horizon Issues) [2019] EWHC 3408 (QB), Fraser J, 16 December 2019",
+      "kind": "Court",
+      "role": "Primary technical and system findings: Horizon version distinctions (Legacy 'not remotely robust'; HNG-X 'questionable'; HNG-A 'robust'); bugs/errors/defects caused discrepancies; remote-alteration capability without branch knowledge; Post Office's 2015 denial found untrue",
+      "independenceGroup": "bates-horizon-issues-2019",
+      "url": "https://www.judiciary.uk/judgments/bates-others-v-post-office/"
+    },
+    {
+      "id": "S2",
+      "name": "Bates Horizon Issues Judgment — Appendix 2: Summary of bugs, errors and defects",
+      "kind": "Court — appendix",
+      "role": "Detailed defect-class summary accompanying the Horizon Issues Judgment",
+      "independenceGroup": "bates-horizon-issues-2019",
+      "url": "https://www.postofficehorizoninquiry.org.uk/evidence/rlit0000007-appendix-2-summary-bugs-errors-defects-judgment-no6-horizon-issues-bates-ors-v"
+    },
+    {
+      "id": "S3",
+      "name": "Hamilton & others v Post Office Limited [2021] EWCA Crim 577, Court of Appeal (Criminal Division), 23 April 2021",
+      "kind": "Court",
+      "role": "Criminal conviction safety; abuse of process; investigation and disclosure failures; 39-quashed/3-dismissed division with names; RPM bug meeting note and Ismay 2010 report (paras 24, 40–42); Clarke advice (paras 82–94)",
+      "independenceGroup": "hamilton-coa-2021",
+      "url": "https://www.judiciary.uk/judgments/hamilton-others-v-post-office-limited/"
+    },
+    {
+      "id": "S4",
+      "name": "CCRC — Post Office Horizon cases summary",
+      "kind": "Integrity body",
+      "role": "CCRC case-review and referral records; summary of Court of Appeal findings on disclosure failures and investigation failures",
+      "independenceGroup": "hamilton-coa-2021",
+      "url": "https://ccrc.gov.uk/post-office-horizon-cases/"
+    },
+    {
+      "id": "S5",
+      "name": "Second Sight Support Services Ltd, Interim Report into alleged problems with the Horizon system, 8 July 2013 (POL00099063)",
+      "kind": "Independent review",
+      "role": "Two Horizon Online defect classes (76 branches, Post Office's own disclosure at para 6.4); criticism of Post Office investigation practices (paras 1.7, 5.5); 'no system-wide software defect' preliminary conclusion; Horizon broadly functional across 68,000+ user network",
+      "independenceGroup": "second-sight-2013",
+      "url": "https://www.postofficehorizoninquiry.org.uk/evidence/pol00099063-signed-interim-report-alleged-problems-horizon-system",
+      "locator": "Pages 1–5 read directly (paras 1.2, 1.7, 5.5, 6.4 verified from primary). 'No system-wide defect' conclusion and full defect breakdown (pages 6–24) not independently extracted in this research pass — cited via URL and corroboration from judicial findings in S1/S3."
+    },
+    {
+      "id": "S6",
+      "name": "Fujitsu Remote Access Report Version 1.0, 12 February 2021 (POL00030526)",
+      "kind": "Technical report",
+      "role": "Technical capability and history of Fujitsu remote access; controls and audit mechanisms",
+      "independenceGroup": "fujitsu-technical",
+      "url": "https://www.postofficehorizoninquiry.org.uk/evidence/pol00030526-fujitsu-remote-access-report-version-10",
+      "locator": "Retrospective (2021) — establishes technical capability history; not contemporaneous evidence of what any individual knew at the time of a particular prosecution."
+    },
+    {
+      "id": "S7",
+      "name": "Fujitsu report to Post Office on Bugs, Errors and Defects in Horizon Online, 22 February 2021 (POL00030528)",
+      "kind": "Technical report",
+      "role": "Defect class catalogue for Horizon Online; reference for comparison with contemporaneous KEL/PEAK records",
+      "independenceGroup": "fujitsu-technical",
+      "url": "https://www.postofficehorizoninquiry.org.uk/evidence/pol00030528-fujitsu-report-pol-bugs-errors-and-defects-horizon-online",
+      "locator": "Retrospective (2021) — historical knowledge claims require contemporaneous corroboration from KEL/PEAK records."
+    },
+    {
+      "id": "S8",
+      "name": "Simon Clarke (Cartwright King), advice on compensation / miscarriages of justice under s.133 CJA 1988, 19 July 2013 (POL00006800)",
+      "kind": "Legal advice",
+      "role": "Establishes that by 19 July 2013 Post Office lawyers had both the Second Sight Interim Report and the Helen Rose material; Clarke's assessment that s.133 compensation would not be payable where convictions are quashed; compensation-risk framing rather than comprehensive disclosure-obligation review",
+      "independenceGroup": "clarke-legal-advice-2013",
+      "url": "https://www.postofficehorizoninquiry.org.uk/evidence/pol00006800-clarke-advice-compensation-miscarriages-justice",
+      "locator": "4-page document read in full. Para 7.iv: 'the Second Sight Interim report and Helen Rose material is material which may have assisted a defendant in preparing his case on Horizon issues but which, equally, a jury may have convicted even had they known of the reports.' Para 9: 'My initial view therefore is that no compensation would be payable under s.133 CJA 1988 where a defendant successfully appeals against his conviction.'"
+    },
+    {
+      "id": "S9",
+      "name": "Simon Clarke (Cartwright King), advice on use of expert evidence relating to Fujitsu Horizon integrity, 15 July 2013 (POL00113694 / POL00066790)",
+      "kind": "Legal advice",
+      "role": "Post Office legal/prosecution knowledge by 15 July 2013; expert evidence in past and ongoing Horizon prosecutions; para 4: 'detection and successful prosecution of such offences is almost always dependant upon the proper analysis and presentation of Horizon data'",
+      "independenceGroup": "clarke-legal-advice-2013",
+      "url": "https://www.postofficehorizoninquiry.org.uk/evidence/pol00113694-advice-mr-simon-clarke-barristercartwright-king-use-expert-evidence-relating",
+      "locator": "Pages 1–2 read. Conclusions on disclosure obligations (later pages) not independently extracted — flagged as open question. Referenced in Hamilton [2021] paras 82–90."
+    },
+    {
+      "id": "S10",
+      "name": "Disclosure note re Clarke Advice, R v Hamilton & Others, 15 July 2013 (POL00038814)",
+      "kind": "Legal document",
+      "role": "Context for the Clarke expert-evidence advice and its relationship to the Hamilton criminal proceedings",
+      "independenceGroup": "clarke-legal-advice-2013",
+      "url": "https://www.postofficehorizoninquiry.org.uk/evidence/pol00038814-disclosure-note-relation-context-clarke-advice-r-v-hamilton-others",
+      "locator": "Document confirmed in Inquiry evidence portal. Full content not independently extracted in this research pass."
+    },
+    {
+      "id": "S11",
+      "name": "Post Office Horizon IT Inquiry — Completed List of Issues",
+      "kind": "Inquiry",
+      "role": "Records which Bates/Hamilton matters are treated as established starting points and which remain knowledge/accountability questions for the Inquiry; includes system-version robustness summary (Legacy/HNG-X/HNG-A)",
+      "independenceGroup": "post-office-inquiry-exhibits",
+      "url": "https://www.postofficehorizoninquiry.org.uk/publications/completed-list-issues"
+    },
+    {
+      "id": "S12",
+      "name": "Post Office Horizon IT Inquiry — Terms of Reference",
+      "kind": "Inquiry",
+      "role": "Scope of statutory Inquiry: bugs/errors/defects, remote access, investigation, disclosure, prosecution and institutional knowledge as key questions",
+      "independenceGroup": "post-office-inquiry-exhibits",
+      "url": "https://www.postofficehorizoninquiry.org.uk/publications/terms-reference"
+    },
+    {
+      "id": "S13",
+      "name": "Internal Post Office briefing note addressed to Paula Vennells re Second Sight Interim Report implications, 2 July 2013 (POL00111625)",
+      "kind": "Contemporaneous document",
+      "role": "Confirms CEO-level briefing six days before Second Sight Interim Report publication; content not independently extracted in this research pass",
+      "independenceGroup": "post-office-inquiry-exhibits",
+      "url": "https://www.postofficehorizoninquiry.org.uk/evidence/pol00111625-draft-post-office-limited-internal-briefing-note-paula-vennells-second-sight",
+      "locator": "Document confirmed in Inquiry evidence portal (3.02 MB PDF, Phases 5/6). Content not independently extracted — primary text extraction is an open question for this research pass."
+    },
+    {
+      "id": "S14",
+      "name": "Email from Martin Edwards to Paula Vennells re final draft Second Sight Interim Report, 8 July 2013 (POL00297497)",
+      "kind": "Contemporaneous document",
+      "role": "Confirms CEO-level communication on the day of publication of the Second Sight Interim Report",
+      "independenceGroup": "post-office-inquiry-exhibits",
+      "url": "https://www.postofficehorizoninquiry.org.uk/evidence/pol00297497-email-martin-edwards-paula-vennells-re-update-final-draft-second-sight-interim",
+      "locator": "Document confirmed in Inquiry evidence portal (769.64 KB PDF). Content not independently extracted."
+    },
+    {
+      "id": "S15",
+      "name": "Fujitsu email chain — Callendar Square bug, 8 February 2010 (FUJ00083721, FUJ00083722)",
+      "kind": "Contemporaneous document",
+      "role": "Named defects discussed internally at Fujitsu by 2010; Gareth Jenkins (prosecution expert witness) participated in Callendar Square bug communications",
+      "independenceGroup": "fujitsu-technical",
+      "url": "https://www.postofficehorizoninquiry.org.uk/evidence/fuj00083721-email-anne-chambers-gareth-jenkins-re-callendar-square-bug",
+      "locator": "Two documents: FUJ00083721 (Chambers to Jenkins) and FUJ00083722 (Jenkins to Chambers). Inquiry metadata confirmed. Content not independently extracted in this research pass; referenced via Hamilton [2021] paras 40–42 and Fraser J findings."
+    },
+    {
+      "id": "S16",
+      "name": "Gareth Jenkins — historical witness statement, 9 March 2010 (POL00001643)",
+      "kind": "Witness statement",
+      "role": "Contemporaneous expert-witness statement by Gareth Jenkins in his role as Fujitsu technical expert; establishes his prosecution role alongside his internal Fujitsu technical knowledge",
+      "independenceGroup": "fujitsu-technical",
+      "url": "https://www.postofficehorizoninquiry.org.uk/evidence/pol00001643-witness-statement-gareth-jenkins",
+      "locator": "Document confirmed in Inquiry evidence portal. Content not independently extracted in this research pass."
+    }
+  ],
+  "methodAudit": [
+    {
+      "name": "Pre-registration",
+      "note": "Claims C1–C5 and hypotheses H1–H5 frozen before deep research in docs/cases/horizon.md, committed at ea62cc7 on research/horizon-prereg branch. Ledger movements recorded pass-by-pass across four research passes. No retroactive belief revision."
+    },
+    {
+      "name": "Grammar",
+      "note": "'Horizon' explicitly versioned throughout (Legacy / HNG-X / HNG-A). 'Reliable' distinguished from 'safe as sole prosecution evidence'. 'Knew' separated into actual, constructive and institutional knowledge. 'Disclosure failure' separated from investigation failure, misleading expert evidence and abuse-of-process findings."
+    },
+    {
+      "name": "Logic",
+      "note": "Five competing hypotheses tested. H5 (central conspiracy from outset) remains unsupported. H2/H3 (complex-system failure + escalating institutional self-protection) fit the evidence most strongly. H4 (knowing misconduct by identifiable actors) is plausible and accumulating documentary support but awaits named-person findings from the remaining Inquiry volumes."
+    },
+    {
+      "name": "Rhetoric",
+      "note": "Second Sight's own 'no system-wide software defect' finding preserved and featured prominently as contrary evidence. Three dismissed Hamilton appeals (Cousins, Fell, Hussain) preserved as a built-in negative control. Claims stripped of narrative dramatisation. The strongest contrary evidence — institutional reliability + Second Sight's constrained finding — appears in the file, not a footnote."
+    },
+    {
+      "name": "Reality test",
+      "note": "Key discriminators pre-specified in the preregistration before reading: branch-level causal reconstruction; contemporaneous knowledge timeline; reliability claim vs internal records; temporal versioning; scale denominator. The version distinction (Legacy/HNG-X vs HNG-A) is the primary reality-test result — a claim about Horizon reliability without version specification fails this test."
+    },
+    {
+      "name": "Independence",
+      "note": "Six independence groups: High Court civil (Bates); Court of Appeal criminal (Hamilton/CCRC); independent commissioned review (Second Sight); Fujitsu internal technical; contemporaneous Post Office/Fujitsu Inquiry exhibits; Post Office external legal advice (Clarke). Multiple genuinely different evidentiary lineages reach the same C1 and C2 conclusions."
+    },
+    {
+      "name": "Adversarial review",
+      "note": "Three hostile perspectives applied. (1) Software/database engineer: aggregate reliability high; 76/68,000+ is a low failure rate; defect population does not make Horizon worthless. Response: aggregate reliability ≠ evidentiary safety in individual cases; affected branches could not identify failure modes; courts were not told. (2) Criminal appeals/disclosure lawyer: quashed conviction ≠ factual innocence; guilty pleas are complex; Clarke POL00006800 addresses s.133 compensation, not disclosure duties. Response: the file maintains these distinctions throughout. (3) Defender of Post Office/Fujitsu: Second Sight found no system-wide defect; Post Office entitled to legal presumptions at the time; later findings should not be projected backwards. Response: Second Sight's contrary finding is preserved prominently; HNG-A robustness is preserved; the file does not assert knowledge held by every investigator."
+    },
+    {
+      "name": "Update",
+      "note": "Evidence cut-off 11/08/2026. Inquiry Volumes 2–6 not yet published. File designated as Living Evidence File. Actor-level findings (C3/C4 named persons) and the H4 assessment are flagged for reassessment when the remaining volumes publish. The pre-registration is not rewritten."
+    }
+  ],
+  "changelog": [
+    {
+      "date": "11/08/2026",
+      "change": "Evidence File 002 created from frozen pre-registration (ea62cc7), four research passes (source map, Bates, Hamilton, 2013 knowledge pivot) and final synthesis pass including primary source verification of Second Sight Interim Report (pages 1–5), Clarke compensation advice (POL00006800, full text), Hamilton judgment (paras 1–42 + summary) and Inquiry status confirmation. Actor/document circulation graph partially built; named-person findings deferred pending Inquiry Volumes 2–6. Three dismissed Hamilton appeals named. Strongest contrary evidence preserved. Published initially at preview."
+    }
+  ]
+}
