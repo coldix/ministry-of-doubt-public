@@ -1,0 +1,370 @@
+{
+  "fileNo": "004",
+  "slug": "wakefield-mmr",
+  "publication": "public",
+  "title": "Wakefield and the MMR Vaccine",
+  "subtitle": "When distrust becomes a substitute for evidence",
+  "chapter": "Chapter 11",
+  "livingFile": true,
+  "livingFileNotice": "This is a Living Evidence File. It records the assessment of available evidence at the date shown. New epidemiological findings, major reanalyses, significant regulatory or court developments, or evidence that materially changes the integrity history will enter the private dossier first and then this file with a visible changelog entry. If later evidence weakens the current conclusion, this file will say so.",
+  "status": "Living Evidence File",
+  "firstPublished": "11/08/2026",
+  "lastReviewed": "11/08/2026",
+  "evidenceCutoff": "11/08/2026",
+  "overall": {
+    "label": "MMR–autism causal claim: unsupported",
+    "ledger": "UNSUPPORTED",
+    "confidence": "Very high",
+    "summary": "The claim that MMR vaccination causes autism is not supported by evidence. The 1998 Lancet paper — a twelve-child uncontrolled case series — was incapable of establishing population causation by design, and its lead author went further in public statements than the paper itself warranted. Multiple genuinely independent large epidemiological studies, across at least four countries and covering millions of children, consistently find no causal association between MMR vaccination and autism, including no effect in susceptible subgroups specifically tested. Two major evidence synthesis reviews (IOM 2004, Cochrane 2021) reach the same conclusion. The 1998 paper was partly retracted in 2004 by ten of the twelve co-authors and fully retracted in 2010. The lead author, Andrew Wakefield, was found guilty of more than thirty charges of serious professional misconduct including dishonesty — specifically, the non-disclosure of approximately £435,643 in legal aid funding from a solicitor who represented MMR litigation plaintiffs — and was struck off the UK medical register in 2010. The co-author John Walker-Smith successfully overturned his own GMC sanction in the High Court in 2012 on grounds of inadequate panel reasoning about the clinical versus research distinction; the presiding judge explicitly stated that 'there is now no respectable body of opinion which supports [Wakefield's] hypothesis, that MMR vaccine and autism/enterocolitis are causally linked.' The 2025–2026 CDC website changes by the US Department of Health and Human Services represent a policy communication shift, not new epidemiological evidence; the largest study published during this period — a US EHR cohort of 2.5 million children published in 2026 — found no association. This is a case where institutional distrust, sometimes legitimate in other domains, was converted into false causal certainty by a study that was never designed to, and did not, establish what it was publicly interpreted as showing."
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "The 1998 Wakefield et al. Lancet paper was a twelve-child uncontrolled case series describing gastrointestinal and developmental findings in children referred to the Royal Free Hospital. Its design — no control group, no blinded assessment, no prospective follow-up, retrospective parental recall of timing, small convenience sample — was incapable of establishing a causal association between MMR vaccination and autism, or of establishing any 'new syndrome' linking the two. The paper itself stated: 'We did not prove an association between measles, mumps, and rubella vaccine and the syndrome described.' The causal interpretation and the call at a press conference on 26 February 1998 to suspend the triple MMR vaccine were assertions by Wakefield that went materially beyond what the paper's design could support.",
+      "why": "The paper (Wakefield et al., Lancet 1998;351:637–41) enrolled twelve children referred by general practitioners or child psychiatrists on the basis of a combination of gastrointestinal symptoms and developmental disorders. Parents of eight of the twelve children attributed onset of behavioural symptoms to MMR vaccination. The paper reported temporal associations observed by parents, described intestinal pathology found on investigation, and proposed a hypothesis linking the vaccine to a 'new syndrome.' It explicitly did not claim to have proved a causal link. Case series without control groups can generate hypotheses; they cannot establish population causation because there is no comparator against which to measure the rate of the outcome — autism onset coinciding with MMR vaccination will occur by coincidence at the same age in unvaccinated children. The paper also did not establish the biological mechanism it proposed, and the temporal associations were based on parental recall, not blinded prospective measurement. The press-conference call to suspend MMR vaccination — made by Wakefield alone, opposed by his co-authors — was not supported by the study's data.",
+      "sourceIds": ["S1", "S3"]
+    },
+    {
+      "id": "C2",
+      "level": "Process",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "The 1998 paper was partly retracted in 2004 when ten of the twelve co-authors formally withdrew their support for its causal interpretation, stating that 'no causal link was established between MMR vaccine and autism as the data were insufficient.' The paper was fully retracted by the Lancet on 2 February 2010, citing the GMC's findings. Andrew Wakefield was found guilty in January 2010 of more than thirty charges of serious professional misconduct by the GMC's Fitness to Practise Panel — including dishonesty in relation to the non-disclosure of legal aid funding, improper admissions procedures, and conducting unnecessary invasive tests on children without proper ethics committee approval — and was struck off the UK medical register on 24 May 2010. John Walker-Smith — the most senior clinical author of the 1998 paper — also received a GMC sanction but successfully overturned it by judicial review. In Walker-Smith v GMC [2012] EWHC 503 (Admin), Mr Justice Mitting found the GMC panel's reasoning 'inadequate and superficial' specifically on whether Walker-Smith's investigations were clinical practice or unapproved research. The Walker-Smith appeal did not disturb the findings against Wakefield, who had abandoned his own appeal. Mitting J wrote in his judgment: 'There is now no respectable body of opinion which supports his hypothesis, that MMR vaccine and autism/enterocolitis are causally linked.'",
+      "why": "The 2004 partial retraction ('Retraction of an interpretation', Lancet 2004;363:750) was signed by ten of the twelve co-authors other than Wakefield; Wakefield and co-author Peter Harvey did not sign. It stated expressly that the data in the 1998 paper were insufficient to establish a causal link and that the interpretation attributed to the paper in public discourse had not been the authors' position. The 2010 full Lancet retraction notice (Lancet 2010;375:445) stated that several elements of the 1998 paper were incorrect and that the paper had been retracted following the GMC panel's determinations. The GMC's 217-day Fitness to Practise hearing concluded in January 2010 with determinations on more than thirty counts. The key misconduct findings included: dishonesty in relation to the non-disclosure to Lancet editors, ethics bodies and co-investigators of approximately £435,643 in fees received from solicitor Richard Barr, who was retained by parents of children seeking litigation against MMR vaccine manufacturers — a conflict active from 1996 before the research was conducted; admissions of children to the research study on inappropriate clinical grounds, including an attempt to recruit a child of a litigant contrary to research ethics committee guidance; and conducting invasive procedures including colonoscopies, lumbar punctures and barium meals on children who were enrolled in a research study without proper Research Ethics Committee approval. The Walker-Smith High Court appeal turned on a narrower procedural question: whether the GMC panel had properly applied the distinction between research and clinically indicated investigation in the specific circumstances of Walker-Smith's conduct. Mitting J found the panel had not. His explicit statement that no respectable body of opinion supports Wakefield's hypothesis was not compelled by the appeal's outcome — it was Mitting J's independent assessment of the science, made in passing, and it directly contradicts the vaccine-sceptical narrative that Walker-Smith's successful appeal rehabilitates the MMR–autism causal claim.",
+      "sourceIds": ["S2", "S3", "S4", "S5"]
+    },
+    {
+      "id": "C3",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Multiple large, independent epidemiological studies using different populations, designs and data systems do not support a causal association between MMR vaccination and autism at the population level. Effect estimates across studies are consistently near the null. No study has found temporal clustering of autism diagnoses following MMR vaccination, a dose–response pattern, or a biological gradient consistent with a causal mechanism. The susceptible-subgroup hypothesis — that population-level null findings might conceal a causal effect in a rare biologically vulnerable group — has been specifically tested in the largest cohort studies and not supported. These studies do not establish that no individual biological pathway could ever be hypothesised; they establish that no detectable population causal signal exists in data covering millions of children across multiple decades and populations.",
+      "why": "Five independent population studies and two major evidence synthesis reviews converge on a null association. Madsen et al. (NEJM 2002;347:1477–82) followed all Danish children born January 1991 to December 1998 (approximately 537,000 children): adjusted relative risk for autistic disorder in MMR-vaccinated versus unvaccinated children was 0.92 (95% CI 0.68–1.24); no association was found with age at vaccination, time since vaccination or date of vaccination. Smeeth et al. (Lancet 2004;364:963–9) conducted a matched UK case-control study using the General Practice Research Database: 1,294 people with a first recorded diagnosis of pervasive developmental disorder and 4,469 controls; MMR vaccination was recorded in 78.1% of cases versus 82.1% of controls — cases were if anything less likely to have been vaccinated, and the odds ratio was not elevated. Honda, Shimizu and Rutter (J Child Psychol Psychiatry 2005;46:572–9) examined all 31,426 children in Kohoku Ward, Yokohama: Japan's national MMR programme was suspended in 1993, providing a natural experiment; cumulative incidence of autism spectrum disorder continued to rise after MMR vaccination stopped, reaching its highest observed levels in birth cohorts that received no MMR. Hviid et al. (Ann Intern Med 2019;170:513–20) followed 657,461 Danish children born 1999–2010: hazard ratio for autism in MMR-vaccinated versus unvaccinated children 0.93 (95% CI 0.85–1.02), with no increased risk in any pre-specified susceptible subgroup — including children with older sibling with autism, children with a high autism disease risk score, and children who had received other childhood vaccinations. Brown et al. (Pediatr Infect Dis J 2026; PMID 42520244) conducted a retrospective cohort study in 2,560,035 US children with linked electronic health record data; in the primary 11.5–24 month landmark cohort, the adjusted hazard ratio for autism associated with first MMR vaccination was 0.97 (99% CI 0.91–1.03). The Institute of Medicine Immunization Safety Review Committee (2004) concluded: 'the body of epidemiological evidence favors rejection of a causal relationship between the MMR vaccine and autism.' The Cochrane systematic review (Di Pietrantonj et al., Cochrane Database Syst Rev 2021;11:CD004407) examined 138 studies covering more than 23 million children and found no increased autism risk associated with MMR, MMRV or MMR+V vaccines.",
+      "sourceIds": ["S6", "S7", "S8", "S9", "S10", "S11", "S12"]
+    },
+    {
+      "id": "C4",
+      "level": "Process",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Andrew Wakefield did not disclose to the Lancet, to his co-authors or to the Royal Free Hospital ethics committee that he had received approximately £435,643 in fees from solicitor Richard Barr, who was retained by parents seeking legal action against MMR vaccine manufacturers — a financial relationship that predated the 1998 research. The GMC Fitness to Practise Panel found this constituted dishonesty. The undisclosed conflict runs in the direction of the scientist making the causal claim, not solely toward his critics. Investigative reporting by Brian Deer in the BMJ (2011) documented allegations that specific histopathology records were altered — clinical results characterised as normal in hospital records were reported as abnormal in the published paper — corroborating elements of the GMC's misconduct findings. The BMJ editorial by Godlee et al. (2011) characterised the body of work as 'an elaborate fraud.' This characterisation is the BMJ editors' assessment; the GMC's primary regulatory finding was 'serious professional misconduct' including specifically 'dishonesty' on the funding disclosure and admissions-criteria counts. The distinction is not merely semantic: the GMC is a statutory body making formal findings after a 217-day adversarial hearing; the BMJ characterisation is an editorial judgment, corroborated by the GMC record but not itself a legal or regulatory determination.",
+      "why": "The GMC determination documented that Wakefield received fees at £150 per hour from Richard Barr's firm beginning in 1996 — before the research study commenced. The total received was approximately £435,643 in fees plus expenses. This relationship was not disclosed to co-investigators, to the Lancet in the paper's conflict-of-interest statement, or to the Royal Free's ethics committee. The GMC panel found this constituted deliberate dishonesty. Independently, Brian Deer's BMJ investigation documented that the histopathology results in the published Lancet paper differed from those in the children's clinical records — in several instances the clinical record documented normal findings while the paper reported abnormal findings. The GMC panel also found problems with the data representation, though the exact scope of the panel's findings on data accuracy versus Deer's investigative documentation should be distinguished. The BMJ series (Deer, BMJ 2011;342:c5347 and c5543; Godlee, BMJ 2011;342:c7452) is treated as investigative journalism corroborating the GMC record, not as a free-standing source for an allegation of fraud against an identifiable person. The follow-the-money analysis works in the direction opposite to what vaccine-sceptical accounts imply: the undisclosed funding ran from litigation interests to the scientist making the claim, not from pharmaceutical interests to the scientists who subsequently found null results.",
+      "sourceIds": ["S4", "S13", "S14"]
+    },
+    {
+      "id": "C5",
+      "level": "Object",
+      "ledger": "UNSUPPORTED",
+      "confidence": "High",
+      "claim": "The strongest remaining case for an MMR–autism causal pathway relies on three arguments. First, temporal regression: parents observed children developing normally and then regressing near the time of MMR vaccination. Second, a susceptible-subgroup hypothesis: population-level null findings might conceal a rare causal pathway in biologically vulnerable children. Third, gastrointestinal pathology: some children with autism exhibit intestinal symptoms suggesting a gut-brain link that MMR might trigger. None constitutes independent population causal evidence for MMR as the cause. Temporal regression in autism onset routinely coincides with the age of routine MMR vaccination in any schedule regardless of vaccine; no epidemiological study has found temporal clustering of autism onset following vaccination. The susceptible-subgroup hypothesis was specifically and pre-specified tested in Hviid et al. 2019 across multiple subgroup definitions, with null results in all. The entity 'autistic enterocolitis' proposed by Wakefield has not been validated as a distinct histopathological entity by independent replication. The 2025–2026 CDC website changes removing the categorical statement that 'vaccines do not cause autism' represent a policy communication decision by the US Department of Health and Human Services under Secretary Robert F. Kennedy Jr.; they do not constitute new causal epidemiological evidence, and the largest study published during this period continued to find null results.",
+      "why": "Temporal regression arguments: the age range at which autism is typically identified — approximately 18 to 24 months — is the same age at which routine MMR vaccination is administered in most schedules worldwide. Any plausible trigger, including fever, developmental stress or parental attention shift, would produce coincident timing without causal connection. Epidemiological studies that specifically tested for temporal clustering of autism onset in the period following MMR vaccination found no such clustering. Susceptible-subgroup argument: Hviid et al. 2019 pre-specified and tested subgroups including children with an older sibling with autism (elevated background risk), children with a high composite disease risk score, and children with different prior vaccination histories; the hazard ratio in each subgroup was near the null with no statistically or clinically significant elevation. The Honda et al. 2005 Japanese natural experiment provides additional relevant evidence: if MMR triggered autism in susceptible children, withdrawing MMR should have produced an autism incidence decline; the reverse was observed. Gastrointestinal pathology: high rates of gastrointestinal symptoms in children with autism are documented but do not establish MMR as the cause. The 'autistic enterocolitis' entity requires the additional step — a distinctive histopathological pattern triggered specifically by MMR — that has not been independently confirmed. The 2025–2026 political context: under Secretary Robert F. Kennedy Jr., the CDC removed language that vaccines do not cause autism and proposed major research expenditure on this hypothesis. This represents a policy shift and an institutional communications change, not new causal evidence. It should be treated as a process development, not an update to the epidemiological record. No new peer-reviewed causal study producing a positive finding has been published in this period.",
+      "sourceIds": ["S8", "S9", "S10", "S12"]
+    },
+    {
+      "id": "C6",
+      "level": "Cause",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "The MMR–autism episode demonstrates that institutional distrust can function as a vehicle for false causal certainty when it displaces, rather than motivates, demand for better evidence. A twelve-child case series, a press conference, undisclosed litigation funding, parental narrative, and a network of plausible-sounding mechanisms combined to produce a public health crisis — including significant vaccine hesitancy and subsequent measles outbreaks — despite the research evidence being consistently negative. Rejecting the Wakefield causal claim does not require blanket trust in pharmaceutical companies, regulatory bodies or vaccine manufacturers. Those institutions have documented histories of evidence failures in other domains. The 'follow the money' critique is a legitimate investigative prompt; here the money — undisclosed litigation funding — ran toward the scientist making the claim, not only toward those who subsequently contradicted it. A claim does not become true because its critics have conflicts; it does not become false because its author has conflicts. The causal question must rest on causal evidence, which this case lacks.",
+      "why": "The structural role of this case in the book is as a calibration control: the same evidentiary method applied to governments, corporations and regulators must be applied equally to anti-establishment claims. The 1998 paper would have failed the Ministry's basic design test regardless of its author's funding situation: a twelve-child uncontrolled case series cannot establish population causation. The funding and misconduct findings are additional grounds for distrust of this particular scientist's work, but they are not required for the causal verdict. The public health harm from the false causal claim is documented: MMR vaccination rates fell in the UK and elsewhere, measles outbreaks followed, deaths occurred. The argument that establishment institutions suppress valid vaccine-safety research — while sometimes valid in other specific contexts — was used in this case to shield a null finding from scrutiny, not to protect a genuine signal. Legitimate criticism of pharmaceutical marketing, clinical trial design, regulatory capture and liability structures remains possible and sometimes warranted without rehabilitating the Wakefield causal claim. The symmetry is load-bearing: if a pharmaceutical company had produced a twelve-patient case series claiming a competitor's product caused a disease, while holding undisclosed litigation contracts, we would apply exactly the same design and disclosure standard.",
+      "sourceIds": ["S1", "S4", "S6", "S11"]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1996",
+      "event": "Solicitor Richard Barr, representing parents seeking to sue MMR vaccine manufacturers, retains Andrew Wakefield at £150 per hour. Wakefield begins receiving legal aid funding — ultimately approximately £435,643 in fees plus expenses — that he does not disclose to his co-investigators, to the Lancet or to the Royal Free Hospital's ethics committee.",
+      "effect": "Undisclosed conflict of interest predates the research and continues through publication"
+    },
+    {
+      "date": "28/02/1998",
+      "event": "Wakefield et al., 'Ileal-lymphoid-nodular hyperplasia, non-specific colitis, and pervasive developmental disorder in children', Lancet 1998;351:637–41. Twelve children, referred to the Royal Free for gastrointestinal investigation, are described. The paper states: 'We did not prove an association between measles, mumps, and rubella vaccine and the syndrome described.' At a simultaneous press conference on 26 February, Wakefield calls for suspension of the triple MMR vaccine — a position not supported by the paper and opposed by his co-authors.",
+      "effect": "The press conference claim — not the paper — launches the public scare; the paper's own wording is more cautious than the media and public absorbed"
+    },
+    {
+      "date": "2002",
+      "event": "Madsen et al. (NEJM 2002;347:1477–82) publish results from a Danish population cohort of approximately 537,000 children born 1991–1998: adjusted relative risk for autistic disorder in MMR-vaccinated versus unvaccinated children 0.92 (95% CI 0.68–1.24); no association with age at vaccination, time since vaccination or date of vaccination.",
+      "effect": "First large-scale independent epidemiological test of the causal hypothesis: null result in approximately 537,000 children"
+    },
+    {
+      "date": "2004",
+      "event": "Two developments. (1) Brian Deer's Sunday Times investigation (February 2004) reports that Wakefield held undisclosed litigation-related contracts. (2) Ten of the twelve co-authors other than Wakefield sign a retraction of interpretation (Lancet 2004;363:750): 'We wish to make it clear that in this paper no causal link was established between MMR vaccine and autism as the data were insufficient.' Wakefield and co-author Peter Harvey do not sign.",
+      "effect": "The partial retraction narrows the paper's public standing; the co-authors distance themselves from the causal interpretation"
+    },
+    {
+      "date": "2004",
+      "event": "Smeeth et al. (Lancet 2004;364:963–9) publish a UK matched case-control study using the General Practice Research Database: 1,294 people with a first recorded diagnosis of pervasive developmental disorder and 4,469 controls. MMR vaccination was recorded in 78.1% of cases vs 82.1% of controls. No elevated risk.",
+      "effect": "Second independent large study (UK population, different design from Danish cohort): null result"
+    },
+    {
+      "date": "2005",
+      "event": "Honda, Shimizu and Rutter (J Child Psychol Psychiatry 2005;46:572–9) publish a Yokohama natural experiment: 31,426 children examined across birth cohorts before and after Japan's 1993 suspension of the national MMR programme. Cumulative incidence of autism spectrum disorder continued to rise after MMR vaccination stopped, reaching its highest levels in cohorts that received no MMR.",
+      "effect": "Natural experiment: removing MMR did not reduce autism incidence — a direct test of the causal hypothesis that yields a null result"
+    },
+    {
+      "date": "02/02/2010",
+      "event": "The Lancet publishes a full retraction notice (Lancet 2010;375:445), stating that 'several elements of the 1998 paper by Wakefield et al. are incorrect' and that the paper has been retracted. The retraction follows the GMC panel's January 2010 findings on Wakefield's conduct.",
+      "effect": "Full withdrawal of the paper from the scientific record; the paper is labelled RETRACTED at the original URL"
+    },
+    {
+      "date": "24/05/2010",
+      "event": "The GMC's Fitness to Practise Panel, following a 217-day hearing, finds Andrew Wakefield guilty of more than thirty charges of serious professional misconduct. The charges upheld include: dishonesty in failing to disclose the legal aid funding relationship; admitting children to the research study on improper grounds; conducting invasive tests including colonoscopies, lumbar punctures and barium meals without proper Research Ethics Committee approval; and acting contrary to the clinical interests of children. Wakefield is struck off the UK medical register.",
+      "effect": "Formal regulatory determination of serious professional misconduct including dishonesty; Wakefield is removed from the UK medical register and unable to practise as a doctor in the UK"
+    },
+    {
+      "date": "Jan 2011",
+      "event": "Brian Deer publishes a three-part BMJ investigation ('Secrets of the MMR scare', BMJ 2011;342:c5347, c5543, c7402). Deer documents allegations that clinical histopathology records for the twelve children differed from the findings published in the Lancet paper — in several instances normal clinical findings were reported as abnormal in the publication. The BMJ editorial by Godlee, Smith and Marcovitch (BMJ 2011;342:c7452) characterises the work as 'an elaborate fraud.'",
+      "effect": "Investigative journalism corroborating the GMC misconduct findings; the 'fraud' characterisation is the BMJ's editorial label, not a GMC formal finding; the data-alteration allegations rest on Deer's documentary reconstruction plus GMC corroboration"
+    },
+    {
+      "date": "07/03/2012",
+      "event": "Walker-Smith v GMC [2012] EWHC 503 (Admin): Mr Justice Mitting allows Professor Walker-Smith's judicial review, quashing the GMC Fitness to Practise Panel's findings against Walker-Smith. Mitting J finds the panel's determination was based on 'inadequate and superficial reasoning' specifically in failing to properly address whether Walker-Smith's clinical investigations were unapproved research or clinically indicated treatment. Mitting J does not examine or disturb the findings against Wakefield, who had abandoned his own appeal. In his judgment, Mitting J observes: 'There is now no respectable body of opinion which supports his hypothesis, that MMR vaccine and autism/enterocolitis are causally linked.'",
+      "effect": "The GMC process against Walker-Smith is overturned on the specific procedural ground that the panel failed to properly distinguish clinical practice from research. This does not rehabilitate Wakefield, does not validate the 1998 paper's causal claim, and is accompanied by the judge's explicit statement that the underlying hypothesis has no scientific support"
+    },
+    {
+      "date": "2019",
+      "event": "Hviid et al. (Ann Intern Med 2019;170:513–20) publish a nationwide Danish cohort study of 657,461 children born 1999–2010 with follow-up through 2013. Hazard ratio for autism in MMR-vaccinated versus unvaccinated children: 0.93 (95% CI 0.85–1.02). Pre-specified susceptible subgroup analyses — including children with older siblings with autism, children with a high disease risk score, and children with different prior vaccination histories — show no elevated risk in any subgroup.",
+      "effect": "The largest purpose-built cohort study at time of publication; specifically designed to test the susceptible-subgroup hypothesis; null result in all pre-specified subgroups"
+    },
+    {
+      "date": "2025–2026",
+      "event": "Under Secretary Robert F. Kennedy Jr., the US Department of Health and Human Services makes policy changes related to vaccine-autism communications. In November 2025, the CDC revises its website to remove the categorical statement that vaccines do not cause autism. In July 2026, the CDC further updates its autism-vaccines page to say 'scientists have not identified the root causes of autism.' No new peer-reviewed causal epidemiological study supporting an MMR–autism association is published during this period.",
+      "effect": "A significant policy and communications shift by the US government; does not constitute new causal evidence; the contemporaneous largest study (Brown et al. 2026) continues to find null results"
+    },
+    {
+      "date": "Jul 2026",
+      "event": "Brown et al. (Pediatr Infect Dis J 2026; PMID 42520244) publish a retrospective cohort study of 2,560,035 US children with linked electronic health record data from January 2015 through December 2024, with follow-up through age 8. In the primary 11.5–24 month landmark cohort, adjusted hazard ratio for autism associated with first MMR vaccination: 0.97 (99% CI 0.91–1.03). Negative control analysis: aHR 1.01 (99% CI 0.99–1.04). Authors conclude that findings 'reinforce existing evidence supporting the safety of MMR vaccination.'",
+      "effect": "The largest single study of MMR and autism published to the evidence cutoff; published in a political context in which the US government had been questioning the vaccine-autism null; finds null result in 2.5 million children"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H1",
+      "title": "MMR vaccination causes autism in a meaningful proportion of children",
+      "status": "Unsupported",
+      "text": "MMR vaccination causes or triggers autism — either directly or by triggering a gastrointestinal syndrome that then disrupts neurological development — in a proportion of children sufficient to produce a detectable population signal.",
+      "test": "This predicts: (a) elevated risk of autism in vaccinated versus unvaccinated children in population studies; (b) temporal clustering of autism onset in the period following vaccination; (c) dose–response or age-at-vaccination effects; (d) a specific mechanism — such as gut inflammation — showing independent replication. All four predictions fail. Population studies in Denmark, the United Kingdom, Japan and the United States consistently find risk ratios near the null. No temporal clustering has been observed. The Yokohama natural experiment shows autism continuing to rise after MMR was withdrawn. No specific mechanism has been independently validated."
+    },
+    {
+      "id": "H2",
+      "title": "Design over-reach and public claim beyond the evidence",
+      "status": "Strong fit",
+      "text": "The 1998 paper was a small clinical case series capable only of hypothesis generation; the public causal claim — made at a press conference, not in the paper — went materially beyond what the design supported; subsequent large-scale epidemiology consistently returned null results.",
+      "test": "This predicts: (a) null results in subsequent controlled population studies; (b) a paper that does not itself claim causal proof; (c) a gap between what the paper says and what was publicly asserted. All three are observed. The paper states 'we did not prove an association.' The press conference claimed one. Population epidemiology across five independent studies returns null results."
+    },
+    {
+      "id": "H3",
+      "title": "Undisclosed conflicts and misconduct distorted the scientific record",
+      "status": "Material support",
+      "text": "The research was conducted in the context of undisclosed litigation funding, improper ethics approvals and potentially altered data, meaning the published record cannot be taken at face value as an accurate description of what was clinically observed in these twelve children.",
+      "test": "This requires evidence of: (a) undisclosed conflicts predating the research; (b) formal regulatory finding of dishonesty; (c) discrepancies between clinical records and published data. All three are supported: the GMC found the legal aid funding relationship was active from 1996 and was dishonestly concealed; the GMC found the admissions criteria and ethics approval were improper; Deer's investigation documented histopathology discrepancies between clinical records and the publication. H3 does not supply an independent biological test of H1 — the paper being misconduct-tainted does not itself prove the causal hypothesis is false; it means the paper's data cannot serve as primary causal evidence."
+    },
+    {
+      "id": "H4",
+      "title": "Persecution of a legitimate dissenting scientist",
+      "status": "Poor fit",
+      "text": "Wakefield identified a genuine but inconvenient biological finding; institutional interests — pharmaceutical companies, regulatory bodies, academic medicine — coordinated to suppress and destroy his career and discredit the research.",
+      "test": "This predicts: (a) no substantive misconduct evidence independent of pharmaceutical industry pressure; (b) suppression of corroborating replication studies; (c) a causal signal detectable in independent population studies. None of these predictions is supported. The GMC misconduct findings rest on documentary evidence of the undisclosed litigation funding relationship — evidence not produced by pharmaceutical companies. Multiple independent researchers in multiple countries sought to test and if necessary replicate the MMR–autism signal and found none. Walker-Smith's successful High Court appeal demonstrates the GMC process had procedural weaknesses in his specific case, but the presiding judge in that appeal explicitly found no respectable body of opinion supports the MMR–autism hypothesis. H4 would need to explain why the largest epidemiological studies — including a 2026 US study of 2.5 million children conducted in a political environment sympathetic to the vaccine-sceptical position — continued to find null results."
+    }
+  ],
+  "independence": [
+    "Original 1998 paper (lancet-1998-wakefield): the claim vehicle; its design is the primary object of C1",
+    "2004 partial retraction (lancet-2004-partial): co-author withdrawal of causal interpretation; same journal process as 2010 retraction but distinct act",
+    "2010 full retraction (lancet-retraction-2010): journal-level withdrawal following GMC findings; institutional process outcome",
+    "GMC Fitness to Practise Panel 2010 (gmc-2010-wakefield): independent statutory regulatory determination after 217-day adversarial hearing; distinct from journal process",
+    "Walker-Smith High Court 2012 (walker-smith-2012-hc): judicial review of GMC process; independent of GMC panel; legally distinct finding",
+    "Danish epidemiology — Madsen 2002 and Hviid 2019 (epi-dk): two large cohort studies using Danish national data systems, covering different birth cohorts (1991–1998 and 1999–2010) and conducted by different teams; they share national registry infrastructure and should be counted as one strong national data line, not two fully independent lines",
+    "UK case-control — Smeeth 2004 (epi-uk-smeeth-2004): independent national data system (UK General Practice Research Database), different design (matched case-control), different population",
+    "Japanese natural experiment — Honda 2005 (epi-jp-honda-2005): wholly independent population, different design (before-after natural experiment using MMR programme withdrawal), different country",
+    "US EHR cohort — Brown 2026 (epi-us-brown-2026): independent national data system (Cosmos EHR), different country, different design, most recent evidence cutoff",
+    "IOM Immunization Safety Review 2004 (iom-2004-review): evidence synthesis by independent National Academies committee; draws on overlapping primary studies but provides independent quality assessment",
+    "Cochrane systematic review 2021 (cochrane-2021-review): independent Cochrane process covering 138 studies and 23 million children; draws on overlapping primary studies; independent synthesis",
+    "Investigative/editorial (bmj-deer-2011): Deer investigative journalism and BMJ editorial characterisation; corroborates GMC record on misconduct elements; not an independent epidemiological line"
+  ],
+  "openQuestions": [
+    "Whether any rare biological mechanism exists by which MMR vaccination might trigger autism in a small susceptible subset remains an open research question. No such mechanism has been independently validated and the epidemiological evidence sets an upper bound on its frequency — any causal effect in a susceptible subgroup must be sufficiently rare that it produces no detectable population signal in studies of hundreds of thousands of children. The Hviid 2019 data specifically exclude a large effect in subgroups defined by family history and disease risk score. A very rare effect of very small magnitude cannot be ruled out by current evidence but also cannot be inferred from it.",
+    "The exact scope of the GMC's findings on data description discrepancies versus Deer's investigative documentation of histopathology record alterations has not been fully audited in this research pass. The GMC primary determination documents are extensive (217-day hearing) and not reproduced here; this file relies on contemporaneous BMJ reporting and the GMC's published press statements for the specific charge findings.",
+    "The 2025–2026 US HHS/CDC policy changes are a material institutional development whose longer-term effect on the epidemiological research programme remains to be assessed. If new large-scale causal studies are commissioned and produce results, this file should be updated.",
+    "Individual data re-analysis claims — including a 2025 re-analysis of CDC VAERS data cited by vaccine-sceptical advocates as showing elevated autism signals — have not been independently validated in this research pass. Such claims require primary statistical assessment before they could affect this file's conclusions."
+  ],
+  "wouldChange": [
+    "A large, pre-registered, independently conducted cohort study from a new population producing a statistically significant elevated risk ratio for autism in MMR-vaccinated versus unvaccinated children — particularly with a temporal dose-response pattern, replication in a second population and a mechanistically coherent biological explanation — would require material downgrade of C3 from KNOWN toward PROBABLE or POSSIBLE.",
+    "Independent validation of a specific histopathological autism-enterocolitis entity, distinguished from general gastrointestinal symptoms in autism, using blinded assessment and a control group, would add biological plausibility to H1 and require re-examination of C5's UNSUPPORTED verdict.",
+    "Discovery of primary documentary evidence that the GMC proceedings were materially corrupted by pharmaceutical industry intervention in the evidence or panel — as distinct from ordinary adversarial proceedings in which the GMC acted as regulator — would require re-examination of C2's process finding, though it would not affect the epidemiological null in C3.",
+    "A credible and validated peer-reviewed causal study, published after 11/08/2026, establishing a new mechanism or population signal, will be assessed on the standards applied here and incorporated in a changelog update if material."
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "name": "Wakefield et al., Lancet 1998;351:637–41 (RETRACTED)",
+      "kind": "Journal article",
+      "role": "The original 1998 paper — the primary object of C1. A twelve-child uncontrolled case series describing intestinal and developmental findings. Inspected for what the design could and could not establish, and for what the paper itself said versus what was publicly claimed at the simultaneous press conference.",
+      "independenceGroup": "lancet-1998-wakefield",
+      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(97)11096-0/abstract",
+      "locator": "Wakefield AJ et al., 'Ileal-lymphoid-nodular hyperplasia, non-specific colitis, and pervasive developmental disorder in children', Lancet 1998;351:637–41 (RETRACTED 2 February 2010). DOI: 10.1016/S0140-6736(97)11096-0"
+    },
+    {
+      "id": "S2",
+      "name": "Murch SH et al., 'Retraction of an interpretation', Lancet 2004;363:750",
+      "kind": "Journal notice",
+      "role": "The 2004 partial retraction by ten of the twelve co-authors other than Wakefield. Establishes that co-authors explicitly stated 'no causal link was established between MMR vaccine and autism as the data were insufficient.' Wakefield and Peter Harvey did not sign. Distinguishes the 2004 partial retraction (retraction of an interpretation, paper remaining in the record) from the 2010 full retraction (withdrawal of the paper entirely).",
+      "independenceGroup": "lancet-2004-partial",
+      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(04)15715-2/fulltext",
+      "locator": "Murch SH, Anthony A, Casson DH et al., 'Retraction of an interpretation', Lancet 2004;363:750. DOI: 10.1016/S0140-6736(04)15715-2"
+    },
+    {
+      "id": "S3",
+      "name": "Lancet Editors, retraction notice, Lancet 2010;375:445",
+      "kind": "Journal notice",
+      "role": "Full retraction of the 1998 paper by the Lancet editors following the GMC Fitness to Practise Panel's findings. States that 'several elements of the 1998 paper by Wakefield et al. are incorrect.' Establishes the 2010 full retraction as a distinct act from the 2004 partial retraction of interpretation.",
+      "independenceGroup": "lancet-retraction-2010",
+      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(10)60175-4/fulltext",
+      "locator": "The Editors of The Lancet, retraction notice, Lancet 2010;375:445. Published 2 February 2010. DOI: 10.1016/S0140-6736(10)60175-4"
+    },
+    {
+      "id": "S4",
+      "name": "GMC Fitness to Practise Panel determination, Wakefield, January 2010 / erasure May 2010",
+      "kind": "Regulatory body",
+      "role": "Primary regulatory determination on Andrew Wakefield's conduct. The 217-day GMC hearing (2007–2010) resulted in findings of serious professional misconduct on more than thirty counts including: dishonesty in failing to disclose approximately £435,643 in legal aid funding from solicitor Richard Barr; improper admissions criteria; conducting invasive tests on children without proper ethics committee approval. Wakefield struck off the UK medical register 24 May 2010. Primary source for all GMC-sourced process claims in C2 and C4.",
+      "independenceGroup": "gmc-2010-wakefield",
+      "locator": "General Medical Council Fitness to Practise Panel determination, Wakefield, Walker-Smith and Murch, January 2010 (final hearing begun 2007). Wakefield's erasure confirmed 24 May 2010. GMC press statement available at gmc-uk.org. Professional summary in Dyer C, 'Wakefield struck off register', BMJ 2010;340:c2803. Primary determination documents available from the GMC."
+    },
+    {
+      "id": "S5",
+      "name": "Walker-Smith v General Medical Council [2012] EWHC 503 (Admin)",
+      "kind": "Court",
+      "role": "High Court judicial review by Mr Justice Mitting, 7 March 2012. Quashed the GMC Fitness to Practise Panel's findings against Professor Walker-Smith on the grounds of inadequate and superficial reasoning — specifically the panel's failure to properly address the research versus clinical practice distinction in Walker-Smith's specific conduct. The appeal did not include Wakefield (who abandoned his appeal) and did not examine or overturn findings against Wakefield. Mitting J explicitly stated: 'There is now no respectable body of opinion which supports his hypothesis, that MMR vaccine and autism/enterocolitis are causally linked.' This case is mandatory contrary/process evidence addressing the fairness of the GMC process but does not rehabilitate the causal claim.",
+      "independenceGroup": "walker-smith-2012-hc",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/admin/2012/503",
+      "locator": "Walker-Smith v General Medical Council [2012] EWHC 503 (Admin), Mr Justice Mitting, 7 March 2012. National Archives Case Law at caselaw.nationalarchives.gov.au/ewhc/admin/2012/503"
+    },
+    {
+      "id": "S6",
+      "name": "Madsen et al., NEJM 2002;347:1477–82",
+      "kind": "Peer-reviewed study",
+      "role": "Population-based Danish cohort study covering approximately 537,000 children born January 1991 to December 1998. Adjusted relative risk for autistic disorder in MMR-vaccinated versus unvaccinated children: 0.92 (95% CI 0.68–1.24). No association with age at vaccination, time since vaccination or date of vaccination. Described by authors as providing 'strong evidence against the hypothesis that MMR vaccination causes autism.' Primary epidemiological evidence for C3.",
+      "independenceGroup": "epi-dk",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa021134",
+      "locator": "Madsen KM, Hviid A, Vestergaard M et al., 'A population-based study of measles, mumps, and rubella vaccination and autism', N Engl J Med 2002;347:1477–82. DOI: 10.1056/NEJMoa021134"
+    },
+    {
+      "id": "S7",
+      "name": "Smeeth et al., Lancet 2004;364:963–9",
+      "kind": "Peer-reviewed study",
+      "role": "UK matched case-control study using the General Practice Research Database. 1,294 people with a first recorded diagnosis of pervasive developmental disorder born 1973 or later and registered with a contributing GP between 1987 and 2001, matched against 4,469 controls. MMR vaccination recorded in 78.1% of cases versus 82.1% of controls — no elevated vaccination rate in cases. Concluded: 'MMR vaccination is not associated with an increased risk of pervasive developmental disorders.' Independent UK population, distinct study design from Danish cohort studies. Primary epidemiological evidence for C3.",
+      "independenceGroup": "epi-uk-smeeth-2004",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15364187/",
+      "locator": "Smeeth L, Cook C, Fombonne E et al., 'MMR vaccination and pervasive developmental disorders: a case-control study', Lancet 2004;364:963–9. DOI: 10.1016/S0140-6736(04)16904-3"
+    },
+    {
+      "id": "S8",
+      "name": "Honda, Shimizu and Rutter, J Child Psychol Psychiatry 2005;46:572–9",
+      "kind": "Peer-reviewed study",
+      "role": "Total population study of all 31,426 children born in Kohoku Ward, Yokohama, Japan (population approximately 300,000), examining cumulative incidence of autism spectrum disorder across birth cohorts from 1988 to 1996 before and after Japan's suspension of the national MMR programme in 1993. MMR vaccination dropped to zero for children born from 1993 onwards; cumulative autism incidence continued to rise through these cohorts, reaching its highest observed levels in birth cohorts that received no MMR. Authors concluded 'MMR vaccination is most unlikely to be a main cause of ASD.' Provides a natural experiment directly testing the causal claim: if MMR causes autism, removing MMR should reduce autism incidence; the opposite was observed. Primary evidence for C3 and for the contra-case in C5.",
+      "independenceGroup": "epi-jp-honda-2005",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15877763/",
+      "locator": "Honda H, Shimizu Y, Rutter M, 'No effect of MMR withdrawal on the incidence of autism: a total population study', J Child Psychol Psychiatry 2005;46:572–9. DOI: 10.1111/j.1469-7610.2005.01425.x"
+    },
+    {
+      "id": "S9",
+      "name": "Hviid et al., Ann Intern Med 2019;170:513–20",
+      "kind": "Peer-reviewed study",
+      "role": "Nationwide Danish cohort study of 657,461 children born in Denmark 1999–2010 with follow-up to 2013. Overall hazard ratio for autism in MMR-vaccinated versus unvaccinated children: 0.93 (95% CI 0.85–1.02). Pre-specified susceptible-subgroup analyses — including children with an older sibling with autism, children with a high composite disease risk score, and children with different vaccination histories — showed no elevated risk in any subgroup. Specifically designed to address the susceptible-subgroup hypothesis advanced by vaccine-sceptical critics of earlier Danish studies. Authors state: 'The study strongly supports that MMR vaccination does not increase the risk for autism, does not trigger autism in susceptible children, and is not associated with clustering of autism cases after vaccination.' Critical for C5's assessment of the susceptible-subgroup argument.",
+      "independenceGroup": "epi-dk",
+      "url": "https://www.acpjournals.org/doi/10.7326/M18-2101",
+      "locator": "Hviid A, Hansen JV, Frisch M, Melbye M, 'Measles, mumps, rubella vaccination and autism: a nationwide cohort study', Ann Intern Med 2019;170:513–20. DOI: 10.7326/M18-2101"
+    },
+    {
+      "id": "S10",
+      "name": "Brown et al., Pediatr Infect Dis J 2026 (PMID 42520244)",
+      "kind": "Peer-reviewed study",
+      "role": "Retrospective cohort study in 2,560,035 US children with linked electronic health record data (Cosmos EHR database) from January 2015 through December 2024, with follow-up through age 8. In the primary 11.5–24 month landmark cohort, first MMR vaccination was not associated with increased autism risk (adjusted hazard ratio 0.97; 99% CI 0.91–1.03). Negative control analysis yielded aHR 1.01 (99% CI 0.99–1.04), supporting that residual bias is unlikely to explain the findings. The largest single study of MMR and autism published to the evidence cutoff (11/08/2026). Published during the period of active US government advocacy for vaccine-autism investigation under Secretary Kennedy, by investigators who found null results.",
+      "independenceGroup": "epi-us-brown-2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42520244/",
+      "locator": "Brown et al., 'Association between first MMR vaccination before age 2 years and childhood autism in a U.S. EHR cohort of 2.5 million children', Pediatr Infect Dis J 2026. DOI: 10.1097/INF.0000000000005349. PMID: 42520244"
+    },
+    {
+      "id": "S11",
+      "name": "IOM Immunization Safety Review: Vaccines and Autism (2004)",
+      "kind": "Evidence synthesis",
+      "role": "Eighth and final report of the US Institute of Medicine Immunization Safety Review Committee, examining the hypothesis that the MMR vaccine and thimerosal-containing vaccines are causally associated with autism. Reviewed published and unpublished epidemiological studies and biological mechanism studies. Conclusion: 'the body of epidemiological evidence favors rejection of a causal relationship between the MMR vaccine and autism.' Provides independent evidence synthesis as a National Academies review process. Supports C3 and the method lesson in C6.",
+      "independenceGroup": "iom-2004-review",
+      "url": "https://www.nationalacademies.org/read/10997/chapter/2",
+      "locator": "Institute of Medicine, Immunization Safety Review Committee, 'Immunization Safety Review: Vaccines and Autism', National Academies Press, 2004. ISBN 0-309-09237-X. Executive summary at ncbi.nlm.nih.gov/books/NBK25338/"
+    },
+    {
+      "id": "S12",
+      "name": "Di Pietrantonj et al., Cochrane Database Syst Rev 2021;11:CD004407",
+      "kind": "Systematic review",
+      "role": "Cochrane systematic review of vaccines for measles, mumps, rubella and varicella in children. Examined 138 randomised and non-randomised studies covering more than 23 million children. Of these, 87 studies (13 million children) assessed harms. Found no increased risk of autism associated with MMR, MMRV or MMR+V vaccines. Provides the most comprehensive independent synthesis of the evidence base. Supports C3 and the method lesson in C6.",
+      "independenceGroup": "cochrane-2021-review",
+      "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD004407.pub5/full",
+      "locator": "Di Pietrantonj C, Rivetti A, Marchione P, Debalini MG, Demicheli V, 'Vaccines for measles, mumps, rubella, and varicella in children', Cochrane Database Syst Rev 2021;11:CD004407. DOI: 10.1002/14651858.CD004407.pub5"
+    },
+    {
+      "id": "S13",
+      "name": "Deer, BMJ 2011;342:c5347 and c5543 ('Secrets of the MMR scare')",
+      "kind": "Investigative journalism",
+      "role": "Two-part investigative series by Brian Deer in the BMJ, January 2011. Documents allegations that clinical histopathology results in the twelve children's hospital records differed from findings reported in the 1998 Lancet paper, with normal results recorded as abnormal in the publication. Also documents the litigation funding relationship and commercial plans associated with Wakefield's research. Treated as investigative journalism corroborating elements of the GMC record, not as a free-standing primary regulatory or scientific finding. Not the sole load-bearing source for any claim about deliberate data alteration.",
+      "independenceGroup": "bmj-deer-2011",
+      "url": "https://www.bmj.com/content/342/bmj.c5347",
+      "locator": "Deer B, 'How the case against the MMR vaccine was fixed', BMJ 2011;342:c5347; 'How the vaccine crisis was meant to make money', BMJ 2011;342:c5543. DOI: 10.1136/bmj.c5347; 10.1136/bmj.c5543"
+    },
+    {
+      "id": "S14",
+      "name": "Godlee, Smith and Marcovitch, BMJ editorial 2011;342:c7452",
+      "kind": "Editorial",
+      "role": "BMJ editorial characterising the 1998 Wakefield paper as 'an elaborate fraud' — the source of the 'fraud' characterisation that widely entered public discourse. Treated as an editorial judgement corroborated by the GMC record on the dishonesty counts, not as an independent regulatory or legal determination. The precise attribution matters: the formal regulatory finding was 'serious professional misconduct including dishonesty'; the 'fraud' terminology is the BMJ's editorial characterisation of the same underlying conduct.",
+      "independenceGroup": "bmj-deer-2011",
+      "url": "https://www.bmj.com/content/342/bmj.c7452",
+      "locator": "Godlee F, Smith J, Marcovitch H, 'Wakefield's article linking MMR vaccine and autism was fraudulent', BMJ 2011;342:c7452. DOI: 10.1136/bmj.c7452"
+    }
+  ],
+  "methodAudit": [
+    {
+      "name": "Grammar",
+      "note": "Claims atomised into testable propositions and classified by type. C1 is a design/descriptive claim about what the 1998 paper could and could not establish. C2 is a process claim about the retraction and regulatory chronology. C3 is an object-level causal claim about population epidemiology. C4 is a process claim about conduct and conflicts — split internally between GMC formal findings (KNOWN) and data alteration allegations (corroborated but relying on investigative documentation plus partial GMC corroboration: treated as KNOWN for the funding dishonesty, assessed more cautiously for data alteration). C5 is an object-level assessment of the strongest contrary evidence. C6 is a method claim. Loaded terms defined: 'fraud' attributed to BMJ editorial characterisation, not treated as a standalone finding; GMC formal finding is 'dishonesty' and 'serious professional misconduct.' 'Autism' confined to autism spectrum disorder diagnoses as used in each study's methods; not extended to broader developmental claims. 'MMR' confined to the MMR vaccine; the file does not assess other vaccines or thimerosal claims."
+    },
+    {
+      "name": "Logic",
+      "note": "Four competing hypotheses tested. H1 (MMR causes autism) is unsupported: all four predictions (elevated population risk, temporal clustering, dose-response, mechanism replication) fail. H2 (design over-reach and claim beyond the evidence) is a strong fit: null population results, paper's own wording, and press-conference overreach all confirm. H3 (misconduct distorted the record) has material GMC and investigative support. H4 (persecution of dissenting scientist) is a poor fit: GMC misconduct findings rest on documentary evidence of undisclosed funding, not pharmaceutical-industry pressure; the largest 2026 US study finds null results in a political environment sympathetic to vaccine-sceptical inquiry. Key logical discipline: H3 is not required for the causal verdict — the 1998 paper's design was insufficient for its public claims regardless of the misconduct context. Walker-Smith's High Court success does not transfer probability to H1 or H4: the presiding judge himself rejected the scientific hypothesis. The RFK Jr./CDC policy shift (2025–2026) is institutional process, not epidemiological evidence; it belongs in H4's context and does not change the object-level assessment."
+    },
+    {
+      "name": "Rhetoric",
+      "note": "The two standard rhetorical framings are stripped and replaced with neutral propositions. The institutional account ('Wakefield committed fraud, vaccines are safe') has been broken into its components and each tested separately rather than accepted as a package. The sceptical account ('a lone scientist was destroyed for questioning vaccine safety') has been tested against the evidence: the misconduct findings rest on the undisclosed funding — not pharmaceutical suppression — and no population causal signal exists in millions of children studied across multiple countries. Identity-swap test applied: if a pharmaceutical company had produced a twelve-patient uncontrolled case series claiming a competitor's product caused autism, while holding undisclosed litigation contracts worth £435,643, we would apply exactly the same design and disclosure standard — and we would reject the causal claim on design grounds before reaching the misconduct question. The claim is scoped to MMR; 'vaccines do not cause autism' as a general assertion is not made and is not tested here."
+    },
+    {
+      "name": "Reality",
+      "note": "The causal hypothesis generates testable predictions: elevated risk in vaccinated children, temporal clustering after vaccination, susceptible subgroup elevation, and a biological mechanism showing independent replication. All four predictions were tested. Population studies in five different national contexts (Denmark, UK, Japan, Japan as natural experiment, US) using at least four different study designs (cohort, case-control, total population, EHR retrospective) returned null results. The Japanese natural experiment is especially useful because it tests the causal direction directly: if MMR causes autism, removing MMR should reduce autism. Autism continued to rise after MMR was withdrawn. The susceptible-subgroup prediction was tested pre-specified in Hviid 2019 across multiple definitions and found null in all. The 2026 US study with 2.5 million children was published in a political environment actively sympathetic to finding a positive result; it found null results, increasing confidence that the null is not an artefact of a particular institutional context."
+    },
+    {
+      "name": "Independence",
+      "note": "Independence groups: four national population epidemiological lines (Denmark — Madsen 2002 and Hviid 2019 sharing national registry infrastructure, treated as one strong national line; UK — Smeeth 2004; Japan — Honda 2005; US — Brown 2026); two major independent evidence synthesis reviews (IOM 2004, Cochrane 2021); GMC regulatory process; Walker-Smith judicial review; journal retraction process (two separate acts: 2004 partial, 2010 full); investigative journalism (Deer/BMJ, corroborative). The Danish studies are explicitly treated as one national evidence line rather than two independent lines because they share national registry data systems, even though they cover different birth cohorts. Multiple Cochrane reviews updated over time and multiple IOM reports are counted as one synthesis line. The null finding is supported by at least four genuinely independent national epidemiological lines plus two major synthesis reviews — a substantial convergence from different methods and populations."
+    },
+    {
+      "name": "Adversarial — epidemiologist / causal inference specialist",
+      "note": "Adversarial challenge: cohort studies may have healthy-vaccinee bias (children too ill to vaccinate also less likely to receive autism diagnosis on the same schedule); exposure misclassification; outcome ascertainment differences across administrative databases; diagnostic changes over time masking or revealing effects; ecological confounding in the Japanese natural experiment (other changes in 1993 besides MMR withdrawal). Adjudication: Healthy-vaccinee bias would, if present, bias toward null results — but the Japanese withdrawal study goes in the opposite direction: autism rose when MMR was removed, which is inconsistent with a healthy-vaccinee artefact explaining away a true null result. The UK case-control study found cases less likely to have been vaccinated (78.1% vs 82.1%), inconsistent with healthy-vaccinee inflation. Diagnostic changes over time are real and explain rising autism prevalence, but multiple studies controlled for diagnostic period. Hviid 2019 used pre-specified subgroup analyses, reducing post-hoc flexibility. No change to C3 from this review pass; the convergence across methods and populations is robust to the stated concerns."
+    },
+    {
+      "name": "Adversarial — paediatric infectious disease / vaccine-safety specialist",
+      "note": "Adversarial challenge: the file accurately distinguishes MMR-specific evidence from general vaccine claims throughout. The wording 'no population causal association' is correctly used rather than 'MMR is safe in every respect' or 'MMR cannot cause any adverse reaction.' The Cochrane review is cited for the autism-specific finding, not conflated with the broader safety or efficacy summary. The file does not overstate what epidemiology can prove about individual rare mechanisms. One material change from this review: added explicit language in C3 and C5 clarifying that 'no detectable population causal signal' is different from metaphysical certainty that no individual rare pathway could exist — the open question in openQuestions records this residual uncertainty."
+    },
+    {
+      "name": "Adversarial — serious vaccine-sceptical critic",
+      "note": "Adversarial challenge: the file is repeating institutional orthodoxy; Walker-Smith's appeal vindicates the research; the 2025–2026 CDC website changes show the consensus was never as solid as claimed; the IOM and Cochrane reviews draw on the same underlying studies; temporal parent reports are dismissed too quickly; the susceptible-subgroup argument has not been fairly answered; undisclosed pharmaceutical industry funding of 'null result' studies is not examined. Adjudication of each: Walker-Smith's appeal — addressed directly in C2 and S5; Mitting J himself stated the hypothesis has no respectable scientific support. CDC policy shift — addressed in C5 and the timeline; treated as a policy/communications change, not new epidemiological evidence; the 2026 US EHR study in the same period finds null results. IOM and Cochrane drawing on overlapping studies — acknowledged in the independence audit; both are counted as one synthesis line, not two independent population evidence lines. Temporal parent reports — addressed in C5; coincident age of autism onset and MMR vaccination produces temporal correlation without causal inference in any schedule. Susceptible-subgroup — addressed in C5 and C3 with explicit reference to Hviid 2019's pre-specified subgroup analyses. Pharmaceutical funding of null-result studies: the null results are found across multiple independent systems including the Danish national registry (not funded by pharmaceutical companies) and the 2026 US EHR study conducted in a political environment hostile to the null finding. Two material changes from this review: (1) expanded C5 to address the CDC 2025–2026 policy shift explicitly; (2) added the 2026 US EHR study (Brown et al.) to the sources and C3."
+    },
+    {
+      "name": "Adversarial — research integrity / legal specialist",
+      "note": "Adversarial challenge: the 'fraud' terminology is used imprecisely; the GMC findings must be distinguished from the BMJ editorial characterisation; Walker-Smith's successful appeal demonstrates the GMC process had serious procedural problems that may extend to the findings against Wakefield; the exact scope of data-alteration findings must be distinguished from the undisclosed-funding findings; attributing the Deer investigation as 'corroboration' of the GMC record requires care given the sequencing and whether the GMC relied on Deer's work. Adjudication: 'fraud' is now explicitly attributed to the BMJ Godlee editorial (S14) with the GMC's formal language ('serious professional misconduct', 'dishonesty') used for the primary regulatory finding. The Walker-Smith appeal is treated as a process finding of inadequate GMC panel reasoning — this is addressed and the implication stated fairly: the GMC process had specific procedural problems in Walker-Smith's case, but (a) findings against Wakefield are separate, (b) Wakefield abandoned his own appeal, and (c) Mitting J's own statement forecloses the scientific rehabilitation. The data-alteration allegation is attributed to Deer's investigative journalism as corroborated by GMC findings, with the epistemic distinction preserved in C4. Material changes from this review: tighter attribution of 'fraud' language; more precise wording of C2 to distinguish what Walker-Smith's appeal established from what it did not; explicit separation in C4 of GMC formal findings (dishonesty regarding funding) from the data-alteration allegations (investigative/corroborated)."
+    }
+  ],
+  "changelog": [
+    {
+      "date": "11/08/2026",
+      "change": "Evidence File 004 initial publication. Research completed covering: (1) direct inspection of the 1998 Lancet paper's design, conclusions and press-conference statements; (2) 2004 partial co-author retraction and 2010 full Lancet retraction distinguished; (3) GMC Fitness to Practise Panel findings and Wakefield's erasure from the medical register; (4) Walker-Smith High Court appeal [2012] EWHC 503 (Admin) addressed directly, with Mitting J's explicit statement on the hypothesis; (5) five independent national epidemiological studies across four countries; (6) IOM 2004 and Cochrane 2021 systematic evidence reviews; (7) 2026 US EHR study (Brown et al., 2,560,035 children) added as current evidence to evidence cutoff; (8) 2025–2026 CDC/HHS policy shift addressed as a process development without new causal evidence; (9) four hostile-reader adversarial passes completed with material changes recorded in methodAudit; (10) susceptible-subgroup hypothesis specifically addressed using Hviid 2019 pre-specified subgroup analyses; (11) 'fraud' language attributed precisely to BMJ editorial characterisation versus GMC formal finding of dishonesty and serious professional misconduct. Publication status promoted from preview to public after all evidence gates checked."
+    }
+  ]
+}
