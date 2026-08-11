@@ -1,0 +1,386 @@
+{
+  "fileNo": "003",
+  "slug": "boeing-737-max",
+  "publication": "public",
+  "title": "Boeing 737 MAX",
+  "subtitle": "When incentives look like orders",
+  "chapter": "Chapter 10",
+  "livingFile": true,
+  "livingFileNotice": "This is a Living Evidence File. It records the assessment of available evidence at the date shown. New evidence — including further FAA and DOT OIG findings, outstanding individual accountability proceedings, and any future litigation — may strengthen, weaken or overturn a conclusion. Material changes are recorded in the changelog.",
+  "status": "Living Evidence File",
+  "firstPublished": "11/08/2026",
+  "lastReviewed": "11/08/2026",
+  "evidenceCutoff": "11/08/2026",
+  "overall": {
+    "label": "Institutional failure + accountable misconduct",
+    "ledger": "PROBABLE",
+    "confidence": "High",
+    "summary": "The evidence establishes: erroneous AOA sensor input triggering repeated MCAS nose-down stabiliser commands was a central causal factor in both Lion Air JT610 and Ethiopian Airlines ET302, in a multi-factor causation picture that also includes maintenance failure, design assumptions about pilot response, and crew response under incomplete information (KNOWN); Boeing's MCAS design relied on a single AOA sensor, hazard analysis rested on invalid pilot-response assumptions, and pilot training materials did not disclose MCAS — choices constrained by the commercial goal of avoiding new differences-training requirements (KNOWN); FAA's delegated-certification oversight failed to ensure adequate independent assessment of MCAS as a complete integrated system (KNOWN); Boeing admitted, in a January 2021 Deferred Prosecution Agreement, that its flight technical pilots deceived FAA's Aircraft Evaluation Group about MCAS for the training determination (KNOWN); competitive schedule and cost pressures shaped specific documented design and disclosure choices, providing a documented incentive-to-decision chain (PROBABLE); the criminal case was dismissed under a 2025 non-prosecution agreement, upheld by the 5th Circuit in March 2026 — Boeing was not convicted, and the 2021 factual admissions are preserved (KNOWN). The dominant explanation is complex organisational failure under commercial incentives combined with accountable corporate deception. The accidents are not the product of an unforeseeable multi-factor coincidence, and they are not the product of a secret conspiracy to crash airliners."
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Erroneous angle-of-attack (AOA) sensor input triggering repeated MCAS nose-down stabiliser commands was a central causal factor in both Lion Air JT610 (29 October 2018, 189 fatalities) and Ethiopian Airlines ET302 (10 March 2019, 157 fatalities). Both accidents involved multi-factor causation: maintenance failure contributed to the JT610 AOA sensor fault; both accidents involved crew response under conditions of incomplete training information; and design assumptions about pilot corrective action did not match the actual flight-deck environment created by MCAS with simultaneous alerts. The file does not adopt the simplification 'MCAS alone caused both crashes': neither primary investigation report supports that wording.",
+      "why": "The KNKT (Indonesian National Transportation Safety Committee) final accident report for JT610 (25 October 2019) identified nine contributing factors, including: the AOA sensor fault arising from an improper post-maintenance installation; MCAS design reliance on a single sensor under incorrect assumptions about flight crew corrective response; the full range of multiple simultaneous flight-deck effects not being adequately assessed; crew response; and airline and regulatory oversight failures. The EAIB (Ethiopian accident authority) final report (December 2022) identified repetitive uncommanded airplane-nose-down MCAS inputs from erroneous AOA data as the most probable cause of ET302. The NTSB submitted independent comments (2022–23) on the EAIB ET302 report, concurring on MCAS's central causal role while noting procedural concerns about certain aspects of the Ethiopian investigation's sensor-damage origin hypothesis — this procedural residual does not affect the core MCAS finding. Three national accident-investigation authorities converge on erroneous AOA + MCAS activation as a central path, alongside specific multi-factor contributors that are preserved in this file.",
+      "sourceIds": ["S1", "S2", "S3", "S7"]
+    },
+    {
+      "id": "C2",
+      "level": "Process",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Boeing's MCAS design for the 737 MAX, and its training and disclosure assumptions, were deficient relative to the hazard the system could create. MCAS relied on a single AOA sensor for activation. MCAS could activate repeatedly on the same erroneous input without reset. The hazard analysis rested on invalid assumptions about pilot corrective action given the range of simultaneous flight-deck alerts the system could trigger. Pilot training materials and flight manuals did not disclose the existence or behaviour of MCAS to pilots — a choice constrained by the commercial goal of maintaining differences-training commonality with prior 737 variants. MCAS authority was expanded from approximately 0.6 degrees to 2.5 degrees of stabiliser movement during development without a commensurate documented reassessment of the system-safety case.",
+      "why": "The KNKT final report found MCAS relied on a single sensor under 'incorrect assumptions about flight crew response' and that the full range of multiple flight-deck effects had not been adequately assessed. KNKT found MCAS 'met certification requirements' under those assumptions — the deficiency was in the assumptions, not in certification officials knowingly approving a system they understood to be non-compliant. The JATR (Joint Authorities Technical Review, October 2019) found MCAS was not evaluated as a complete integrated function in FAA certification deliverables, and that FAA had inadequate awareness of MCAS's architecture and authority limits. The House Transportation and Infrastructure Committee majority staff report (September 2020) documented the MCAS authority expansion from 0.6° to 2.5° without a corresponding safety-case update. NTSB safety recommendations A-19-10 class (2019) called on FAA to require manufacturers to reassess safety assumptions where 'immediate appropriate pilot corrective action' is assumed amid multiple alerts — confirming that pilot-response assumptions were a recognised failure mode after the accidents.",
+      "sourceIds": ["S1", "S4", "S5", "S7"]
+    },
+    {
+      "id": "C3",
+      "level": "Process",
+      "ledger": "PROBABLE",
+      "confidence": "High",
+      "claim": "Competitive schedule and cost pressures — principally the rivalry with the Airbus A320neo family and the commercial goal of avoiding full simulator differences training (which would have increased costs and reduced the MAX's attractiveness to existing 737 operators) — shaped specific documented design and disclosure choices: the decision to develop a new-engine variant rather than a new aircraft; the constraint of maintaining differences-training commonality with prior 737 types; the role given to MCAS in masking handling differences; the non-disclosure of MCAS in pilot training materials; and the manner in which MCAS was presented to FAA's Aircraft Evaluation Group for the training determination. This claim is PROBABLE rather than KNOWN because: the primary documentary trail for the incentive-to-decision chain comes from a congressional majority-staff investigation and the DOJ statement of facts, both of which carry institutional framing; and quantifying how much of any individual design choice was attributable to schedule pressure versus engineering judgement remains difficult from publicly available evidence.",
+      "why": "The US House Transportation and Infrastructure Committee majority staff report (September 2020) cites internal Boeing communications showing the 'no new simulator training' requirement as a sales tool and commitment to airline customers; schedule pressure; and management discouragement of design changes that could trigger differences-training requirements. The DOJ statement of facts (January 2021, DPA) establishes that Boeing flight technical pilots deceived FAA AEG about MCAS specifically to protect the training-commonality determination — providing a direct documented link from the training-cost commercial goal to a specific deceptive act in the certification process. The DOT OIG certification timeline (June 2020) provides process chronology. The causal chain — commercial goal → documented pressure metric → specific disclosure decision → safety consequence — is supported by these sources as a PROBABLE account, not merely a market-context assertion.",
+      "sourceIds": ["S4", "S6", "S8"]
+    },
+    {
+      "id": "C4",
+      "level": "Process",
+      "ledger": "KNOWN",
+      "confidence": "High",
+      "claim": "FAA certification and oversight processes for the 737 MAX failed to ensure adequate independent assessment of MCAS as a complete integrated system. MCAS was not evaluated as an integrated function in FAA certification deliverables. FAA's awareness of MCAS's architectural details — including the expanded authority limits — was limited. A high proportion of compliance-finding work was delegated to Boeing's Organization Designation Authorization (ODA) designees under resource and structural constraints. The FAA Boeing oversight office had resource and workload shortfalls. Post-return-to-service, a 2024 DOT OIG audit found FAA's oversight processes for Boeing production issues remained ineffective. This is a finding about delegation structure, resource limits and information gaps — not a claim that FAA certification was generically corrupt or that Boeing legally self-certified the aircraft. The ODA system delegates specific compliance-finding functions to manufacturer-employed designees under statutory authority; the airworthiness certificate remains an FAA instrument. The slogan 'Boeing self-certified the MAX' is imprecise without explaining what was and was not delegated.",
+      "why": "The JATR (October 2019), a multi-national aviation authority review panel, found: MCAS was not evaluated as a complete integrated function in certification deliverables; FAA had inadequate awareness of MCAS details relevant to safety assessment; FAA's Boeing Aviation Safety Oversight Office (BASOO) had resource and workload constraints; and a high percentage of compliance-finding items were delegated to Boeing ODA designees. The DOT OIG audit (June 2020) provides the certification process chronology and confirms oversight shortfalls. The October 2024 DOT OIG audit of FAA's production oversight of Boeing 737 MAX and 787 found FAA processes for identifying and resolving production problems not effective, with limited supplier oversight — a post-grounding finding showing the structural oversight problem persisted beyond the MCAS certification failure.",
+      "sourceIds": ["S5", "S8", "S11"]
+    },
+    {
+      "id": "C5",
+      "level": "Process",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Boeing, through two flight technical pilots on the 737 MAX programme, deliberately misled FAA's Aircraft Evaluation Group (AEG) about MCAS in connection with the Flight Standardization Board's differences-training determination — specifically concealing MCAS's expanded authority limits. Boeing admitted this conduct in the January 2021 Deferred Prosecution Agreement (DPA), agreeing to a statement of facts describing a conspiracy to defraud the United States. This is a corporate admission of deception directed specifically at FAA AEG and the training determination. It does not establish that every Boeing executive authorised or was aware of the deception; it does not establish that all FAA certification offices were deceived; and it does not establish that Boeing intended the 737 MAX to crash.",
+      "why": "The DOJ criminal information (7 January 2021) charged Boeing with conspiracy to defraud the United States (18 U.S.C. § 371). The DPA statement of facts, to which Boeing agreed, establishes that two Boeing 737 MAX Flight Technical Pilots provided materially false, inaccurate and incomplete information to FAA AEG about MCAS during the training evaluation process, specifically concealing MCAS's expanded authority from approximately 0.6° to 2.5°. The DPA imposed a total criminal monetary obligation of approximately US$2.5 billion (criminal penalty approximately $243.6 million; airline customer compensation approximately $1.77 billion; crash-victim beneficiaries fund approximately $500 million). Individual criminal proceedings: Mark Forkner, one of the two named flight technical pilots, was acquitted by jury in October 2022. The individual acquittal does not erase the corporate factual admission, which Boeing itself agreed to and did not withdraw.",
+      "sourceIds": ["S6"]
+    },
+    {
+      "id": "C6",
+      "level": "Process / Legal",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "The criminal case United States v. The Boeing Company (N.D. Texas) is dismissed. Boeing was not convicted of any crime and did not plead guilty. The January 2021 DPA factual admissions remain on record and are not disturbed by later procedural decisions. A 2024 proposed guilty plea was rejected by the district court as not in the public interest. A 2025 non-prosecution agreement (NPA) resulted in court-approved dismissal — opposed by victim families — under which Boeing made additional financial commitments of approximately $1.1 billion. The 5th Circuit Court of Appeals upheld the dismissal in March 2026. Dismissal is not exoneration: the documented evidence of deception and the 2021 factual admissions are unchanged.",
+      "why": "Chronology verified to the evidence cutoff (11/08/2026): (1) 7 January 2021: DOJ criminal charge; Boeing entered DPA with factual admissions and ~$2.5B monetary obligation. (2) 2024: Incoming Biden-era DOJ asserted Boeing had breached the DPA; in July 2024 District Judge Reed O'Connor rejected a proposed guilty-plea agreement as 'not in the public interest.' (3) May 2025: Incoming Trump-era DOJ negotiated a Non-Prosecution Agreement requiring additional commitments (~$243.6M penalty, ~$444.5M additional to victims' fund, ~$455M for safety and quality programmes; total approximately $1.1B under the NPA). (4) 6 November 2025: Judge O'Connor approved the government's motion to dismiss, while criticising the NPA as failing 'to secure the necessary accountability to ensure the safety of the flying public.' (5) 31 March 2026: a three-judge panel of the 5th US Circuit Court of Appeals unanimously upheld the dismissal, holding the Crime Victims' Rights Act does not grant victims 'an unlimited right for victims to appeal the dismissal of criminal prosecutions' and that prosecutors had met their consultation obligations. The 2021 statement of facts — Boeing acknowledged its pilots deceived FAA AEG — is not altered by the dismissal.",
+      "sourceIds": ["S6", "S9", "S10"]
+    },
+    {
+      "id": "C7",
+      "level": "Causal / Method",
+      "ledger": "PROBABLE",
+      "confidence": "High",
+      "claim": "The Boeing 737 MAX case is best explained by complex organisational failure — commercial incentives, cascading design trade-offs, invalid safety-case assumptions, inadequate regulatory oversight, and accountable corporate deception — rather than either an unforeseeable multi-factor accident or a secret coordinated plan to crash aircraft. Incentives and systemic pressure are real causal contributors; they do not absolve identifiable actors whose decisions and deceptive conduct contributed to the outcome. The case shares an epistemic structure with the Horizon and Robodebt cases: a formal assurance output (safety certification, software test, income average) substitutes for the underlying condition it was meant to verify, and assumptions embedded inside that process were not independently validated.",
+      "why": "H1 (unforeseeable accident despite reasonable practices) is a poor fit: the JATR found certification assumptions were inadequate, not merely unlucky; the DOJ DPA established that relevant decision-makers actively concealed information from FAA AEG. H5 (central conspiracy to knowingly crash planes) has no positive evidentiary support: evidence of deception about training evaluation does not establish intent to kill passengers; the design and disclosure record fits incremental commercial optimisation under competitive pressure, not a designed catastrophe. H2 (complex organisational failure under incentives) and H3 (accountable misconduct within the incentive system) together provide the most coherent account: they explain the design-safety gap, the certification delegation failure, the training concealment, and the later corporate admissions without requiring a conspiracist premise or a blameless-accident premise. The KNKT multi-factor finding — which includes maintenance and crew factors alongside MCAS — supports H2 against a single-cause account. The cross-case pattern with Horizon and Robodebt is noted as a methodological observation, not as independent evidence for any Boeing-specific claim.",
+      "sourceIds": ["S1", "S2", "S4", "S5", "S6"]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2011",
+      "event": "Boeing launches the 737 MAX as a re-engined derivative of the 737NG, in response to the Airbus A320neo family. The larger CFM LEAP-1B engines, mounted further forward and higher than on the NG, alter the aircraft's pitch characteristics at high angles of attack.",
+      "effect": "The handling difference between MAX and prior 737 variants creates the engineering problem that MCAS is later designed to address — without triggering new simulator differences-training requirements that would increase costs and reduce competitive attractiveness."
+    },
+    {
+      "date": "2012–2016",
+      "event": "MCAS (Maneuvering Characteristics Augmentation System) is developed to supplement the MAX's stick-force gradient at high angles of attack, allowing the aircraft to maintain differences-training commonality with the 737NG. During development, MCAS authority is expanded from approximately ±0.6° to ±2.5° of stabiliser movement. According to the House Committee report, this expansion occurs without a commensurate documented reassessment of the system-safety case.",
+      "effect": "Higher MCAS stabiliser authority increases the potential for severe nose-down inputs under erroneous AOA conditions. The expanded authority is not disclosed to FAA's Aircraft Evaluation Group."
+    },
+    {
+      "date": "2015–2017",
+      "event": "FAA certification process for the MAX proceeds. MCAS is not presented to FAA AEG as a complete integrated function. Boeing flight technical pilots provide materially incomplete information to FAA AEG about MCAS, concealing its expanded authority, to secure the training-commonality determination. JATR (2019) later concludes MCAS was not evaluated as an integrated function in certification deliverables and FAA had inadequate awareness of key MCAS details.",
+      "effect": "Training determination is made on the basis of incomplete MCAS information. Pilots receive no information about MCAS in differences training or flight manuals. FAA AEG issues a no-new-simulator-training determination for the MAX."
+    },
+    {
+      "date": "29/10/2018",
+      "event": "Lion Air flight JT610 (Boeing 737 MAX 8, registration PK-LQP) crashes into the Java Sea thirteen minutes after departure from Jakarta's Soekarno-Hatta airport, killing all 189 people aboard. An AOA sensor that had been incorrectly installed after recent maintenance transmitted erroneous high-AOA data to the flight control system; MCAS activated repeatedly, commanding nose-down stabiliser trim; the crew could not overcome the inputs.",
+      "effect": "First 737 MAX crash. 189 fatalities. KNKT investigation begins. The MAX continues in service globally."
+    },
+    {
+      "date": "10/03/2019",
+      "event": "Ethiopian Airlines flight ET302 (Boeing 737 MAX 8, ET-AVJ) crashes six minutes after departure from Addis Ababa, killing all 157 people aboard. EAIB determines the most probable cause was repetitive uncommanded nose-down MCAS inputs triggered by erroneous AOA sensor data.",
+      "effect": "Second 737 MAX crash. 346 people killed in total across both accidents."
+    },
+    {
+      "date": "13/03/2019",
+      "event": "FAA orders the worldwide grounding of all Boeing 737 MAX aircraft, following groundings by aviation authorities in China, Indonesia, Ethiopia and other jurisdictions in the preceding days.",
+      "effect": "Regulatory grounding triggers comprehensive review of MCAS design, certification, training and oversight. The MAX remains grounded for approximately twenty months."
+    },
+    {
+      "date": "10/2019",
+      "event": "JATR (Joint Authorities Technical Review) — a panel including FAA, Transport Canada, EASA, and other national aviation authorities — publishes its review of the 737 MAX flight control certification. Key findings: MCAS not evaluated as a complete integrated function in certification deliverables; FAA had inadequate awareness of MCAS architecture and authority limits; high proportion of compliance items delegated to Boeing ODA designees; FAA Boeing oversight office resource and workload shortfalls.",
+      "effect": "Multi-national aviation authority confirmation of delegation and information gaps in the FAA certification process. JATR findings are the primary basis for C4."
+    },
+    {
+      "date": "16/09/2020",
+      "event": "US House Transportation and Infrastructure Committee majority staff publishes the final investigative report on the design, development and certification of the 737 MAX. Key documentary themes: production and schedule pressure shaped design decisions; the 'no new simulator training' commitment as a sales tool; MCAS authority expansion from 0.6° to 2.5° without safety-case update; management discouragement of changes that would trigger simulator training requirements; FAA ODA delegation and oversight gaps.",
+      "effect": "Primary congressional document trail establishing incentive-to-decision chain. House majority-staff product with political authorship noted; used for documentary leads, corroborated with accident reports and DOJ record."
+    },
+    {
+      "date": "18/11/2020",
+      "event": "FAA rescinds the airworthiness directive grounding the 737 MAX after Boeing implements the MCAS redesign (dual-sensor dependency, authority limits, flight-control computer updates) and completes required certification testing. Updated pilot training materials include information about MCAS.",
+      "effect": "MAX returns to service with redesigned MCAS and updated training. Other national regulators approve return to service over 2021. The return demonstrates the problem was specific and remediable — it does not retroactively establish that the original design was 'known dangerous' before the accidents."
+    },
+    {
+      "date": "07/01/2021",
+      "event": "DOJ charges Boeing with conspiracy to defraud the United States (18 U.S.C. § 371) and Boeing enters a Deferred Prosecution Agreement (DPA). Boeing agrees to a statement of facts: two 737 MAX Flight Technical Pilots deceived FAA AEG about MCAS during the Flight Standardization Board training evaluation, specifically concealing MCAS's expanded authority limits. Criminal monetary obligation: approximately $2.5 billion total (criminal penalty ~$243.6M; airline customer compensation ~$1.77B; crash-victim beneficiaries fund ~$500M).",
+      "effect": "Corporate admission of specific deception of FAA AEG on the MCAS training question. DPA defers prosecution subject to compliance conditions."
+    },
+    {
+      "date": "10/2022",
+      "event": "Mark Forkner, one of the two Boeing flight technical pilots named in the DPA statement of facts, is acquitted by jury in federal court in Fort Worth on charges stemming from his alleged role in deceiving FAA AEG.",
+      "effect": "Individual acquittal. The corporate DPA factual admission agreed to by Boeing is not erased by the individual acquittal, which addressed a different evidentiary standard in a separate proceeding."
+    },
+    {
+      "date": "12/2022",
+      "event": "Ethiopian EAIB publishes the final accident report for ET302. NTSB files independent comments concurring on MCAS's central causal role while noting procedural concerns about aspects of the Ethiopian investigation's sensor-damage origin hypothesis.",
+      "effect": "Two independent national accident authorities reach the same core causal conclusion. The minor procedural residual on the sensor-damage mechanism does not affect the MCAS finding."
+    },
+    {
+      "date": "05/01/2024",
+      "event": "A door plug on a Boeing 737 MAX 9 operated by Alaska Airlines blows out in flight at altitude (no fatalities; one child sustains minor injuries). FAA responds by capping 737 MAX 9 production and auditing Boeing's manufacturing quality-management system.",
+      "effect": "Post-MCAS, post-return-to-service event not related to MCAS design. Relevant to ongoing FAA manufacturing-oversight concerns and the October 2024 DOT OIG production-oversight audit."
+    },
+    {
+      "date": "10/2024",
+      "event": "DOT OIG publishes audit finding that FAA's oversight processes for identifying and resolving Boeing 737 MAX and 787 production issues are not effective. Audit finds Boeing's oversight of suppliers is limited, allowing substandard parts in some cases.",
+      "effect": "Post-return-to-service finding by independent DOT OIG that structural oversight gaps in FAA's Boeing oversight persist beyond the MCAS certification failures."
+    },
+    {
+      "date": "06/11/2025",
+      "event": "Judge Reed O'Connor (N.D. Texas) approves the DOJ's motion to dismiss the criminal case under a Non-Prosecution Agreement (NPA). Under the NPA, Boeing commits to approximately $1.1 billion in additional financial obligations (penalty ~$243.6M; additional victim fund payments ~$444.5M; safety and quality programmes ~$455M). O'Connor approves the motion but states the NPA 'fails to secure the necessary accountability to ensure the safety of the flying public.' Boeing is not convicted and does not plead guilty.",
+      "effect": "Criminal case dismissed over families' objections. The 2021 DPA factual admissions are not disturbed."
+    },
+    {
+      "date": "31/03/2026",
+      "event": "A three-judge panel of the 5th US Circuit Court of Appeals unanimously upholds O'Connor's dismissal. The court holds the Crime Victims' Rights Act does not give victims 'an unlimited right for victims to appeal the dismissal of criminal prosecutions' and that prosecutors met their consultation obligations under the Act.",
+      "effect": "Final US judicial determination on the criminal case: closed without conviction. Victims' families' lawyers describe the ruling as Boeing 'escaping criminal justice accountability for killing 346 people.' This characterisation is noted as the families' position; the legal fact is dismissal without conviction."
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H1",
+      "title": "Unforeseeable multi-factor accident despite reasonable design and certification",
+      "status": "Poor fit",
+      "text": "Both crashes were produced by a combination of factors — unusual maintenance failure, unexpected sensor behaviour, crew response — that no reasonable designer or regulator could have prevented given then-current methodologies. MCAS design and certification were adequate under existing standards; the outcome was tragic but not attributable to negligence or misconduct.",
+      "test": "This predicts: the system-safety analysis would have accounted for the real range of MCAS effects including the full flight-deck alert environment; pilot-response assumptions would have been independently validated; MCAS authority expansion would have been disclosed and assessed; FAA oversight would have been sufficiently independent. Evidence fits poorly on all predictions. JATR found MCAS was not evaluated as an integrated function. KNKT found pilot-response assumptions were incorrect for the conditions MCAS created. The DOJ DPA established that FAA AEG was actively deceived about MCAS authority limits. The KNKT finding that MCAS 'met certification requirements under those assumptions' is preserved as contrary evidence: the formal certification standard was satisfied under the assumptions used, and the assumptions were what was inadequate."
+    },
+    {
+      "id": "H2",
+      "title": "Complex organisational failure under commercial and regulatory incentives",
+      "status": "Strong fit",
+      "text": "Incremental design decisions under competitive schedule and cost pressure, combined with FAA delegation structures that reduced independent review, produced a hazardous configuration. No single actor designed a dangerous aircraft; the failure emerged from an organisational system optimising for commercial goals under regulatory constraints that lacked sufficient independence.",
+      "test": "This predicts: design choices would track commercial constraints; safety-case updates would lag design changes; oversight would have information gaps; pilot performance would be assumed rather than independently tested. Evidence fits strongly on all predictions — MCAS authority expansion without safety-case update; training-cost constraint shaping MCAS disclosure to FAA AEG; JATR finding of incomplete integrated-function assessment; KNKT multi-factor finding. H2 does not fully account for the corporate admission of active deception directed at FAA AEG, which is a specific intentional act within but not fully reducible to systemic incentive failure."
+    },
+    {
+      "id": "H3",
+      "title": "Accountable negligence and misconduct embedded within the incentive system",
+      "status": "Strong fit; materially supported",
+      "text": "Within a system driven by commercial incentives, specific individuals and the corporation itself made choices and took deceptive actions that went beyond systemic-pressure explanation. The concealment of MCAS's expanded authority from FAA AEG was a deliberate act, not an inadvertent omission.",
+      "test": "Requires evidence of knowledge of specific risks combined with decisions to conceal or minimise rather than address them. The DOJ DPA statement of facts — agreed to by Boeing — establishes that Boeing, through its flight technical pilots, deliberately concealed MCAS's expanded authority from FAA AEG for the training determination. The House Committee report adds broader internal communications on incentive management. The individual acquittal of Forkner is preserved: the corporate admission does not establish that every named individual was personally culpable beyond the evidence assessed at their individual trial. H3, combined with H2, provides the most complete account of the available evidence."
+    },
+    {
+      "id": "H4",
+      "title": "Regulatory delegation and resource constraints materially weakened independent safety challenge",
+      "status": "Supported; degree of capture disputed",
+      "text": "FAA's delegation of compliance-finding functions to Boeing ODA designees, combined with resource constraints and information asymmetry, reduced the effective independence of safety assessment to a degree that allowed MCAS to proceed without adequate scrutiny independent of the manufacturer.",
+      "test": "Requires evidence that ODA delegation and resource limits — beyond information asymmetry — caused the oversight failure. JATR supports this finding: high percentage of compliance items delegated to ODA; FAA BASOO resource shortfalls; insufficient FAA awareness of MCAS details at the relevant certification groups. The legal structure of ODA is statutory delegation of compliance-finding functions, not transfer of certification authority — but delegation without adequate independent oversight of delegatees is consistent with the JATR findings. Distinguishing 'regulatory capture' (improper manufacturer influence over regulator decisions) from 'delegation plus resource constraints plus information asymmetry' is important: H4 is supported for the latter combination; positive evidence of active improper influence beyond the documented information asymmetry is thinner and should not be asserted without additional evidence."
+    },
+    {
+      "id": "H5",
+      "title": "Central coordinated conspiracy to knowingly field an aircraft expected to crash",
+      "status": "Unsupported",
+      "text": "Boeing or FAA leadership deliberately designed or approved the 737 MAX knowing it was likely to crash, as an intentional act or a planned exercise in reckless disregard for passenger safety.",
+      "test": "Requires positive evidence of intent to field a known-dangerous aircraft and knowledge that crashes were probable. No examined document or official finding supports this. The DPA admission is of deception about training evaluation, not knowledge that crashes were expected. The design choices fit a pattern of commercial optimisation and invalid safety assumptions, not deliberate endangerment. Using the return-to-service redesign as proof the original design was 'knowingly' dangerous commits a hindsight fallacy: the redesign shows inadequacy was identified and addressed after the accidents, not that it was known before deployment. H5 has a high evidentiary bar and the evidence falls well short of it."
+    }
+  ],
+  "independence": [
+    "knkt-jt610-2019 — Indonesian National Transportation Safety Committee: multi-factor JT610 causation including MCAS/AOA and maintenance/crew contributors",
+    "eaib-et302-2022 — Ethiopian Accident Investigation Bureau: MCAS most probable cause ET302",
+    "ntsb-et302-comments — US NTSB: independent institutional comments on EAIB ET302 report, concurring on MCAS",
+    "jatr-2019 — Multi-national aviation authority technical review (FAA, EASA, Transport Canada and others): certification delegation and integration findings",
+    "house-tmax-2020 — US House Transportation and Infrastructure Committee majority staff: incentive and documentation trail",
+    "doj-boeing-2021 — DOJ criminal process: corporate admission of FAA AEG deception; NPA and dismissal; 5th Circuit ruling",
+    "dot-oig-max — DOT Office of Inspector General: certification timeline audit (2020) and production oversight audit (2024)",
+    "ntsb-rec-max — NTSB safety recommendations: pilot-assumption failure documentation"
+  ],
+  "strongestContraryEvidence": [
+    "KNKT finding that MCAS 'met certification requirements under those [pilot-response] assumptions': the system formally satisfied the certification standard as applied. The deficiency was in the assumptions used, not in certification officials knowingly approving a non-compliant system. This constrains any claim that the FAA certification was simply negligent by its own formal standards — it was applied consistently with the (inadequate) assumptions.",
+    "The 737 MAX has returned to service following MCAS redesign, updated dual-sensor dependency, revised authority limits, and updated pilot training approved through extensive recertification involving multiple national aviation authorities including FAA, EASA, Transport Canada and others. The return to service demonstrates the problem was specific, identifiable and remediable — and does not retroactively establish that the original design was known to be dangerous before the accidents.",
+    "Individual acquittal of Mark Forkner (October 2022): a jury found one of the two named flight technical pilots not guilty on the individual charges. The individual acquittal does not erase the corporate DPA factual admission but establishes that the specific intent and knowledge questions in that individual case were not proven beyond reasonable doubt.",
+    "NTSB's procedural comments on EAIB ET302: the NTSB noted concerns about aspects of the Ethiopian investigation's sensor-damage origin hypothesis. This is a minor process residual and does not affect the MCAS causal finding — but it cautions against treating the EAIB report as methodologically unimpeachable on every specific finding.",
+    "Multi-factor causation — KNKT's nine contributing factors: JT610 involved an incorrectly installed AOA sensor (maintenance failure), and both accidents involved crew response under conditions of inadequate training information. Preserving these factors does not exonerate design failures or erase the MCAS causal path — it prevents the evidence from being reduced to a single-cause narrative that neither primary investigation report supports.",
+    "Criminal case dismissed without conviction (November 2025, upheld March 2026): Boeing was not convicted of any crime. The NPA and dismissal do not erase the 2021 factual admissions, but the legal outcome is non-conviction. Describing Boeing as 'criminally convicted' after November 2025 would be factually incorrect."
+  ],
+  "openQuestions": [
+    "Full KNKT contributing-factor text: all nine KNKT JT610 contributing factors have not been independently quoted in full in this research pass. The research passes cover the primary conclusions but full pin-citation of the primary KNKT PDF for each of the nine factors remains desirable.",
+    "DOT OIG certification timeline detail: the June 2020 DOT OIG certification report has not been fully extracted. Additional specifics on ODA approval rates, FAA AEG workload and the timeline of MCAS information reaching FAA groups would sharpen the C4 evidence.",
+    "Boeing internal communications primary access: the design and development record cited in the House Committee report remains accessible primarily through that congressional document trail, which cites internal Boeing communications. Full independent access to the primary underlying communications would raise C3 above PROBABLE.",
+    "Individual accountability: no individual has been held criminally accountable for the MCAS-related failures and deception (Forkner acquitted). Whether further individual proceedings follow is not established at the evidence cutoff.",
+    "FAA ODA structural reform outcomes: FAA's post-MAX reform of ODA delegation and Boeing oversight is ongoing. Whether structural changes implemented since the grounding have materially addressed the JATR-identified gaps is not fully assessed at the evidence cutoff.",
+    "DOT OIG recommendation follow-through: several DOT OIG audit recommendations from the 2020 certification report and the 2024 production report have been addressed or closed at various dates. The status of remaining open recommendations is not fully extracted from primary sources."
+  ],
+  "wouldChange": [
+    "Evidence that FAA AEG had complete accurate information about MCAS's expanded authority and independently validated it would remove C5 and substantially weaken the accountability dimension. No such evidence exists and Boeing admitted the contrary.",
+    "Technical evidence establishing that the JT610 crash was caused primarily by the maintenance failure and crew response — and would not have occurred even with the expanded-authority MCAS had the AOA sensor been correctly installed — would require revising C1 to give greater causal weight to maintenance factors. KNKT's multi-factor finding preserves this as an open question, but the sensor fault alone triggering MCAS repetition under the design as fielded is the central KNKT and EAIB narrative.",
+    "Primary Boeing internal documents establishing that the training-commonality goal did not influence MCAS design or disclosure decisions would weaken C3. Current evidence from the House Committee and DOJ statement of facts supports the documented linkage.",
+    "A subsequent criminal conviction of Boeing or a senior individual would require revising C6 from 'dismissed without conviction' to record the conviction.",
+    "Positive evidence that MCAS was known by Boeing engineers to be dangerous and likely to cause loss of control before deployment would elevate H5. Currently no such evidence has been found; the evidence fits H2/H3 rather than a designed-catastrophe account."
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "name": "KNKT — Final Aircraft Accident Investigation Report, Lion Air Flight JT 610, PK-LQP",
+      "kind": "Accident investigation report",
+      "role": "Primary multi-factor causation finding for JT610: nine contributing factors including AOA sensor maintenance fault, MCAS single-sensor design under incorrect pilot-response assumptions, inadequate assessment of multiple flight-deck effects, crew response, airline and regulatory oversight failures. Central C1 and C2 support.",
+      "independenceGroup": "knkt-jt610-2019",
+      "url": "https://knkt.go.id/pub/knkt/pub_knkt.htm",
+      "locator": "KNKT (Komite Nasional Keselamatan Transportasi / Indonesian National Transportation Safety Committee), final report, 25 October 2019. Report number KNKT.18.10.35.04. Available at knkt.go.id."
+    },
+    {
+      "id": "S2",
+      "name": "EAIB — Final Accident Investigation Report, Ethiopian Airlines Flight ET302, Boeing 737-8 MAX, ET-AVJ",
+      "kind": "Accident investigation report",
+      "role": "Primary causation finding for ET302: most probable cause identified as repetitive uncommanded nose-down MCAS inputs from erroneous AOA sensor data. Central C1 support.",
+      "independenceGroup": "eaib-et302-2022",
+      "url": "https://www.ecaa.gov.et/",
+      "locator": "Ethiopian Accident Investigation Bureau (EAIB), Ethiopian Civil Aviation Authority. Final report released December 2022. Obtainable via ecaa.gov.et and documented in international accident records."
+    },
+    {
+      "id": "S3",
+      "name": "NTSB — Comments on EAIB Final Report, Ethiopian Airlines ET302",
+      "kind": "Safety board comment",
+      "role": "US NTSB institutional response to the EAIB ET302 final report: concurs on MCAS central causal role; notes procedural concerns about aspects of the sensor-damage origin hypothesis. Provides independent US safety-board position on the ET302 findings.",
+      "independenceGroup": "ntsb-et302-comments",
+      "url": "https://www.ntsb.gov/investigations/Pages/ERA19RA0086.aspx",
+      "locator": "NTSB investigation file ERA19RA0086. NTSB response comments filed 2022–23, available at ntsb.gov."
+    },
+    {
+      "id": "S4",
+      "name": "US House Transportation and Infrastructure Committee — Final Committee Report: Design, Development and Certification of the Boeing 737 MAX",
+      "kind": "Congressional investigation report",
+      "role": "Primary documentary evidence trail for C3 incentive-to-decision chain: schedule and training-cost pressure, 'no new simulator training' as sales commitment, MCAS authority expansion without safety-case update, management communications. Also relevant to C4 FAA oversight critique. Political authorship noted; used for documentary leads corroborated with accident reports and DOJ record.",
+      "independenceGroup": "house-tmax-2020",
+      "url": "https://transportation.house.gov/imo/media/doc/2020.09.15%20FINAL%20737%20MAX%20Report%20for%20Public%20Release.pdf",
+      "locator": "US House Committee on Transportation and Infrastructure, majority staff final report, 16 September 2020."
+    },
+    {
+      "id": "S5",
+      "name": "JATR — Boeing 737 MAX Flight Control System: Observations, Findings, and Recommendations",
+      "kind": "Multi-authority technical review",
+      "role": "Central C4 support: MCAS not evaluated as integrated function in certification deliverables; FAA inadequate awareness of MCAS architecture and authority limits; high ODA compliance-finding delegation rate; FAA BASOO resource and workload shortfalls.",
+      "independenceGroup": "jatr-2019",
+      "url": "https://www.faa.gov/sites/faa.gov/files/2022-02/JATR-Submittal-to-FAA-Oct-2019.pdf",
+      "locator": "Joint Authorities Technical Review panel (FAA, Transport Canada, EASA and partner authorities), final report submitted October 2019."
+    },
+    {
+      "id": "S6",
+      "name": "United States v. The Boeing Company — Criminal Information, DPA Statement of Facts and Non-Prosecution Agreement (2021–2025)",
+      "kind": "Criminal/legal record",
+      "role": "Primary C5 support (corporate deception admission): Boeing agreed to a statement of facts establishing that two flight technical pilots deceived FAA AEG about MCAS for the training determination; $2.5B monetary obligation. C6 support: 2025 NPA terms, court dismissal, and 5th Circuit ruling.",
+      "independenceGroup": "doj-boeing-2021",
+      "url": "https://www.justice.gov/opa/pr/boeing-charged-137-billion-criminal-monetary-penalty-conspiracy-defraud-federal-aviation",
+      "locator": "DOJ press release and case documents, 7 January 2021. N.D. Texas docket 4:21-cr-00005-O. 2025 NPA and dismissal filed same docket, November 2025."
+    },
+    {
+      "id": "S7",
+      "name": "NTSB — Safety Recommendations A-19-10 through A-19-14 (post-737 MAX accidents)",
+      "kind": "Safety recommendations",
+      "role": "NTSB recommendations to FAA requiring reassessment of system-safety assumptions where 'immediate appropriate pilot corrective action' is assumed amid multiple simultaneous alerts. Supports C1 multi-factor finding and C2 pilot-assumption inadequacy finding.",
+      "independenceGroup": "ntsb-rec-max",
+      "url": "https://www.ntsb.gov/Recommendations/Pages/recommendations.aspx",
+      "locator": "NTSB safety recommendations A-19-10 through A-19-14, September 2019. Available at ntsb.gov recommendations database."
+    },
+    {
+      "id": "S8",
+      "name": "DOT OIG — Audit of FAA's Review of the Boeing 737 MAX Certification Process",
+      "kind": "Inspector General audit",
+      "role": "FAA certification process chronology; ODA delegation findings; oversight shortfalls during MAX certification. Supports C3 process timeline and C4 oversight failure.",
+      "independenceGroup": "dot-oig-max",
+      "url": "https://www.oig.dot.gov/library-item/37638",
+      "locator": "US DOT Office of Inspector General, June 2020. Report number AV-2021-012."
+    },
+    {
+      "id": "S9",
+      "name": "DOJ — Motion to Dismiss and Non-Prosecution Agreement, United States v. The Boeing Company (2025)",
+      "kind": "Criminal/legal record",
+      "role": "2025 NPA terms: additional commitments of approximately $1.1B total (penalty ~$243.6M, victim fund ~$444.5M, safety/quality ~$455M); basis for court-approved dismissal including Judge O'Connor's criticism of the NPA's accountability adequacy. C6 support.",
+      "independenceGroup": "doj-boeing-2021",
+      "url": "https://www.justice.gov/criminal/case-updates/2025/05/23/boeing-company-agrees-enter-non-prosecution-agreement",
+      "locator": "DOJ NPA and motion to dismiss, N.D. Texas docket 4:21-cr-00005-O. Judge O'Connor opinion on dismissal, 6 November 2025."
+    },
+    {
+      "id": "S10",
+      "name": "5th US Circuit Court of Appeals — United States v. The Boeing Company (victims' families' appeal, 2026)",
+      "kind": "Appellate ruling",
+      "role": "Upholds district court dismissal against victims' families' Crime Victims' Rights Act challenge. Establishes final US judicial status: criminal case closed without conviction. C6 support.",
+      "independenceGroup": "doj-boeing-2021",
+      "url": "https://www.ca5.uscourts.gov/",
+      "locator": "5th Circuit Court of Appeals, three-judge panel unanimous decision, 31 March 2026. Appeal by crash victims' families. Docket and opinion number to be confirmed against ca5.uscourts.gov."
+    },
+    {
+      "id": "S11",
+      "name": "DOT OIG — FAA's Oversight Processes for Identifying and Resolving Boeing Production Issues Are Not Effective (2024)",
+      "kind": "Inspector General audit",
+      "role": "October 2024 independent audit of FAA production oversight for Boeing 737 MAX and 787: processes found not effective; supplier oversight limited; recommendations for corrective action. Post-return-to-service evidence of structural oversight gaps. C4 support (ongoing).",
+      "independenceGroup": "dot-oig-max",
+      "url": "https://www.oig.dot.gov/library-item/46466",
+      "locator": "DOT OIG audit report, October 2024."
+    }
+  ],
+  "methodAudit": [
+    {
+      "name": "Pre-registration",
+      "note": "Claims C1–C7 and hypotheses H1–H5 frozen in docs/cases/boeing-737-max.md before systematic primary-source research. Pre-research priors: C1 PROBABLE/high (now KNOWN/very high); C2 PROBABLE/high (now KNOWN/very high); C3 PROBABLE/moderate-high (remains PROBABLE/high); C4 PROBABLE/high (now KNOWN/high); C5 (then C4b) PROBABLE/high (now KNOWN/very high); C5–C7 method claims KNOWN/very high (unchanged). Posteriors recorded in evidence table in dossier; preregistration block not rewritten. Movements from prior to posterior are real changes documented in research journal."
+    },
+    {
+      "name": "Grammar",
+      "note": "Technical terms defined before use: MCAS (Maneuvering Characteristics Augmentation System — software commanding nose-down stabiliser trim under certain conditions on the MAX to address handling characteristics from engine placement); AOA (angle of attack — aerodynamic angle between wing chord and airflow, measured by dedicated sensors); ODA (Organization Designation Authorization — FAA statutory delegation of specific compliance-finding functions to manufacturer-employed designees, not transfer of certification authority); FAA AEG (Aircraft Evaluation Group — FAA unit that sets pilot training and operational differences requirements for new aircraft variants); differences training (the level of new type training required relative to a prior variant, commercially significant because no-simulator-training status reduces airline conversion costs). Claims atomised to separate object-level causation (C1), design/disclosure process (C2), incentive chain (C3), oversight delegation (C4), specific deception admission (C5), legal outcome (C6), and overall explanation (C7). 'Self-certification' is used nowhere without explanation of what ODA delegation legally means."
+    },
+    {
+      "name": "Logic",
+      "note": "Five hypotheses tested with specific discriminating predictions for each. H1 (reasonable accident) is a poor fit: JATR found certification assumptions were inadequate, not merely unlucky; DOJ DPA established active deception of FAA AEG. H5 (conspiracy to crash planes) is unsupported: deception about training evaluation does not establish intent to cause crashes; design record fits incremental commercial optimisation under competitive pressure, not planned catastrophe. H2 (complex organisational failure) and H3 (accountable misconduct) together provide the most coherent account. H4 (regulatory delegation failure) is supported for delegation/resource/information-asymmetry combination; positive evidence for classic 'capture' beyond information asymmetry is thinner and not asserted without further support. Necessary vs sufficient: commercial pressure is not sufficient alone to explain specific deceptive acts; DOJ DPA is sufficient for corporate admission of FAA AEG deception, not sufficient for knowledge by all Boeing executives or intent to crash."
+    },
+    {
+      "name": "Rhetoric",
+      "note": "Neutral rewrite applied: 'Two 737 MAX aircraft crashed killing 346 people after MCAS commanded repeated nose-down stabiliser trim on erroneous AOA sensor data. Accident investigations found multi-factor causation including design and certification failures. Competitive pressure and training-cost goals are documented constraints on MCAS design and disclosure. Boeing admitted its pilots deceived FAA evaluators about MCAS for the training determination. FAA oversight failed to independently assess MCAS as an integrated system. This is documented organisational failure and accountable corporate deception within a competitive market — not a passenger-murder conspiracy, not an accident beyond reasonable foresight, and not an outcome that systemic excuses can fully explain.' Identity-swap test applied: the same evidentiary standard for intent, knowledge and liability is demanded of Boeing as would be demanded of any regulated manufacturer under comparable evidence."
+    },
+    {
+      "name": "Reality test",
+      "note": "Key discriminators assessed against each hypothesis before reading: Did the safety case account for the real range of MCAS effects? (JATR: no, fits H2/H3 not H1.) Was FAA AEG informed about MCAS authority? (DOJ DPA: Boeing admitted deceiving it, fits H3 not H1/H2 alone.) Do documented commercial pressures link to specific decisions? (House report + DOJ statement of facts: documented chain, fits H2/H3.) Does the KNKT multi-factor finding support a single-cause narrative? (No, supports H2 against simple MCAS-alone account.) Return-to-service with specific design fixes supports the finding that the problem was identifiable and remediable — not that Boeing knew before deployment that the aircraft would crash."
+    },
+    {
+      "name": "Independence",
+      "note": "Eight independence groups identified. Strong multi-line convergence for C1 (accident causation): KNKT (Indonesia) and EAIB (Ethiopia) are two independent national accident authorities; NTSB provides a third institutional voice. C4 (oversight failure): JATR (multi-national panel) and DOT OIG are independent assessments from different institutional origins. C5 (deception admission): DOJ DPA is a single evidentiary lineage — sufficient as a corporate admission but noted as one institutional source. C3 (incentive chain): House Committee report (political institution) and DOJ statement of facts (prosecutorial institution) provide two sources from different institutional origins but with overlapping post-hoc investigative context. Echo articles and secondary summaries do not increase the independence count."
+    },
+    {
+      "name": "Adversarial review — aviation safety engineer / former accident investigator",
+      "note": "Hostile perspective: 'Does the file oversimplify to MCAS-caused-crashes? Does it erase crew response and maintenance failures documented by KNKT?' Material changes from this perspective: C1 now explicitly states multi-factor causation with named contributing factors (AOA sensor maintenance failure in JT610, crew response under inadequate training information in both accidents, design assumptions). The claim text explicitly states: 'The file does not adopt the simplification MCAS alone caused both crashes: neither primary investigation report supports that wording.' KNKT's finding that MCAS 'met certification requirements under those assumptions' preserved in C2 why field and in strongestContraryEvidence. The multi-factor structure is preserved without using it to erase the design-path finding."
+    },
+    {
+      "name": "Adversarial review — FAA certification/regulatory lawyer",
+      "note": "Hostile perspective: 'Does the file accurately describe ODA delegation, or does it imply all FAA offices were deceived? Does it conflate delegation with corruption? Does the DPA admission cover the whole FAA or only one unit?' Material changes from this perspective: C4 now includes explicit explanation of ODA as a delegated compliance-finding function under statutory authority and explicitly states: 'The slogan Boeing self-certified the MAX is imprecise without explaining what was and was not delegated.' C5 is specifically limited to FAA AEG and the training determination — not all FAA certification offices. The distinction between regulatory capture, information asymmetry, resource constraints and ODA delegation is preserved throughout C4 and in H4."
+    },
+    {
+      "name": "Adversarial review — Boeing defender / hindsight critic",
+      "note": "Hostile perspective: 'Does commercial pressure prove causal connection to specific design choices? Does later redesign prove original was knowingly unsafe? Does the DPA mean Boeing intended crashes? Does dismissal without conviction undermine the accountability narrative?' Material changes from this perspective: C3 remains PROBABLE not KNOWN, explicitly acknowledging the difficulty of quantifying commercial pressure's causal weight in individual engineering decisions. H5 is explicitly rejected as unsupported, with a note that using return-to-service redesign as hindsight proof of prior knowledge commits a fallacy. C6 accurately records dismissal without conviction and preserves the legal outcome precisely. C5 explicitly states: 'it does not establish that Boeing intended the 737 MAX to crash.' Forkner individual acquittal preserved in C5 and in strongestContraryEvidence."
+    },
+    {
+      "name": "Update",
+      "note": "Evidence cutoff 11/08/2026. Primary legal status verified to cutoff date: DOJ criminal case dismissed 6 November 2025 (Judge O'Connor, NPA approved); 5th Circuit upheld dismissal 31 March 2026; Boeing not convicted; 2021 DPA factual admissions preserved. October 2024 DOT OIG production-oversight audit added as S11. Pre-registration preserved unchanged; posteriors document real movements from prior assessments. C3 prior was PROBABLE/moderate-high; posterior remains PROBABLE/high — not elevated to KNOWN because primary Boeing internal communications are not independently available outside the congressional and prosecutorial document trails."
+    }
+  ],
+  "changelog": [
+    {
+      "date": "11/08/2026",
+      "change": "Evidence File 003 created from frozen pre-registration in docs/cases/boeing-737-max.md (Pass 1 harvest complete as at 2026-08-10). Research passes covered: KNKT JT610 multi-factor causation; EAIB ET302 most-probable-cause; NTSB comments on EAIB; JATR integrated-function and ODA delegation findings; House Committee incentive-to-decision documentary trail; DOJ DPA corporate deception admission; DOT OIG certification and production audits. Current legal status verified to 11/08/2026: DOJ criminal case dismissed 6 November 2025 under NPA; 5th Circuit upheld dismissal 31 March 2026; Boeing not convicted; 2021 DPA admissions preserved on record. Three hostile-reader adversarial perspectives applied (aviation safety engineer, FAA certification/regulatory lawyer, Boeing defender). Key adversarial changes documented: C1 made explicitly multi-factor with named contributors; C4 ODA delegation explanation made precise, self-certification slogan rejected; C5 limited to FAA AEG and training determination only; H5 explicitly rejected; Forkner acquittal preserved; KNKT 'met requirements under assumptions' preserved as strongest contrary evidence. Source URLs verified to stable government domains; locators added for documents without fully stable direct URLs. Publication: public."
+    }
+  ]
+}
