@@ -18,12 +18,30 @@
     "listing": "public"
   },
   {
+    "slug": "al-ahli-first-hours",
+    "title": "Al-Ahli hospital — first-hours reporting",
+    "chapter": "Chapter 18",
+    "difficulty": 4,
+    "research": "active",
+    "lastUpdated": "2026-08-11",
+    "listing": "public"
+  },
+  {
     "slug": "apollo-hoax",
     "title": "Apollo / Moon-landing hoax claims",
     "chapter": "Chapter 16",
     "difficulty": 1,
     "research": "active",
     "lastUpdated": "2026-08-10",
+    "listing": "public"
+  },
+  {
+    "slug": "algorithmic-attention",
+    "title": "Attention without a room — algorithms, platforms, moderation",
+    "chapter": "Chapter 23",
+    "difficulty": 5,
+    "research": "active",
+    "lastUpdated": "2026-08-11",
     "listing": "public"
   },
   {
@@ -72,12 +90,30 @@
     "listing": "public"
   },
   {
+    "slug": "energy-transition",
+    "title": "Free energy is expensive — Australian electricity transition",
+    "chapter": "Chapter 21",
+    "difficulty": 5,
+    "research": "active",
+    "lastUpdated": "2026-08-11",
+    "listing": "public"
+  },
+  {
+    "slug": "gbr-reef-headlines",
+    "title": "Great Barrier Reef dual headlines",
+    "chapter": "Chapter 20",
+    "difficulty": 4,
+    "research": "active",
+    "lastUpdated": "2026-08-11",
+    "listing": "public"
+  },
+  {
     "slug": "gulf-of-tonkin",
     "title": "Gulf of Tonkin",
     "chapter": "Chapter 4",
     "difficulty": 1,
     "research": "active",
-    "lastUpdated": "2026-08-10",
+    "lastUpdated": "2026-08-12",
     "listing": "public"
   },
   {
@@ -113,7 +149,7 @@
     "chapter": "Chapter 0/4",
     "difficulty": 1,
     "research": "active",
-    "lastUpdated": "2026-08-10",
+    "lastUpdated": "2026-08-11",
     "listing": "public"
   },
   {
@@ -126,12 +162,30 @@
     "listing": "public"
   },
   {
+    "slug": "money-systems",
+    "title": "Real Money — Bretton Woods, 1971, fiat, bank credit",
+    "chapter": "Chapter 22",
+    "difficulty": 5,
+    "research": "active",
+    "lastUpdated": "2026-08-11",
+    "listing": "public"
+  },
+  {
     "slug": "robodebt",
     "title": "Robodebt",
     "chapter": "Chapter 9",
     "difficulty": 1,
     "research": "active",
     "lastUpdated": "2026-08-10",
+    "listing": "public"
+  },
+  {
+    "slug": "elite-forums",
+    "title": "Rooms where power meets — forums, agendas, soft coordination",
+    "chapter": "Chapter 23",
+    "difficulty": 5,
+    "research": "active",
+    "lastUpdated": "2026-08-11",
     "listing": "public"
   },
   {
@@ -144,9 +198,18 @@
     "listing": "public"
   },
   {
+    "slug": "victoria-union-government-big-build",
+    "title": "Victoria’s Union–Government Nexus — CFMEU, UFU and the Big Build",
+    "chapter": "candidate / Live File",
+    "difficulty": 4,
+    "research": "prereg",
+    "lastUpdated": null,
+    "listing": "public"
+  },
+  {
     "slug": "wakefield-mmr",
     "title": "Wakefield / MMR",
-    "chapter": "Chapter 11",
+    "chapter": "Chapter 11 specimen",
     "difficulty": 1,
     "research": "active",
     "lastUpdated": "2026-08-10",

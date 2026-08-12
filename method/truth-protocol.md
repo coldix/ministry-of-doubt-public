@@ -1,8 +1,10 @@
 # The Ministry of Doubt Truth Protocol
 
 **Working name:** **The Trivium+ Protocol**  
-**Status:** experimental method — test against case dossiers before promoting to canonical method  
+**Status:** **case-tested working method** (2026-08-11) — promoted from pure experimental after multi-tier dossier pass; still revisable; full multi-human adversarial rounds and Edition pin-cites remain residuals  
 **Purpose:** turn the Ministry's central principle — *Suspicion is not proof. Authority is not proof either. Show me the evidence.* — into a repeatable procedure for deciding what a claim has actually earned.
+
+**Calibration summary:** §24–25. Short scorecard: [working-method.md](working-method.md).
 
 ---
 
@@ -1002,7 +1004,7 @@ Before calling any controversial proposition KNOWN or PROBABLE:
 
 - [ ] Can I state the claim in one sentence without loaded language?
 - [ ] Have I separated process claims from object-level claims?
-- [ ] Was my prior recorded before deep research?
+- [ ] Was my prior recorded before deep research (Git freeze where practical)?
 - [ ] Have I written the strongest serious competing explanation?
 - [ ] Have I identified what each hypothesis predicts?
 - [ ] Does the key evidence actually discriminate between them?
@@ -1013,15 +1015,21 @@ Before calling any controversial proposition KNOWN or PROBABLE:
 - [ ] Have I replicated any important quantitative analysis where practical?
 - [ ] Have I separated exploratory findings from pre-specified tests?
 - [ ] Have I recorded conflicts and incentives without treating them as automatic disproof?
-- [ ] Have reviewers formed initial judgements independently?
+- [ ] Have reviewers formed initial judgements independently? *(or logged that AI/single-pass is a residual)*
 - [ ] Has a competent hostile reader tried to break the claim?
 - [ ] Have I preserved meaningful reviewer disagreement?
 - [ ] Have I run the political/identity symmetry test?
 - [ ] Can I name the strongest evidence I wish did not exist?
 - [ ] Can I state what would change my mind?
 - [ ] Is UNKNOWN still allowed to win?
+- [ ] **Model boundary:** am I scoring the same metric both sides claim to use (LCOE vs system cost; base vs broad money; plant vs grid)?
+- [ ] **Half-right slogan:** have I paired the memorable half with its limits (bank credit; non-binding agendas; “just an algorithm”)?
+- [ ] **Layer tags:** for moderation / state–platform / soft law, did I name the legal layer before the moral word?
+- [ ] **Coordination ≠ conspiracy:** if I claim secret command, do I have control docs — or only meetings/networks?
+- [ ] **Edition residual:** are page-level / table pin-cites logged rather than silently upgraded to KNOWN?
+- [ ] **Live File:** is object-level guilt/verdict closed until the finality rule is met?
 
-If the last answer is no, the method has already failed.
+If UNKNOWN is not allowed to win, the method has already failed.
 
 ---
 
@@ -1060,21 +1068,180 @@ Experimental work suggests the relationship between social interaction and accur
 
 ---
 
-# 23. Proposed next test
+# 23. Original next test (historical)
+
+> **Superseded by §24–25 after the 2026 research pass.** Kept for provenance.
 
 Do **not** declare this protocol finished because it reads well.
 
-Apply it to the first Robodebt dossier.
-
-Record where the protocol:
-
-- creates unnecessary work;
-- fails to distinguish evidence classes;
-- leaves ambiguous instructions;
-- encourages false precision;
-- misses important legal/administrative evidence;
-- or still permits motivated reasoning.
-
-Then revise the protocol before applying it to Horizon and the harder political/technical cases.
+Apply it to the first Robodebt dossier. Record where the protocol creates unnecessary work, fails to distinguish evidence classes, leaves ambiguous instructions, encourages false precision, misses legal/administrative evidence, or still permits motivated reasoning. Then revise before harder cases.
 
 The protocol itself must survive the Ministry's method.
+
+---
+
+# 24. Case-test calibration (2026-08-11)
+
+The protocol was exercised across the case registry (Tier 1–5, Live Files, systems spines). This is not a claim of completeness. It is a claim that the method **behaved** under real dossiers without always finding conspiracy or never finding it.
+
+## 24.1 Calibration classes (§19)
+
+| Class | Specimens | Method behaviour |
+|-------|-----------|------------------|
+| **A. Positive control** | Northwoods; MKUltra; COINTELPRO; Robodebt process; Horizon institutional misconduct; tobacco merchants of doubt | Reached **KNOWN**/strong process findings when primary programmes, courts, or commissions supported them |
+| **B. Negative control** | Apollo hoax; Wakefield/MMR core causal claim | Rejected attractive anti-establishment completions; required independence discipline (LRO not foreign; Deer not sole beam) |
+| **C. Mixed** | JFK process vs assassin object; Epstein process vs intel-op completion; 9/11 core vs WTC7 module; Iraq WMD; Gulf of Tonkin | Held process severity without auto-completing preferred object theories |
+| **D. Live / systems uncertainty** | Kirk pre-trial; Al-Ahli first hours; COVID origins residuals; GBR dual headlines; energy / money / elite / algorithms | UNKNOWN and PROBABLE remained legal; Live File object-guilt rows stayed closed; systems used model-boundary pedagogy |
+
+## 24.2 What the protocol did well
+
+1. **Git pre-registration** — forced honest prior→posterior moves (money, energy, elite, algorithms).  
+2. **Process / object split** — prevented Robodebt-style process findings from laundering unrelated conspiracies; kept Kirk guilt closed.  
+3. **Independence groups** — blocked headline inflation; forced Apollo and Wakefield to name shared lines.  
+4. **Steelman pairs** — systems chapters (energy, money, forums, algorithms) only work with twin steelmen.  
+5. **Stop rules** — Horizon incomplete inquiry volumes; Live File cut-offs.  
+6. **Claim budgets** — chapter extract discipline prevented encyclopedia dump.
+
+## 24.3 Where friction appeared (fix → rule)
+
+| Friction | Cases | Rule added (§25) |
+|----------|-------|------------------|
+| Primary PDF blocked; secondary bridge | Robodebt RC 403 | **Bridge residual** — never silently upgrade bridge to Edition KNOWN |
+| False precision on counts / % | Robodebt recs; GBR cover | **Pin-cite residual** — round numbers stay PROBABLE until table/page |
+| Model-boundary smuggling | Energy LCOE; money “print”; forums “non-binding” | **Comparable terms** before magnitude fights |
+| Half-right slogans | Bank credit; “just algorithms”; “Davos decides” | **Slogan + limits** pair mandatory |
+| Layer collapse | Algorithms censorship/safety; state–platform | **Layer tags** before moral words |
+| Hydra completion | Money cabal; elite Illuminati; algorithmic ministry | **Coordination ≠ conspiracy** default |
+| Symmetry failure | GBR headlines; elite upgrade/downgrade | **Twin process failures** scored together |
+| Live File leakage | Kirk exhibits as “facts” | **Finality rule** — object guilt closed until met |
+| Overclaiming independence | Apollo LRO | **Independence honesty** — same actor, different instrument ≠ foreign state |
+| Incomplete institutional volumes | Horizon | **Court/core vs full narrative** stop rule |
+
+## 24.4 Residual method debt (do not pretend solved)
+
+- Multi-human sealed first judgement rarely run; AI parallel review often substituted — log as residual.  
+- Full Edition pin-cites (RC chapters, GenCost $/MWh tables, GMC determination, AIMS absolute cover) still open.  
+- Quantitative likelihood ratios remain qualitative almost everywhere — acceptable; do not fake decimals.  
+- Adversarial Round A–C on every Hard File not yet complete.
+
+---
+
+# 25. Operational rules from dossiers
+
+These rules are **binding for Ministry dossiers** unless a later revision replaces them. They do not replace §§1–22; they specialise them.
+
+## 25.1 Model boundaries (systems chapters)
+
+Before arguing magnitude, write the **accounting identity** or scope:
+
+| Domain | Boundary |
+|--------|----------|
+| Energy | Fuel cost ≠ system cost; plant LCOE ≠ delivered kWh under reliability constraint |
+| Money | Base/reserves ≠ broad deposit money; loans-create-deposits **with limits** (capital, liquidity, demand, policy) |
+| Agendas | Soft law / goal framework ≠ domestic statute; “not legally binding” ≠ “politically powerless” |
+| Platforms | Engagement prediction ≠ intentional mind control; low individual CTR ≠ “algorithms don’t matter” (aggregate) |
+
+If two sides use different scopes, they are not yet disagreeing — they are **talking past each other**.
+
+## 25.2 Layer tags (process maps)
+
+When speech, moderation, or state contact is at issue, tag each act:
+
+```text
+legal_order | informal_request | platform_discretion | parallel_caution | unknown_layer
+```
+
+Plus, for platform moderation:
+
+```text
+illegal_content | terms_of_service | demotion | ranking_change | account_action
+automation | human | mixed
+```
+
+Do not publish a moral word (“censorship”, “safety”, “capture”) until the tag is filled or explicitly UNKNOWN.
+
+## 25.3 Coordination ≠ conspiracy
+
+Documented meetings, forums, NGOs, consultancies, and partner programmes establish **network / soft power**.
+
+Secret world-government or single-command claims remain **extraordinary** and need primary control evidence (resolutions with force, ownership, tasking).
+
+Default category when outcomes look coordinated: **incentives + shared training + selection + soft coordination** (H3 in §6.1) before conspiracy.
+
+## 25.4 Twin process failures (symmetry)
+
+Score both when relevant:
+
+| Failure | Pattern |
+|---------|---------|
+| **Upgrade** | Real network/meeting → intentional hydra that decides everything |
+| **Downgrade** | Real opacity and agenda-setting → “just networking / just a tool” |
+
+GBR dual headlines, elite forums, and algorithmic attention all required this twin.
+
+## 25.5 Bridge sources and Edition residuals
+
+If primary is blocked, paywalled, or unread at page level:
+
+1. Use a dated **bridge** (official summary, FOI package, reputable secondary).  
+2. Mark the claim’s open residual: **Edition requires primary page/table pin-cite**.  
+3. Do **not** raise ledger status on bridge alone when the protocol’s KNOWN bar needs primary.
+
+## 25.6 Half-right slogans
+
+Memorable slogans that are directionally true and systematically abused must appear with limits in the same paragraph:
+
+- “Banks create money” → + BoE limits.  
+- “SDGs are not binding” → + domestic mediation and soft power residual.  
+- “It’s just an algorithm” → + objective function and aggregate effects.  
+- “Temporary” convertibility suspension (1971) → + durable fiat outcome.
+
+## 25.7 Live Files
+
+- Cut-off date, last reviewed, changelog mandatory.  
+- **Object-level guilt / final causal verdict closed** until the case’s finality rule (verdict, settlement, definitive investigation) is met.  
+- Probable-cause filings, media chronologies, and contested exhibits are **process evidence** about the story — not object proof.  
+- Reopen on material evidence classes, not discourse volume (§17).
+
+## 25.8 Hostile specialist reader
+
+Every active dossier names a hostile specialist. Before freezing a magnitude claim (system cost, bank-credit wording, structural failure, epidemiology), that role must either:
+
+- have been run (human or structured AI role-play with sources), or  
+- be logged as an open residual.
+
+## 25.9 Chapter claim budget
+
+Print chapters: **5–8 load-bearing claims** from the evidence table. Everything else is context, steelman, or residual. Transition sentence required.
+
+## 25.10 Rhetoric strip is not optional for systems
+
+For money, energy, forums, algorithms: the neutral rewrite (§7.1) is the chapter voice. Tribal nouns fail the identity-swap test immediately.
+
+---
+
+# 26. Promotion criteria and next revision triggers
+
+## Working method (now)
+
+The protocol is **approved for ongoing dossier and chapter work** with residuals logged.
+
+## Promote to “canonical / frozen for Edition 1” only when
+
+1. Edition pin-cite residuals closed for load-bearing KNOWN claims in spine chapters;  
+2. At least one full multi-human adversarial Round A–C on a Hard File;  
+3. Live File discipline survives one real court/finality update (e.g. Kirk PC ruling path);  
+4. No new systematic failure mode appears in chapter prose drafting.
+
+## Revise sooner if
+
+- a case shows the ledger labels force false precision;  
+- layer tags cannot be applied without absurdity;  
+- stop rules freeze research that still has high expected value;  
+- the method starts always or never finding conspiracy again.
+
+---
+
+# 27. One-line method (for the book)
+
+> **Atomise the claim. Freeze the prior. Steelman both sides. Demand discriminating evidence and independent lines. Separate process from object. Name the model boundary. Tag the legal layer. Refuse the hydra you cannot document. Let UNKNOWN win.**

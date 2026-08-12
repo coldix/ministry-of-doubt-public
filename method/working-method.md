@@ -2,7 +2,7 @@
 
 Operational protocol for research notes and chapter drafts. Slogans are not enough; this is the scorecard.
 
-**Canonical full method (experimental):** [truth-protocol.md](truth-protocol.md) — *Trivium+ Protocol* (Grammar → Logic → Rhetoric → Reality test → Independence → Adversarial review → Update). Use that document for stage-by-stage procedure; this file remains the short scorecard and category table.
+**Full method (case-tested working):** [truth-protocol.md](truth-protocol.md) — *Trivium+ Protocol* (Grammar → Logic → Rhetoric → Reality test → Independence → Adversarial review → Update). Calibration and operational rules: truth-protocol §§24–27. This file remains the short scorecard and category table.
 
 **Worked examples:** [worked-examples.md](worked-examples.md)
 
@@ -78,6 +78,19 @@ Prefer incompetence when evidence of intent is weak. **Do not** use the razor to
 ## Language discipline
 
 Avoid: “everyone knows,” “wake up,” “sheeple,” “the science is settled” as a conversation-ender, “do your own research” as a substitute for method, and plot-like “they” without named agents and mechanisms.
+
+## Operational rules (from case-test — see truth-protocol §25)
+
+| Rule | One-liner |
+|------|-----------|
+| **Model boundary** | Same metric both sides (LCOE ≠ system cost; base ≠ broad money). |
+| **Layer tags** | Legal order / informal request / platform discretion / parallel caution — before “censorship” or “capture”. |
+| **Coordination ≠ conspiracy** | Meetings and soft power are not a hydra without control docs. |
+| **Twin failures** | Score conspiracy *upgrade* and respectable *downgrade* together. |
+| **Bridge residual** | Blocked primary → bridge OK; do not silent-upgrade to Edition KNOWN. |
+| **Half-right slogan** | Memorable half + limits in the same paragraph. |
+| **Live File** | Object guilt closed until finality rule; process may still be KNOWN. |
+| **Claim budget** | 5–8 load-bearing claims per print chapter. |
 
 Prefer: agents, incentives, documents, measurements, confidence intervals in prose, and explicit uncertainty.
 

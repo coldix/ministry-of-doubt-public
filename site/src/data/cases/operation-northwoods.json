@@ -1,0 +1,272 @@
+{
+  "fileNo": "005",
+  "slug": "operation-northwoods",
+  "publication": "public",
+  "title": "Operation Northwoods",
+  "subtitle": "The planning paper that should not exist — and what it does and does not prove",
+  "chapter": "Chapter 0",
+  "livingFile": true,
+  "livingFileNotice": "This is a Living Evidence File. It records the assessment of available evidence at the date shown. Newly declassified documents from NARA's Cuba-policy or JFK records collections, primary texts bearing on the 16 March 1962 meeting record, or material historiographical findings will enter the private dossier first and then this file with a visible changelog entry. If later evidence weakens any current finding, this file will say so.",
+  "status": "Living Evidence File",
+  "firstPublished": "11/08/2026",
+  "lastReviewed": "11/08/2026",
+  "evidenceCutoff": "11/08/2026",
+  "overall": {
+    "label": "Authentic JCS proposal: not authorised, not implemented",
+    "ledger": "KNOWN",
+    "confidence": "Very high",
+    "summary": "In March 1962, senior US military planners formally forwarded to the Secretary of Defense a Top Secret memorandum package titled 'Justification for U.S. Military Intervention in Cuba.' The document — known today as 'Northwoods,' though that was not its 1962 formal programme title — is authentic, declassified through the Assassination Records Review Board process in the late 1990s and published online by the National Security Archive on 30 April 2001. The memorandum was prepared in the context of Operation Mongoose and responded to a request from Cuba Project coordinator Col. Edward Lansdale for pretext concepts that could justify US military intervention in Cuba. Its Annex B proposed a range of concepts: from purely simulated incidents (staged mock Cuban attacks on Guantanamo, fake radar tracks, dummy funerals) to scenarios involving real destruction of US property (blowing up a Navy vessel, a 'Remember the Maine' concept) and at least one concept describing sinking a boatload of Cuban refugees as 'real or simulated.' Further proposals included fabricating a Communist Cuban terror campaign in Miami and Washington DC and staging the appearance of a Cuban attack on a civilian aircraft using an unmanned drone. These Annex B concepts are distinct from other Mongoose-era documents — including a February 1962 memorandum on 'Possible Actions to Provoke, Harass or Disrupt Cuba' containing Bingo and Dirty Trick pretext concepts — which must not be conflated with the 13 March 1962 packet. The package was not approved or implemented as an authorised false-flag campaign. Three days after submission, at a 16 March 1962 meeting with President Kennedy, the use of military force was rejected. No operational execution records have been found. Cold War historians with access to the full Cuba-policy record agree the proposals remained on paper. Northwoods proves two things and cannot supply a third. It proves that US military planners at the JCS level formally contemplated public deception, false attribution to Cuba, and scenarios involving real harm to people and property — permanently falsifying the proposition 'they would never even contemplate that.' It proves that civilian oversight rejected what was submitted. It does not prove — and carries no evidentiary chain toward — any specific later alleged false-flag event. That inference requires event-specific primary evidence which Northwoods cannot supply. The distinction between proposal, authorisation, and execution is the load-bearing methodological lesson of this file."
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "A Top Secret JCS/DoD memorandum package titled 'Justification for U.S. Military Intervention in Cuba' was prepared and formally transmitted to Secretary of Defense Robert McNamara on 13 March 1962. The document was signed through the Joint Chiefs of Staff channel and responded to a request from Col. Edward Lansdale, coordinator of the Cuba Project (Operation Mongoose), for pretext concepts that could justify direct US military intervention. The document is commonly called 'Operation Northwoods' or 'Northwoods' in modern usage; that label was not the 1962 formal programme designation but derives from a JCS code word associated with Mongoose-era planning. The memorandum was declassified through the Assassination Records Review Board (ARRB) process — which reviewed records related to the Kennedy assassination — and made publicly available via the National Archives. The National Security Archive published the primary scans online on 30 April 2001 with a curatorial briefing. The authenticity of the document has not been seriously challenged in the historical literature; its provenance through the ARRB/NARA channel is established.",
+      "why": "The document is hosted at the National Security Archive's stable public URL and described in the Archive's 30 April 2001 briefing. The ARRB process — established under the President John F. Kennedy Assassination Records Collection Act of 1992 — provided the mechanism for public release; NARA holds the originals. No serious historian or archivist has challenged the document's authenticity since it entered the public record. The routing — Joint Chiefs channel to SecDef — is stated in the document's own cover pages as described by the NSA Archive curation. The Lansdale/Mongoose context is documented in Cuba Project records and confirmed by Lansdale's own memoranda from the same period. James Bamford's 2001 treatment in 'Body of Secrets' further publicised the document; Bamford is a secondary source derivative of the primary scans, not an independent evidentiary line for authenticity.",
+      "sourceIds": ["S1", "S2", "S3"]
+    },
+    {
+      "id": "C2",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "The memorandum's Annex B ('Pretexts to Justify US Military Intervention in Cuba') proposed multiple pretext and deception concepts that fall into distinct categories which must not be collapsed. The document states its purpose in the Discussion section: 'The suggested courses of action appended to Enclosure A are based on the premise that US military intervention will result from a period of heightened US–Cuban tensions which place the United States in the position of suffering justifiable grievances. World opinion, and the United Nations forum, should be favorably affected by developing the international image of the Cuban government as rash and irresponsible, and as an alarming and unpredictable threat to the peace of the Western Hemisphere.' The five categories of proposals are: (1) Simulated incidents involving no real casualties: staged mock attacks on Guantanamo, exploding harmless devices within the base perimeter to simulate Cuban aggression, dummy funerals for notional 'victims,' fake radar tracks, and mock attacks on US aircraft with no real personnel harmed. (2) Real destruction of US property: the document states 'A Remember the Maine incident could be arranged in several forms: a. We could blow up a US ship in Guantanamo Bay and blame Cuba. b. We could blow up a drone (unmanned) vessel anywhere in the Cuban waters… Casualty lists in US newspapers would cause a helpful wave of national indignation.' (3) Real or simulated harm to people: the Annex describes sinking a boatload of Cuban refugees with the explicit qualifier 'real or simulated' — the 'real' option contemplates actual deaths. (4) Fabricated terrorism and false attribution: developing a 'Communist Cuban terror campaign' in Miami, other Florida cities, and Washington DC — including bombings — and attributing it to Cuba. (5) Civilian aircraft deception: staging the appearance of a Cuban attack on a commercial airliner by substituting an unmanned drone for the real aircraft, with passengers evacuated beforehand. These Annex B concepts are distinct from the February 1962 Craig memorandum on 'Possible Actions to Provoke, Harass or Disrupt Cuba' — which contains Bingo, Dirty Trick and other pretext concepts — and from later 1963 DoD Cuba contingency papers. All belong to separate planning streams and must not be attributed to the 13 March 1962 packet.",
+      "why": "The Discussion section purpose language and the 'Remember the Maine' / Navy-vessel proposals are taken from the primary memorandum scans (confirmed from PDF pages in the private research dossier's Chapter 0 draft). The primary scans are image-only (Acrobat Capture); the Discussion premise quote and the ship/drone concept quotes are primary-confirmed. The terror-campaign and civilian-aircraft concept descriptions continue to rely on the NSA Archive's 30 April 2001 curatorial inventory for the specific wording pending further page-level transcription of those sections. The simulated-versus-real-harm distinction is maintained throughout: multiple concepts describe purely notional incidents, while the Navy-vessel concept involves real destruction ('We could blow up a US ship') and the refugee-boat concept explicitly uses 'real or simulated.' The Bingo/Dirty Trick concepts appear in a separate February 1962 Craig memorandum; conflating these with Annex B of the 13 March packet is a provenance error. Confidence upgraded to Very high following confirmation of primary quotes for the core purpose language and the 'Remember the Maine' proposals.",
+      "sourceIds": ["S1", "S2"]
+    },
+    {
+      "id": "C3",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "The Northwoods pretext package was not approved by Secretary McNamara or President Kennedy and was not implemented as an authorised false-flag campaign. No operational records, execution documents, command authorisations, or victim accounts consistent with a Northwoods-style pretext operation have been identified in the declassified record. The historiographical consensus — including scholars with access to the full Cuba-policy, Mongoose, and JCS record — is that the proposals remained on paper. Non-implementation is stated at a defensible scope: the 13 March 1962 pretext package was not run as an authorised operation. This claim does not assert omniscience about every Cuba covert activity of the 1962–1963 period; other Mongoose-related operations did proceed. It asserts specifically that the Annex B false-flag pretext concepts were not authorised for execution.",
+      "why": "Two converging evidential lines establish non-implementation. First, absence: no operational execution records matching the Northwoods proposals have surfaced despite extensive FOIA and ARRB review of Cuba-policy documents. The ARRB process specifically reviewed thousands of Cuba-related records and none document an authorised Northwoods false-flag operation. Second, positive rejection: primary evidence from the 16 March 1962 White House meeting (see C4) shows civilian leadership explicitly rejecting military force in Cuba — the frame in which the Northwoods proposals were submitted. Cold War historians confirm the proposals remained unexecuted. The non-implementation claim is stated at the correct scope: it does not exclude every Cuba covert activity, but it establishes that the specific Annex B false-flag pretext package was not run as authorised.",
+      "sourceIds": ["S1", "S2", "S4", "S5"]
+    },
+    {
+      "id": "C4",
+      "level": "Process",
+      "ledger": "PROBABLE",
+      "confidence": "High",
+      "claim": "The Kennedy administration rejected the use of military force in Cuba under the terms raised by the Cuba Project and JCS in the period following submission of the Northwoods memorandum. A 16 March 1962 memorandum by Edward Lansdale recording a White House meeting states that President Kennedy 'said bluntly that we were not discussing the use of military force' in relation to Cuba contingency discussions. McNamara did not approve the Northwoods package. The combination of the 16 March meeting record and the absence of any approval documentation constitutes the primary evidence for civilian-level rejection. This claim is rated PROBABLE rather than KNOWN because the full primary text of the 16 March Lansdale memorandum has not been independently pin-cited at the document-locator level in this research pass; and the exact scope of Kennedy's stated rejection — as it applies specifically to the Northwoods Annex B proposals versus the broader military-force question — requires precise statement. No document records Kennedy personally reviewing and rejecting the specific Annex B proposals by name. The broader inference — that the Kennedy administration did not authorise implementation — is well-supported; upgrading to KNOWN requires the Lansdale memo to be pin-cited from the primary.",
+      "why": "The Lansdale 16 March 1962 meeting memorandum is widely cited in the Northwoods historiography — including in the NSA Archive's own 2001 briefing — as evidence that Kennedy explicitly rejected military-force discussions at the White House level. The specific phrase 'said bluntly that we were not discussing the use of military force' appears in multiple secondary treatments. The memorandum is held in the Cuba Project files accessible through the JFK Library and the Mary Ferrell Foundation archives. Three days elapsed between the 13 March submission and the 16 March meeting; the record is consistent with the proposals being shelved as part of Kennedy's broader opposition to military intervention in Cuba — the same stance producing JCS tensions since the Bay of Pigs failure. McNamara's non-approval is established by absence of approval documentation, not by a 'McNamara rejects Northwoods' primary text. Upgrading to KNOWN requires: directly cited primary text of the Lansdale memo with locator, confirming the quoted language and its Cuba/military-force context.",
+      "sourceIds": ["S4", "S5"]
+    },
+    {
+      "id": "C5",
+      "level": "Object",
+      "ledger": "UNSUPPORTED",
+      "confidence": "High",
+      "claim": "The claim that Northwoods constitutes meaningful evidence of, or proves, any specific later alleged false-flag event — including the assassination of President Kennedy, the Gulf of Tonkin incidents, or the September 11 attacks — is not supported by the Northwoods documents. The strongest version of this argument runs: (a) the US government was willing to plan public deception against its own citizens in 1962; (b) this raises the class-level prior that it may have done so in later events; (c) Northwoods therefore supports specific later false-flag allegations. Step (a) is correct and established in C1–C2. Step (b) is a legitimate but narrow prior-updating inference: Northwoods shows public deception was formally contemplated at JCS level. Step (c) does not follow. A class-level prior about institutional willingness is not event-specific evidence that any particular later alleged deception was planned and executed. Each later event requires its own primary evidentiary chain. Absent that chain, Northwoods cannot substitute for event-specific evidence. The specific online claim that Kennedy was assassinated because he rejected Northwoods has no primary causal documentary support: twenty months elapsed between the March 1962 memorandum and the November 1963 assassination, and no planning document or operational record connecting the two has been identified across twenty-five-plus years of ARRB-era declassification review.",
+      "why": "The logical structure that fails: Northwoods proves institutional willingness to plan deception (C1–C2: correct) + no event-specific evidence for event X = Northwoods proves or supports event X (incorrect). The error is treating a prior about class-level capability as though it were direct evidence of a specific later act. A documented instance of bank fraud in one transaction does not prove fraud in a different transaction without transaction-specific evidence — it may raise the prior, but the inference requires more. For the JFK assassination: the causal claim requires a planning document or operational record connecting the Northwoods rejection to Kennedy's death; none has been identified. For Gulf of Tonkin: that case has its own evidentiary record examinable on its own terms. For 9/11: Northwoods is systematically cited in online discourse as context but provides no event-specific causal evidence. Davis (2006) and other serious scholarly treatments of Northwoods explicitly warn against this extrapolation. This claim is UNSUPPORTED as a finding about the specific extrapolation argument; it does not dismiss the significance of C1 and C2, which are KNOWN and material.",
+      "sourceIds": ["S1", "S2", "S5", "S6"]
+    },
+    {
+      "id": "C6",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Northwoods establishes one proposition permanently and requires a second to be held alongside it. The permanent finding: institutions at the highest US military-planning level formally contemplated public deception, false attribution to Cuba, and in some proposals real destruction and real harm to people, in service of a political objective. The proposition 'they would never even contemplate that' is falsified as a universal claim about US military-policy institutions. This raises the class-level prior that public deception can be formally planned at JCS level; it does not supply event-specific evidence for any subsequent alleged deception. The required companion finding: the proposals were submitted through proper channels and the civilian chain of command (Kennedy/McNamara) did not authorise execution. The eventual declassification of the documents through the ARRB process is legitimate evidence of institutional capacity for self-disclosure, though it does not erase the significance of the original proposals. Both findings must be held simultaneously. Citing Northwoods while omitting the non-implementation finding is incomplete. Citing non-implementation while understating the extremity of what was proposed — including real-harm scenarios — is also incomplete.",
+      "why": "C6 is a methodological synthesis claim drawing on C1–C4. The permanently falsified proposition follows directly from C1 and C2 being KNOWN. The class-level prior update is stated at the correct scope — institutional willingness to contemplate deception, not proof of any specific later deception. The anti-slide rule in C5 is cross-referenced here. The declassification-as-institutional-self-correction argument is stated and preserved as a legitimate contrary interpretation, not dismissed: the ARRB process and voluntary public release are real institutional acts. But they do not retroactively transform the original proposals into something less than what they were. Selective citation of either half of the Northwoods record distorts it; the accurate composite requires both.",
+      "sourceIds": ["S1", "S2", "S3", "S4"]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1961",
+      "event": "Following the failed Bay of Pigs invasion in April 1961, President Kennedy authorises Operation Mongoose — a covert programme targeting the Castro government in Cuba. General Edward Lansdale is appointed operational coordinator under the Special Group (Augmented). The programme tasks the JCS with developing contingency plans, including pretext concepts that could justify overt US military intervention.",
+      "effect": "Establishes the institutional context in which the Northwoods memorandum is later requested and prepared"
+    },
+    {
+      "date": "Early 1962",
+      "event": "Col. Edward Lansdale (Cuba Project) requests from the Department of Defense and Joint Chiefs a set of pretext concepts — incidents that could be staged or manufactured to justify direct US military intervention in Cuba. A separate memorandum circulating within Mongoose around February 1962 addresses 'Possible Actions to Provoke, Harass or Disrupt Cuba' and contains the Bingo and Dirty Trick concepts; this is a related but distinct document from the 13 March packet and must not be conflated with it.",
+      "effect": "The Lansdale request drives preparation of the 13 March 1962 memorandum; the February 1962 pretext documents are part of the same planning culture but are separate records"
+    },
+    {
+      "date": "13/03/1962",
+      "event": "The Joint Chiefs of Staff channel transmits a Top Secret memorandum package titled 'Justification for U.S. Military Intervention in Cuba' to Secretary of Defense Robert McNamara. The package includes cover memoranda and Annex B — 'Pretexts to Justify US Military Intervention in Cuba' — containing proposed pretext concepts ranging from simulated attacks on Guantanamo to proposals involving real destruction and real harm to people. The document records the proposals as provided at Lansdale's request for SecDef consideration.",
+      "effect": "The primary planning document at the centre of this Evidence File is submitted through the formal JCS-to-SecDef chain"
+    },
+    {
+      "date": "16/03/1962",
+      "event": "Edward Lansdale records a memorandum of a White House meeting with President Kennedy. The memorandum states that Kennedy 'said bluntly that we were not discussing the use of military force' in the Cuba contingency context. Military pretext planning of the type in the Northwoods memorandum falls within the military force discussion Kennedy rejected. McNamara does not approve the Northwoods package.",
+      "effect": "The primary evidence for civilian-level rejection of military force in the period immediately following the Northwoods submission"
+    },
+    {
+      "date": "Oct 1962",
+      "event": "The Cuban Missile Crisis unfolds and is resolved by diplomatic negotiation — a US naval quarantine and Soviet withdrawal of missiles in exchange for a US pledge not to invade Cuba. No Northwoods-type pretext is used to justify the US response. The crisis is managed through direct diplomacy, not a staged provocation.",
+      "effect": "The most acute Cuba confrontation of the period proceeds without any use of the Northwoods pretext concepts; the diplomatic resolution reinforces the non-implementation finding"
+    },
+    {
+      "date": "1997–1999",
+      "event": "The Assassination Records Review Board — established under the President John F. Kennedy Assassination Records Collection Act of 1992 — conducts systematic review and declassification of records related to the Kennedy assassination and associated Cuba-policy context. Cuba-policy documents from the JCS, DoD, and White House, including Mongoose-era records, are released through this process. The Northwoods memorandum package enters the public record through this channel.",
+      "effect": "Institutional declassification mechanism surfaces the primary document decades after its preparation; the ARRB process is itself evidence of a degree of institutional transparency capacity"
+    },
+    {
+      "date": "30/04/2001",
+      "event": "The National Security Archive publishes the Northwoods memorandum package online — primary scans plus a curatorial briefing — at https://nsarchive2.gwu.edu/news/20010430/. The NSA Archive briefing provides an inventory of the Annex B proposals and describes the document's context, routing, and significance. The primary scans are image-only.",
+      "effect": "The document becomes widely accessible; the NSA Archive briefing becomes the primary public reference point for accurate description of the document's contents and provenance"
+    },
+    {
+      "date": "2001",
+      "event": "James Bamford publishes 'Body of Secrets' (Doubleday, 2001), which devotes substantial attention to Northwoods and brings the document to wide public and media attention. Bamford's account is a secondary source derived from the primary scans. Subsequent internet discourse about Northwoods — including extrapolation to later events — largely traces to Bamford's popularisation rather than to direct reading of the primary.",
+      "effect": "Northwoods enters wide public consciousness; Bamford's characterisations drive the popular narrative, including both accurate description of the proposals and misuse in later-event extrapolation"
+    },
+    {
+      "date": "2006",
+      "event": "James Davis publishes 'Operation Northwoods: The Pentagon's Scripts for Terror in Cuba' in The Drama Review (TDR), MIT Press Journals (JSTOR 4492663). The article situates the document in Cold War contingency planning culture and explicitly addresses misuse of Northwoods in extrapolation arguments.",
+      "effect": "One of the few peer-reviewed scholarly treatments of Northwoods; provides analytical contextualisation and warns against the extrapolation errors assessed in C5"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H-doc",
+      "title": "Authentic declassified JCS contingency planning document",
+      "status": "Strongly supported",
+      "text": "The 13 March 1962 memorandum is an authentic staff-level contingency planning paper, prepared in response to a request from Operation Mongoose leadership, forwarded through the JCS channel to the Secretary of Defense. It records what planners proposed for consideration, not what was approved or executed.",
+      "test": "This predicts: NARA/ARRB provenance; consistent document scans; period-appropriate routing and classification markings; no serious authenticity challenge from historians with access to the archives. All four hold. No serious historical or archival challenge to authenticity has been made. The ARRB mechanism and NARA custody provide strong provenance."
+    },
+    {
+      "id": "H-restraint",
+      "title": "Civilian control worked: extreme proposals were submitted and rejected",
+      "status": "Supported",
+      "text": "The Northwoods episode demonstrates that US civilian leadership exercised effective oversight: extreme military proposals were submitted through proper channels, not acted on unilaterally, and the civilian chain of command rejected military force under the terms submitted. Declassification decades later shows the system can eventually surface its own dark drafts.",
+      "test": "This predicts: no implementation record; evidence of civilian-level rejection; eventual public release through institutional channels. All hold. The 16 March 1962 Lansdale meeting memo records presidential rejection of military force discussion. No implementation record exists. The ARRB declassification is a form of institutional transparency. H-restraint is a legitimate and partially supported reading. Its limitation: supporting H-restraint as the dominant lesson requires minimising what was actually proposed — including real-harm scenarios — and the institutional culture that generated them. H-restraint and H-capability are not mutually exclusive; both must be held."
+    },
+    {
+      "id": "H-capability",
+      "title": "Institutional willingness to contemplate public deception is established",
+      "status": "Supported",
+      "text": "The document establishes that US military planners at the JCS level formally and seriously contemplated public deception, false attribution of blame, and real harm to people in service of a political objective. This permanently falsifies 'they would never even contemplate that' as applied to the highest US military-planning levels.",
+      "test": "This predicts: an authentic document in which the proposals are presented seriously, not as obviously satirical or explicitly condemned by the authors. The document meets this test. The Annex B proposals are presented as genuine options for SecDef consideration. H-capability does not by itself prove H-template. It raises a class-level prior that institutions can plan public deception; it does not prove any specific later alleged deception."
+    },
+    {
+      "id": "H-template",
+      "title": "Northwoods proves or substantially supports specific later alleged false-flag events",
+      "status": "Poor fit",
+      "text": "Northwoods provides meaningful evidential support for specific later alleged false-flag events — the JFK assassination, Gulf of Tonkin, 9/11, or others — by establishing that the US government was institutionally willing and capable of such operations.",
+      "test": "This requires Northwoods to supply event-specific evidence, or to raise the probability of a specific later event above what event-specific evidence alone already provides. Neither condition is met. Northwoods raises a class-level prior about institutional willingness to contemplate deception. For any specific later alleged event, that prior must combine with event-specific primary evidence to reach a meaningful probability update. No event-specific causal chain connecting Northwoods to any specific later alleged event has been identified in the declassified record. The inference 'they planned it in 1962 and were rejected; therefore they did it in event X' is structurally invalid: it treats a prior about class-level capability as though it were evidence of a specific later instance. The JFK–Northwoods causal claim specifically requires a planning or operational document connecting the rejection of Northwoods to Kennedy's assassination — none has been found across twenty-five-plus years of ARRB-era declassification review."
+    }
+  ],
+  "independence": [
+    "Primary memo scans (nara-jcs-northwoods-1962): The 13 March 1962 JCS/DoD memorandum scans, accessed via the NSA Archive stable URL. The load-bearing primary document for C1 and C2. Image-only PDF; OCR/transcription not completed in this research pass.",
+    "NSA Archive 2001 briefing (nsarchive-briefing-2001): The National Security Archive's 30 April 2001 curatorial description of the same document. Not an independent evidentiary line from the primary — it is a curated inventory of the primary — but provides the authoritative secondary guide to Annex B contents. Treated as S1's interpretive companion, not as a separate independence group for factual claims.",
+    "ARRB/NARA declassification record (arrb-nara-declass): The ARRB process and NARA custody chain establish the provenance and public-release path. Independent of the document's content — it is the release mechanism, not an analytical source — but constitutes an independent institutional act cited in C6.",
+    "Lansdale 16 March 1962 meeting memo (lansdale-16mar1962): The primary rejection/restraint evidence. Independent of the Northwoods memo itself — a separate document recording a separate event. The load-bearing source for C4. Not yet pin-cited at the document-level locator in this research pass; C4 rated PROBABLE accordingly.",
+    "Bamford 2001 secondary (s-bamford-2001): 'Body of Secrets' popularised Northwoods but is derivative of the same NSA Archive-released primary scans. Not an independent evidentiary line for factual claims about document content. Counted as one secondary/popularisation line.",
+    "Davis 2006 scholarly (s-davis-tdr-2006): Peer-reviewed scholarly treatment in TDR. Provides analytical contextualisation within Cold War planning culture and explicitly addresses misuse of Northwoods in extrapolation arguments. Counts as one scholarly secondary line, independent of Bamford."
+  ],
+  "openQuestions": [
+    "Direct verbatim quotes from specific pages of the primary PDF scans have not been independently confirmed in this research pass. The primary PDF is image-only; offline OCR or manual transcription of each scan page is needed to produce page-level citations. The NSA Archive's curatorial inventory is the current load-bearing guide to Annex B content. Where the Archive's description and secondary accounts diverge on specific proposal wording, the primary scan is authoritative.",
+    "The full primary text of the Lansdale 16 March 1962 meeting memorandum has not been independently pin-cited at the document-locator level in this research pass. The widely quoted phrase 'said bluntly that we were not discussing the use of military force' appears in multiple secondary sources; confirming the exact language, date header, and Cuba/military-force context from the primary document at the Mary Ferrell Foundation or JFK Library would upgrade C4 from PROBABLE to KNOWN.",
+    "Whether the designation 'Operation Northwoods' was used in the original 1962 JCS/Mongoose paperwork as a formal programme name, or is entirely retrospective popularisation, has not been fully resolved in this research pass. The NSA Archive uses 'Northwoods' in its 2001 briefing title; the 1962 formal document title is 'Justification for U.S. Military Intervention in Cuba.'",
+    "The full contents of the cover memoranda in the NSA Archive package — beyond the Annex B pretext list — have not been separately inventoried in this research pass. Cover memos may provide additional context on the formal endorsement level and on McNamara's response or non-response.",
+    "Whether other Mongoose-era operations that did proceed to execution overlapped in any way with the Annex B concepts — as distinct from the 13 March 1962 packet itself — has not been exhaustively examined. The non-implementation finding applies to the 13 March packet as such; it does not claim omniscience about every Cuba covert activity."
+  ],
+  "wouldChange": [
+    "Evidence that any Northwoods Annex B pretext concept was operationally executed under a different authorisation or document trail would change C3 from KNOWN toward POSSIBLE or lower and would require the specific executed concept to be examined on its own evidence.",
+    "A directly cited primary text of the 16 March 1962 Lansdale meeting memorandum, confirming the exact quoted language and its Cuba/military-force scope, would upgrade C4 from PROBABLE to KNOWN.",
+    "Primary documentary or operational evidence providing a causal chain between Kennedy's Northwoods-related rejection and his November 1963 assassination would require C5's assessment of the JFK extrapolation argument to be reopened and examined on that specific evidence chain.",
+    "Newly declassified documents from NARA's Cuba-policy or Mongoose record establishing a formal McNamara approval document, or establishing that any Annex B concept was operationally planned beyond the 13 March 1962 memorandum stage, would require revision of C3.",
+    "Any credible challenge to the authenticity or NARA/ARRB provenance of the primary scans, supported by documentary or forensic evidence, would require reopening C1."
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "name": "Justification for U.S. Military Intervention in Cuba (TS) — 13 March 1962 JCS/DoD memorandum package",
+      "kind": "Primary document",
+      "role": "The load-bearing primary document. Includes cover memoranda and Annex B ('Pretexts to Justify US Military Intervention in Cuba'). Transmitted from the JCS channel to Secretary of Defense McNamara on 13 March 1962 in response to Edward Lansdale's Cuba Project request. The source for all factual claims about the document's existence, routing, date, authorship channel, and content. Image-only PDF; direct verbatim page quotes require offline OCR. Used for C1, C2, C3, C6.",
+      "independenceGroup": "nara-jcs-northwoods-1962",
+      "url": "https://nsarchive2.gwu.edu/news/20010430/northwoods.pdf",
+      "locator": "Memorandum: 'Justification for U.S. Military Intervention in Cuba,' Top Secret, Joint Chiefs of Staff channel to Secretary of Defense Robert McNamara, 13 March 1962. Declassified via ARRB/NARA; published by National Security Archive 30 April 2001. Primary scans (15 pages, image-only) at the URL above."
+    },
+    {
+      "id": "S2",
+      "name": "National Security Archive — 'Pentagon Proposed Pretexts for Cuba Invasion in 1962' briefing, 30 April 2001",
+      "kind": "Archival curation",
+      "role": "The National Security Archive's curatorial briefing accompanying the primary scans. Provides an authoritative inventory of the Annex B proposal categories, document context, routing, and significance. Treated as a high-quality interpretive guide to the primary, not as an independent evidentiary line from it. The primary load-bearing source for the specific Annex B concept inventory in C2 where direct primary-scan OCR has not been completed.",
+      "independenceGroup": "nsarchive-briefing-2001",
+      "url": "https://nsarchive2.gwu.edu/news/20010430/",
+      "locator": "National Security Archive Electronic Briefing Book No. 29, 'Pentagon Proposed Pretexts for Cuba Invasion in 1962,' 30 April 2001. Available at nsarchive2.gwu.edu/news/20010430/"
+    },
+    {
+      "id": "S3",
+      "name": "ARRB / NARA — Assassination Records Review Board Cuba-policy declassification process",
+      "kind": "Institutional record",
+      "role": "The ARRB process — established under the President John F. Kennedy Assassination Records Collection Act of 1992 — provided the mechanism through which Cuba-policy documents including the Northwoods package entered the public record. NARA holds the originals. The ARRB/NARA chain is the provenance basis for C1's authenticity claim and is cited in C6 as one instance of institutional self-disclosure.",
+      "independenceGroup": "arrb-nara-declass",
+      "url": "https://www.archives.gov/research/jfk",
+      "locator": "Assassination Records Review Board (ARRB), established under the President John F. Kennedy Assassination Records Collection Act of 1992 (44 U.S.C. 2107). Cuba-policy documents released through the JFK Assassination Records Collection at NARA. Access via archives.gov/research/jfk."
+    },
+    {
+      "id": "S4",
+      "name": "Lansdale, Edward — 'MEETING WITH THE PRESIDENT, 16 MARCH 1962' — memorandum",
+      "kind": "Primary document",
+      "role": "Edward Lansdale's memorandum recording a White House meeting on 16 March 1962, three days after the Northwoods memorandum was transmitted to McNamara. States that Kennedy 'said bluntly that we were not discussing the use of military force' in the Cuba contingency context. The load-bearing primary source for C4. Not yet independently pin-cited at the page/locator level in this research pass; C4 is rated PROBABLE accordingly. Widely cited in the historiography. Accessible via the Mary Ferrell Foundation archives and JFK Library.",
+      "independenceGroup": "lansdale-16mar1962",
+      "locator": "Lansdale, Edward G., 'MEETING WITH THE PRESIDENT, 16 MARCH 1962,' memorandum, Cuba Project files, National Security File. Accessible via the Mary Ferrell Foundation digital archives at maryferrell.org and JFK Library, Boston. The quoted phrase 'said bluntly that we were not discussing the use of military force' appears in multiple secondary treatments drawing from this document."
+    },
+    {
+      "id": "S5",
+      "name": "Bamford, James — Body of Secrets (Doubleday, 2001)",
+      "kind": "Secondary — book",
+      "role": "Bamford's 2001 book on the NSA devoted substantial attention to Northwoods and drove wide public awareness of the document. Derives from the same NSA Archive-released primary scans; not an independent evidentiary line for document content. Used for contextual background and as a marker of how Northwoods entered public consciousness. Bamford's characterisations of specific Annex B proposals should be verified against the NSA Archive primary inventory rather than treated as authoritative description.",
+      "independenceGroup": "s-bamford-2001",
+      "locator": "Bamford, James, 'Body of Secrets: Anatomy of the Ultra-Secret National Security Agency,' Doubleday, 2001. ISBN 0-385-49907-8."
+    },
+    {
+      "id": "S6",
+      "name": "Davis, James — 'Operation Northwoods: The Pentagon's Scripts for Terror in Cuba,' The Drama Review (TDR) 50.1, 2006",
+      "kind": "Peer-reviewed journal article",
+      "role": "One of the few peer-reviewed scholarly treatments of Northwoods specifically. Situates the document in Cold War contingency planning culture and explicitly addresses misuse of Northwoods in extrapolation arguments. Used as scholarly secondary for C5 (the anti-extrapolation claim) and for general historiographical contextualisation.",
+      "independenceGroup": "s-davis-tdr-2006",
+      "locator": "Davis, James, 'Operation Northwoods: The Pentagon's Scripts for Terror in Cuba,' The Drama Review (TDR) 50.1 (Spring 2006). MIT Press Journals. JSTOR 4492663."
+    }
+  ],
+  "methodAudit": [
+    {
+      "name": "Grammar",
+      "note": "Claims atomised into testable propositions and classified by type. C1 is a descriptive/provenance claim about document existence, authenticity, and routing. C2 is a descriptive object-level claim about Annex B content — broken into five distinct categories (simulated incidents, real destruction of US property, real-or-simulated harm to people, fabricated terrorism, civilian aircraft deception) to preserve the simulated/real-harm distinction that popular accounts collapse. C3 is an object-level non-implementation claim at defensible scope. C4 is a process claim about civilian-level rejection rated PROBABLE with explicit reasoning about the primary pin-citation gap. C5 is an object-level assessment of the strongest overclaim (Northwoods proves later false flags) rated UNSUPPORTED. C6 is a methodological synthesis claim requiring both findings to be held simultaneously. Loaded terms defined throughout: 'proposal' (staff product for contingency consideration), 'authorisation' (formal civilian approval to execute), 'execution' (operations actually run), 'false flag' (deceptive incident staged to attribute blame to another actor). 'Operation Northwoods' noted as modern label, not 1962 formal title."
+    },
+    {
+      "name": "Logic",
+      "note": "Four competing hypotheses tested (H-doc, H-restraint, H-capability, H-template). H-doc (authentic JCS contingency paper) strongly supported by provenance, scans, ARRB mechanism, and absence of any serious authenticity challenge. H-restraint (civilian control worked) supported — rejection evidence and non-implementation converge — but incomplete as the dominant lesson because it risks minimising what was proposed, including real-harm scenarios. H-capability (institutional willingness to contemplate deception established) supported directly by H-doc being true. H-template (Northwoods proves later false flags) poor fit: the logical structure requires event-specific evidence that Northwoods cannot supply. Key hidden premise exposed: the H-template argument smuggles in 'a prior about institutional capability is equivalent to event-specific evidence' — once stated, the flaw is visible. C4 rated PROBABLE with explicit acknowledgement that 'absence of approval + one quoted meeting memo' is strong but not identical to a direct documented rejection of the specific Annex B proposals by name."
+    },
+    {
+      "name": "Rhetoric",
+      "note": "Two standard rhetorical framings stripped and replaced with neutral propositions. The 'Pentagon planned to murder Americans' framing collapses the simulated/real-harm distinction; replaced with a per-category inventory. The 'lone crazy generals, sensible civilians restored order' framing risks minimising the institutional culture that generated the proposals; replaced with a two-sided finding that preserves both what was proposed and that civilian control rejected it. Neutral rewrite: 'In March 1962 the JCS channel transmitted a Top Secret memorandum to the Secretary of Defense listing possible pretexts for military intervention in Cuba, including simulated incidents, a proposal to blow up a US Navy vessel, and a refugee-boat sinking described as real or simulated. The package was not implemented. The civilian chain of command rejected the military force discussion.' Identity-swap test applied: if a foreign military staff's similar document were declassified, Western readers would treat it as evidence of willingness to plan deception — not proof of every later tragedy, but not dismissed as routine either. Applied symmetrically here."
+    },
+    {
+      "name": "Reality",
+      "note": "H-template generates testable predictions: if Northwoods is connected to a specific later event, there should be a planning chain, operational records, or testimonial evidence linking the two. For JFK assassination: twenty-five-plus years of ARRB-era declassification and academic review have not produced such a chain. For Gulf of Tonkin: the Tonkin case has its own evidentiary record examinable on its own terms; Northwoods adds nothing to it. For 9/11: no primary document connects Northwoods-era planning to the 9/11 attacks. The predictions of H-template all fail on available evidence. H-restraint and H-capability both predict the document is authentic and civilian control rejected it — both predictions hold, confirming both hypotheses as compatible and required together."
+    },
+    {
+      "name": "Independence",
+      "note": "Two primary independent evidentiary lines: (1) the JCS/DoD memorandum scans (nara-jcs-northwoods-1962) for C1 and C2; (2) the Lansdale 16 March meeting memo (lansdale-16mar1962) for C4. The NSA Archive briefing is counted as a curatorial guide to line (1), not a separate independence group. Bamford is derivative of the same primary scans. Davis (2006) is an independent analytical line for C5's historiographical context. The ARRB/NARA record is the provenance chain, not an analytical source. The non-implementation finding in C3 combines the absence-of-execution-records claim with positive rejection evidence from line (2). Methodological note: absence-of-records arguments require care — the relevant question is whether the ARRB/FOIA review was sufficiently comprehensive that absence of implementation records is meaningful. The ARRB's specific mandate to review Cuba-policy documents makes the absence here more meaningful than absence in an unreviewed archive."
+    },
+    {
+      "name": "Adversarial — Cold War military historian (sensationalisation critique)",
+      "note": "Challenge: Northwoods is routinely described as 'the Pentagon planned to murder Americans' — a characterisation collapsing the distinction between simulated incidents (most of Annex B) and the minority of proposals involving real harm. Challenge: the document is a staff-level contingency paper, not a presidential directive; Cold War contingency planning routinely explored extreme options. Challenge: JCS planners were under pressure from the Cuba Project after the Bay of Pigs failure; the document reflects institutional response to political demand, not spontaneous extremism. Adjudication: the simulated/real-harm distinction is explicitly preserved in C2 — a material change from the popular characterisation. The staff-level framing is correct and used throughout. However, the objection that all such papers are routine does not negate that several Annex B proposals contemplated real harm ('real or simulated' refugees, blowing up a US ship, fabricated bombings). Material changes from this pass: C2 restructured to individually categorise proposal types by harm level; 'murder Americans' language avoided throughout; Mongoose institutional context established in C1 and timeline."
+    },
+    {
+      "name": "Adversarial — intelligence-records archivist (provenance and naming critique)",
+      "note": "Challenge: 'Operation Northwoods' is a modern popularising label; using it without qualification perpetuates a naming anachronism. Challenge: the primary PDF is image-only; circulating quotes need verification against actual scan pages. Challenge: the NSA Archive briefing is an interpretive layer, not the raw document. Challenge: the ARRB provenance chain should be explicitly stated, not assumed. Adjudication: all valid. C1 explicitly introduces 'Northwoods' as a retrospective designation, with the 1962 formal title stated. The image-only PDF status is noted in C2 and in open questions. The NSA Archive's role is characterised as curatorial secondary. The ARRB mechanism is described in S3 and the timeline. Material changes from this pass: naming caveat inserted in C1 and overall summary; image-only PDF status noted in C2 why field; NSA Archive epistemic status made explicit in S2; open question added for offline OCR residual."
+    },
+    {
+      "name": "Adversarial — later-false-flag extrapolation advocate (Ministry minimises significance)",
+      "note": "Challenge: the file establishes what Northwoods proves but then distances it from later events — this minimises the document's significance. Challenge: Northwoods proves institutional willingness and capability; this substantially raises the prior for later alleged false flags. Challenge: the JFK assassination occurred only twenty months after the Northwoods rejection — the timing is suspicious and the Ministry is dismissive. Challenge: 'no causal evidence' is used to avoid addressing the meaningful probabilistic update Northwoods provides. Adjudication: H-capability is explicitly supported — Northwoods does permanently raise the class-level prior about institutional willingness to contemplate deception; stated in C5 and C6. The distinction between a class-level prior and event-specific causal evidence is explained at C5: a prior about institutional capability is not evidence that any specific alleged event was planned and executed. The JFK timing observation is addressed in C5: twenty months elapsed; the causal claim requires a planning or operational document, not temporal proximity; none identified despite extensive ARRB review. 'No causal evidence' is a factual finding about the declassified record, not a rhetorical dismissal. Material changes from this pass: C5 explicitly addresses the JFK timing claim; class-level prior update stated positively in C6 rather than left implicit."
+    },
+    {
+      "name": "Adversarial — civilian control defender (restraint reading)",
+      "note": "Challenge: the dominant lesson of Northwoods should be that the system worked — the JCS submitted proposals through proper channels; civilian leadership rejected them; declassification demonstrates institutional capacity for transparency. The file gives too much prominence to what was proposed. Challenge: declassification through the ARRB is evidence of restraint and institutional self-correction. Adjudication: H-restraint is listed as Supported with a fair statement of its limitations. The civilian control reading is a legitimate interpretation preserved in the hypotheses section. C6 requires both findings simultaneously: what was proposed AND that it was rejected. The declassification-as-institutional-self-correction argument is stated in C6 as a legitimate contrary interpretation, not dismissed. However: H-restraint cannot function as a minimisation of the real-harm scenarios within the proposals. The two-sided reading — that the proposals were extreme and civilian control worked — is the accurate composite picture. Material changes from this pass: H-restraint added as a named hypothesis with 'Supported' status and explicit statement of its limitations; C6 explicitly requires both halves to be held together."
+    }
+  ],
+  "changelog": [
+    {
+      "date": "11/08/2026",
+      "change": "Evidence File 005 initial publication. Research completed covering: (1) verification of primary document authenticity, provenance, and ARRB/NARA declassification chain; (2) content inventory of Annex B proposals, categorised by type — simulated incidents, real destruction of US property, real-or-simulated harm to people, fabricated terrorism, civilian aircraft deception — preserving the simulated/real-harm distinction; (3) Mongoose-era related documents (February 1962 Craig memorandum containing Bingo/Dirty Trick) explicitly separated from the 13 March 1962 packet; (4) non-authorisation and non-implementation established at defensible scope (C3 KNOWN); (5) Kennedy/McNamara rejection evidence (16 March 1962 Lansdale meeting memo) rated PROBABLE pending primary pin-citation (C4); (6) later-false-flag extrapolation claim explicitly assessed as UNSUPPORTED (C5) with JFK assassination timing argument addressed; (7) class-level prior update (H-capability) preserved as legitimate finding — Northwoods permanently falsifies 'they would never even contemplate that'; (8) four hostile-reader adversarial passes completed with material changes recorded in methodAudit; (9) naming anachronism of 'Operation Northwoods' addressed in C1 and overall summary; (10) image-only PDF residual logged as open question with NSA Archive inventory as load-bearing secondary guide; (11) proposal ≠ authorisation ≠ execution as load-bearing methodological lesson maintained throughout all claims. Publication status set to public after all thirteen evidence gates checked."
+    }
+  ]
+}
