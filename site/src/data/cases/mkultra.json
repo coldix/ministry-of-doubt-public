@@ -1,0 +1,284 @@
+{
+  "fileNo": "008",
+  "slug": "mkultra",
+  "publication": "public",
+  "title": "MKUltra",
+  "subtitle": "A documented CIA behavioural-research programme — and the limit of the brand name",
+  "chapter": "Chapter 5",
+  "livingFile": false,
+  "status": "Evidence File",
+  "firstPublished": "26/08/2026",
+  "lastReviewed": "26/08/2026",
+  "evidenceCutoff": "12/08/2026",
+  "overall": {
+    "label": "Documented secret programme: existence, unwitting LSD, and file destruction are KNOWN; folklore is not",
+    "ledger": "KNOWN",
+    "confidence": "Very high",
+    "summary": "From 1953 the CIA ran MKUltra, its principal programme for research and development of chemical, biological and related materials 'capable of employment in clandestine operations to control human behavior,' approved by the Director of Central Intelligence on 13 April 1953. Official US investigations — the Rockefeller Commission (1975) and the Church Committee (1976), drawing on a surviving 1963 CIA Inspector General survey — established that the programme included surreptitious administration of LSD to unwitting nonvolunteer subjects in ordinary-life settings, which Rockefeller called 'clearly illegal.' In January 1973 most operational MKUltra records were destroyed on the verbal order of DCI Richard Helms, executed by Sidney Gottlieb. Frank Olson died in November 1953 after unwitting LSD in a CIA-related experiment; that episode is documented and bounded, not a solvent for assassination lore. Twin with Evidence File 009 (COINTELPRO): documented secret programmes kill 'they would never.' They do not prove an unproven modern mind-control claim. Pairing CIA behavioural research with FBI domestic disruption is architectural, not a claim that the two programmes were one hydra."
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "MKUltra was the principal CIA programme involving research and development of chemical and biological agents for clandestine behavioural control. Church Committee Book I (Foreign and Military Intelligence, 1976), Chapter XVII, pages 389–390, quoting a CIA Inspector General memorandum of 26 July 1963, defines it as 'concerned with the research and development of chemical, biological and radiological materials capable of employment in clandestine operations to control human behavior.' It was approved by the DCI on 13 April 1953 on a proposal from ADDP Richard Helms. Church describes a three-phase structure: materials search; laboratory tests on voluntary subjects in institutions; and application of materials in 'normal life settings.' Contractors included universities, pharmaceutical houses, hospitals, state and federal institutions, and private research organisations, often under ostensible research-foundation cover that concealed CIA interest. Related cryptonyms (BLUEBIRD, ARTICHOKE, MKNAOMI, MKDELTA) are antecedents or companion channels mapped in the same chapter; they are not collapsed into a single pop-culture brand. Army LSD programmes (THIRD CHANCE, DERBY HAT) are separate and are not this claim.",
+      "why": "Church Book I pp. 389–392 is the load-bearing congressional pin, itself quoting the 1963 IG survey that survived the 1973 destruction. Rockefeller's 1975 report independently confirms CIA drug-testing programmes including unwitting LSD. Three official lines — Senate select committee, presidential commission, internal IG — converge on programme existence. Full subproject inventory is impossible after destruction; that incompleteness does not erase the definition, date of approval, or contractor pattern Church recovered.",
+      "sourceIds": ["S1", "S2", "S3"]
+    },
+    {
+      "id": "C2",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "MKUltra included unethical human experimentation, specifically a final LSD-testing phase of surreptitious administration to unwitting nonvolunteer subjects in ordinary-life settings by undercover Bureau of Narcotics officers acting for the CIA. Church Book I p. 391 records that accepted scientific procedures were judged to 'fail to disclose the full pattern of reactions… that may occur in operational situations.' Subjects included informers and 'members of suspect criminal elements,' with testing 'at all social levels, high and low, native American and foreign.' The Rockefeller Commission found that this research 'included the administration of LSD to persons who were unaware that they were being tested. This was clearly illegal.' Not all testing was unwitting: Church also describes voluntary institutional phases and officer self-administration. Those phases do not erase the unwitting class. Spring 1963 IG discovery by John Vance led to a halt of unwitting LSD testing and tighter controls; Rockefeller states that all CIA drug-testing programmes ended in 1967. Do not claim an identical continuing MKUltra under that name into the present without new evidence.",
+      "why": "Church p. 391–392 (unwitting LSD; IG halt) plus Rockefeller's 'clearly illegal' finding. Two official lineages. The claim is calibrated to documented unwitting dosing, not to every later psychedelic anecdote. Montreal/Cameron subproject work remains an open residual and is not load-bearing here.",
+      "sourceIds": ["S1", "S2"]
+    },
+    {
+      "id": "C3",
+      "level": "Process",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "In January 1973 MKUltra records were destroyed by Technical Services Division personnel acting on the verbal orders of Dr Sidney Gottlieb, Chief of TSD. Church Book I p. 390: Gottlieb testified, and former DCI Helms confirmed, that Gottlieb was carrying out Helms's verbal order. Church states that reconstruction of operational use is 'impossible' because those records were destroyed. Surviving material includes the 1963 IG survey (quoted extensively in Church), later testimony, and fragmentary financial/subproject files recovered through FOIA. Destruction is a process fact: it raises the chance of under-counting abuse and simultaneously blocks verification of internet subproject catalogues. It is not proof of every rumour that fills the gap. Prefer Church's 'most operational files destroyed' over a magic '152 files' figure unless that number is independently pinned in Church.",
+      "why": "Single well-attested process chain in Church p. 390 (Gottlieb testimony + Helms confirmation). No competing official account that the burn did not occur. Completeness of what burned remains unknown by design of the act.",
+      "sourceIds": ["S1", "S4"]
+    },
+    {
+      "id": "C4",
+      "level": "Process",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Public knowledge of MKUltra as an improper CIA programme was established by official oversight, not by vibe: the Rockefeller Commission (June 1975) and the Church Committee Book I Chapter XVII (April 1976), using a surviving internal IG survey from 1963. Subsequent 1977 Senate human-drug-testing hearings add record but are not fully re-pinned in this file. Church was a politically composed Senate select committee; Rockefeller was a presidential commission. Those facts go to weight, not to erasure. The findings rest on internal CIA documents, testimony, and financial fragments under adversarial congressional process. Discovery via press plus commissions is the book-relevant model: institutions can conceal, then be forced to account, without that accounting licensing every later claim.",
+      "why": "Two commission/committee paths plus the quoted IG survey. Political composition is a genuine limitation and is stated. 1977 hearings remain polish.",
+      "sourceIds": ["S1", "S2", "S3"]
+    },
+    {
+      "id": "C5",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "High",
+      "claim": "Frank Olson, a civilian scientist linked to Army Special Operations Division work with CIA, was given LSD without his knowledge in Cointreau at a meeting on 19 November 1953 (Gottlieb/Lashbrook among those present). He later became depressed and died after a fall from a tenth-floor window of the Statler Hotel in the early hours of 28 November 1953. Church Book I pp. 395–398 records the episode, CIA internal aftermath including death benefits without notifying the family of the circumstances, cover for Lashbrook, and a General Counsel criticism of a 'casual attitude' and 'culpable negligence.' This is a documented fatal episode after surreptitious dosing in a CIA-related experiment. It is not automatic proof of assassination, of a completed 'hit,' or of any later celebrity death. Those expansions need separate evidence. Exact psychiatric/causal chain beyond Church's narrative remains a finer residual.",
+      "why": "Church pp. 395–398 is the Edition pin. Confidence is High rather than Very high on the bounded death-after-dosing episode because the precise medical causation and any foul-play expansion are not independently re-litigated here. The concealment-from-family process fact is well attested in the same pages.",
+      "sourceIds": ["S1"]
+    },
+    {
+      "id": "C6",
+      "level": "Method",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Documented MKUltra raises prior odds that a US intelligence service can run unethical secret human experimentation and then destroy evidence. It does not prove any specific later mind-control, 'targeted individual,' mass-programming, or celebrity-death allegation. Programme existence is not a Manchurian-candidate product. Research aim is not operational success. Proposal is not authorisation of every later rumour. The brand name is not a skeleton key. Each modern claim still requires its own primary chain. Twin rule with Evidence File 009: CIA behavioural research is not FBI COINTELPRO; Army LSD programmes are not CIA MKUltra; local-police misconduct is not either without pins.",
+      "why": "Method rule from the Ministry protocol and Chapter 5 architecture, calibrated on C1–C5. KNOWN as method because it is the logical entailment of scoring documented programmes without claim-laundering. Source S1 supplies the documented programme the rule is about; S6 is the paired FBI file.",
+      "sourceIds": ["S1", "S6"]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1950–1953",
+      "event": "CIA behavioural-research antecedents BLUEBIRD and ARTICHOKE operate; Korean War 'brainwashing' fears and interest in chemical interrogation inform the research climate Church later records.",
+      "effect": "Explains motivation for MKUltra without excusing later non-consensual testing"
+    },
+    {
+      "date": "13/04/1953",
+      "event": "DCI approves MKUltra on a Helms proposal as the principal CIA programme for chemical/biological materials for clandestine behavioural control (Church Book I p. 390).",
+      "effect": "Programme existence and start date — load-bearing for C1"
+    },
+    {
+      "date": "19/11/1953–28/11/1953",
+      "event": "Frank Olson is given LSD without his knowledge; he dies after a fall from the Statler Hotel. CIA internal handling conceals circumstances from the family (Church Book I pp. 395–398).",
+      "effect": "Bounded fatal exhibit of unwitting dosing — C5; not lore solvent"
+    },
+    {
+      "date": "1953–1963",
+      "event": "MKUltra contractor network operates through universities, hospitals, pharmaceutical houses and other institutions, often under cover. Final-phase LSD testing includes unwitting nonvolunteer subjects in ordinary-life settings.",
+      "effect": "C2 class of abuse; contractor concealment is process"
+    },
+    {
+      "date": "1963",
+      "event": "CIA Inspector General staffer John Vance discovers the unwitting LSD project. IG survey (Earman) leads to halt of that testing and tighter controls. The IG report survives later destruction and becomes a Church source.",
+      "effect": "Internal discovery before public exposure; Rockefeller later dates the end of CIA drug-testing programmes to 1967"
+    },
+    {
+      "date": "01/1973",
+      "event": "Most MKUltra operational records destroyed on Helms's verbal order, executed by Gottlieb/TSD (Church Book I p. 390).",
+      "effect": "C3 process destruction; operational reconstruction 'impossible'"
+    },
+    {
+      "date": "06/1975",
+      "event": "Rockefeller Commission reports to the President on CIA activities within the United States, including unwitting LSD testing described as 'clearly illegal.'",
+      "effect": "First major official public establishment path (C4)"
+    },
+    {
+      "date": "26/04/1976",
+      "event": "Church Committee Book I transmitted, Chapter XVII on chemical and biological testing including MKUltra definition, unwitting LSD, Olson, and destruction.",
+      "effect": "Load-bearing congressional pin-cites for this file"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H-urban-legend",
+      "title": "MKUltra as popularly described is post-hoc folklore",
+      "status": "Rejected for the documented core; retained for pop-culture expansions",
+      "text": "There was no real CIA behavioural-control drug programme of the kind alleged; the story is Cold War gothic assembled after Watergate.",
+      "test": "Predicts absence of official findings, IG material, and dated approval. Fails: Church Book I pp. 389–398, Rockefeller, surviving IG survey. Does not fail for every internet subproject list or celebrity-programming story — those remain unverified expansions."
+    },
+    {
+      "id": "H-documented-abuse",
+      "title": "A real programme included unwitting human experiments and later cover",
+      "status": "Best supported — KNOWN",
+      "text": "The CIA ran MKUltra, including unwitting LSD in ordinary-life settings, then destroyed most operational files. Oversight later established the facts from remnants.",
+      "test": "Predicts dated DCI approval, IG discovery, destruction testimony, and dual official reports. All hold at the documented core."
+    },
+    {
+      "id": "H-manchurian",
+      "title": "The programme produced reliable operational mind control",
+      "status": "Unsupported as product; research aim is not success",
+      "text": "MKUltra worked: the CIA obtained a dependable method to control behaviour, create assassins, or programme the public.",
+      "test": "Predicts operational success records and reproducible technique. Church recovered research-and-development aims and abusive tests, not a proven Manchurian product. Destruction makes a secret success unfalsifiable in the completion sense — that is a reason for UNKNOWN on product, not KNOWN success."
+    },
+    {
+      "id": "H-launder",
+      "title": "Because MKUltra existed, a given modern claim is true",
+      "status": "Rejected as inference",
+      "text": "Any later mind-control, targeting, or programming allegation inherits MKUltra's proof.",
+      "test": "Predicts a documentary bridge from 1953–73 CIA files to the later event. No such bridge is supplied by C1–C5. C6 is the block."
+    },
+    {
+      "id": "H-just-defence",
+      "title": "Cold War necessity makes the programme ethically ordinary",
+      "status": "Rejected as excuse; motive is real",
+      "text": "Fear of Soviet/Chinese interrogation and brainwashing made unwitting dosing a normal national-security tool.",
+      "test": "Church documents the fear (motive). Rockefeller still called unwitting LSD 'clearly illegal.' Motive ≠ justification. Voluntary phases existed and do not erase the unwitting class."
+    }
+  ],
+  "independence": [
+    "church-book-i-xvii: Senate Select Committee Book I Chapter XVII (1976) — load-bearing congressional findings with page pins.",
+    "rockefeller-1975: President's Commission on CIA Activities Within the United States (June 1975) — parallel official path, not the same committee.",
+    "ig-earman-1963: CIA Inspector General survey of MKUltra, quoted in Church — internal pre-exposure critique that survived destruction. Not independent of Church's quotation path for Edition pins; independent in origin as a 1963 CIA document.",
+    "helms-destruction-1973: Helms verbal order / Gottlieb execution as attested in Church p. 390 — process chain, not a second finding of programme existence.",
+    "s-secondary-historiography: Marks, Kinzer and similar — map and colour only, not a load-bearing lineage for C1–C5."
+  ],
+  "openQuestions": [
+    "Montreal/Cameron subproject pins sufficient for a bounded additional claim — residual OPEN; not required for C1–C4.",
+    "1977 Senate human-drug-testing hearings: polish, not a freeze blocker.",
+    "CREST/FOIA financial fragments as lower-bound colour on subproject count.",
+    "Exact inventory of what was burned in January 1973 — unknowable by design; do not fill with rumour.",
+    "Olson medical/causal fine grain and any foul-play expansion beyond Church pp. 395–398."
+  ],
+  "wouldChange": [
+    "Primary evidence that Church and Rockefeller misidentified the 13 April 1953 approval or the IG definition would force C1 down from KNOWN.",
+    "Evidence that all human-subjects work was properly consented clinical research would rewrite C2.",
+    "A documented, authenticated operational success of reliable behavioural control would reopen H-manchurian; it would still not launder unrelated modern claims.",
+    "Event-specific primary evidence linking a later alleged mind-control case to MKUltra files would be a new claim, not an automatic upgrade of C6's prohibition on laundering."
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "name": "Church Committee, Book I, Foreign and Military Intelligence (1976), Chapter XVII — Testing and Use of Chemical and Biological Agents",
+      "kind": "Primary — US Senate select-committee final report",
+      "role": "Load-bearing source for C1–C6. Pins: pp. 389–390 MKUltra definition and 13 April 1953 DCI approval; pp. 390–391 three-phase structure and contractors; p. 390 January 1973 Helms/Gottlieb destruction; p. 391 unwitting LSD in normal life settings; pp. 395–398 Frank Olson. Quotes the 26 July 1963 CIA IG memorandum. Official printed pagination preferred over OCR.",
+      "independenceGroup": "church-book-i-xvii",
+      "url": "https://archive.org/details/ChurchCommittee",
+      "locator": "U.S. Senate, Select Committee to Study Governmental Operations with Respect to Intelligence Activities, Foreign and Military Intelligence, Book I, S. Rep. No. 94-755 (1976), Chapter XVII, printed pp. 385–398 (MKUltra zone 389–398). Internet Archive item ChurchCommittee, Book I PDF."
+    },
+    {
+      "id": "S2",
+      "name": "Rockefeller Commission, Report to the President by the Commission on CIA Activities Within the United States (June 1975)",
+      "kind": "Primary — presidential commission report",
+      "role": "Parallel official path: unwitting LSD 'clearly illegal'; drug-testing programmes ended 1967 per the report. Used for C1, C2, C4. Scan/OCR imperfect; Church carries load-bearing quotes. Not a second copy of Book I — different body, earlier date, domestic-CIA mandate.",
+      "independenceGroup": "rockefeller-1975",
+      "url": "https://www.fordlibrarymuseum.gov/library/document/0005/1561495.pdf",
+      "locator": "Commission on CIA Activities Within the United States, Report to the President (June 1975). Ford Library Cheney Files path, document 1561495. Directorate of Science and Technology / drug-testing findings."
+    },
+    {
+      "id": "S3",
+      "name": "CIA Inspector General survey of MKUltra (Earman, 1963), as quoted in Church Book I",
+      "kind": "Primary — internal CIA IG report (via congressional quotation)",
+      "role": "Survived 1973 destruction. Source of the programme definition Church quotes (IG memo to DCI 26 July 1963) and of the halt of unwitting LSD testing after Vance's discovery. Origin independent of the 1975–76 commissions; Edition access is through Church's quotation path.",
+      "independenceGroup": "ig-earman-1963",
+      "locator": "CIA Inspector General survey of MKUltra, 1963 (Earman), quoted throughout Church Book I Chapter XVII, including the 7/26/63 IG memorandum to the DCI at pp. 389–392."
+    },
+    {
+      "id": "S4",
+      "name": "Helms verbal destruction order / Gottlieb TSD execution, January 1973 — Church Book I p. 390",
+      "kind": "Primary process fact (via Church testimony summary)",
+      "role": "C3 only. Gottlieb testified and Helms confirmed that Gottlieb executed Helms's verbal order to destroy MKUltra records. Not a second proof of programme existence.",
+      "independenceGroup": "helms-destruction-1973",
+      "locator": "Church Book I, p. 390: January 1973 TSD destruction on Gottlieb's action carrying out DCI Helms's verbal order."
+    },
+    {
+      "id": "S5",
+      "name": "CIA FOIA / CREST MKUltra financial and subproject fragments",
+      "kind": "Primary fragments",
+      "role": "Lower-bound colour on subprojects and cover funding. Not load-bearing for C1–C5. Residual only.",
+      "independenceGroup": "crest-financial",
+      "url": "https://www.cia.gov/readingroom/",
+      "locator": "CIA Reading Room / CREST: MKUltra subproject and finance fragments (1950s–60s). Incomplete by destruction."
+    },
+    {
+      "id": "S6",
+      "name": "Ministry Evidence File 009 — COINTELPRO (paired Chapter 5 file)",
+      "kind": "Paired Ministry evidence file",
+      "role": "Architectural twin for C6 method: different agency (FBI), different mode (domestic political disruption). Not evidence that MKUltra occurred; evidence of the pairing rule.",
+      "independenceGroup": "ministry-ef-pair",
+      "url": "/cases/cointelpro",
+      "locator": "Evidence File 009, /cases/cointelpro, first published 26/08/2026."
+    }
+  ],
+  "methodAudit": [
+    {
+      "name": "Grammar",
+      "note": "Atomised: existence (C1), unwitting/unethical testing (C2), destruction (C3), oversight discovery (C4), Olson bounded (C5), anti-laundering (C6). Loaded terms: 'MKUltra' means the CIA programme Church defined, not every Army, police, or internet mind-control story. 'Unwitting' is Church's class, not 'all subjects.' 'Destroyed' is most operational files, not 'nothing survived.' 'Illegal' in C2 is Rockefeller's word about unwitting LSD, not a Church criminal conviction of named officers. 'Mind control' as research aim is not a proven product."
+    },
+    {
+      "name": "Logic",
+      "note": "H-urban-legend fails for the documented core. H-documented-abuse is KNOWN. H-manchurian unsupported as product. H-launder rejected. H-just-defence: motive real, excuse rejected. Hidden premise blocked: programme existence ≠ every modern claim. Agency-boundary smear blocked: Army LSD ≠ CIA MKUltra. Olson lore expansion blocked: death-after-dosing ≠ assassination conspiracy."
+    },
+    {
+      "name": "Rhetoric",
+      "note": "Stripped: 'CIA mind-control cult,' 'they programmed America,' '152 files' numerology, 'Olson was hit' as automatic. Neutral: a DCI-approved CIA programme researched chemical behavioural control, dosed some people without their knowledge, then burned most files; two official investigations established that; the brand name still does not prove a later rumour. Identity-swap: the same pins would be KNOWN if another democracy's service had the same IG and committee record."
+    },
+    {
+      "name": "Reality",
+      "note": "Discriminators: dated DCI approval; IG halt 1963; Helms/Gottlieb destruction testimony; Rockefeller 'clearly illegal'; Olson chronology. Controls: voluntary phases and Cold War fear retained as contrary. Destruction predicts both under-count of abuse and unverifiable folklore — both kept."
+    },
+    {
+      "name": "Independence",
+      "note": "Counted: Church Book I; Rockefeller; IG origin (quoted). Destruction chain is process, not a fourth existence proof. Secondary historiography not counted. CREST fragments not load-bearing. Pair file S6 is architectural."
+    },
+    {
+      "name": "Hostile Pass 1 — Claim-laundering",
+      "note": "Attack: MKUltra proves targeted-individual and celebrity-programming stories. Response: C6 is load-bearing. No ledger change. Modern claims need own chains."
+    },
+    {
+      "name": "Hostile Pass 2 — Olson lore",
+      "note": "Attack: Olson was assassinated; the window was a hit. Response: Church documents unwitting LSD, depression, fall, and concealment from family. That is KNOWN as episode (C5, High). Assassination conspiracy is a separate claim without a primary path in this file. No upgrade."
+    },
+    {
+      "name": "Hostile Pass 3 — Agency-boundary smear",
+      "note": "Attack: Army LSD, police experiments, and MKUltra are one programme. Response: Church separates Army phases. C1 and C6 keep boundaries. No smear."
+    },
+    {
+      "name": "Hostile Pass 4 — '152 files' numerology",
+      "note": "Attack: A specific file count is the story. Response: Church p. 390 emphasises destruction without requiring a magic number in Edition prose. Wording uses 'most operational files.'"
+    },
+    {
+      "name": "Hostile Pass 5 — Illegal vs improper",
+      "note": "Attack: Say 'war crimes' or invent criminal counts Church did not adjudicate. Response: C2 quotes Rockefeller 'clearly illegal' for unwitting LSD. Broader criminal-law verdicts on named officers are not invented here."
+    },
+    {
+      "name": "Hostile Pass 6 — They were defending the West",
+      "note": "Attack: Brainwashing fears made this ordinary. Response: Motive retained as contrary. Excuse rejected. Unwitting dosing remains KNOWN abuse."
+    },
+    {
+      "name": "Hostile Pass 7 — Church was politics",
+      "note": "Attack: A Democratic Senate committee invented MKUltra. Response: Findings rest on CIA IG documents, testimony, and a presidential commission as well. Weight, not scripture. C1–C4 stay KNOWN."
+    }
+  ],
+  "changelog": [
+    {
+      "date": "26/08/2026",
+      "change": "Evidence File 008 initial publication. Research basis: private dossier passes 1–2 (Grok, Church Book I pp. 389–398 and Rockefeller pins, 12/08/2026), independently audited in this packaging pass. Grok handoff treated as research input, not publication authority. Load-bearing claims C1–C4 KNOWN/Very high; C5 Olson bounded KNOWN/High; C6 method KNOWN/Very high. Hampton-style expansions and Cameron deep dive omitted. Twin file: Evidence File 009 COINTELPRO. Seven hostile attacks from the Ch.5 handoff recorded; no ledger downgrade. Publication set to public after case:validate."
+    }
+  ]
+}

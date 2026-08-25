@@ -1,0 +1,286 @@
+{
+  "fileNo": "009",
+  "slug": "cointelpro",
+  "publication": "public",
+  "title": "COINTELPRO",
+  "subtitle": "Documented FBI covert action against domestic groups — and the limit of the brand name",
+  "chapter": "Chapter 5",
+  "livingFile": false,
+  "status": "Evidence File",
+  "firstPublished": "26/08/2026",
+  "lastReviewed": "26/08/2026",
+  "evidenceCutoff": "12/08/2026",
+  "overall": {
+    "label": "Documented secret programme: disrupt/neutralize operations are KNOWN; modern identity is not automatic",
+    "ledger": "KNOWN",
+    "confidence": "Very high",
+    "summary": "From 1956 to 1971 the FBI ran COINTELPRO, a series of covert action programmes that went beyond intelligence collection to secret action designed to 'disrupt' and 'neutralize' target groups and individuals. The Church Committee, working from more than 20,000 pages of Bureau documents, recorded more than 2,000 approved actions. Headquarters aim language of 25 August 1967 instructed field offices to 'expose, disrupt, misdirect, discredit, or otherwise neutralize' designated Black nationalist organisations; parallel programmes targeted CPUSA, White Hate groups, the New Left and others. Methods included anonymous smears, marriage-breaking letters, false informant labels and media plants. Church called many techniques 'intolerable in a democratic society' and 'degrading to a free society.' The programmes became public after the 8 March 1971 burglary of the FBI resident agency in Media, Pennsylvania, and were formally terminated in April 1971. Fred Hampton's 1969 death is an OPEN residual in this file: do not read a standalone KNOWN finding that 'the FBI murdered Hampton' out of COINTELPRO's existence. Twin with Evidence File 008 (MKUltra): documented secret programmes kill 'they would never.' They do not prove that a particular modern activist is under an identical programme. Real violent threats and a real White Hate COINTELPRO existed; they do not erase First Amendment-targeted disruption of nonviolent groups and leaders."
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "COINTELPRO (Counterintelligence Program) was a series of FBI covert action programmes, beginning in 1956 and formally ending in 1971, that went beyond intelligence collection. Church Committee Book III (staff report, printed p. 3): 'COINTELPRO is the FBI acronym for a series of covert action programs directed against domestic groups. In these programs, the Bureau went beyond the collection of intelligence to secret action designed to “disrupt” and “neutralize” target groups and individuals.' The staff study reviewed more than 20,000 pages of Bureau documents and recorded more than 2,000 approved COINTELPRO actions. Techniques were 'adopted wholesale from wartime counterintelligence,' ranging from the trivial to the dangerous, including encouraging gang warfare and falsely labeling members of a violent group as police informers. Church's unexpressed major premise of much of the programme: that the Bureau had a role in maintaining the existing social and political order, including by preventing the exercise of First Amendment rights of speech and association. This is a programme-existence and purpose finding, not a criminal count against named living persons, and not a finding that every FBI investigation of the era was COINTELPRO.",
+      "why": "Church Book III p. 3 is the definitional pin, drawn from Bureau files rather than from later folklore. Book II corroborates the covert-action finding. Full operational inventory is impossible and unnecessary for existence/purpose.",
+      "sourceIds": ["S1", "S2"]
+    },
+    {
+      "id": "C2",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "COINTELPRO targets included multiple named domestic programmes whose intensity varied. Church maps CPUSA (origin 1956; Book II records 1,636 actions 1956–1971), White Hate (287 authorised proposals, including informant-controlled Klan chapters), Black Nationalist (HQ approved 379 proposals 1967–1971), New Left (May 1968 programme; 291 actions 1968–1971, including nonviolent antiwar groups characterised as 'lending aid and comfort'), and related lines (including Puerto Rican independence activity in the overview). Breadth ran from Panthers and SNCC to SCLC, and from SDS to underground papers. Do not flatten intensity: CPUSA volume was high; Black Nationalist techniques included operations Church associated with risk of violence; New Left targeting was often vaguer. White Hate COINTELPRO was real and must be retained — the Bureau disrupted Klan as well as left and Black organisations. That fact is contrary to a 'only the left' cartoon; it is not a moral offset that cancels documented disruption of civil-rights leadership.",
+      "why": "Church Book II programme sections (including approximately pp. 65–67 and 86–88 in the domestic-intelligence chapter pagination used in the private dossier) plus Book III breadth. Two volumes, same investigation, distinct staff products.",
+      "sourceIds": ["S1", "S2"]
+    },
+    {
+      "id": "C3",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Methods included infiltration and, beyond ordinary investigation, deception aimed at disruption: anonymous attacks on political beliefs intended to induce firings; anonymous letters to spouses to destroy marriages; use of IRS information to deter protest; falsely labeling members as informants (with risk of physical attack); fake communications to disrupt demonstrations; media plants; forgeries; and efforts to foment factionalism. FBI Headquarters memorandum to SACs, 25 August 1967, stated the Black Nationalist programme purpose: to 'expose, disrupt, misdirect, discredit, or otherwise neutralize' target organisations, leadership, spokesmen, membership and supporters. A March 1968 expansion set long-range goals including preventing a coalition of militant Black nationalist groups and preventing the rise of a 'messiah' who could unify the movement — naming Martin Luther King, Jr., Stokely Carmichael, and Elijah Muhammed — and 'crippling' the Black Panther Party, including by aggravating conflicts with rival groups already in gang warfare. Naming King in prevent/discredit goals is a documented programme aim. It is not, in this file, a homicide verdict.",
+      "why": "Aim language: 8/25/67 HQ memo as quoted in Church Book II/III. Tactics list: Book II covert-action findings. Messiah/King goals: Book II March 1968 expansion, Book III parallel. FBI Vault series exists as a primary-file independence path; this Edition pins the HQ language via Church quotation, with Vault as the series locator rather than a page-level image inspection of the 8/25/67 PDF.",
+      "sourceIds": ["S1", "S2", "S3", "S4"]
+    },
+    {
+      "id": "C4",
+      "level": "Process",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "COINTELPRO was not publicly acknowledged by the Bureau until exposed. On 8 March 1971 the FBI resident agency in Media, Pennsylvania was burglarised; documents were circulated and published. Church Book III note 1 (p. 3): the 'COINTELPRO' caption was unknown outside the Bureau. NBC reporter Carl Stern's FOIA suit followed. The Bureau terminated the programmes on 27–28 April 1971 (Brennan to Sullivan 4/27/71; HQ letter to SACs 4/28/71) for 'security reasons' — that is, exposure risk, not a prior public repentance. Discovery path: leak plus press plus FOIA plus Congress. This is not agency candour as the originating mechanism.",
+      "why": "Church Book III p. 3 n.1 for Media date, unknown caption, and April 1971 termination. Independent colour from later historiography of the burglary is secondary and not required for the pin.",
+      "sourceIds": ["S1", "S5"]
+    },
+    {
+      "id": "C5",
+      "level": "Process",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Official post-exposure findings condemned core COINTELPRO methods as improper relative to democratic norms. Church Book III: many techniques 'would be intolerable in a democratic society even if all of the targets had been involved in violent activity.' Church Book II: tactics 'indisputably degrading to a free society.' Prefer those Church words to invented criminal counts the Committee did not adjudicate case-by-case. The later Saxbe/Petersen public framing (some tactics 'abhorrent,' many claimed 'legitimate') is a weaker official residual — institutional softening, not a refutation of Church's file-based findings. Ordinary criminal investigation of bombings is a different category from neutralize-the-group programmes; that boundary is part of this claim, not a loophole that swallows C1–C3.",
+      "why": "Church Book II and III condemnation language. Saxbe/Petersen retained as contrary residual. No standalone criminal-law verdicts invented here.",
+      "sourceIds": ["S1", "S2"]
+    },
+    {
+      "id": "C6",
+      "level": "Method",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Documented COINTELPRO raises prior odds that a US domestic security agency can covertly disrupt lawful political activity, including by deception. It does not prove that any particular later activist, journalist, or movement is under an identical programme. Documenting FBI abuses does not require denying non-state political violence of the era, and does not require treating every present Bureau investigation as COINTELPRO. Fred Hampton (1969) remains an OPEN residual: informant and hostility context exists in the historiography; a standalone object-level finding that 'the FBI murdered Hampton' is not published here without a separate primary liability path. Twin with Evidence File 008: CIA MKUltra is behavioural/drug research; FBI COINTELPRO is domestic political disruption. Same chapter function — kill 'they would never' — different facts. Documented programmes do not prove an unproven modern claim.",
+      "why": "Method rule from Chapter 5 architecture and the Ministry protocol, calibrated on C1–C5. Hampton explicitly withheld from KNOWN. Pair file S6 is architectural.",
+      "sourceIds": ["S1", "S6"]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1956",
+      "event": "COINTELPRO against CPUSA begins. Church later records 1,636 CPUSA actions through 1971.",
+      "effect": "Programme origin — C1/C2"
+    },
+    {
+      "date": "1960s",
+      "event": "White Hate COINTELPRO operates against the Klan and related groups (Book II: 287 authorised proposals), alongside expanding left and Black-target programmes.",
+      "effect": "Contrary to 'only the left'; not a moral offset"
+    },
+    {
+      "date": "25/08/1967",
+      "event": "FBI HQ SAC memorandum launches/states the Black Nationalist COINTELPRO purpose: expose, disrupt, misdirect, discredit, or otherwise neutralize.",
+      "effect": "Load-bearing aim language — C3"
+    },
+    {
+      "date": "03/1968",
+      "event": "Black Nationalist programme expansion includes long-range 'messiah' goals naming King, Carmichael, and Elijah Muhammed, and instructions aimed at crippling the BPP.",
+      "effect": "Documented prevent/discredit aims — not a homicide verdict"
+    },
+    {
+      "date": "05/1968",
+      "event": "New Left COINTELPRO: expose, disrupt, and otherwise neutralize; Church later counts 291 actions 1968–1971.",
+      "effect": "Target map includes nonviolent antiwar groups"
+    },
+    {
+      "date": "08/03/1971",
+      "event": "Burglary of the FBI resident agency in Media, Pennsylvania; COINTELPRO documents circulate. Caption previously unknown outside the Bureau.",
+      "effect": "Discovery path — C4"
+    },
+    {
+      "date": "27/04/1971–28/04/1971",
+      "event": "Bureau terminates COINTELPRO for 'security reasons' (Brennan–Sullivan; HQ to SACs).",
+      "effect": "Formal end under exposure pressure, not prior public repentance"
+    },
+    {
+      "date": "1976",
+      "event": "Church Committee Books II and III publish file-based findings, including 'intolerable' / 'degrading to a free society.'",
+      "effect": "Official condemnation path — C5"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H-paperwork",
+      "title": "COINTELPRO was a minor label with no real disruption",
+      "status": "Rejected",
+      "text": "The acronym was filing practice; the Bureau did ordinary investigation.",
+      "test": "Predicts no neutralize aim language, no 2,000+ approved actions, no Church condemnation. Fails on Book III p. 3 and the 8/25/67 memo."
+    },
+    {
+      "id": "H-documented-disruption",
+      "title": "The Bureau ran covert disruption programmes against domestic groups",
+      "status": "Best supported — KNOWN",
+      "text": "COINTELPRO existed, used deception to disrupt and neutralize named programmes, and was exposed by leak then condemned by the Senate.",
+      "test": "Predicts HQ aim language, multi-programme target map, Media discovery, Church condemnation. All hold."
+    },
+    {
+      "id": "H-only-violent",
+      "title": "Only violent criminals were targeted, so the methods were ordinary policing",
+      "status": "Rejected as complete account",
+      "text": "Every target was a bomber or foreign agent; disruption was crime prevention.",
+      "test": "Predicts Church would not record targeting of nonviolent antiwar groups, SCLC, or prevent-messiah goals naming King. Prediction fails. Real violence existed and is retained as contrary; it does not swallow the First Amendment finding."
+    },
+    {
+      "id": "H-launder",
+      "title": "Because COINTELPRO existed, this modern activist is under it",
+      "status": "Rejected as inference",
+      "text": "Any later infiltration or smear complaint inherits 1956–1971 proof.",
+      "test": "Predicts a documentary bridge from those files to the later person. C6 blocks the skip. Each later claim needs its own evidence."
+    },
+    {
+      "id": "H-hampton-known-murder",
+      "title": "COINTELPRO existence makes FBI murder of Fred Hampton a KNOWN finding of this file",
+      "status": "OPEN residual — not published as KNOWN",
+      "text": "The 1969 Chicago raid is simply COINTELPRO homicide.",
+      "test": "Requires a separate primary liability path (raid planning, informant role, state/federal charges, civil judgments) scored as its own claim. This file refuses the skip from programme existence to that object finding."
+    }
+  ],
+  "independence": [
+    "church-book-iii-cointelpro: Senate staff report from 20,000+ FBI pages — definitional and discovery pins.",
+    "church-book-ii: Senate final report on intelligence activities and the rights of Americans — tactics, numbers, condemnation language.",
+    "fbi-hq-8-25-67: Headquarters SAC memorandum of 25 August 1967, quoted in Church — primary aim language.",
+    "fbi-vault-series: FBI Vault COINTELPRO FOIA series — primary programme files as a series, not page-inspected for every exhibit in this Edition.",
+    "media-1971: Burglary/publication path as recorded in Church n.1 — non-official discovery.",
+    "s-petersen-saxbe: Softer official residual after Church — contrary, not load-bearing."
+  ],
+  "openQuestions": [
+    "Direct Vault page-image pin of the 8/25/67 HQ memo (currently Church quotation path).",
+    "Per-group intensity table beyond Church's programme counts.",
+    "Hampton 1969 primary liability path — OPEN; future module if pursued.",
+    "Saxbe/Petersen full text as official-softening residual.",
+    "Complete ops inventory — impossible; not a blocker."
+  ],
+  "wouldChange": [
+    "Primary evidence that the 8/25/67 aim language is misquoted or inapplicable to the programmes Church described would force C3 down.",
+    "Evidence that COINTELPRO actions were only ordinary criminal cases with due process and no deception programmes would rewrite C1–C3.",
+    "A separate, well-pinned liability path on the Hampton raid could add a new claim; it would not silently rewrite C6's OPEN residual into KNOWN inside this file without that path.",
+    "Event-specific evidence that a named modern person is under a COINTELPRO-equivalent programme would be a new claim, not an automatic upgrade of C6."
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "name": "Church Committee, Book III, staff report: COINTELPRO: The FBI's Covert Action Programs Against American Citizens (1976)",
+      "kind": "Primary — US Senate select-committee staff report",
+      "role": "Load-bearing for C1, C4, C5, C6. Pins: printed p. 3 definition (disrupt/neutralize; 2,000+ actions; First Amendment characterisation); n.1 Media 8 March 1971 and April 1971 termination; 'intolerable in a democratic society' condemnation.",
+      "independenceGroup": "church-book-iii-cointelpro",
+      "url": "https://archive.org/details/ChurchCommittee",
+      "locator": "U.S. Senate Select Committee, Supplementary Detailed Staff Reports on Intelligence Activities and the Rights of Americans, Book III, S. Rep. No. 94-755 (1976), staff report 'COINTELPRO: The FBI's Covert Action Programs Against American Citizens,' printed p. 3 and n.1. Internet Archive item ChurchCommittee."
+    },
+    {
+      "id": "S2",
+      "name": "Church Committee, Book II, Intelligence Activities and the Rights of Americans (1976)",
+      "kind": "Primary — US Senate select-committee final report",
+      "role": "Target-map numbers, tactics list, Black Nationalist/New Left/White Hate sections, 'degrading to a free society.' Pins used at Book II COINTELPRO sections including approximately pp. 65–67 and 86–88 of the domestic-intelligence chapter pagination in the private dossier.",
+      "independenceGroup": "church-book-ii",
+      "url": "https://archive.org/details/ChurchCommittee",
+      "locator": "U.S. Senate Select Committee, Intelligence Activities and the Rights of Americans, Book II, S. Rep. No. 94-755 (1976), COINTELPRO / covert-action findings. Internet Archive item ChurchCommittee, Book II PDF."
+    },
+    {
+      "id": "S3",
+      "name": "FBI Headquarters memorandum to SACs, 25 August 1967 — Black Nationalist–Hate Groups COINTELPRO",
+      "kind": "Primary — FBI HQ directive (quoted in Church; Vault series)",
+      "role": "Aim language: expose, disrupt, misdirect, discredit, or otherwise neutralize. C3. Edition path is Church's quotation of the memo; Vault holds the series.",
+      "independenceGroup": "fbi-hq-8-25-67",
+      "url": "https://vault.fbi.gov/cointel-pro",
+      "locator": "FBI HQ SAC memorandum, 8/25/67, Black Nationalist–Hate Groups, quoted in Church Book II/III (memo p. 2 in Church's citation). FBI Vault COINTELPRO / Black Extremist series."
+    },
+    {
+      "id": "S4",
+      "name": "FBI Vault — COINTELPRO FOIA file series",
+      "kind": "Primary — FBI FOIA release series",
+      "role": "Independence path for programme files as a series. Not a substitute for Church's synthesised counts. Used to show that primary Bureau files exist in public FOIA form.",
+      "independenceGroup": "fbi-vault-series",
+      "url": "https://vault.fbi.gov/cointel-pro",
+      "locator": "FBI Vault, COINTELPRO collection, vault.fbi.gov/cointel-pro."
+    },
+    {
+      "id": "S5",
+      "name": "Media, Pennsylvania FBI office burglary, 8 March 1971 — Church Book III n.1",
+      "kind": "Primary process path (via Church)",
+      "role": "C4 discovery. Caption unknown outside the Bureau; documents published; programmes terminated April 1971 for security reasons.",
+      "independenceGroup": "media-1971",
+      "locator": "Church Book III, p. 3 n.1: Media, PA break-in 8 March 1971; termination Brennan to Sullivan 4/27/71 and HQ letter to SACs 4/28/71."
+    },
+    {
+      "id": "S6",
+      "name": "Ministry Evidence File 008 — MKUltra (paired Chapter 5 file)",
+      "kind": "Paired Ministry evidence file",
+      "role": "Architectural twin for C6: different agency (CIA), different mode (behavioural/drug research). Not evidence that COINTELPRO occurred.",
+      "independenceGroup": "ministry-ef-pair",
+      "url": "/cases/mkultra",
+      "locator": "Evidence File 008, /cases/mkultra, first published 26/08/2026."
+    }
+  ],
+  "methodAudit": [
+    {
+      "name": "Grammar",
+      "note": "Atomised: existence/purpose (C1), targets (C2), methods and aim language (C3), discovery (C4), official condemnation (C5), anti-laundering plus Hampton hold (C6). Loaded terms: 'COINTELPRO' means the 1956–1971 FBI covert-action programmes Church described, not every later FBI investigation. 'Neutralize' is HQ language, not a synonym for murder unless a separate path is pinned. 'Illegal' is not invented as a criminal count; Church's 'intolerable' / 'degrading' is preferred. 'Messiah' is the Bureau's programme-goal word, quoted as such."
+    },
+    {
+      "name": "Logic",
+      "note": "H-paperwork rejected. H-documented-disruption KNOWN. H-only-violent rejected as complete account; real violence retained as contrary. H-launder rejected. H-hampton-known-murder held OPEN. Hidden premises blocked: programme ≠ modern identity; White Hate programme ≠ erasure of King targeting; ordinary crime investigation ≠ COINTELPRO."
+    },
+    {
+      "name": "Rhetoric",
+      "note": "Stripped: 'FBI death squad,' 'only the left,' 'therefore my group is next' without evidence. Neutral: the Bureau ran covert disruption programmes against named domestic groups, including by deception; Church condemned them from the Bureau's own files after a leak; that kills naïve never and does not complete an unproven now. Identity-swap: the same pins would be KNOWN if another democracy's police had the same HQ memos and Senate report."
+    },
+    {
+      "name": "Reality",
+      "note": "Discriminators: 8/25/67 aim language; programme counts; Media date; April 1971 termination; Church condemnation quotes. Controls: White Hate programme and real violent groups retained. Category error watched: bombings investigation vs neutralize-the-group."
+    },
+    {
+      "name": "Independence",
+      "note": "Church III and Church II are the same investigation's products — adjacent, not fully independent. HQ memo is Bureau primary via Church quotation. Vault series is the FOIA file path. Media n.1 is discovery. Do not count URLs."
+    },
+    {
+      "name": "Hostile Pass 1 — Claim-laundering",
+      "note": "Attack: COINTELPRO proves this journalist is being disrupted now. Response: C6. No skip. No ledger change."
+    },
+    {
+      "name": "Hostile Pass 2 — False equivalence / erase non-state violence",
+      "note": "Attack: Telling this story requires denying Weathermen or Panther-faction violence. Response: Explicit contrary. H-only-violent still fails as a complete account. No erasure."
+    },
+    {
+      "name": "Hostile Pass 3 — Hampton overclaim",
+      "note": "Attack: Publish FBI murdered Hampton as KNOWN in this EF. Response: OPEN residual. Informant/hostility context is not a completed liability path here. Claim withheld."
+    },
+    {
+      "name": "Hostile Pass 4 — Illegal vs Church language",
+      "note": "Attack: Say the whole Bureau was a criminal enterprise with named convictions Church did not enter. Response: C5 uses 'intolerable' / 'degrading.' Case-specific criminal law is not invented."
+    },
+    {
+      "name": "Hostile Pass 5 — Church was politics",
+      "note": "Attack: Democratic Senate theatre. Response: Findings rest on Bureau files and depositions. Weight, not scripture. C1–C5 stay KNOWN."
+    },
+    {
+      "name": "Hostile Pass 6 — White Hate proves it was even-handed",
+      "note": "Attack: Klan targeting means the story is balanced policing. Response: White Hate is retained. Intensity and First Amendment targeting of civil-rights leadership are not thereby cancelled."
+    },
+    {
+      "name": "Hostile Pass 7 — Agency smear",
+      "note": "Attack: CIA MKUltra and local police are COINTELPRO. Response: Pair file is architectural. Different agencies, different facts. C6."
+    }
+  ],
+  "changelog": [
+    {
+      "date": "26/08/2026",
+      "change": "Evidence File 009 initial publication. Research basis: private dossier passes 1–2 (Grok, Church Books II–III pins, 12/08/2026), independently audited in this packaging pass. Grok handoff treated as research input, not publication authority. C1–C5 KNOWN/Very high; C6 method KNOWN/Very high with Hampton OPEN. Twin file: Evidence File 008 MKUltra. Seven hostile attacks from the Ch.5 handoff recorded; no ledger downgrade. Publication set to public after case:validate."
+    }
+  ]
+}
