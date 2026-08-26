@@ -1,0 +1,290 @@
+{
+  "fileNo": "014",
+  "slug": "energy-transition",
+  "publication": "public",
+  "title": "Free energy is expensive — Australian electricity transition",
+  "subtitle": "Zero fuel cost is not zero system cost; plant LCOE is not the household bill; ‘least cost’ is a constrained optimisation",
+  "chapter": "Chapter 21",
+  "livingFile": false,
+  "status": "Evidence File",
+  "firstPublished": "26/08/2026",
+  "lastReviewed": "26/08/2026",
+  "evidenceCutoff": "12/08/2026",
+  "overall": {
+    "label": "Fuel ≠ system cost is KNOWN; VRE is cheap as new-build generation under GenCost; bills stay multi-component",
+    "ledger": "KNOWN",
+    "confidence": "Very high on the accounting identity and bill stack; high on official new-build ranking with method residual",
+    "summary": "Sunlight and wind have no fuel invoice. Delivered electricity in Australia’s National Electricity Market still costs capital, networks, firming, transmission, system services, retail, and policy schemes. CSIRO GenCost 2024-25 treats variable renewables, including with its integration-cost adders, as the lowest new-build generation class in 2030 and in a similar range to black coal in 2024. That is an official modelling finding, not a proof that physics made power free, and not a recommendation of 100% wind and solar. ACCC December 2024: the average residential cost stack in 2023–24 was $1,842 (ex-GST) — network about 39%, wholesale about 38% after a 41% year-on-year wholesale jump. AEMO’s 2026 Integrated System Plan says the least-cost pathway is renewables connected by networks, firmed with storage, and backed by gas, subject to consumer needs and government policies. Change the constraints, change the answer. Slogans fail both ways: ‘solar is the cheapest electricity’ omits the bill stack and integration; ‘bills rose because of renewables alone’ omits networks, 2022 wholesale lag, and retail. Centre for Independent Studies method critique of GenCost’s sunk/free-existing-capacity boundary is recorded; it does not by itself prove an opposite technology ranking."
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "level": "Method",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Fuel cost is not system cost. Zero marginal fuel for sun and wind does not imply zero cost of a reliable delivered kilowatt-hour. GenCost 2024-25 Final §6.1: LCOE is a generation-technology comparison metric and a simple screening tool — ‘not a substitute for detailed project cashflow analysis or electricity system modelling.’ Standard LCOE ‘does not take into account the additional costs associated with each technology and in particular the significant integration costs of variable renewable electricity generation.’ Integration costs, in GenCost’s own executive-summary framing, include storage, transmission, system security, and spilled energy. This identity is architectural. It does not decide whether VRE is a good investment.",
+      "why": "Official self-limit plus engineering. Compatible with both ‘VRE is cheap new-build generation’ and ‘your bill is not that LCOE.’",
+      "sourceIds": ["S1"]
+    },
+    {
+      "id": "C2",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "High",
+      "claim": "In official CSIRO GenCost work, new-build utility-scale solar PV and onshore wind remain among the lowest-cost new-build generation options on LCOE in Australia. Capital costs are not monotonic: GenCost 2024-25 Final records large-scale solar PV capital down 8% in consecutive years, onshore wind up 8% then 6%, large-scale batteries down 20% in 2024-25. This is an official finding under GenCost method, used as an ISP cost-input lineage. It is not ‘physics proved renewables free’ and not a culture-war dunk either way.",
+      "why": "Multi-year GenCost series. Single official product family — confidence High, not Very high. Label: official finding.",
+      "sourceIds": ["S1", "S4"]
+    },
+    {
+      "id": "C3",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "High as official finding; method residual open",
+      "claim": "GenCost 2024-25 Final §6.2.3: ‘The LCOE cost range for variable renewables (solar PV and wind) with integration costs is the lowest of all new-build technologies in 2030 and at a similar range with black coal in 2024.’ Integration costs are estimated at $48–64/MWh in 2024 and $23–40/MWh in 2030, varying with VRE share. 2024 average components include REZ transmission about $10.3/MWh, other transmission about $12.6/MWh, storage about $20.5/MWh, and spillage up to $14.0/MWh at 90% VRE. Across VRE shares, variable renewable generation in 2024 averages about $149/MWh in the NEM under that high-cost framing. GenCost FAQ path: the report does not recommend 100% solar and wind; a mix is needed for reliability. The 2030 ranking is KNOWN as what GenCost finds. Whether the integration method’s temporal boundary (existing 2024 capacity treated as free for the investor LCOE) understates end-user system cost is an open method residual (C9). It does not erase the non-zero storage/transmission/spillage components GenCost does count.",
+      "why": "Pinned magnitudes from §6.2.2–6.2.3. Hostile CIS residual kept. Do not freeze as physics.",
+      "sourceIds": ["S1", "S4", "S5"]
+    },
+    {
+      "id": "C4",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Household electricity bills in the NEM are not the LCOE of a solar farm. ACCC Inquiry into the National Electricity Market, December 2024, §3.4 / Figures 3.6–3.7: average total residential cost stack in 2023–24 was $1,842 per customer (nominal, ex-GST), up 23% year on year from $1,494. Categories: network, wholesale, environmental, retail and other, retail margin. 2023–24 NEM-average shares: network 39% (from 45%), wholesale 38% (from 33%), retail margin 6% (from 2%). Approximate 2023–24 bars: network ~$712, wholesale ~$691, environmental ~$141, retail and other ~$189, margin ~$109. Wholesale per customer +41% year on year — largest driver, delayed impact of 2022 market volatility. Shares shift year to year; do not freeze one pie chart. Even large falls in plant LCOE cannot map 1:1 onto bills while network, wholesale, policy, and retail dominate.",
+      "why": "Regulator commercial stack, independent of GenCost LCOE ranking. Next ACCC refresh can move shares, not the multi-component structure.",
+      "sourceIds": ["S2"]
+    },
+    {
+      "id": "C5",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "High shares of variable renewables require complementary resources: storage, firming generation, transmission and distribution, system strength, reserves. AEMO 2026 Integrated System Plan (25 June 2026): ‘the least-cost pathway is a system built around renewable energy, connected through transmission and distribution networks, firmed with storage and backed by gas.’ Under Step Change ODP: renewable share path toward 82% by 2030 and about 98% by 2050; almost 120 GW utility-scale wind and solar by 2050 class; new transmission about 6,000 km by 2050; ODP investment $106 billion to 2050; new transmission $28 billion net market benefits (scenario-weighted class). Gas firming in the ODP is a reliability tool, not a finding that ‘renewables failed.’",
+      "why": "ISP ODP composition plus GenCost’s integration stack. Engineering necessity is not a slogan about bills.",
+      "sourceIds": ["S1", "S3"]
+    },
+    {
+      "id": "C6",
+      "level": "Process",
+      "ledger": "KNOWN",
+      "confidence": "High",
+      "claim": "Public slogans mis-state the consumer cost path by collapsing generation LCOE into the bill, or by blaming renewables alone for bill rises. Pin-backed gaps: ‘solar is the cheapest electricity’ omits GenCost §6.1 and 2024 integration $48–64/MWh; ‘your bills rose because of renewables alone’ omits ACCC’s wholesale +41% lag from 2022 volatility and a still-large network share; ‘ISP proves renewables cheapest possible’ omits that least cost is under stated government policies; ‘GenCost proves 100% wind and solar’ omits the FAQ that it does not recommend 100% VRE.",
+      "why": "Process claim sitting on C1–C5. Communication failure, not a secret.",
+      "sourceIds": ["S1", "S2", "S3", "S4"]
+    },
+    {
+      "id": "C7",
+      "level": "Process",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "AEMO’s ‘least-cost pathway’ is a constrained optimisation. The 2026 ISP outlines an optimal development path for generation, storage, and network investments ‘to meet both consumer needs and government policies, at least cost, to 2050.’ It incorporates relevant government policies and targets, including the national 82% renewables-share target class. Each modelled scenario meets government policies; Step Change is treated as most likely. Constrained-delivery sensitivities show delays change the mix (coal longer, more gas, missed 2030 renewable-energy targets). This is not ‘least cost of raw electrons ignoring emissions.’ Change the constraints, change the answer. GenCost and ISP share cost-input lineage; they are related official products, not three independent proofs of the same slogan.",
+      "why": "ISP purpose language is the pin. Pedagogy, not a dunk.",
+      "sourceIds": ["S3"]
+    },
+    {
+      "id": "C8",
+      "level": "Method",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Compare electricity pathways only on like-for-like reliability, timeline, scope (plant versus whole system), and stated treatment of emissions and sunk costs. Failure mode: LCOE(solar) versus LCOE(coal plant) without firming on one side and without carbon or reliability on the other. Nuclear versus renewables belongs in this file only under the same system-cost rules; it is not the chapter climax and is not scored as a technology-winner claim here.",
+      "why": "Protocol. Prevents both anti-RE and anti-fossil slogan laundering.",
+      "sourceIds": ["S1", "S3"]
+    },
+    {
+      "id": "C9",
+      "level": "Object",
+      "ledger": "UNSUPPORTED",
+      "confidence": "High against as established",
+      "claim": "The claim that CIS method critique proves GenCost fraudulent, or proves coal or nuclear cheaper as an overnight end-user system, is UNSUPPORTED as established. Aidan Morrison’s Centre for Independent Studies submission to Draft 2025-26 GenCost (2 February 2026) attacks the investor framing and the treatment of existing capacity as free, and calls for total end-user system cost instead of hypothetical-investor LCOE. That is a real method objection and is why C3 is not frozen as physics. A method critique can be right about scope without supplying a replacement ranking table that displaces GenCost. This file does not adopt CIS’s opposite-ranking rhetoric as a finding.",
+      "why": "Strongest contrary to trusting headline ‘cheapest’ without scope. Not a total kill. Not a fossil-funded peer of GenCost; still the best-articulated public attack on the integration frame.",
+      "sourceIds": ["S1", "S5"]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2018–2025",
+      "event": "GenCost annual CSIRO–AEMO cost-projection series. Multi-year finding class: VRE among lowest-cost new-build generation.",
+      "effect": "C2 official series"
+    },
+    {
+      "date": "2022",
+      "event": "NEM wholesale crisis; ACCC later attributes 2023–24 wholesale-stack jump partly to delayed impact of that volatility.",
+      "effect": "C4 / C6 — bills are not plant LCOE"
+    },
+    {
+      "date": "07/2025",
+      "event": "GenCost 2024-25 Final: §6.1 LCOE limits; integration $48–64/MWh (2024) and $23–40/MWh (2030); VRE+integration lowest new-build in 2030.",
+      "effect": "C1 / C3"
+    },
+    {
+      "date": "12/2024",
+      "event": "ACCC NEM inquiry: residential stack $1,842; network 39%; wholesale 38%; wholesale +41% y/y.",
+      "effect": "C4"
+    },
+    {
+      "date": "02/2026",
+      "event": "CIS Morrison submission on Draft 2025-26 GenCost: investor framing / sunk-boundary critique.",
+      "effect": "C9 residual; not a C3 reversal"
+    },
+    {
+      "date": "25/06/2026",
+      "event": "AEMO 2026 ISP: least-cost ODP = renewables + networks + storage + gas backup, subject to consumer needs and government policies.",
+      "effect": "C5 / C7"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H-boundary",
+      "title": "Cheap generation, expensive delivered power",
+      "status": "Best supported",
+      "text": "VRE LCOE can fall while bills stay hard because most of the bill and the reliability problem sit outside simple plant LCOE. Least cost is constrained.",
+      "test": "C1, C4, C5, C7. Holds."
+    },
+    {
+      "id": "H-free-power",
+      "title": "Renewables already solve bills",
+      "status": "Rejected",
+      "text": "Lowest new-build LCOE means household bills fall 1:1.",
+      "test": "C4 stack + C3 integration band + C1 §6.1."
+    },
+    {
+      "id": "H-always-dearest",
+      "title": "Renewables are secretly always the dearest option",
+      "status": "Rejected as established",
+      "text": "Official rankings are a fraud; VRE+integration cannot be cheapest new-build.",
+      "test": "C2–C3 official finding retained. C9 does not supply a replacement ranking."
+    },
+    {
+      "id": "H-physics-not-politics",
+      "title": "ISP/GenCost are pure physics",
+      "status": "Rejected",
+      "text": "Least cost is unconstrained engineering truth.",
+      "test": "C7: policies are inputs."
+    },
+    {
+      "id": "H-nuclear-climax",
+      "title": "This chapter is the nuclear culture war",
+      "status": "Rejected as method",
+      "text": "Ch.21 exists to crown or bury nuclear.",
+      "test": "C8. Same system-cost rules if compared; not scored as winner here."
+    }
+  ],
+  "independence": [
+    "gencost: CSIRO–AEMO generation/storage cost series and integration method.",
+    "aemo-isp: Capacity-expansion ODP. Uses GenCost/Aurecon-class costs; embeds government policy. Related official product, not a third proof of C2.",
+    "accc-bill-stack: Retailer cost-of-supply stack. Independent of GenCost LCOE ranking.",
+    "hostile-method-cis: Adversarial method lineage on sunk/investor framing. Not a peer ranking table.",
+    "method-system-cost: Accounting identity fuel ≠ system."
+  ],
+  "openQuestions": [
+    "Full digitisation of GenCost 2024-25 Appendix Table B.10 (every tech/year cell) — Edition spreadsheet optional.",
+    "GenCost 2025-26 Final SLCOE/SEM magnitudes — recheck if they move C3 material-ly; pins in this file stay on 2024-25 Final for stable locators.",
+    "Named human power-systems / market-economist adversarial read before Edition freeze of magnitude rhetoric.",
+    "Next ACCC NEM inquiry stack refresh — shares move; multi-component structure should not."
+  ],
+  "wouldChange": [
+    "A GenCost/ISP method revision that reverses the firmed-VRE 2030 new-build ranking would force C3 down.",
+    "An ACCC stack that collapsed to a single generation-LCOE component would force C4 down.",
+    "Evidence that delivered prices fell 1:1 with VRE LCOE after like-for-like reliability control would force C1’s pedagogical bite down — not currently shown.",
+    "A CIS-class alternative overnight-build end-user table that displaced GenCost as the public AU benchmark could reopen C9 as a ranking claim; not presently met.",
+    "Nothing changes C1’s identity if fuel remains free and networks do not."
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "name": "Graham, Hayward and Foster — GenCost 2024-25: Final report (CSIRO, July 2025)",
+      "kind": "Primary — CSIRO/AEMO official generation-cost projection",
+      "role": "C1 §6.1 LCOE limits; C2 capital update; C3 §6.2.2–6.2.3 integration magnitudes and 2030 ranking.",
+      "independenceGroup": "gencost",
+      "url": "https://apo.org.au/sites/default/files/resource-files/2025-07/apo-nid331588.pdf",
+      "locator": "Paul Graham, Jenny Hayward and James Foster, GenCost 2024-25: Final report, CSIRO, July 2025 (135 pp.). DOI 10.25919/yfbj-4k58. Pins: §6.1 p.68; §6.2.1 framework; §6.2.2 p.74 components and ~$149/MWh; §6.2.3 p.75 ranking and $48–64 / $23–40/MWh; Apx Table B.10 p.96."
+    },
+    {
+      "id": "S2",
+      "name": "ACCC — Inquiry into the National Electricity Market, December 2024 report",
+      "kind": "Primary — statutory competition regulator inquiry",
+      "role": "C4 $1,842 stack; network 39%; wholesale 38%; wholesale +41% y/y.",
+      "independenceGroup": "accc-bill-stack",
+      "url": "https://www.accc.gov.au/system/files/accc-national-electricity-market-december-2024-report.pdf",
+      "locator": "ACCC, Inquiry into the National Electricity Market, December 2024 Report, published 30 December 2024. §3.4 / Figures 3.6–3.7 residential cost stack."
+    },
+    {
+      "id": "S3",
+      "name": "AEMO — 2026 Integrated System Plan (25 June 2026)",
+      "kind": "Primary — NEM system plan under the National Electricity Rules",
+      "role": "C5 ODP composition (RE + networks + storage + gas); C7 least cost subject to consumer needs and government policies.",
+      "independenceGroup": "aemo-isp",
+      "url": "https://www.aemo.com.au/-/media/files/major-publications/isp/2026/2026-integrated-system-plan-isp.pdf",
+      "locator": "AEMO, 2026 Integrated System Plan for the National Electricity Market, 25 June 2026. Executive summary: least-cost pathway sentence; 82%/98% share path; $106 billion Step Change ODP; $28 billion transmission net market benefits class."
+    },
+    {
+      "id": "S4",
+      "name": "CSIRO — GenCost project page / FAQ path",
+      "kind": "Primary — CSIRO public explainer for the GenCost series",
+      "role": "C2/C3/C6: generation does not control the retail price; not a recommendation of 100% wind and solar.",
+      "independenceGroup": "gencost",
+      "url": "https://www.csiro.au/en/research/technology-space/energy/Electricity-transition/GenCost",
+      "locator": "CSIRO GenCost landing (Electricity transition). FAQ class: breakeven cost of new generation is not the retail price; mix required for reliability."
+    },
+    {
+      "id": "S5",
+      "name": "Aidan Morrison / CIS — Submission to Draft 2025-26 GenCost (2 February 2026)",
+      "kind": "Adversary method critique — think-tank submission",
+      "role": "C3 residual and C9: investor framing and free-existing-capacity boundary. Not a replacement ranking table.",
+      "independenceGroup": "hostile-method-cis",
+      "url": "https://www.cis.org.au/submission/submission-to-draft-2025-26-gencost/",
+      "locator": "Centre for Independent Studies, Aidan Morrison, Submission to Draft 2025-26 GenCost, 2 February 2026. Call to abandon hypothetical-investor framing in favour of end-user total system cost."
+    }
+  ],
+  "methodAudit": [
+    {
+      "name": "Grammar",
+      "note": "Fuel≠system, official VRE LCOE, official VRE+integration ranking, bill stack, firming need, slogan gap, constrained least-cost, comparable-terms rule, and CIS-as-total-kill are separate. ‘Renewables are cheap’ collapses C2 with C4. ‘Renewables ruined bills’ collapses C4 with C6."
+    },
+    {
+      "name": "Logic",
+      "note": "H-boundary best. H-free-power rejected. H-always-dearest rejected as established. H-physics-not-politics rejected. H-nuclear-climax rejected as method. Hidden premises blocked: LCOE=bill; ISP=unconstrained physics; CIS critique=opposite ranking; gas backup=renewables failed."
+    },
+    {
+      "name": "Rhetoric",
+      "note": "Stripped: ‘free energy’; ‘renewables hoax’; ‘ISP proves science’; nuclear culture-war climax. Neutral: official new-build ranking under GenCost; bills are multi-component; least cost is constrained; integration is not zero."
+    },
+    {
+      "name": "Reality",
+      "note": "Discriminators: GenCost §6.1; §6.2.3 2030 ranking; $48–64/MWh 2024 integration; ACCC $1,842 / 39% / 38%; ISP least-cost sentence with policies as inputs. Controls: wind CAPEX rises; CIS sunk frame; GenCost–ISP related lineage."
+    },
+    {
+      "name": "Independence",
+      "note": "ACCC stack ≠ GenCost ranking. ISP uses GenCost-class costs — related, not alien. CIS is method adversary, not a third official series."
+    },
+    {
+      "name": "Hostile Pass 1 — GenCost as science",
+      "note": "Attack: you launder CSIRO as physics. Response: C2–C3 labelled official findings. C9 residual open."
+    },
+    {
+      "name": "Hostile Pass 2 — Integration gamed",
+      "note": "Attack: sunk/free firming. Response: §6.2.1 frame pinned. Non-zero components GenCost does count still stand. No opposite ranking adopted."
+    },
+    {
+      "name": "Hostile Pass 3 — Soft on renewables-and-bills",
+      "note": "Attack: bills are high because of VRE and you won’t say so. Response: refuse sole-cause. ACCC’s 2023–24 rise is primarily wholesale lag; networks still large; transition friction residual."
+    },
+    {
+      "name": "Hostile Pass 4 — ISP circular",
+      "note": "Attack: least cost is tautology. Response: that is C7. Teaching point."
+    },
+    {
+      "name": "Hostile Pass 5 — Nuclear smuggling",
+      "note": "Attack: this chapter should crown nuclear. Response: C8. Same system-cost rules if compared; not scored as winner here."
+    },
+    {
+      "name": "Hostile Pass 6 — Human PE missing",
+      "note": "Attack: then don’t publish magnitudes. Response: user assigned. C3 published as official finding with method residual; Edition freeze of magnitude rhetoric still wants a named power-systems reader."
+    }
+  ],
+  "changelog": [
+    {
+      "date": "26/08/2026",
+      "change": "Evidence File 014 initial publication. Research basis: energy-transition Pass 2 (12/08/2026) GenCost 2024-25 Final / ACCC Dec 2024 / AEMO 2026 ISP / CIS Morrison. E0–E6 KNOWN with E1b official-plus-method-residual. CIS opposite ranking UNSUPPORTED. Author assigned sequential open of this systems file."
+    }
+  ]
+}
