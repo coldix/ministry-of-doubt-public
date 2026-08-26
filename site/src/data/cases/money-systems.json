@@ -1,0 +1,309 @@
+{
+  "fileNo": "012",
+  "slug": "money-systems",
+  "publication": "public",
+  "title": "Real Money — Bretton Woods, 1971, fiat, bank credit",
+  "subtitle": "Money is an enforced institution: official gold convertibility ended in 1971; most modern money is bank deposits created when banks lend, within limits",
+  "chapter": "Chapter 22",
+  "livingFile": false,
+  "status": "Evidence File",
+  "firstPublished": "26/08/2026",
+  "lastReviewed": "26/08/2026",
+  "evidenceCutoff": "12/08/2026",
+  "overall": {
+    "label": "Institutional account is KNOWN; first-receiver effects are PROBABLE; a money cabal is not required",
+    "ledger": "KNOWN",
+    "confidence": "Very high on M0–M4 (regime and bank credit); mixed on distribution",
+    "summary": "Money is an institution: trust, legal tender, and settlement rules with real enforcement — not pure metal and not a secret society. Under Bretton Woods, members expressed par values in gold or in the 1944-weight US dollar; the dollar functioned as key currency with official convertibility into gold at $35 an ounce for foreign official holders. On 15 August 1971 Richard Nixon directed the Treasury to suspend convertibility of the dollar into gold or other reserve assets. That closed the gold window. Major currencies then operated as fiat: state-defined money without a fixed official commodity redeemability. Fiat is not a synonym for fraud or worthlessness. In the modern economy the majority of money is commercial-bank deposits. The Bank of England (2014) and the Reserve Bank of Australia teach the same core mechanics: banks create deposits when they make loans; they do not merely lend out pre-saved deposits; they cannot do so without limits (capital, liquidity, profitability, borrower demand, and monetary policy). When new purchasing power enters, it does not arrive evenly — a Cantillon-class first-receiver mechanism is PROBABLE; how large those transfers are, relative to zoning, tax, technology and globalisation, remains an open magnitude residual. A single secret ownership cabal that 'owns all money' is UNSUPPORTED as a load-bearing claim and is not needed to explain the rest."
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "level": "Method",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Money is an institution: a widely accepted means of payment, unit of account, and (imperfect) store of value, backed by legal tender, tax, and settlement rules. Modern money is mostly hierarchical IOUs — central-bank currency and reserves, and commercial-bank deposits — not bars in a vault and not a purely voluntary story people tell. The RBA's teaching account states the three functions and the two main modern forms (currency as a central-bank liability; deposits as authorised-deposit-taking-institution liabilities). Enforcement is what makes the shared fiction real. This claim is architectural. It does not decide 1971, bank credit, or cabal questions.",
+      "why": "RBA What is Money? is an official functions-and-forms pin. BoE 2014 overview restates that most money is bank deposits. Neither source is a conspiracy text.",
+      "sourceIds": ["S4", "S5"]
+    },
+    {
+      "id": "C2",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Bretton Woods (Articles of Agreement adopted 22 July 1944) constrained members to par values expressed in gold as a common denominator or in the United States dollar of the weight and fineness in effect on 1 July 1944. In the system's operational path, the dollar was the key currency and, for official holders, convertible into gold at $35 an ounce. Other members maintained adjustable pegs to that dollar within narrow margins. This was not a full classical gold standard for private US residents in the same way. Late-1960s strain (US deficits, gold outflows, 1968 gold-pool collapse) is context for 1971, not a substitute for the 15 August act.",
+      "why": "Original IMF Article IV §1 is the treaty pin. Fed History supplies the operational $35/oz official-convertibility path. Two related official lineages, distinct products.",
+      "sourceIds": ["S2", "S3"]
+    },
+    {
+      "id": "C3",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "On 15 August 1971, in the televised address outlining a New Economic Policy, President Nixon directed Treasury Secretary Connally to 'suspend temporarily the convertibility of the dollar into gold or other reserve assets, except in amounts and conditions determined to be in the interest of monetary stability and in the best interests of the United States.' Federal Reserve History: the first order was that the gold window be closed; foreign governments could no longer exchange dollars for gold; in effect the international monetary system turned into a fiat one. 'Temporary' in the speech; durable end of official USD–gold convertibility in practice. The Camp David package also included a wage/price freeze path and an import surcharge. Crisis management under gold-run and inflation pressure is the documented process. It is not, on this record, a single scripted 'globalist reset.'",
+      "why": "Primary presidential text plus official Fed History. The speech is the load-bearing act. Later Smithsonian/Jamaica chronology is residual polish, not a C3 blocker.",
+      "sourceIds": ["S1", "S2"]
+    },
+    {
+      "id": "C4",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "After the end of official dollar–gold convertibility, major currencies operate as fiat: state-defined money not backed by a physical commodity at a fixed official redeemable rate. The RBA: a system 'where the currency of a country is not backed by a physical commodity (e.g. gold) but by a directive from a government that makes it legal, is called a “Fiat” system.' Fiat is not a finding that money is fake, valueless, or fraudulent. The anchor is policy, law, and trust. Gold continues to trade; that does not restore the 1944–71 official window.",
+      "why": "Follows C3 as regime classification, pinned by Fed History's fiat-effect sentence and RBA's legal-tender/fiat definition. Do not collapse this into C8 (gold cult) or C9 (cabal).",
+      "sourceIds": ["S2", "S5"]
+    },
+    {
+      "id": "C5",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Most broad money in modern economies is commercial-bank deposits, created principally when banks make loans. Bank of England Quarterly Bulletin 2014 Q1 (McLeay, Radia and Thomas): 'the majority of money in the modern economy is created by commercial banks making loans'; 'Whenever a bank makes a loan, it simultaneously creates a matching deposit in the borrower's bank account, thereby creating new money.' Two textbook misconceptions are rejected: banks do not merely intermediate pre-saved deposits, and they do not simply 'multiply up' central-bank reserves as the full story. The same article insists on limits: profitability, competition, prudential regulation, borrower repayment (which destroys deposits), and monetary policy as the ultimate constraint. The RBA teaches the twin: deposits can be created when financial intermediaries make loans; they cannot do so without limits (regulatory requirements; borrowers must be able to pay back). RBA Bulletin September 2018: extending loans typically creates deposits at a system-wide level; constraints include liquidity, capital, profitability, and APRA minima. 'Banks create money out of thin air' is half-right and unusable without the limits in the same breath.",
+      "why": "Dual official central-bank teaching, UK and Australia. RBA cites McLeay et al. 2014, so the lineages are aligned rather than alien — still two institutions, two publications, two jurisdictions. Not activist-blog MMT.",
+      "sourceIds": ["S4", "S5", "S6"]
+    },
+    {
+      "id": "C6",
+      "level": "Object",
+      "ledger": "PROBABLE",
+      "confidence": "Moderate–high",
+      "claim": "Credit and money injection are not distributionally neutral. New purchasing power enters through specific counterparties — borrowers, asset sellers, government payees, banks — who can bid some prices before wages and consumer prices fully adjust. That is the Cantillon mechanism (order of injection changes relative prices). Modern channels are illustrative, not monocausal: mortgage credit into housing; asset purchases into financial prices; fiscal counterparties first. This file does not claim that money alone explains inequality. Tech, zoning, tax, and globalisation remain confounders. Magnitude exhibits (jurisdiction-specific broad money vs wages vs housing) are an open residual. Mechanism held; size not scored as KNOWN.",
+      "why": "Theory-strong, empirics multi-causal. Residual-closure classified this as B/C/E polish, not a C2–C5 blocker. Kept PROBABLE on author assignment to open the institutional account.",
+      "sourceIds": ["S4", "S7"]
+    },
+    {
+      "id": "C7",
+      "level": "Process",
+      "ledger": "PROBABLE",
+      "confidence": "High",
+      "claim": "The distributional path of monetary and credit expansion is often politically under-narrated. Public 'cost of living' frames typically emphasise wages, groceries, and corporate greed more readily than who received new purchasing power first. Opacity is a process claim about civic explanation, not a finding that every household was secretly robbed by a named cabal. C7 cannot upgrade C6's magnitude residual or C9.",
+      "why": "Political-economy observation sitting on C5–C6. No separate smoking-gun memo required; not strong enough for KNOWN.",
+      "sourceIds": ["S4", "S5"]
+    },
+    {
+      "id": "C8",
+      "level": "Method",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Gold can be a monetary asset, a hedge, and a historical anchor without being a moral absolute or a conspiracy antidote. Ending official convertibility (C3) is not a finding that 'only gold is real money' or that fiat is inherently fraudulent. Gold standards also failed historically. This file will not run a gold-cult chapter or a gold-dismissal chapter.",
+      "why": "Method rule to keep C3–C4 from sliding into metaphysics. RBA: the material used as money need not have value in its own right.",
+      "sourceIds": ["S5"]
+    },
+    {
+      "id": "C9",
+      "level": "Method",
+      "ledger": "UNSUPPORTED",
+      "confidence": "High against as established",
+      "claim": "The claim that a single secret ownership cabal — Jewish bankers, Rothschilds, 'the Fed privately owns everything' as hydra — secretly runs the monetary system is UNSUPPORTED as a load-bearing finding of this file. Documented agents are states, treaties, central banks, and commercial banks. Explaining C2–C7 does not require C9. Extraordinary ownership-control documents would be needed to reopen it. Antisemitic money myths are an explicit non-goal.",
+      "why": "The institutional record (IMF Articles, Nixon speech, BoE/RBA teaching) names public and regulated agents. Absence of a hydra is not a universal negative on every collusion ever; it is a refusal to smuggle one in as the explanation of 1971 or bank credit.",
+      "sourceIds": ["S1", "S3", "S4"]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "22/07/1944",
+      "event": "Bretton Woods conference adopts IMF Articles. Original Article IV: par values in gold or in the 1 July 1944-weight US dollar.",
+      "effect": "C2 regime design"
+    },
+    {
+      "date": "1958–1968",
+      "event": "Operational BW path: dollar as key currency; official gold convertibility at $35/oz; gold-pool stress and 1968 two-tier gold.",
+      "effect": "Strain context for C3, not the 1971 act itself"
+    },
+    {
+      "date": "15/08/1971",
+      "event": "Nixon address: suspend convertibility of the dollar into gold or other reserve assets. Gold window closed.",
+      "effect": "C3 / C4"
+    },
+    {
+      "date": "1971–1973",
+      "event": "Smithsonian attempt to keep pegs; BW adjustable-peg system ends; major rates float in practice.",
+      "effect": "Durable fiat path; Jamaica formalisation remains residual polish"
+    },
+    {
+      "date": "03/2014",
+      "event": "BoE Quarterly Bulletin 2014 Q1: majority of money created by commercial banks making loans; multiplier and pure-intermediation stories rejected; limits insisted upon.",
+      "effect": "C5"
+    },
+    {
+      "date": "09/2018",
+      "event": "RBA Bulletin Money in the Australian Economy: system-wide deposit creation from loans; APRA/capital/liquidity constraints; cites BoE 2014.",
+      "effect": "C5 dual-CB pin"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H-institution",
+      "title": "Money is enforced shared accounting",
+      "status": "Best supported",
+      "text": "Legal tender, settlement, and bank/central-bank hierarchy explain modern money without metal mysticism or a hydra.",
+      "test": "C1–C5. Holds."
+    },
+    {
+      "id": "H-cabal",
+      "title": "A secret group owns the money system",
+      "status": "Rejected as load-bearing",
+      "text": "1971 and bank credit are explained only if a hidden ownership cabal is assumed.",
+      "test": "C9. Documented agents suffice. Extraordinary bar not met."
+    },
+    {
+      "id": "H-neutral",
+      "title": "Money injections never redistribute",
+      "status": "Fails as a universal",
+      "text": "Credit expansion is plumbing; who spends first never matters.",
+      "test": "C6 keeps the mechanism PROBABLE. Magnitude still residual."
+    },
+    {
+      "id": "H-thin-air",
+      "title": "Banks print without limit",
+      "status": "Rejected",
+      "text": "Loans create deposits, therefore banks face no constraint.",
+      "test": "BoE/RBA limits language. C5 half-right slogan rule."
+    },
+    {
+      "id": "H-fiat-fraud",
+      "title": "Fiat is fake; only gold is money",
+      "status": "Rejected as method",
+      "text": "Ending the gold window proves money became a fraud.",
+      "test": "C4 + C8. Functions of money do not require a metal peg."
+    }
+  ],
+  "independence": [
+    "nixon-1971: Primary presidential act ending official convertibility.",
+    "bretton-woods: Original IMF Articles par-value rule.",
+    "fed-history-1971: Official US central-bank history of the gold window and fiat effect — related political system, distinct product from the speech and the 1944 treaty.",
+    "boe-2014: UK central-bank teaching account of bank-credit money.",
+    "rba-money: Australian central-bank teaching account (explainer + 2018 Bulletin). Cites BoE; still a second jurisdiction.",
+    "cantillon: Distributional-mechanism theory. Not a third official lineage for C2–C5.",
+    "anti-cabal-method: Protocol filter, not a positive hydra search complete."
+  ],
+  "openQuestions": [
+    "Jamaica 1976 formalisation of floating-rate arrangements — chronology polish, not a C3 reversal.",
+    "Jurisdiction-specific exhibits: broad money vs CPI vs housing (Australia and comparators).",
+    "Named human monetary-historian / central-bank-economist adversarial read (Edition freeze residual; AI hostile is not a substitute).",
+    "QE asset-channel empirics with careful counterfactuals — may move C6 confidence, not C5."
+  ],
+  "wouldChange": [
+    "Primary documents of a single secret ownership cabal of the monetary system would reopen C9.",
+    "A demonstration that commercial banks do not create deposits when lending, contrary to BoE/RBA, would force C5 down.",
+    "Careful exhibits that isolate first-receiver transfers from confounders could move C6 to KNOWN or back toward POSSIBLE.",
+    "Evidence that official USD–gold convertibility for foreign official holders continued after 15 August 1971 as before would force C3 down."
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "name": "Nixon — Address outlining a New Economic Policy (“The Challenge of Peace”), 15 August 1971",
+      "kind": "Primary — US presidential address",
+      "role": "C3: directed Connally to suspend convertibility of the dollar into gold or other reserve assets.",
+      "independenceGroup": "nixon-1971",
+      "url": "https://www.presidency.ucsb.edu/documents/address-the-nation-outlining-new-economic-policy-the-challenge-peace",
+      "locator": "The American Presidency Project, UCSB, Richard Nixon, 15 August 1971. Convertibility sentence in the international-monetary section of the address."
+    },
+    {
+      "id": "S2",
+      "name": "Federal Reserve History — Nixon ends convertibility of US dollars to gold (August 1971)",
+      "kind": "Primary/official history — US Federal Reserve",
+      "role": "C2 operational $35/oz path; C3 gold window closed; C4 fiat-effect sentence.",
+      "independenceGroup": "fed-history-1971",
+      "url": "https://www.federalreservehistory.org/essays/gold-convertibility-ends",
+      "locator": "Federal Reserve History essay, 'Nixon Ends Convertibility of U.S. Dollars to Gold and Announces Wage/Price Controls,' August 1971 (published 22 November 2013 path)."
+    },
+    {
+      "id": "S3",
+      "name": "IMF Articles of Agreement (Bretton Woods, 22 July 1944) — original Article IV §1",
+      "kind": "Primary — international treaty",
+      "role": "C2: par value of each member’s currency expressed in gold or in the United States dollar of the weight and fineness in effect on 1 July 1944.",
+      "independenceGroup": "bretton-woods",
+      "url": "https://fraser.stlouisfed.org/files/docs/historical/martin/17_07_19440701.pdf",
+      "locator": "FRASER, Federal Reserve Bank of St. Louis, 1944 Articles of Agreement text (Martin papers class). Article IV, Par Values of Currencies, Section 1. Do not cite the post-1976 amended Article IV as if it were the 1944 rule."
+    },
+    {
+      "id": "S4",
+      "name": "McLeay, Radia and Thomas — Money creation in the modern economy (BoE Quarterly Bulletin 2014 Q1)",
+      "kind": "Primary — Bank of England teaching article",
+      "role": "C5: loans create matching deposits; majority of money; rejects intermediation-only and simple money-multiplier; insists on limits. C1/C6/C9 colour.",
+      "independenceGroup": "boe-2014",
+      "url": "https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy",
+      "locator": "Bank of England Quarterly Bulletin 2014 Q1, Michael McLeay, Amar Radia and Ryland Thomas. Overview: majority of money created by commercial banks making loans; simultaneous matching deposit. PDF: bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/2014/money-creation-in-the-modern-economy"
+    },
+    {
+      "id": "S5",
+      "name": "Reserve Bank of Australia — What is Money? (Education explainer)",
+      "kind": "Primary — RBA teaching explainer",
+      "role": "C1 functions/forms; C4 fiat definition; C5 loans create deposits with limits; C8 material need not have intrinsic value.",
+      "independenceGroup": "rba-money",
+      "url": "https://www.rba.gov.au/education/resources/explainers/what-is-money.html",
+      "locator": "RBA Education Explainer, What is Money? Deposits created when intermediaries make loans; not without limits; fiat defined as not commodity-backed but legal."
+    },
+    {
+      "id": "S6",
+      "name": "Doherty, Jackman and Perry — Money in the Australian Economy (RBA Bulletin, September 2018)",
+      "kind": "Primary — RBA Bulletin article",
+      "role": "C5: system-wide deposit creation from loans; liquidity/capital/profitability/APRA constraints; cites McLeay et al. 2014.",
+      "independenceGroup": "rba-money",
+      "url": "https://www.rba.gov.au/publications/bulletin/2018/sep/money-in-the-australian-economy.html",
+      "locator": "RBA Bulletin, September 2018, Elizabeth Doherty, Brady Jackman and Emily Perry, 'Money in the Australian Economy.' Box B constraints class."
+    },
+    {
+      "id": "S7",
+      "name": "Cantillon — Essay on the Nature of Trade in General (1755)",
+      "kind": "Primary — monetary-theory text",
+      "role": "C6: order-of-injection / relative-price mechanism. Not a proof of modern magnitude.",
+      "independenceGroup": "cantillon",
+      "url": "https://www.econlib.org/library/NPDBooks/Cantillon/cntNT.html",
+      "locator": "Richard Cantillon, Essai sur la nature du commerce en général (1755). Library of Economics and Liberty English edition path. Mechanism pin only."
+    }
+  ],
+  "methodAudit": [
+    {
+      "name": "Grammar",
+      "note": "Institution, Bretton Woods design, 1971 act, fiat classification, bank-credit mechanics, first-receiver mechanism, opacity, gold-method, and cabal are separate. 'Banks print money' collapses C5 with H-thin-air. 'Nixon ended gold' is not 'only gold is money' (C8) and not 'they planned a reset' (C9)."
+    },
+    {
+      "name": "Logic",
+      "note": "H-institution best. H-cabal rejected as load-bearing. H-neutral fails as a universal. H-thin-air rejected. H-fiat-fraud rejected. Hidden premises blocked: loans-create-deposits = unlimited; fiat = fraud; 1971 = cabal; Cantillon mechanism = money explains all inequality."
+    },
+    {
+      "name": "Rhetoric",
+      "note": "Stripped: 'end the Fed'; 'thin air'; 'petrodollar hydra'; antisemitic banker myths; gold as salvation. Neutral: official convertibility ended; most money is bank deposits created within limits; first access is not evenly distributed. Identity-swap: same pins if the 1971 politics were reversed."
+    },
+    {
+      "name": "Reality",
+      "note": "Discriminators: IMF Art. IV par-value sentence; Nixon convertibility sentence; BoE 'matching deposit' sentence; BoE/RBA limits sentences. Controls: temporary-in-speech vs durable-in-practice; RBA cites BoE so M4 independence is dual-CB not alien; Cantillon magnitude unshown."
+    },
+    {
+      "name": "Independence",
+      "note": "1944 treaty ≠ 1971 speech ≠ Fed History essay ≠ BoE QB ≠ RBA explainer/Bulletin. RBA cites BoE: aligned teaching, two jurisdictions. Cantillon is not a sixth official lineage for C2–C5."
+    },
+    {
+      "name": "Hostile Pass 1 — MMT laundering",
+      "note": "Attack: this is activist MMT. Response: pins are BoE Quarterly Bulletin and RBA Bulletin/explainer. Limits stay in the same claim as creation."
+    },
+    {
+      "name": "Hostile Pass 2 — Gold still existed",
+      "note": "Attack: 1971 didn’t end gold; private markets continued. Response: C3 is official convertibility for foreign official holders, per Nixon’s text. Not 'gold ceased to exist.'"
+    },
+    {
+      "name": "Hostile Pass 3 — Deposits aren’t real money",
+      "note": "Attack: only notes and coin count. Response: BoE/RBA: deposits are the majority of modern money by official definition."
+    },
+    {
+      "name": "Hostile Pass 4 — Cantillon goldbug myth",
+      "note": "Attack: first-receiver talk is goldbug. Response: C6 stays PROBABLE; magnitude residual explicit; no cabal upgrade."
+    },
+    {
+      "name": "Hostile Pass 5 — Antisemitic adjacency",
+      "note": "Attack: any money-power chapter feeds hydra myths. Response: C9 UNSUPPORTED; agents named as institutions; explicit non-goal. Do not 'balance' by hinting a cabal the file will not score."
+    },
+    {
+      "name": "Hostile Pass 6 — Human specialist",
+      "note": "Attack: AI hostile ≠ monetary historian. Response: accepted as Edition residual. Does not block C2–C5, which rest on treaty, presidential, and dual-CB teaching texts."
+    }
+  ],
+  "changelog": [
+    {
+      "date": "26/08/2026",
+      "change": "Evidence File 012 initial publication. Research basis: private dossier Pass 2 (12/08/2026) Nixon / IMF Articles / BoE 2014 / RBA twin. C1–C5 and C8 KNOWN; C6–C7 PROBABLE; C9 UNSUPPORTED. Cantillon magnitude exhibits and Jamaica note remain open. Author assigned sequential open of this systems file (off the documented-case Claude queue)."
+    }
+  ]
+}
