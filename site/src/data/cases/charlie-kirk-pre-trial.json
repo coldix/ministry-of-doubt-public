@@ -1,0 +1,388 @@
+{
+  "fileNo": "010",
+  "slug": "charlie-kirk-pre-trial",
+  "publication": "public",
+  "title": "Charlie Kirk: the story before the trial",
+  "subtitle": "What we are entitled to believe while a capital case is still being tested",
+  "chapter": "Chapter 19",
+  "livingFile": true,
+  "livingFileNotice": "This is a Living Evidence File. It records process and public-narrative assessments at the cut-off date. It does not find guilt or motive. Judge Tony F. Graf's probable-cause / bind-over order (oral argument set 1 September 2026), any plea, trial record, or final judgment will enter the private dossier first and then this file with a changelog entry. If later evidence weakens a current finding, this file will say so.",
+  "status": "Living Evidence File",
+  "firstPublished": "26/08/2026",
+  "lastReviewed": "26/08/2026",
+  "evidenceCutoff": "26/08/2026",
+  "overall": {
+    "label": "Event and charging process are KNOWN; guilt is not scored; drone-as-weapon is UNSUPPORTED",
+    "ledger": "KNOWN",
+    "confidence": "Very high (process); object guilt not scored",
+    "summary": "Charlie Kirk was shot and later pronounced dead after speaking at a Turning Point USA event at Utah Valley University in Orem on 10 September 2025. That event frame is KNOWN. Utah authorities later charged Tyler James Robinson with aggravated murder and related counts and noticed intent to seek the death penalty. A public preliminary hearing was held 6–10 July 2026. As of 26 August 2026 the judge has not issued a probable-cause / bind-over order (oral argument set 1 September 2026). This file records what each layer of public knowing has earned. It does not adjudicate who did it or why. A later public-hypothesis market — military-drone-as-weapon, a HADES ISR jet's ADS-B track, Candace Owens first-hour timestamps, and the slogans 'the FBI is not investigating' / 'there is no evidence' — is scored separately. Drone-as-weapon is UNSUPPORTED. A public aircraft track near Utah Lake that day, if authentic, is only POSSIBLE as a transparency residual, not a kill-chain. 'FBI not investigating' is UNSUPPORTED as a blanket: Utah DPS said DPS and FBI co-led from day zero, and Utah County is prosecuting. 'No evidence at all' fails the charging record; court-tested evidence for the alternative theories has not been produced. Charge is not conviction. A preliminary-hearing exhibit is not a verdict."
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Charlie Kirk was shot during a student-sponsored Turning Point USA event at Utah Valley University, Orem, at approximately 12:20 p.m. MST on 10 September 2025, transported to Timpanogos Regional Hospital, and later pronounced dead. Utah Department of Public Safety (DPS) and the FBI stated they were co-leading the investigation with the Utah County Attorney, County Sheriff, and local police. DPS described the shooting as believed to be a targeted attack — an official belief at T0, not a Ministry finding about the identity or motive of any shooter. This claim is an event frame. It is not a finding that Tyler James Robinson, or anyone else, is guilty.",
+      "why": "Utah DPS press release 10 September 2025 is the primary official pin. FBI 'Utah Valley Shooting Updates' and multi-source national press the same day independently report the death at the UVU event. Early persons of interest named and released in the DPS release are process history only.",
+      "sourceIds": ["S1", "S2"]
+    },
+    {
+      "id": "C2",
+      "level": "Process",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "On 16 September 2025, Utah County Attorney Jeff Gray filed a criminal information against Tyler James Robinson arising from Kirk's death. Publicly charged counts in that information path: aggravated murder (capital); felony discharge of a firearm causing serious bodily injury; two counts of obstruction of justice; two counts of witness tampering; violent offense in the presence of a child. These are allegations with legal form. Filing them is a process fact. It is not a conviction and not a Ministry finding that the allegations are true.",
+      "why": "Utah County Attorney charging page and the published Criminal Information PDF. Charging press coverage is secondary. Count-list residuals (later press '10 counts' versus the original seven) are not silently rewritten here.",
+      "sourceIds": ["S3", "S4"]
+    },
+    {
+      "id": "C3",
+      "level": "Process",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "As of the 26 August 2026 cut-off the case is in pre-trial probable-cause posture, not final judgment. A public preliminary hearing was held 6–10 July 2026 before Judge Tony F. Graf Jr. in the Fourth District Court, Provo. Under Utah procedure that hearing tests whether evidence establishes probable cause to bind the defendant over for trial — not guilt beyond reasonable doubt. The State filed a reply memorandum dated 18 August 2026 asking the court to bind over on all charged counts. Oral argument is set for 1 September 2026. No bind-over order had issued at cut-off. Hearing exhibits (campus video, roof items, DNA testimony, alleged admissions) are offered and contested evidence. They are not scored here as object facts.",
+      "why": "Public hearing coverage plus the 18 August 2026 State reply PDF. The pending order is the load-bearing residual. This file will update when the written PC ruling issues.",
+      "sourceIds": ["S5", "S6"]
+    },
+    {
+      "id": "C4",
+      "level": "Process",
+      "ledger": "KNOWN",
+      "confidence": "High",
+      "claim": "Prosecutors stated intent to seek the death penalty when charging Robinson. That is a charging-strategy process fact, not a finding about aggravators, and not a prediction of sentence.",
+      "why": "Gray charging announcement path, 16 September 2025. Formal notice-of-intent pin remains a residual; public intent is enough for this process claim at High confidence.",
+      "sourceIds": ["S3", "S4"]
+    },
+    {
+      "id": "C5",
+      "level": "Method",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Public knowing in a live capital case has layers with different warrants: social media and viral clips; news reports; official law-enforcement statements; charging instruments; preliminary-hearing exhibits and testimony; judicial probable-cause orders; trial verdict / final judgment. Collapsing a lower layer into a higher one is the characteristic error of this specimen. Political sympathy for Kirk or hostility to him is not evidence. Defence wins on a motion are not global proof of innocence. Pre-trial publicity is process pressure, not a ledger upgrade.",
+      "why": "Method rule of the Ministry's Live File architecture (Chapter 19), applied to this record. Compatible with the nested-set warning in Bret Weinstein's 23 August 2026 DarkHorse conversation, which is cited as a public method exhibit, not as independent evidence of any object claim.",
+      "sourceIds": ["S7"]
+    },
+    {
+      "id": "C6",
+      "level": "Object",
+      "ledger": "UNKNOWN",
+      "confidence": "Not scored — finality rule",
+      "claim": "Whether Tyler James Robinson is guilty of killing Charlie Kirk, and what motive if any is proved, is UNKNOWN in this file until a final judgment (or equivalent finality) exists. The Ministry does not treat charging, contested preliminary-hearing items, or commentator certainty as a substitute. UNKNOWN is allowed to win here on purpose.",
+      "why": "Live File hard rule. Capital procedure exists because public certainty is a poor substitute for adversarial testing. A later verdict will be a changelog event, not a silent rewrite of C1–C5.",
+      "sourceIds": ["S4", "S5"]
+    },
+    {
+      "id": "C7",
+      "level": "Object",
+      "ledger": "UNSUPPORTED",
+      "confidence": "High against, as established",
+      "claim": "The claim that Kirk was killed by a military drone or UAV-fired munition, rather than by a rifle shot, is UNSUPPORTED on the harvested record. Public ADS-B of an aircraft, phone video of a fast object, and YouTube inference do not build the chain: track ≠ tasking ≠ launch ≠ courtyard drone ≠ fatal shot. The charging theory remains a rifle shot from the Losee Center roof (~142 yards / ~130 m in public LE and hearing coverage). July 2026 preliminary-hearing testimony offered line of sight from that roof, a screwdriver on the roof, and campus video of a figure going onto the roof and prone near 12:23 p.m. That is offered evidence, not a verdict. UVU not flying a security drone that day is a documented protective gap, not proof of a weapon drone.",
+      "why": "No court-tested UAV-munition chain harvested. Cullen/Dore advocacy (20 August 2026) is commentary. AP 30 September 2025 documents the absence of campus security drones. DarkHorse 23 August 2026 hosted the question; Viva Frei on that episode held a roof-bullet position. Hosting is not proof.",
+      "sourceIds": ["S5", "S8", "S9", "S7"]
+    },
+    {
+      "id": "C8",
+      "level": "Process",
+      "ledger": "POSSIBLE",
+      "confidence": "Moderate",
+      "claim": "If public ADS-B/Flightradar overlays of a HADES-class ISR jet (registration discussed as N1098L) near Utah Lake on 10 September 2025 are authentic, the flight profile is a legitimate transparency residual: why was that aircraft low and slow adjacent to UVU, including a pass after the shooting? Correlation is not causation. Competing ordinary readings include a Provo Municipal straight-in / go-around and drone drop-and-recovery training. Tasking orders, crew manifests, and sensor logs, if they exist, are controlled records. Their absence is a provenance problem under the missing-evidence rule. It does not auto-complete to 'the aircraft launched the kill.'",
+      "why": "One public-data class (ADS-B aggregators as narrated by citizen investigators). Not independently re-downloaded as raw frames in this packaging pass — hence POSSIBLE, not KNOWN. Official explanation not harvested.",
+      "sourceIds": ["S8"]
+    },
+    {
+      "id": "C9",
+      "level": "Process",
+      "ledger": "UNSUPPORTED",
+      "confidence": "High against, as foreknowledge",
+      "claim": "Candace Owens's public first-hour timestamp thread (July 2026 path: first public 'shot' post ~12:32 Utah time, Daily Mail ~12:34, Shapiro repost ~12:38, Andrew Kolvet text ~12:40) is KNOWN as her allegation set. It does not establish that named parties knew of the shooting before ~12:20 p.m. MST. Fast after-action calls among security details are the ordinary competing explanation (Shapiro later described his security on the phone with Kirk's security while Kirk was still in the car). Claims that Kirk's security chief Brian Harpole attended a Fort Huachuca planning meeting the day before are UNSUPPORTED in this criminal file and are the subject of a live federal defamation action: Harpole v. Owens, No. 3:26-cv-00556 (M.D. Tenn., filed 30 April 2026). That lawsuit is a process fact. It is not a finding that the meeting happened or that it did not.",
+      "why": "Owens's posts are primary as to what she claimed. Foreknowledge requires a clock before the shot. Civil complaint is the process pin for the Huachuca story. FOIA paraphrase fight with FBI Rapid Response (15 June 2026) is records process, cited under C10.",
+      "sourceIds": ["S10", "S11"]
+    },
+    {
+      "id": "C10",
+      "level": "Process",
+      "ledger": "UNSUPPORTED",
+      "confidence": "High against, as a blanket",
+      "claim": "The blanket claims 'the FBI is not investigating' and 'there is no evidence' are UNSUPPORTED. DPS said on day zero that DPS and the FBI were co-leading. FBI published an updates page. Director Kash Patel testified that the Bureau released images, walked the scene on 11 September 2025, surged evidence-response assets, and called the investigation ongoing, including possible accomplices. Charging is a Utah County case, not a federal indictment harvested here. A FOIA dispute over Patel's travel itinerary is not proof the Bureau sat the case out. 'No evidence at all' fails the 16 September information and the July 2026 preliminary hearing. What has not been produced is court-tested evidence for the alternative theories (drone-weapon, Huachuca plot, Israeli operation). That gap is not proof those theories are true.",
+      "why": "DPS 10 September 2025 co-lead language; FBI updates page; Patel remarks / congressional testimony path; State bind-over reply 18 August 2026. Owens's 'non-existent case' slogan is commentary.",
+      "sourceIds": ["S1", "S2", "S6", "S12"]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "10/09/2025",
+      "event": "Kirk shot at UVU Turning Point USA event ~12:20 p.m. MST; later pronounced dead. DPS and FBI say they are co-leading. Early persons of interest detained and released with no current ties.",
+      "effect": "Event frame (C1). Official 'targeted attack' language is T0 belief, not a Ministry identity finding"
+    },
+    {
+      "date": "11/09/2025",
+      "event": "FBI and DPS seek public help identifying a person of interest; Patel later testified he walked the scene that day and the Bureau released video/images.",
+      "effect": "Federal investigative posture (C10) — presence after the fact is not authorship"
+    },
+    {
+      "date": "11/09/2025–12/09/2025",
+      "event": "Robinson taken into custody after family/friend path to Washington County Sheriff, as described in Utah officials' 12 September press conference.",
+      "effect": "Arrest window — process, not guilt"
+    },
+    {
+      "date": "16/09/2025",
+      "event": "Utah County Attorney files criminal information against Tyler James Robinson; death-penalty intent stated; information PDF published.",
+      "effect": "C2 / C4 process"
+    },
+    {
+      "date": "30/09/2025",
+      "event": "AP reports UVU did not fly a rooftop-security drone; six campus officers; no bag checks.",
+      "effect": "Protective-drone gap — not a weapon-drone finding (C7)"
+    },
+    {
+      "date": "30/04/2026",
+      "event": "Harpole v. Owens filed in M.D. Tennessee over Huachuca-planning allegations.",
+      "effect": "Civil process pin for Owens third-party claims (C9)"
+    },
+    {
+      "date": "06/07/2026–10/07/2026",
+      "event": "Public preliminary hearing, five days, Judge Graf. State offers campus video / roof theory; defence contests.",
+      "effect": "C3 — probable-cause testing, not a verdict"
+    },
+    {
+      "date": "08/07/2026",
+      "event": "Owens publishes first-hour timestamp thread aimed at Kolvet/Shapiro.",
+      "effect": "Commentator chronology (C9) — not foreknowledge"
+    },
+    {
+      "date": "18/08/2026",
+      "event": "State reply memorandum asks the court to bind over on all charged counts.",
+      "effect": "Advocacy for PC finding; ruling still pending"
+    },
+    {
+      "date": "23/08/2026",
+      "event": "Weinstein DarkHorse episode with Frei and Dore: drone question, nested hypotheses, 'what a functioning investigation would have looked for.'",
+      "effect": "Public method exhibit (C5 / C7) — three unflattened positions"
+    },
+    {
+      "date": "01/09/2026",
+      "event": "Scheduled oral argument on probable cause / bind-over (as of this cut-off, not yet held).",
+      "effect": "Mandatory Live File update trigger"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H-process-first",
+      "title": "Wait for tested layers",
+      "status": "Best supported for this file's job",
+      "text": "The public is entitled to the event frame and to process facts (charges, hearing, pending PC). It is not entitled to treat pre-trial narrative as adjudicated truth.",
+      "test": "Predicts charging documents, a public prelim, and a still-pending order as of 26 August 2026. Holds."
+    },
+    {
+      "id": "H-already-know",
+      "title": "The public already knows who and why",
+      "status": "Rejected as a Ministry object finding",
+      "text": "Fast charging plus prelim exhibits settle guilt and motive.",
+      "test": "Predicts a verdict or at least a PC order. Neither exists at cut-off. L3/L4 are not L6."
+    },
+    {
+      "id": "H-drone",
+      "title": "A military drone fired the fatal shot",
+      "status": "Unsupported as established",
+      "text": "HADES/ADS-B plus viral objects prove a UAV kill and imply a state or allied operation.",
+      "test": "Predicts munition, launch, and a bridge from track to shot. Not produced. Roof-rifle theory is the charging theory."
+    },
+    {
+      "id": "H-fbi-sat",
+      "title": "The FBI is not investigating / there is no case",
+      "status": "Rejected as a blanket",
+      "text": "Federal inaction plus missing alternative-theory proof means the state case is theatre.",
+      "test": "Predicts no FBI co-lead, no charging PDF, no prelim. Fails. Alternative-theory gaps remain real and separate."
+    },
+    {
+      "id": "H-owens-foreknowledge",
+      "title": "First-hour timestamps prove a plot",
+      "status": "Unsupported as foreknowledge",
+      "text": "Shapiro/security knew too fast; therefore the shooting was pre-known to insiders.",
+      "test": "Requires a clock before 12:20 MST. After-action security calls can be fast. Huachuca story is in defamation litigation, not a criminal finding."
+    }
+  ],
+  "independence": [
+    "utah-dps-2025-09-10: Utah DPS official event pin.",
+    "fbi-uvu-updates: FBI public investigation page and SAC/Director remarks — federal posture, not a second copy of the DPS release for every sentence.",
+    "utah-county-information: Criminal information PDF — charging instrument.",
+    "prelim-2026-07: Public hearing plus 18 August 2026 State bind-over reply.",
+    "commentary-2026: Owens, Weinstein/Dore/Cullen — allegation and method layers, not object evidence.",
+    "civil-harpole-2026: M.D. Tenn. defamation docket — process only.",
+    "adsb-osint: Public transponder aggregators as narrated — one data class, not a kill-chain."
+  ],
+  "openQuestions": [
+    "Written probable-cause / bind-over order after 1 September 2026 oral argument — mandatory update.",
+    "Full paragraph pins from the Criminal Information PDF (count language; later '10 counts' residual).",
+    "Hearing-transcript exhibit inventory tagged as offered versus found.",
+    "Authenticated raw ADS-B frames for N1098L and any official tasking/sensor explanation.",
+    "Independent clock audit of Owens's first-hour timestamps.",
+    "Whether a federal indictment is ever filed; not required for the state process claims."
+  ],
+  "wouldChange": [
+    "A written PC order binding Robinson over would leave C6 UNKNOWN and upgrade only C3's pending clause.",
+    "Dismissal or no-PC finding would be a process changelog and still would not by itself prove a drone or a frame.",
+    "A final judgment would open C6 for rescoring.",
+    "Court-tested UAV-munition or authenticated tasking logs tying N1098L to a courtyard weapon would force C7/C8 up.",
+    "A clocked communication before 12:20 MST proving named-party foreknowledge would force C9 up."
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "name": "Utah DPS — Updates on Charlie Kirk Shooting at UVU (10 September 2025)",
+      "kind": "Primary — official press release",
+      "role": "C1 event pin: ~12:20 p.m. MST; shot at UVU; pronounced dead; DPS+FBI co-lead; targeted-attack belief at T0.",
+      "independenceGroup": "utah-dps-2025-09-10",
+      "url": "https://dps.utah.gov/press-releases/updates-on-charlie-kirk-shooting-at-uvu/",
+      "locator": "Utah Department of Public Safety press release, 10 September 2025, 'Updates on Charlie Kirk Shooting at UVU.'"
+    },
+    {
+      "id": "S2",
+      "name": "FBI — Utah Valley Shooting Updates",
+      "kind": "Primary — federal investigation page",
+      "role": "C1/C10: FBI public investigation frame; SAC remarks index; later 'suspect in custody' updates.",
+      "independenceGroup": "fbi-uvu-updates",
+      "url": "https://www.fbi.gov/news/press-releases/utah-valley-shooting-updates",
+      "locator": "FBI news page 'Utah Valley Shooting Updates,' investigation into the fatal shooting of Charlie Kirk at UVU, 10 September 2025."
+    },
+    {
+      "id": "S3",
+      "name": "Utah County Attorney — charging information page (16 September 2025)",
+      "kind": "Primary — prosecutor publication",
+      "role": "C2/C4 process: announcement that the Criminal Information was filed and is available.",
+      "independenceGroup": "utah-county-information",
+      "url": "https://atty.utahcounty.gov/media/ckpr/59",
+      "locator": "Utah County Attorney media item, 16 September 2025, 'View the Charging Criminal Information Filed in the Charlie Kirk Shooting Case.'"
+    },
+    {
+      "id": "S4",
+      "name": "State of Utah v. Tyler James Robinson — Criminal Information PDF",
+      "kind": "Primary — charging instrument",
+      "role": "C2/C4/C6: the filed information. Allegations only.",
+      "independenceGroup": "utah-county-information",
+      "url": "https://atty.utahcounty.gov/cms/uploads/TJR_Information_49872215e3.pdf",
+      "locator": "Criminal Information, Tyler James Robinson, published by the Utah County Attorney, 16 September 2025 PDF."
+    },
+    {
+      "id": "S5",
+      "name": "Preliminary hearing 6–10 July 2026 — public testimony path (Losee roof / campus video)",
+      "kind": "Primary process — on-record hearing (press-verified)",
+      "role": "C3/C6/C7: public prelim before Judge Graf; offered roof theory and video compilation. Not a verdict.",
+      "independenceGroup": "prelim-2026-07",
+      "url": "https://www.abc4.com/news/charlie-kirk-shooting/charlie-kirk-shooting-preliminary-hearing/",
+      "locator": "Fourth District Court, Provo, State v. Robinson, preliminary hearing 6–10 July 2026. ABC4 / Reuters / WFMD hearing coverage of Bagley and Hull testimony class."
+    },
+    {
+      "id": "S6",
+      "name": "State reply memorandum in support of preliminary-hearing bind-over (18 August 2026)",
+      "kind": "Primary — prosecution filing",
+      "role": "C3/C10: asks the court to bind over on all charged counts. Advocacy, not a ruling.",
+      "independenceGroup": "prelim-2026-07",
+      "url": "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/Prosecutor_Reply.pdf",
+      "locator": "Jeffrey S. Gray / Christopher D. Ballard, Reply Memorandum in Support of Preliminary Hearing Bindover, dated 18 August 2026, Utah Fourth District."
+    },
+    {
+      "id": "S7",
+      "name": "Bret Weinstein — Was Charlie Kirk Killed With a Drone? Viva Frei and Jimmy Dore on DarkHorse (23 August 2026)",
+      "kind": "Commentary — public method conversation",
+      "role": "C5/C7: nested-set grammar; three unflattened positions (Frei roof-bullet; Dore cover-up; Weinstein method). Not a munition finding.",
+      "independenceGroup": "commentary-2026",
+      "url": "https://www.youtube.com/watch?v=TO76X9CFhUI",
+      "locator": "YouTube TO76X9CFhUI, DarkHorse, published 23 August 2026."
+    },
+    {
+      "id": "S8",
+      "name": "Jimmy Dore interview with John Cullen — military-drone / HADES ADS-B advocacy (20 August 2026)",
+      "kind": "Commentary / OSINT narration",
+      "role": "C7/C8: states the drone-as-weapon theory and narrates N1098L low/slow Utah Lake passes. Not independent of the track it describes.",
+      "independenceGroup": "commentary-2026",
+      "url": "https://www.youtube.com/watch?v=Zsy6D9pTi-U",
+      "locator": "YouTube Zsy6D9pTi-U, The Jimmy Dore Show, 20 August 2026."
+    },
+    {
+      "id": "S9",
+      "name": "AP — From drones to police presence, Utah campus where Kirk was shot lacked key public safety tools (30 September 2025)",
+      "kind": "Journalism — named investigation",
+      "role": "C7: UVU did not deploy a rooftop-security drone; six officers; no bag checks. Protective gap, not weapon-drone proof.",
+      "independenceGroup": "utah-dps-2025-09-10",
+      "url": "https://apnews.com/article/charlie-kirk-security-utah-valley-university-85cefc5ef2a64d3c33ebea6a444e0c52",
+      "locator": "Associated Press, 30 September 2025."
+    },
+    {
+      "id": "S10",
+      "name": "Candace Owens — first-hour timestamp thread (8 July 2026 path)",
+      "kind": "Commentary — public posts",
+      "role": "C9: her alleged chronology. Primary as to what she claimed, not as to foreknowledge.",
+      "independenceGroup": "commentary-2026",
+      "url": "https://www.ibtimes.co.uk/candace-owens-questions-charlie-kirk-shooting-timeline-1807685",
+      "locator": "Owens X thread summarised in IBTimes UK, 8 July 2026."
+    },
+    {
+      "id": "S11",
+      "name": "Harpole v. Owens, No. 3:26-cv-00556 (M.D. Tenn., filed 30 April 2026)",
+      "kind": "Primary — federal civil complaint",
+      "role": "C9 process: defamation action over Huachuca-planning allegations. Not a criminal finding.",
+      "independenceGroup": "civil-harpole-2026",
+      "url": "https://www.courtlistener.com/docket/718994/harpole-v-owens/",
+      "locator": "U.S. District Court, Middle District of Tennessee, 3:26-cv-00556. Complaint class also on RECAP/Scribd as Document 1, 69 pp."
+    },
+    {
+      "id": "S12",
+      "name": "Kash Patel — FBI oversight testimony on the Kirk investigation",
+      "kind": "Primary — congressional testimony",
+      "role": "C10: Bureau released images, on-scene 11 September, investigation described as ongoing; Utah partners prosecute.",
+      "independenceGroup": "fbi-uvu-updates",
+      "url": "https://www.congress.gov/119/chrg/CHRG-119hhrg61655/CHRG-119hhrg61655.pdf",
+      "locator": "U.S. House, FBI oversight hearing transcript class CHRG-119hhrg61655; Patel opening on Kirk assassination timeline."
+    }
+  ],
+  "methodAudit": [
+    {
+      "name": "Grammar",
+      "note": "Event death, charging, PC posture, death-penalty notice, method layers, object guilt, drone-weapon, ADS-B residual, Owens foreknowledge, FBI-absence slogan are separate claims. 'Charged' ≠ convicted. 'Targeted attack' in a DPS release is T0 belief. 'Drone' is not 'ISR jet nearby.' 'FOIA delay' is not 'no investigation.'"
+    },
+    {
+      "name": "Logic",
+      "note": "H-process-first is the file's job. H-already-know rejected as object finding. H-drone unsupported as established. H-fbi-sat rejected as blanket. H-owens-foreknowledge unsupported. Hidden premises blocked: after-action speed = plot; missing HADES logs = the jet fired; co-lead = federal authorship."
+    },
+    {
+      "name": "Rhetoric",
+      "note": "Stripped: 'they got Charlie,' 'the FBI did it,' 'the case is fake,' 'science proved a drone.' Neutral: a public killing, a state capital case still in PC posture, and a loud alternative-hypothesis market that has not built its bridges. Identity-swap: same layers if victim and defendant politics were reversed."
+    },
+    {
+      "name": "Reality",
+      "note": "Discriminators: DPS time/death; information PDF; five-day public prelim; bind-over brief dated 18 August with no order by 26 August; no UAV-munition exhibit harvested. Controls: protective-drone absence (AP) does not imply weapon-drone presence."
+    },
+    {
+      "name": "Independence",
+      "note": "DPS, FBI page, charging PDF, hearing/bind-over brief are official process lines. Commentary is one market. ADS-B is one OSINT class. Do not count YouTube interviews as independent of the tracks they narrate."
+    },
+    {
+      "name": "Hostile Pass 1 — Charge-as-conviction",
+      "note": "Attack: seven counts settle it. Response: C2 is process; C6 remains UNKNOWN."
+    },
+    {
+      "name": "Hostile Pass 2 — Prelim-as-verdict",
+      "note": "Attack: roof video and DNA reports are proof. Response: L4 offered/contested; PC standard only; order pending."
+    },
+    {
+      "name": "Hostile Pass 3 — Drone YouTube as munition",
+      "note": "Attack: Weinstein/Dore/Cullen proved a UAV kill. Response: C7 UNSUPPORTED; Frei held roof-bullet; nested sets ≠ kill-chain."
+    },
+    {
+      "name": "Hostile Pass 4 — FBI sat it out",
+      "note": "Attack: FOIA and Owens slogans show no federal investigation. Response: C10 — co-lead language, updates page, Patel testimony; Utah charges. FOIA paraphrase fight is records process."
+    },
+    {
+      "name": "Hostile Pass 5 — Print freeze / team jersey",
+      "note": "Attack: this file either protects the shooter or smears him. Response: Living File; C6 UNKNOWN on purpose; C7/C10 refuse both dunks. Next mandatory update is the PC order."
+    }
+  ],
+  "changelog": [
+    {
+      "date": "26/08/2026",
+      "change": "Evidence File 010 initial publication as a Living File. Process-only. Object guilt UNKNOWN (finality rule). Drone-as-weapon UNSUPPORTED. HADES ADS-B POSSIBLE as transparency residual. Owens foreknowledge UNSUPPORTED. Blanket FBI-absence UNSUPPORTED. PC / bind-over order still pending after 1 September 2026 argument. Private dossier pass 3 (26/08/2026) is the research input. Author assigned publication despite Live File hold, accepting 'PC pending' in the public ledger."
+    }
+  ]
+}

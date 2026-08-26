@@ -11,7 +11,7 @@ const sourceMap = new Map(d.sources.map((source) => [source.id, source]));
       <p class="file-subtitle">{d.subtitle}</p>
     </div>
     <div class="file-stamp" aria-label="Research status">
-      <span>{d.publication === "public" ? "Published evidence file" : "Preview evidence file"}</span>
+      <span>{d.publication === "public" ? (d.livingFile ? "Living evidence file" : "Published evidence file") : "Preview evidence file"}</span>
       <strong>{d.overall.ledger}</strong>
       <small>Last reviewed {d.lastReviewed}</small>
     </div>
@@ -20,6 +20,12 @@ const sourceMap = new Map(d.sources.map((source) => [source.id, source]));
   {d.publication !== "public" && (
     <div class="preview-banner">
       <strong>Preview.</strong> This evidence file is still under active research and is excluded from search indexing.
+    </div>
+  )}
+
+  {d.livingFile && d.livingFileNotice && (
+    <div class="preview-banner">
+      <strong>Living file.</strong> {d.livingFileNotice}
     </div>
   )}
 
