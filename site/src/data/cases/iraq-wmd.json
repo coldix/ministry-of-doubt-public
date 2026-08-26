@@ -1,0 +1,307 @@
+{
+  "fileNo": "011",
+  "slug": "iraq-wmd",
+  "publication": "public",
+  "title": "Iraq WMD / the case for war",
+  "subtitle": "No operational stockpiles at the scale of the public case; public certainty still exceeded the intelligence",
+  "chapter": "Chapter 7",
+  "livingFile": false,
+  "status": "Evidence File",
+  "firstPublished": "26/08/2026",
+  "lastReviewed": "26/08/2026",
+  "evidenceCutoff": "12/08/2026",
+  "overall": {
+    "label": "Stockpile claim failed; certainty theatre is KNOWN; 'they all lied' is not the whole story",
+    "ledger": "KNOWN",
+    "confidence": "Very high (object stockpiles and public overstatement); mixed process remains PROBABLE",
+    "summary": "After the 2003 invasion, the Iraq Survey Group (Duelfer Report, September 2004) judged that Iraq unilaterally destroyed its undeclared chemical-weapons stockpile in 1991 and did not resume production; that Saddam Hussein ended the nuclear programme in 1991 with no concerted restart; and that post-1996 work was not a biological-weapons programme. The Robb-Silberman Commission (March 2005) restated ISG's high confidence that no CW remained in inventory and concluded that the US Intelligence Community was 'dead wrong in almost all of its pre-war judgments' about Iraqi WMD — a major intelligence failure. The UK Iraq Inquiry (Chilcot, 2016) found that assessed intelligence had not 'established beyond doubt' continued CW/BW production or nuclear efforts as Tony Blair's September 2002 dossier Foreword claimed. Curveball's mobile-lab reporting, a load-bearing strand of the public biological case including Colin Powell's 5 February 2003 UN presentation, was fabricated; Robb called the failure to validate that source a major tradecraft failure. This is not a cartoon in which every senior official personally knew there were no weapons and lied in real time. Robb found analysts believed the wrong product. Butler (2004) found serious source flaws without a finding of deliberate dossier distortion in his narrow framing. Chilcot did not question that Blair held the belief he expressed. Saddam's concealment, 1980s use, and later reconstitution ambition were real and made honest assessment harder — they do not convert into 2003 stockpiles. Iraq is a documented case of war-justifying certainty under incomplete and skewed intelligence. It is not a universal template that every later war is 'the same fraud.'"
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Iraq did not possess operational WMD stockpiles at the scale and readiness asserted in the main public case for the 2003 war. Duelfer Key Findings: Iraq unilaterally destroyed its undeclared chemical-weapons stockpile in 1991; there were no credible indications Baghdad resumed chemical-munitions production thereafter; Saddam ended the nuclear programme in 1991 with no evidence of concerted restart; ISG judged post-1996 BW-applicable research was not conducted in connection with a BW programme. Robb-Silberman restated ISG's conclusion, after considerable search, of high confidence that no CW remained in the Iraqi inventory. Small numbers of old, abandoned pre-1991 munitions have been found. That residual does not restore the public-case stockpile claim. Reconstitution intent after sanctions (Duelfer) is a separate claim (C7) and is not proof of 2003 stocks.",
+      "why": "Two official post-war lines: ISG/Duelfer physical and documentary search, and a presidential commission restating ISG's inventory judgement. Pre-war NIE judgements are the thing being tested, not contrary evidence of stocks. Theoretical missed caches remain a trivial-remnant residual, not a C1 reversal.",
+      "sourceIds": ["S1", "S2"]
+    },
+    {
+      "id": "C2",
+      "level": "Process",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Pre-war US Intelligence Community key judgements about Iraqi WMD programmes were substantially wrong. Robb-Silberman: the IC was 'dead wrong in almost all of its pre-war judgments about Iraq's weapons of mass destruction. This was a major intelligence failure' — not only collection gaps but serious errors in analysis and in communicating analyses to policymakers. The October 2002 NIE, Iraq's Continuing Programs for Weapons of Mass Destruction, asserted active CW/BW programmes, a nuclear reconstitution path, and mobile BW later falsified by ISG. Classified dissents existed (INR on nuclear; DOE on aluminum tubes) and were inadequately weighted in public products. Curveball (BND-handled defector) supplied the mobile-lab narrative: Defense HUMINT disseminated about 95 reports; CIA lacked direct access pre-war; post-war travel and facility discrepancies showed fabrication. Robb: failure to validate Curveball was a major operational-tradecraft failure, with warning signs before the war.",
+      "why": "Robb-Silberman is the US official process finding. NIE 2002 is the pre-war product under test. Curveball is a documented source-fraud strand inside that failure, later admitted by the defector (Guardian, 2011) as a secondary confirmation, not the load-bearing pin.",
+      "sourceIds": ["S2", "S3", "S6"]
+    },
+    {
+      "id": "C3",
+      "level": "Process",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Public and political presentation of the case for war used unwarranted certainty relative to assessed intelligence. Chilcot Executive Summary: Blair's Foreword to the September 2002 dossier stated that assessed intelligence had 'established beyond doubt' continued CW/BW production and nuclear efforts. The Inquiry found the assessed intelligence had not established those propositions beyond doubt. The JIC should have made that clear. Chilcot recorded a widespread perception that the dossier overstated. This is a finding about justified wording versus caveated assessments. It is not, by itself, a finding that Blair personally disbelieved the intelligence. Powell's 5 February 2003 UN presentation offered 'facts and conclusions based on solid intelligence,' including mobile laboratories later shown to rest on Curveball. US unclassified products similarly stripped or downplayed caveats present in classified assessments. The lesson Chilcot draws — do not put inferential judgements 'beyond doubt' — is the load-bearing public-certainty finding.",
+      "why": "Chilcot ¶536–542 class in the Executive Summary is the UK official pin. Butler is retained as contrary-friendly on deliberate textual distortion. US caveat-stripping is a parallel process line, not a second copy of Chilcot.",
+      "sourceIds": ["S4", "S5"]
+    },
+    {
+      "id": "C4",
+      "level": "Process",
+      "ledger": "PROBABLE",
+      "confidence": "High",
+      "claim": "The failure mixed several mechanisms: analytic error and groupthink, source fraud (Curveball-class), confirmation bias under a high prior from 1980s–90s history, and a political/public climate that demanded certainty. It is not established as a single pure type — neither 'everyone knew it was a lie' nor 'an unavoidable honest mistake with no presentation failure.' Robb: commissioners had no reason to believe intelligence was distorted by political pressure; what the community produced, they believed; they were simply wrong. Butler: no evidence of deliberate distortion of the UK dossier in his narrow framing. Those residuals block a knowing-invention cartoon of the entire NIE/dossier text. They do not erase Chilcot's finding that public 'beyond doubt' language was not justified, nor Curveball tradecraft failure, nor cherry-picking and caveat-stripping in public products. Share of knowing lie versus sincere error is not quantified here.",
+      "why": "C4 is PROBABLE because the mix is well-supported while exact shares are unquantifiable. Robb and Butler are load-bearing contrary pins against pure-lie. Chilcot and Curveball are load-bearing against pure-innocence.",
+      "sourceIds": ["S2", "S4", "S5"]
+    },
+    {
+      "id": "C5",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Iraq had a documented history of WMD use and concealment that made a non-zero prior of 2002–03 programmes rational. That history includes 1980s chemical use (including Halabja), an undeclared BW programme revealed after the 1995 Hussein Kamel defection, a clandestine nuclear programme ended in 1991, and inspections obstruction in the 1990s. History is not proof of 2003 stockpiles. A rational prior is an invitation to test, not a substitute for present-tense evidence. Treating absence of evidence after 1998 as positive proof of concealment was a central analytic error (C2).",
+      "why": "Duelfer and Robb both treat 1980s–90s history as established context. C5 exists so C1 cannot be misread as 'there was never an Iraqi WMD programme.'",
+      "sourceIds": ["S1", "S2"]
+    },
+    {
+      "id": "C6",
+      "level": "Method",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Iraq is not a universal template that every later war is 'the same fraud.' Local evidence is still required. Pair with Gulf of Tonkin (Evidence File 006) for war-justifying certainty under incomplete intelligence — the mechanisms differ (SIGINT packaging and a phantom second attack versus IC analytic failure, a fraudulent defector, and public 'beyond doubt' language). Do not smuggle a 9/11–Iraq operational-conspiracy claim into this file; that would be a separate proposition. Calling a later case 'another Iraq' is not a rebuttal to its evidence.",
+      "why": "Method rule. Tonkin is the architectural pair, not an independent proof of C1–C5.",
+      "sourceIds": ["S4", "S7"]
+    },
+    {
+      "id": "C7",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "High",
+      "claim": "Duelfer judged that Saddam sought to end sanctions while preserving the capability to reconstitute WMD when sanctions lifted, with Iran as a primary motivator, and with no formal written revival plan recovered. That reconstitution ambition is a real residual. It must not be used as a substitute for the failed 2003 stockpile/production claim. Bluff toward Iran also complicated contemporaneous assessment. Keep the two propositions uncollapsed.",
+      "why": "Duelfer Key Findings on strategic intent. Confidence High rather than Very high because 'intent' is inferred from regime behaviour and detainee/docs, not a recovered formal plan. Still KNOWN as ISG's judgement, separately from C1.",
+      "sourceIds": ["S1"]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1980s–1991",
+      "event": "Iraqi chemical use in the Iran-Iraq War and at Halabja (1988); nuclear and BW programmes built and, after 1991, subject to UN inspection and concealment.",
+      "effect": "Rational prior (C5). Not 2003 stocks"
+    },
+    {
+      "date": "1991",
+      "event": "Duelfer/ISG later judge undeclared CW stockpile unilaterally destroyed; nuclear programme ended.",
+      "effect": "Object chronology for C1 — known after the war, not in 2002 public products"
+    },
+    {
+      "date": "1995–1996",
+      "event": "Hussein Kamel defection forces admission of hidden BW; ISG later judges no post-1996 BW programme.",
+      "effect": "History of concealment plus later null on restarted BW"
+    },
+    {
+      "date": "10/2002",
+      "event": "US NIE Iraq's Continuing Programs for WMD. Blair dossier Foreword: assessed intelligence had 'established beyond doubt' continued production and nuclear efforts.",
+      "effect": "Pre-war public-certainty products (C2, C3)"
+    },
+    {
+      "date": "05/02/2003",
+      "event": "Colin Powell UN Security Council presentation: 'facts and conclusions based on solid intelligence,' including mobile laboratories.",
+      "effect": "Public-certainty theatre; Curveball strand later collapses"
+    },
+    {
+      "date": "03/2003",
+      "event": "Invasion of Iraq.",
+      "effect": "Opens post-war object search"
+    },
+    {
+      "date": "30/09/2004",
+      "event": "Duelfer Report Key Findings: CW destroyed 1991 / no resumed production; nuclear ended 1991; no post-1996 BW programme; reconstitution ambition residual.",
+      "effect": "C1 / C7"
+    },
+    {
+      "date": "31/03/2005",
+      "event": "Robb-Silberman: IC 'dead wrong in almost all' pre-war judgements; Curveball tradecraft failure; analysts believed the wrong product.",
+      "effect": "C2 / C4 contrary to pure-lie"
+    },
+    {
+      "date": "14/07/2004",
+      "event": "Butler Review (UK): sources seriously flawed; no finding of deliberate dossier distortion in Butler's narrow framing.",
+      "effect": "C4 contrary residual"
+    },
+    {
+      "date": "06/07/2016",
+      "event": "Chilcot Executive Summary: 'beyond doubt' not supported by assessed intelligence; sincerity of Blair's belief not questioned.",
+      "effect": "C3"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H-stockpiles-real",
+      "title": "The public-case stockpiles existed",
+      "status": "Rejected for militarily significant 2003 stocks",
+      "text": "Iraq had operational CW/BW stocks and an active nuclear reconstitution programme as publicly claimed.",
+      "test": "Predicts ISG finds. Duelfer/Robb go the other way. Old abandoned munitions do not restore the claim."
+    },
+    {
+      "id": "H-honest-error-only",
+      "title": "Unavoidable honest mistake; presentation was fine",
+      "status": "Partial — fails alone",
+      "text": "Everyone shared the same flawed assessment in good faith; public products fairly reflected it.",
+      "test": "Robb supports believed-wrong. Chilcot 'beyond doubt' and Curveball tradecraft fail the 'presentation was fine' half."
+    },
+    {
+      "id": "H-pure-lie",
+      "title": "Leaders knew there were no weapons and invented the case",
+      "status": "Incomplete",
+      "text": "A small cabal forged the threat; agencies were ordered to lie.",
+      "test": "Robb: no political distortion of belief found; they believed and were wrong. Butler: no deliberate dossier rewrite in his frame. Chilcot does not require personal disbelief. Climate and caveat-stripping can still be PROBABLE without this cartoon."
+    },
+    {
+      "id": "H-mixed",
+      "title": "Object null + certainty theatre + mixed process",
+      "status": "Best supported",
+      "text": "No 2003 stocks at public-case scale; public certainty exceeded assessments; mechanisms include bad sources, analysis, and demand for certainty — not one slogan.",
+      "test": "C1–C3 KNOWN; C4 PROBABLE. Holds."
+    },
+    {
+      "id": "H-template",
+      "title": "Every later war is Iraq",
+      "status": "Rejected as method",
+      "text": "Iraq licenses treating any subsequent WMD or war-justification claim as the same fraud.",
+      "test": "C6. Local evidence still required. Pair with Tonkin without collapse."
+    }
+  ],
+  "independence": [
+    "isg-duelfer-2004: Post-war physical/documentary search — object stockpile null and reconstitution residual.",
+    "robb-silberman-2005: US presidential commission on IC process — 'dead wrong'; Curveball tradecraft; believed-wrong residual.",
+    "nie-2002: Pre-war US community product under test.",
+    "chilcot-2016: UK full inquiry — unjustified 'beyond doubt' public language.",
+    "butler-2004: UK intelligence review — source flaws; no deliberate distortion finding in narrow frame.",
+    "curveball-admission: Later journalistic admission — confirmation colour, not a third official lineage.",
+    "ef-tonkin-pair: Architectural pair only."
+  ],
+  "openQuestions": [
+    "Optional Blix/UNMOVIC and SSCI Phase I paragraph pins — polish, not C1–C3 blockers.",
+    "Full NIE caveat-versus-White-Paper table.",
+    "Militarily insignificant remnant inventory if later recovered.",
+    "Personal-intent fine grain for named principals at the moment of public speech — C4 residual, not a C1 reversal."
+  ],
+  "wouldChange": [
+    "Authenticated recovery of operational 2003-scale CW/BW stocks would force C1 down.",
+    "A finding that Robb was wrong and political pressure invented NIE key judgements wholesale would move C4 toward a stronger 'knowing lie' band without automatically erasing C1.",
+    "Evidence that Chilcot misquoted the dossier Foreword versus JIC assessments would force C3 down.",
+    "A later war with its own Duelfer-class object search would still need its own file — C6 forbids template-slide."
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "name": "Duelfer Report — excerpted Key Findings (30 September 2004)",
+      "kind": "Primary — Iraq Survey Group / CIA Comprehensive Report key findings",
+      "role": "C1/C5/C7: CW destroyed 1991 / no resumed production; nuclear ended 1991; no post-1996 BW programme; reconstitution ambition residual.",
+      "independenceGroup": "isg-duelfer-2004",
+      "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB418/docs/11%20-%20Duelfer%20report%20-%20excerpted%20key%20findings%209-30-04.pdf",
+      "locator": "National Security Archive Electronic Briefing Book 418, Document 11, Duelfer Report excerpted key findings, 30 September 2004."
+    },
+    {
+      "id": "S2",
+      "name": "Robb-Silberman Commission — Report to the President (31 March 2005)",
+      "kind": "Primary — US presidential commission on Intelligence Community WMD capabilities",
+      "role": "C1 restatement of ISG high-confidence no CW inventory; C2 'dead wrong… major intelligence failure'; Curveball tradecraft; C4 believed-wrong residual.",
+      "independenceGroup": "robb-silberman-2005",
+      "url": "https://govinfo.library.unt.edu/wmd/report/wmd_report.pdf",
+      "locator": "Commission on the Intelligence Capabilities of the United States Regarding Weapons of Mass Destruction, Report to the President, 31 March 2005 (619 pp.). Overview letter; Chapter 1 CW/BW/nuclear post-war findings; Curveball discussion in BW chapter."
+    },
+    {
+      "id": "S3",
+      "name": "NIE — Iraq's Continuing Programs for Weapons of Mass Destruction (October 2002)",
+      "kind": "Primary — US National Intelligence Estimate (declassified key judgements)",
+      "role": "C2: pre-war key judgements later falsified by ISG. Dissents (INR nuclear; DOE tubes) existed in the classified product.",
+      "independenceGroup": "nie-2002",
+      "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB129/nie.pdf",
+      "locator": "National Security Archive EBB 129 / EBB 418 Document 6 class, declassified NIE key judgements, October 2002."
+    },
+    {
+      "id": "S4",
+      "name": "Chilcot — Report of the Iraq Inquiry, Executive Summary (6 July 2016)",
+      "kind": "Primary — UK official inquiry",
+      "role": "C3: Foreword 'beyond doubt' not supported by assessed intelligence; JIC should have made that clear; sincerity of Blair's belief not questioned.",
+      "independenceGroup": "chilcot-2016",
+      "url": "https://webarchive.nationalarchives.gov.uk/ukgwa/20171123122743mp_/http://www.iraqinquiry.org.uk/media/247921/the-report-of-the-iraq-inquiry_executive-summary.pdf",
+      "locator": "The Report of the Iraq Inquiry, Executive Summary, 6 July 2016, UK National Archives webarchive. Conclusions on the September 2002 dossier Foreword, ¶536–542 class."
+    },
+    {
+      "id": "S5",
+      "name": "Butler Review — Review of Intelligence on Weapons of Mass Destruction (14 July 2004)",
+      "kind": "Primary — UK committee of privy counsellors",
+      "role": "C3/C4 contrary: sources seriously flawed; no evidence of deliberate distortion in Butler's narrow framing; 45-minute claim potentially misleading without battlefield context.",
+      "independenceGroup": "butler-2004",
+      "url": "https://webarchive.nationalarchives.gov.uk/ukgwa/20171123122743/http://www.iraqinquiry.org.uk/the-inquiry/the-butler-review/",
+      "locator": "Review of Intelligence on Weapons of Mass Destruction, HC 898, 14 July 2004 (Butler Review), UK official report."
+    },
+    {
+      "id": "S6",
+      "name": "Guardian — Curveball admits lies about Iraqi mobile labs (15 February 2011)",
+      "kind": "Journalism — named interview",
+      "role": "C2 colour: later admission by the defector. Not a substitute for Robb's tradecraft finding.",
+      "independenceGroup": "curveball-admission",
+      "url": "https://www.theguardian.com/world/2011/feb/15/defector-admits-wmd-lies-curveball",
+      "locator": "The Guardian, 15 February 2011, Rafid Ahmed Alwan al-Janabi ('Curveball') interview path."
+    },
+    {
+      "id": "S7",
+      "name": "Ministry Evidence File 006 — Gulf of Tonkin",
+      "kind": "Paired Ministry evidence file",
+      "role": "C6 architectural pair: war-justifying certainty under incomplete intelligence; different mechanism.",
+      "independenceGroup": "ef-tonkin-pair",
+      "url": "/cases/gulf-of-tonkin",
+      "locator": "Evidence File 006, /cases/gulf-of-tonkin."
+    }
+  ],
+  "methodAudit": [
+    {
+      "name": "Grammar",
+      "note": "Stockpiles, IC error, public certainty, mixed mechanism, prior history, anti-template, and reconstitution intent are separate. 'No WMD' in popular speech collapses C1 with C7. 'Lied' collapses C3 with C4. 'Dead wrong' is Robb's process finding about judgements, not a synonym for stockpiles (those are Duelfer)."
+    },
+    {
+      "name": "Logic",
+      "note": "H-stockpiles-real rejected. H-honest-error-only partial. H-pure-lie incomplete. H-mixed best. H-template rejected. Hidden premises blocked: reconstitution intent = stocks; 1980s use = 2003 stocks; Chilcot certainty finding = Blair knew it was false; Iraq = every later war; 9/11 operational conspiracy."
+    },
+    {
+      "name": "Rhetoric",
+      "note": "Stripped: 'Bush lied, people died' as the whole file; 'everyone made an honest mistake'; 'another Iraq' as a rebuttal. Neutral: post-war search found no public-case-scale stocks; pre-war judgements were substantially wrong; public 'beyond doubt' language was not justified; analysts largely believed the wrong product; Saddam's history and later ambition were real and separate. Identity-swap: same pins if the war's politics were reversed."
+    },
+    {
+      "name": "Reality",
+      "note": "Discriminators: Duelfer KF sentences on 1991 destruction / no resumed CW production / nuclear ended / no post-1996 BW programme; Robb 'dead wrong'; Chilcot 'not established beyond doubt'; Curveball fabrication. Controls: Butler/Robb believed-wrong residuals; old munitions remnant; reconstitution intent held as C7."
+    },
+    {
+      "name": "Independence",
+      "note": "US ISG (object) ≠ US WMD Commission (IC process) ≠ UK Chilcot (public certainty) ≠ UK Butler (dossier process). Related political systems, distinct products. Curveball Guardian interview is not a fifth official lineage."
+    },
+    {
+      "name": "Hostile Pass 1 — Pure-lie overclaim",
+      "note": "Attack: this file should say they all knew and lied. Response: C4 stays PROBABLE mixed. Robb and Butler block wholesale invention of belief. Chilcot still stands on wording."
+    },
+    {
+      "name": "Hostile Pass 2 — Reconstitution spin",
+      "note": "Attack: Duelfer intent means the public case was basically right. Response: C7 is separate and must not substitute for C1."
+    },
+    {
+      "name": "Hostile Pass 3 — Hindsight",
+      "note": "Attack: of course it looks easy now. Response: contemporaneous Herrick-class doubts are Tonkin; here the contemporaneous problem is caveats versus 'beyond doubt' and an unvalidated single source. Scored as of 2002–04 products, tested by 2004–16 inquiries."
+    },
+    {
+      "name": "Hostile Pass 4 — Template-slide",
+      "note": "Attack: therefore every later war. Response: C6. Local evidence still required. Pair with Tonkin without collapse."
+    },
+    {
+      "name": "Hostile Pass 5 — 9/11 smuggling",
+      "note": "Attack: Iraq operationally did 9/11 or transferred WMD to al-Qaeda. Response: out of this file. JIC Nov 2001 class (Chilcot cites) is the residual pointer, not a claim opened here."
+    }
+  ],
+  "changelog": [
+    {
+      "date": "26/08/2026",
+      "change": "Evidence File 011 initial publication. Research basis: private dossier Pass 2 (12/08/2026) Duelfer / Robb-Silberman / Chilcot pins. C1–C3 and C5–C6 KNOWN; C4 PROBABLE mixed; C7 reconstitution residual KNOWN and uncollapsed. Next in residual-closure queue after EF008/009. Author assigned sequential open of CLAUDE READY files."
+    }
+  ]
+}
