@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import "../styles/adnet.css";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import { SITE, AUTHOR } from "../lib/site.mjs";
@@ -94,6 +95,22 @@ const jsonLd = {
     <main id="main">
       <slot />
     </main>
+    <!--
+      House ad band (adnet, ads.oze.net.au). One row above the footer, site-wide: three
+      300x250 slots that collapse to two on a tablet and one on a phone. The extra columns
+      are display:none under their breakpoints and the tag never requests a slot with no
+      client rects, so a column nobody can see is never counted as delivered.
+    -->
+    <aside class="ad-band" aria-label="Sponsored">
+      <p class="ad-band__label">Sponsored</p>
+      <div class="wrap ad-row-wrap">
+        <div class="ad-row">
+          <div class="ad-slot ad-300x250" data-ad-zone="footer-row"></div>
+          <div class="ad-slot ad-300x250 ad-col-2" data-ad-zone="footer-row-2"></div>
+          <div class="ad-slot ad-300x250 ad-col-3" data-ad-zone="footer-row-3"></div>
+        </div>
+      </div>
+    </aside>
     <Footer />
     <script is:inline>
       (function () {
@@ -114,5 +131,6 @@ const jsonLd = {
         });
       })();
     </script>
+    <script async src="https://ads.oze.net.au/t.js"></script>
   </body>
 </html>
