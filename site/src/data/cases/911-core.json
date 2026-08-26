@@ -11,7 +11,7 @@
   "lastReviewed": "26/08/2026",
   "evidenceCutoff": "12/08/2026",
   "overall": {
-    "label": "Al-Qaeda attack and intelligence failure are KNOWN; tower CD and LIHOP/MIHOP are not; Building 7 is a separate technical contest",
+    "label": "Al-Qaeda attack and intelligence failure are KNOWN; tower CD and LIHOP/MIHOP are not; Building 7 is scored inside this file, not a separate Evidence File",
     "ledger": "KNOWN",
     "confidence": "Very high on the attack and warning-failure families; mixed on Building 7 mechanism",
     "summary": "“9/11” is not one claim. On 11 September 2001 four commercial airliners were hijacked; two struck the World Trade Center towers, one struck the Pentagon, and United 93 crashed in Pennsylvania after passenger intervention. The operational network was al-Qaeda under Osama bin Laden’s organisation. US intelligence and security institutions had warning indicators that were inadequately imagined, shared, and acted on — the 6 August 2001 PDB is a load-bearing example. That failure is not a finding that they let it happen or made it happen. NIST’s account of WTC 1 and 2 is impact damage plus multi-floor fires plus dislodged fireproofing; it found no corroborating evidence of pre-planted controlled demolition of the towers. World Trade Center 7, not hit by an aircraft, collapsed that afternoon after debris-ignited fires. NIST’s Column 79 fire-induced sequence is the best official engineering account and is scored PROBABLE, not frozen: no named human structural engineer has signed the Ministry’s hostile brief. A free-fall interval of the exterior is a measured kinematic fact; it is not automatic proof of demolition. Architects & Engineers for 9/11 Truth and Pilots for 9/11 Truth are real credentialed-dissent organisations. Petitions, videos, and the AE911Truth-funded Hulsey/UAF WTC 7 study do not establish controlled demolition or government authorship. Aftermath policy is real. Benefit after an event is not proof of authorship."
@@ -86,7 +86,7 @@
       "ledger": "PROBABLE",
       "confidence": "High — not Edition-frozen",
       "claim": "NIST’s initiating local failure for WTC 7 is buckling of Column 79 after fire-induced thermal expansion and girder walk-off at Floor 13, then progressive interior collapse and exterior facade failure (NCSTAR 1A §2.4). Key finding: responses primarily at temperatures below about 400 °C — well below temperatures at which structural steel loses significant strength — so the official mechanism is expansion and connection failure, not ‘steel melted.’ This is the best available official engineering account. It is scored PROBABLE, not KNOWN, and it is not frozen: the Ministry has no named human structural or fire-protection engineer review of NCSTAR 1A plus Hulsey. Readers who require that bar should treat C8 as an open technical contest. NIST modelling opacity and data-release residuals are legitimate process complaints. They do not, by themselves, establish demolition.",
-      "why": "Demotion-class language from the Edition fallback, applied because the human PE gate is still TBD. Do not rubber-stamp NIST as settled science. Do not treat the gate as a licence to upgrade C10.",
+      "why": "Author 26/08/2026: Building 7 is rolled into this file only; no standalone WTC7 Evidence File. Human PE not obtained. Demotion fallback executed — C8 stays PROBABLE / not frozen. Do not rubber-stamp NIST as settled science. Do not treat demotion as a C10 upgrade.",
       "sourceIds": ["S4", "S6"]
     },
     {
@@ -384,6 +384,10 @@
     {
       "date": "26/08/2026",
       "change": "Evidence File 013 initial publication. Research basis: 911-core Pass 2 plus WTC7 Pass 2. Towers and attack/intelligence families from 911-core; Building 7 included as a separate family with W3/C8 PROBABLE and not frozen (no named human PE). Architects & Engineers for 9/11 Truth and Pilots for 9/11 Truth scored as real dissent (C14) that does not establish demolition or no-Pentagon-plane (C15). Not a standalone WTC7 file."
+    },
+    {
+      "date": "26/08/2026",
+      "change": "Author roll-in: WTC7 module closed as a leftover. No standalone Evidence File. Demotion fallback executed — C8 remains PROBABLE / not frozen. PE gate no longer a hanging A-class blocker. Claims C7–C11 unchanged."
     }
   ]
 }
