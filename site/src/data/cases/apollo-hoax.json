@@ -1,0 +1,292 @@
+{
+  "fileNo": "015",
+  "slug": "apollo-hoax",
+  "publication": "public",
+  "title": "Apollo / Moon-landing hoax claims",
+  "subtitle": "Crewed landings are KNOWN on converging independent lines; total studio-hoax fails; NASA can still be criticised",
+  "chapter": "Chapter 16",
+  "livingFile": false,
+  "status": "Evidence File",
+  "firstPublished": "26/08/2026",
+  "lastReviewed": "26/08/2026",
+  "evidenceCutoff": "12/08/2026",
+  "overall": {
+    "label": "Landings KNOWN; total hoax UNSUPPORTED; NASA-channel dependence is real and not a disproof",
+    "ledger": "KNOWN",
+    "confidence": "Very high",
+    "summary": "This file is a negative control: the method must reject a weak anti-establishment claim, not only institutional failures. Apollo 11–17 landed humans on the Moon and returned them, and lunar samples, as publicly reported. The total studio-hoax claim fails a joint-fake test across independent measurement classes. Lunar laser ranging still returns from Apollo retroreflectors at published coordinates, measured by multi-national stations (Grasse, Matera, Wettzell, and others) for more than fifty years; Lunokhod 1 and 2 arrays are a parallel Soviet/French programme, not Apollo hardware. Jodrell Bank, a UK observatory, dual-tracked Apollo 11’s Eagle and the Soviet Luna 15 probe in July 1969. International laboratories have analysed Apollo samples as lunar-origin material; Soviet Luna robotic returns are a comparison class. LRO imaging of hardware and tracks at claimed sites is consistent corroboration and is NASA-family — not foreign independence. Viral flag, star, and shadow anomalies do not overturn that convergence. NASA remains the primary documentary channel for film and archives; that dependence is scored, not denied. Legitimate criticism of Apollo 1, shuttle disasters, cost, and PR culture remains open and does not rehabilitate total-hoax. Twin to Wakefield (Evidence File 004): method cuts both ways."
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "The Apollo 11–17 missions landed humans on the Moon and returned them, and lunar samples, to Earth as publicly reported. This is a convergence finding, not a single-pin finding. Load-bearing independent lines: (1) lunar laser ranging to passive Apollo retroreflector arrays still operated by multi-national ILRS stations, plus Lunokhod arrays placed by a Soviet/French programme; (2) non-US radio tracking, especially Jodrell Bank’s dual track of Apollo 11 and Luna 15 in July 1969; (3) international lunar-sample science, with Luna robotic returns as a comparison class. LRO site imaging is consistent and is not counted as a foreign line. No one line is required to be decisive alone. The pattern is.",
+      "why": "Wish-did-not-exist for a NASA-only conspiracy: multi-national LLR + Lunokhod parallel + Jodrell dual-track. LLR in isolation proves reflectors at lunar distance, not astronaut video — hence convergence, not isolation.",
+      "sourceIds": ["S1", "S2", "S3", "S6"]
+    },
+    {
+      "id": "C2",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Popular total-hoax claims — studio filming of the landings, no crewed landings, wholesale NASA fabrication of the lunar programme as reported — fail against that convergence. A studio hypothesis must jointly fake or nullify multi-national ranging returns, UK dual-tracking of a US landing craft and a competing Soviet probe, international sample science, and the absence of a sustained Soviet technical exposure campaign during a prestige race. That conspiracy surface is larger than the landings. Motive plus NASA-channel control is not that demonstration.",
+      "why": "Extraordinary claim. Failure-mode independence, not purity of every document. C3 keeps the dependence steelman honest.",
+      "sourceIds": ["S1", "S2", "S3"]
+    },
+    {
+      "id": "C3",
+      "level": "Object",
+      "ledger": "UNSUPPORTED",
+      "confidence": "Very high against as established",
+      "claim": "Viral anomaly lists do not disprove C1. Flag ‘waving’ is support-rod plus inertia in vacuum. Missing stars are exposure for a sunlit surface. Shadow ‘anomalies’ are perspective, terrain, and a single sun. Lost telemetry tapes are archival failure, not proof of no mission. Van Allen ‘unsurvivable’ transit remains an engineering-paper polish residual and is not scored as a C1 reversal. Photo intuition is not a discriminator.",
+      "why": "Pedagogy, not a second physics book. Anomalies can be discussed without promoting them to object-level disproof.",
+      "sourceIds": ["S1", "S5"]
+    },
+    {
+      "id": "C4",
+      "level": "Process",
+      "ledger": "KNOWN",
+      "confidence": "High",
+      "claim": "Much publicly cited Apollo evidence routes through NASA or contractors. Film, transcripts, and most technical archives are a US-programme channel. Frequencies and schedules were public, so foreign listeners knew where to point. That limits how ‘surprise-independent’ intercepts are. Dependence is not automatic disproof. It is a reason to score measurement operators separately from placement origin, and a reason not to treat LRO as foreign proof.",
+      "why": "The strongest remaining hoax steelman. Answered with failure-mode independence, not with ‘trust NASA.’",
+      "sourceIds": ["S1", "S3", "S5"]
+    },
+    {
+      "id": "C5",
+      "level": "Method",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "When multi-line independent evidence converges, continued total rejection is less rational than accepting the conventional account. Unfalsifiable ‘all of it still touches NASA somewhere’ is not a rebuttal to C1. This is the load-bearing method sentence of the negative-control chapter.",
+      "why": "Architectural. Twin to the Ministry’s refusal to treat institutional failure as automatic conspiracy.",
+      "sourceIds": ["S1", "S2", "S3"]
+    },
+    {
+      "id": "C6",
+      "level": "Method",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Legitimate criticism of NASA cost, PR, risk culture, Apollo 1, Challenger, and Columbia remains possible without rehabilitating total-hoax claims. Real agency failures show the institution is not holy. They are a different proposition family from C1–C2. Smuggling programme critique into studio-hoax is a category error.",
+      "why": "Symmetric ruthlessness. Same rule as refusing to launder Wakefield into blanket vaccine metaphysics.",
+      "sourceIds": ["S7"]
+    },
+    {
+      "id": "C7",
+      "level": "Method",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "This file is the method twin to Wakefield / MMR (Evidence File 004). The protocol must reject a popular anti-establishment claim that fails multi-line evidence, not only claims in which institutions failed. If the book never strongly rejects an anti-establishment story, readers may suspect the method is rigged.",
+      "why": "09 structural pairing. EF004 is the other negative-control specimen, narrowly scoped.",
+      "sourceIds": ["S7"]
+    },
+    {
+      "id": "C8",
+      "level": "Method",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Lunar Reconnaissance Orbiter imaging of hardware and tracks at claimed landing sites is consistent with the reported locations and is limited-independence corroboration. LRO is a NASA-family sensor. It must not be sold as foreign proof. Sample chain-of-custody remains the serious academic attack surface for sophisticated sceptics — not flags and shadows. Collection was NASA; analysis is multi-lab. That residual does not currently overturn C1.",
+      "why": "Honesty about independence n. Hostile pass 1 in the handoff.",
+      "sourceIds": ["S5", "S6"]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "16–24/07/1969",
+      "event": "Apollo 11. Jodrell Bank dual-tracks Eagle and Soviet Luna 15. Apollo 11 retroreflector deployed at Mare Tranquillitatis.",
+      "effect": "C1 / C4 — foreign RF plus hardware still ranged"
+    },
+    {
+      "date": "11/1970–01/1973",
+      "event": "Luna 17 / Lunokhod 1 and Luna 21 / Lunokhod 2 place French-built retroreflectors. Apollo 14 and 15 add further arrays.",
+      "effect": "Parallel non-Apollo LLR targets"
+    },
+    {
+      "date": "1969–1972",
+      "event": "Apollo 12–17 landings (Apollo 13 abort). Sample return and further arrays.",
+      "effect": "C1 programme, not a single mission"
+    },
+    {
+      "date": "1994",
+      "event": "Dickey et al., Science: LLR as a continuing Apollo legacy; multi-station science.",
+      "effect": "C1 science overview pin"
+    },
+    {
+      "date": "03/07/2009",
+      "event": "University of Manchester / Jodrell Bank releases 1969 control-room audio of the Luna 15 / Apollo 11 dual track.",
+      "effect": "C1 foreign RF primary path"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H-landings",
+      "title": "Crewed landings occurred as reported",
+      "status": "Best supported",
+      "text": "Convergence of LLR, foreign RF, and sample science, with LRO as limited corroboration.",
+      "test": "C1. Holds."
+    },
+    {
+      "id": "H-studio",
+      "title": "Total studio hoax",
+      "status": "Rejected",
+      "text": "No crewed landings; the public record is fabricated.",
+      "test": "C2. Joint-fake cost across independent groups."
+    },
+    {
+      "id": "H-anomalies",
+      "title": "Photo and radiation anomalies disprove landings",
+      "status": "Rejected as established",
+      "text": "Flags, stars, shadows, Van Allen folklore overturn C1.",
+      "test": "C3. UNSUPPORTED as disproof."
+    },
+    {
+      "id": "H-nasa-taint",
+      "title": "If NASA is the channel, nothing counts",
+      "status": "Rejected as method",
+      "text": "Any confirming line that touches the US programme is worthless.",
+      "test": "C4–C5. Measure operators separately from placement."
+    },
+    {
+      "id": "H-dunk",
+      "title": "Hoax believers are the point of the chapter",
+      "status": "Rejected as method",
+      "text": "Humiliation as epistemology.",
+      "test": "C6–C7. Steelman dependence; no sneer."
+    }
+  ],
+  "independence": [
+    "llr-apollo-arrays: Hardware placed by Apollo; ranges by FR/IT/DE/CN/US academic stations. Survives if NASA PR = 0 as an operational ranging fact.",
+    "llr-lunokhod: Soviet/French placement. Parallel programme.",
+    "track-jodrell: Non-US university observatory RF. Dual-track of Apollo 11 and Luna 15.",
+    "samples-apollo-labs: Collection NASA; analysis multi-institutional. Custody residual open at paper-polish level.",
+    "samples-luna-ussr: Soviet robotic comparison class.",
+    "lro-lroc-sites: NASA-family sensor. Corroboration only.",
+    "ussr-incentive-posture: Live competitor during Apollo 11. Motive-to-expose, not a lab pin.",
+    "ef-wakefield-pair: Architectural twin only."
+  ],
+  "openQuestions": [
+    "Single geochemistry primary paper for sample-origin diagnostics — class-level KNOWN already; paper-level polish.",
+    "Van Allen belt dose engineering pin — residual; does not currently move C1.",
+    "Optional ALSJ EVA timeline exhibit for pedagogy.",
+    "Müller et al. 2019 LLR review as optional modern science pin."
+  ],
+  "wouldChange": [
+    "Demonstration that multi-national LLR returns, Jodrell dual-track, and international sample science are all fabricated or systematically misread would force C1 down.",
+    "Primary evidence of a studio-scale conspiracy capable of producing that physical and international observational record would reopen C2.",
+    "A finding that this file treats all NASA-critical inquiry as heresy would be a C6 method failure, not proof of hoax.",
+    "Nothing in later NASA programme failures changes C1."
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "name": "ILRS — Apollo and Luna retroreflectors",
+      "kind": "Primary — International Laser Ranging Service mission pages",
+      "role": "C1/C2: five lunar arrays (Apollo 11/14/15; Luna 17/21). Coordinates; multi-station ranging history including Grasse, Wettzell; Lunokhod parallel.",
+      "independenceGroup": "llr-apollo-arrays",
+      "url": "https://ilrs.gsfc.nasa.gov/missions/satellite_missions/current_missions/ap11_general.html",
+      "locator": "International Laser Ranging Service, Apollo and Luna Reflectors. Companion reflector-information page: ilrs.gsfc.nasa.gov/missions/satellite_missions/current_missions/ap11_reflector.html. Apollo 11 at 0.6734° N, 23.473° E; Lunokhod 1/2 listed as USSR/France."
+    },
+    {
+      "id": "S2",
+      "name": "Dickey et al. — Lunar Laser Ranging: A Continuing Legacy of the Apollo Program (Science, 1994)",
+      "kind": "Primary — peer-reviewed science overview",
+      "role": "C1: canonical LLR science paper; ongoing ranging as Apollo legacy. Not astronaut video by itself.",
+      "independenceGroup": "llr-apollo-arrays",
+      "url": "https://www.science.org/doi/10.1126/science.265.5171.482",
+      "locator": "J. O. Dickey et al., Science 265, 482–490 (22 July 1994). DOI 10.1126/science.265.5171.482."
+    },
+    {
+      "id": "S3",
+      "name": "University of Manchester / Jodrell Bank — Luna 15 and Apollo 11 dual-track (2009 audio release)",
+      "kind": "Primary — UK observatory contemporaneous tracking, later public release",
+      "role": "C1/C4: non-US RF tracking of Eagle and competing Soviet Luna 15 in July 1969.",
+      "independenceGroup": "track-jodrell",
+      "url": "https://www.jb.man.ac.uk/news/2009/luna15-apollo11/",
+      "locator": "Jodrell Bank Centre for Astrophysics / University of Manchester, 3 July 2009: ‘Recording of Russia’s lunar gatecrash attempt released.’ 1969 control-room audio path."
+    },
+    {
+      "id": "S4",
+      "name": "Jodrell Bank — The Moon Landing and Jodrell Bank (2024 narrative)",
+      "kind": "Primary/institutional narrative — same observatory lineage as S3",
+      "role": "C1 colour: dual-tracking story maintained by the observatory. Not a second RF lineage.",
+      "independenceGroup": "track-jodrell",
+      "url": "https://www.jodrellbank.net/explore/stories/the-moon-landing-and-jodrell-bank/",
+      "locator": "Jodrell Bank, ‘The Moon Landing and Jodrell Bank,’ July 2024 path. Same institution as the 2009 audio release."
+    },
+    {
+      "id": "S5",
+      "name": "NASA SVS 31052 — Revisiting the Apollo landing sites (LRO)",
+      "kind": "NASA-family imaging product",
+      "role": "C3/C4/C8: hardware and tracks consistent with claimed sites. Limited independence — not foreign proof.",
+      "independenceGroup": "lro-lroc-sites",
+      "url": "https://svs.gsfc.nasa.gov/31052/",
+      "locator": "NASA Scientific Visualization Studio, ‘Revisiting the Apollo Landing Sites,’ SVS 31052 (2019 path). Label: NASA-family corroboration."
+    },
+    {
+      "id": "S6",
+      "name": "NASA Lunar Sample Laboratory Facility — curator portal (class locator)",
+      "kind": "Primary portal — sample allocation class, not a single paper",
+      "role": "C1/C8: Apollo returned lunar material analysed in laboratories worldwide. Collection NASA; analysis multi-lab. Paper-level geochemistry residual.",
+      "independenceGroup": "samples-apollo-labs",
+      "url": "https://curator.jsc.nasa.gov/lunar/",
+      "locator": "NASA JSC Lunar Sample Laboratory Facility curator portal. Class-level pin for international analysis; not a substitute for a named geochemistry paper."
+    },
+    {
+      "id": "S7",
+      "name": "Ministry Evidence File 004 — Wakefield / MMR",
+      "kind": "Paired Ministry evidence file",
+      "role": "C6/C7 architectural twin: method must reject a failed anti-establishment claim as well as institutional failure.",
+      "independenceGroup": "ef-wakefield-pair",
+      "url": "/cases/wakefield-mmr",
+      "locator": "Evidence File 004, /cases/wakefield-mmr. Narrow specimen; not a general vaccine chapter."
+    }
+  ],
+  "methodAudit": [
+    {
+      "name": "Grammar",
+      "note": "Landings, total-hoax, anomalies-as-disproof, NASA-channel, rationality threshold, NASA-critique-without-hoax, Wakefield twin, and LRO-limited-independence are separate. ‘NASA lied’ collapses C4 with C2. ‘Mirrors prove astronauts’ isolates LLR from convergence."
+    },
+    {
+      "name": "Logic",
+      "note": "H-landings best. H-studio rejected. H-anomalies rejected as established. H-nasa-taint rejected as method. H-dunk rejected. Hidden premises blocked: NASA-channel = no landings; LRO = foreign proof; agency failure = studio; flag meme = physics."
+    },
+    {
+      "name": "Rhetoric",
+      "note": "Stripped: dunk culture; ‘sheeple’; ‘NASA always trustworthy.’ Neutral: converging physical and international observational lines; dependence scored; anomalies do not overturn. Identity-swap: same pins if the Cold War politics were reversed."
+    },
+    {
+      "name": "Reality",
+      "note": "Discriminators: ILRS multi-station returns; Lunokhod parallel arrays; Jodrell 2009 audio of dual-track; sample-science class. Controls: LRO NASA-family; sample custody residual; Van Allen paper residual."
+    },
+    {
+      "name": "Independence",
+      "note": "Placement origin ≠ measurement operator. Lunokhod is not Apollo hardware. Jodrell is not NASA. LRO is NASA-family. Dickey authors are NASA-adjacent; ILRS station list is not."
+    },
+    {
+      "name": "Hostile Pass 1 — Independence overclaim",
+      "note": "Attack: you treat LRO as foreign. Response: C8. Corroboration only."
+    },
+    {
+      "name": "Hostile Pass 2 — Mirrors not astronauts",
+      "note": "Attack: LLR proves retroreflectors, not crews. Response: true in isolation. C1 is convergence."
+    },
+    {
+      "name": "Hostile Pass 3 — Dunk culture",
+      "note": "Attack: this chapter exists to humiliate. Response: C6–C7. Steelman dependence. No sneer."
+    },
+    {
+      "name": "Hostile Pass 4 — NASA critique smuggled into hoax",
+      "note": "Attack: Apollo 1 and shuttle prove fakery. Response: C6. Different family."
+    },
+    {
+      "name": "Hostile Pass 5 — TV quality",
+      "note": "Attack: absence of live-TV quality = studio. Response: C3. Exposure and 1969 downlink limits are not a discriminator for C1."
+    }
+  ],
+  "changelog": [
+    {
+      "date": "26/08/2026",
+      "change": "Evidence File 015 initial publication. Research basis: apollo-hoax Pass 2 (12/08/2026) ILRS / Dickey 1994 / Jodrell 2009 / independence map. C1–C2 KNOWN; C3 anomalies UNSUPPORTED as disproof; C4 NASA channel KNOWN; C5–C8 method KNOWN. LRO not sold as foreign. Author assigned sequential open; CLAUDE READY negative control."
+    }
+  ]
+}
