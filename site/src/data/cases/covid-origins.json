@@ -1,0 +1,304 @@
+{
+  "fileNo": "017",
+  "slug": "covid-origins",
+  "publication": "public",
+  "title": "COVID origins",
+  "subtitle": "Origin is not settled to KNOWN; market-centred zoonosis is PROBABLE; lab-associated incident remains live; early messaging over-closed",
+  "chapter": "Chapter 15",
+  "livingFile": true,
+  "livingFileNotice": "This is a Living Evidence File. Science, FOI, and intelligence assessments can still move. The Edition language freeze applies: C1 and C2 are not peer-frozen science, and this file does not treat origin as settled. New discriminating evidence (intermediate host, or lab inventory/matching sequences) enters the private dossier first, then this file with a changelog.",
+  "status": "Living Evidence File",
+  "firstPublished": "26/08/2026",
+  "lastReviewed": "26/08/2026",
+  "evidenceCutoff": "12/08/2026",
+  "overall": {
+    "label": "Origin unresolved at KNOWN; zoonosis best-supported natural account; lab live; bioweapon unsupported",
+    "ledger": "KNOWN",
+    "confidence": "Very high that origin is not settled; mixed on which hypothesis wins",
+    "summary": "Where SARS-CoV-2 first entered humans is not established to KNOWN. The US Intelligence Community’s 2021 declassified assessment judged two hypotheses plausible — natural exposure to an infected animal, and a laboratory-associated incident — and remained divided (four elements plus NIC, low confidence, natural; one element, moderate confidence, laboratory-associated at WIV; three unable to coalesce). Broad IC agreement: the virus was not developed as a biological weapon. Peer-reviewed work (Worobey; Pekar, Science 2022) supports the Huanan market as an early epicentre consistent with zoonotic emergence, including dual introductions; the intermediate-host chain is not closed, so zoonosis is PROBABLE, not KNOWN. A laboratory-associated incident remains a live hypothesis given Wuhan sarbecovirus research context, DEFUSE-class design prior, opacity, and the IC split — POSSIBLE, not established. Early 2020 prestige messaging over-closed laboratory scenarios (Proximal Origin ‘not plausible’; Lancet ‘conspiracy theories’) while later IC product still called both plausible. DEFUSE was a rejected DARPA proposal, not a recipe that produced the pandemic virus. Political team-jersey is not evidence. This file executes the Edition language freeze: no named human virologist has signed the Ministry brief; C1/C2 confidences are not frozen science."
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "level": "Object",
+      "ledger": "PROBABLE",
+      "confidence": "Moderate–high on market centrality; moderate on pure wildlife-trade origin",
+      "claim": "A market-centred zoonotic path remains the best-supported natural account. Worobey et al., Science 2022: the Huanan Seafood Wholesale Market was the early epicentre; earliest known December 2019 cases, including those without reported direct market links, were geographically centred on that market; live SARS-CoV-2-susceptible mammals were sold there in late 2019; within-market positive environmental samples associated with live-mammal vendors. Pekar et al., Science 2022: pre-February 2020 genomic diversity is consistent with at least two separate cross-species transmissions (lineages A and B), with first zoonotic transmission of lineage B around 18 November 2019 (interval 23 Oct–8 Dec). Intermediate-host chain is not publicly closed. Market-as-amplifier of a laboratory introduction remains a residual hybrid. This is not KNOWN origin.",
+      "why": "Best peer-reviewed Z case. Worobey/Pekar are related-programme papers (partial dependence). Intermediate host and data-access limits block KNOWN.",
+      "sourceIds": ["S1", "S2"]
+    },
+    {
+      "id": "C2",
+      "level": "Object",
+      "ledger": "POSSIBLE",
+      "confidence": "Moderate as a live hypothesis — not established",
+      "claim": "A laboratory-associated incident (research-related infection, animal handling, sampling, or accidental release) involving work on related sarbecoviruses in Wuhan remains a live hypothesis. One IC element assessed with moderate confidence that the first human infection most likely was laboratory-associated, probably involving WIV. DEFUSE-class research prior and Chinese investigation-hinder raise the prior. There is no public lab inventory or matching unpublished sequence that establishes this. Geographic co-location of WIV and the outbreak is not enough. Absence of a closed intermediate host raises the cost of pure zoonosis; it does not prove a lab incident. Not KNOWN. Not a culture-war symmetry play: ODNI called both hypotheses plausible.",
+      "why": "Live science residual, not team jersey. Schema has no POSSIBLE–PROBABLE hyphen; POSSIBLE is the honest object band until inventory/sequence/serology appear.",
+      "sourceIds": ["S3", "S6"]
+    },
+    {
+      "id": "C3",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Present evidence does not establish either natural spillover or a laboratory-associated incident to KNOWN. ODNI 2021: all agencies assess both hypotheses plausible; the IC remains divided on the most likely origin. Four IC elements plus the National Intelligence Council: low confidence, natural exposure most likely. One IC element: moderate confidence, laboratory-associated. Three: unable to coalesce without more information. A more definitive explanation needs new pathway evidence — specific natural contact or lab handling of SARS-CoV-2 or a close progenitor before emergence. One-agency lean is not KNOWN lab origin. ‘Science settled natural origin’ is a forbidden sentence of this file.",
+      "why": "Meta-finding. IC split plus scientific residual. Language freeze C3.",
+      "sourceIds": ["S3"]
+    },
+    {
+      "id": "C4",
+      "level": "Object",
+      "ledger": "UNSUPPORTED",
+      "confidence": "High against as established",
+      "claim": "The claim that SARS-CoV-2 was developed as a biological weapon is UNSUPPORTED as established. ODNI: the IC reached broad agreement the virus was not developed as a biological weapon. Most agencies, low confidence, probably not genetically engineered; two agencies insufficient evidence either way. This is a separate proposition from accidental laboratory-associated infection (C2).",
+      "why": "IC broad agreement. Do not collapse weaponisation into research-related accident.",
+      "sourceIds": ["S3"]
+    },
+    {
+      "id": "C5",
+      "level": "Process",
+      "ledger": "KNOWN",
+      "confidence": "High",
+      "claim": "Early 2020 scientific messaging overstated certainty against laboratory-associated hypotheses relative to the evidence then. Andersen et al., Nature Medicine, March 2020 (‘The proximal origin of SARS-CoV-2’): ‘Our analyses clearly show that SARS-CoV-2 is not a laboratory construct or a purposefully manipulated virus’; ‘we do not believe that any type of laboratory-based scenario is plausible.’ The same paper notes it is currently impossible to prove or disprove some origin theories while still closing laboratory-based scenarios as implausible — rhetorical over-closure. Calisher et al., Lancet, 19 February 2020: ‘We stand together to strongly condemn conspiracy theories suggesting that COVID-19 does not have a natural origin.’ Peter Daszak / EcoHealth organisational role in that letter process is a conflict-of-independence residual given EcoHealth–WIV links. C5 is process over-closure, not a finding that Proximal Origin committed fraud, and not a finding that ‘not a laboratory construct’ is false.",
+      "why": "Text pins. FOI trails of February 2020 private lab-feature concern versus public hard closure are supporting process colour, not a fraud verdict.",
+      "sourceIds": ["S4", "S5"]
+    },
+    {
+      "id": "C6",
+      "level": "Process",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "PRC authorities restricted early outbreak data, sample access, and independent investigation. ODNI: Beijing continues to hinder global investigation and resist sharing; China’s cooperation is most likely needed for a more definitive explanation. Opacity raises residual for both zoonosis and lab hypotheses. It does not alone prove a laboratory incident.",
+      "why": "IC process finding plus constrained WHO–China joint investigation access. Discriminates against premature closure of either object path.",
+      "sourceIds": ["S3"]
+    },
+    {
+      "id": "C7",
+      "level": "Process",
+      "ledger": "KNOWN",
+      "confidence": "High as context; UNSUPPORTED as cause",
+      "claim": "Research proposals and lab work on bat sarbecoviruses at or near Wuhan are relevant prior context for a laboratory-associated hypothesis and are not proof of release. DEFUSE (2018): EcoHealth Alliance proposal to DARPA PREEMPT, collaborators including WIV context; proposed infectious clones of bat SARS-related coronaviruses and introduction of human-specific proteolytic cleavage sites into spike. DARPA rejected the proposal; it was not funded as written. Proposal ≠ experiment performed ≠ pandemic virus. ‘DEFUSE proves the virus was engineered and released’ is a forbidden sentence of this file.",
+      "why": "Two-part claim. Context KNOWN; causation UNSUPPORTED. Schema one ledger: object-cause is the load-bearing half for this ID — overall summary splits them. Ledger KNOWN is for the existence of the rejected proposal as context; the claim text forbids causal upgrade.",
+      "sourceIds": ["S6"]
+    },
+    {
+      "id": "C8",
+      "level": "Process",
+      "ledger": "PROBABLE",
+      "confidence": "Moderate–high",
+      "claim": "Platform and institutional framing treated laboratory-associated discussion as fringe or misinformation at times when it remained a live scientific hypothesis and while the IC was still split. This is a process failure of uncertainty communication. Some true nonsense was also moderated. Dated platform exhibits are a polish residual. C8 cannot upgrade C2 to KNOWN.",
+      "why": "Weaker than C5’s primary texts. Held PROBABLE. Language freeze item 8.",
+      "sourceIds": ["S3", "S4"]
+    },
+    {
+      "id": "C9",
+      "level": "Method",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "What would discriminate: a closed intermediate-host plus tight wildlife-trade chain would raise C1 toward KNOWN; a verifiable lab inventory, matching unpublished sequences, or documented research-related infections would raise C2 toward KNOWN. No intermediate host is not proof of a lab leak. One IC agency’s moderate lab lean is not KNOWN lab origin. Left/right ownership of either story is not evidence. This file has not completed named human virologist hostile review; C1/C2 confidences are not peer-frozen science.",
+      "why": "Discrimination table plus language freeze. Team jersey is not a lineage.",
+      "sourceIds": ["S1", "S2", "S3"]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2018",
+      "event": "DEFUSE proposal to DARPA PREEMPT (EcoHealth–WIV context; cleavage-site insertion class). Rejected, not funded as written.",
+      "effect": "C7 context, not cause"
+    },
+    {
+      "date": "11–12/2019",
+      "event": "IC: small-scale exposure probably no later than November 2019; first known cluster Wuhan December 2019. Pekar: lineage B introduction interval includes ~18 Nov 2019.",
+      "effect": "Object chronology for C1–C3"
+    },
+    {
+      "date": "19/02/2020",
+      "event": "Lancet Calisher et al.: condemn ‘conspiracy theories’ of non-natural origin.",
+      "effect": "C5 over-closure"
+    },
+    {
+      "date": "03/2020",
+      "event": "Proximal Origin (Nat Med): not a laboratory construct; laboratory-based scenario not plausible.",
+      "effect": "C5"
+    },
+    {
+      "date": "08/2021",
+      "event": "ODNI declassified IC assessment: both hypotheses plausible; IC divided; not a bioweapon.",
+      "effect": "C3 / C4"
+    },
+    {
+      "date": "07–08/2022",
+      "event": "Worobey and Pekar Science papers: Huanan epicentre; ≥2 introductions.",
+      "effect": "C1 best Z case, still not KNOWN"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H-zoonosis",
+      "title": "Market-centred natural spillover",
+      "status": "Best-supported natural account — not closed",
+      "text": "Wildlife trade / Huanan epicentre / dual introductions.",
+      "test": "C1 PROBABLE. Intermediate host residual."
+    },
+    {
+      "id": "H-lab",
+      "title": "Laboratory-associated incident",
+      "status": "Live — not established",
+      "text": "Research-related infection or escape at a Wuhan sarbecovirus facility.",
+      "test": "C2 POSSIBLE. No inventory gun."
+    },
+    {
+      "id": "H-weapon",
+      "title": "Intentional bioweapon",
+      "status": "Rejected as established",
+      "text": "Virus developed as a weapon.",
+      "test": "C4. IC broad agreement against."
+    },
+    {
+      "id": "H-settled",
+      "title": "Science settled natural origin",
+      "status": "Rejected",
+      "text": "C1 is KNOWN; lab talk is conspiracy.",
+      "test": "C3. ODNI split. Forbidden sentence."
+    },
+    {
+      "id": "H-defuse-recipe",
+      "title": "DEFUSE produced SARS-CoV-2",
+      "status": "Rejected as established",
+      "text": "Rejected proposal is the recipe that was run.",
+      "test": "C7. Proposal ≠ performance."
+    }
+  ],
+  "independence": [
+    "worobey-2022: Spatial epi market epicentre — peer-reviewed Science.",
+    "pekar-2022: Molecular epi multi-intro — related emergence programme, not fully independent of Worobey.",
+    "odni-2021: Split intel assessment — separate lineage from market papers.",
+    "proximal-origin-2020: Scientific messaging product.",
+    "lancet-letter-2020: Prestige closure letter; EcoHealth organisational residual.",
+    "defuse-2018: Rejected research proposal — context, not cause.",
+    "prc-opacity: Access failure (ODNI + WHO path)."
+  ],
+  "openQuestions": [
+    "Named human evolutionary virologist / outbreak epidemiologist hostile review — Edition freeze of C1/C2 confidences.",
+    "Closed intermediate-host identification.",
+    "Lab inventory / unpublished progenitor sequences / verified research-related infections.",
+    "Dated platform-moderation exhibits for C8.",
+    "2023–24 market environmental / wildlife papers (Liu Nature; Crits-Christoph Cell class) — residual deep pin.",
+    "Later IC or FOI updates after the 12/08/2026 cut-off — living-file refresh."
+  ],
+  "wouldChange": [
+    "Intermediate host plus tight wildlife chain would force C1 toward KNOWN.",
+    "Verifiable lab inventory or matching unpublished sequences would force C2 up and could force C3 down.",
+    "A finding that ODNI misstated the IC split would force C3 down.",
+    "Proof Proximal Origin’s authors committed fraud (not mere over-closure) would move C5’s process finding, not automatically C1/C2.",
+    "Nothing in lockdown or vaccine culture war changes this file’s object question."
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "name": "Worobey et al. — The Huanan Seafood Wholesale Market as early epicentre (Science, 2022)",
+      "kind": "Primary — peer-reviewed spatial epidemiology",
+      "role": "C1: market epicentre; cases without reported market links still centred; live-mammal vendor association.",
+      "independenceGroup": "worobey-2022",
+      "url": "https://www.science.org/doi/10.1126/science.abp8715",
+      "locator": "Michael Worobey et al., Science 377, 951–959 (26 July 2022). DOI 10.1126/science.abp8715. Authors note exact upstream circumstances remain obscure."
+    },
+    {
+      "id": "S2",
+      "name": "Pekar et al. — Molecular epidemiology of multiple zoonotic origins (Science, 2022)",
+      "kind": "Primary — peer-reviewed phylodynamics",
+      "role": "C1: lineages A and B; at least two introductions; lineage B ~18 Nov 2019 class.",
+      "independenceGroup": "pekar-2022",
+      "url": "https://www.science.org/doi/10.1126/science.abp8337",
+      "locator": "Jonathan E. Pekar et al., Science 377, 960–966 (26 July 2022). DOI 10.1126/science.abp8337. Related emergence programme to Worobey — partial dependence."
+    },
+    {
+      "id": "S3",
+      "name": "ODNI — Declassified Assessment on COVID-19 Origins (2021)",
+      "kind": "Primary — US Intelligence Community assessment",
+      "role": "C2–C4, C6, C9: both hypotheses plausible; IC divided; not a bioweapon; Beijing hinders investigation.",
+      "independenceGroup": "odni-2021",
+      "url": "https://www.dni.gov/files/ODNI/documents/assessments/Unclassified-Summary-of-Assessment-on-COVID-19-Origins.pdf",
+      "locator": "Office of the Director of National Intelligence, unclassified summary 27 August 2021; fuller declassified assessment FOIA DF-2022-00031 (information through August 2021). Key takeaways: four IC elements + NIC low-confidence natural; one moderate-confidence lab/WIV; three undecided."
+    },
+    {
+      "id": "S4",
+      "name": "Andersen et al. — The proximal origin of SARS-CoV-2 (Nature Medicine, 2020)",
+      "kind": "Primary — scientific correspondence",
+      "role": "C5: not a laboratory construct; laboratory-based scenario not plausible — over-closure pin.",
+      "independenceGroup": "proximal-origin-2020",
+      "url": "https://www.nature.com/articles/s41591-020-0820-9",
+      "locator": "Kristian G. Andersen, Andrew Rambaut, W. Ian Lipkin, Edward C. Holmes, Robert F. Garry, Nature Medicine 26, 450–452 (17 March 2020). DOI 10.1038/s41591-020-0820-9."
+    },
+    {
+      "id": "S5",
+      "name": "Calisher et al. — Lancet statement (19 February 2020)",
+      "kind": "Primary — correspondence",
+      "role": "C5: ‘conspiracy theories’ of non-natural origin; EcoHealth organisational residual.",
+      "independenceGroup": "lancet-letter-2020",
+      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30418-9/fulltext",
+      "locator": "Charles Calisher et al., Lancet 395, e42–e43 (19 February 2020). DOI 10.1016/S0140-6736(20)30418-9."
+    },
+    {
+      "id": "S6",
+      "name": "DEFUSE — EcoHealth Alliance / DARPA PREEMPT proposal (2018)",
+      "kind": "Primary — rejected research proposal",
+      "role": "C7: cleavage-site insertion class proposed; DARPA rejected; context ≠ release.",
+      "independenceGroup": "defuse-2018",
+      "url": "https://www.documentcloud.org/documents/21066916-defuse-proposal",
+      "locator": "DEFUSE proposal to DARPA PREEMPT (HR001118S0017 path), 2018, public leak 2021. Collaborators including WIV context. Not funded as written."
+    }
+  ],
+  "methodAudit": [
+    {
+      "name": "Grammar",
+      "note": "Zoonosis, lab-associated accident, bioweapon, unsettled-meta, messaging over-closure, opacity, DEFUSE-context, platform framing, and discrimination method are separate. ‘Lab leak’ in popular speech collapses C2 with C4 and C7."
+    },
+    {
+      "name": "Logic",
+      "note": "H-zoonosis best natural, not closed. H-lab live, not established. H-weapon rejected. H-settled rejected. H-defuse-recipe rejected. Hidden premises blocked: no host = lab; WIV city = release; one IC lean = KNOWN; Proximal Origin = fraud; DEFUSE = recipe."
+    },
+    {
+      "name": "Rhetoric",
+      "note": "Forbidden: science settled; lab leak is conspiracy theory as object verdict; DEFUSE proves release; one-agency lean = KNOWN lab. Neutral: both hypotheses live; market papers are the best Z case; early letters over-closed; opacity hurts both."
+    },
+    {
+      "name": "Reality",
+      "note": "Discriminators: Worobey spatial epicentre; Pekar dual intro; ODNI split and not-bioweapon; Proximal Origin ‘not plausible’; DEFUSE rejected. Controls: intermediate host absent; no inventory gun; Worobey/Pekar related programme."
+    },
+    {
+      "name": "Independence",
+      "note": "Market Science papers ≠ ODNI. Proximal Origin authors later in market-emergence programme — process for C5, not automatic discount of 2022 spatial epi. DEFUSE is not a third origin lineage."
+    },
+    {
+      "name": "Hostile Pass 1 — Z settled",
+      "note": "Attack: you are keeping lab alive for symmetry. Response: ODNI both plausible; no intermediate host; C1 still ranks higher (PROBABLE vs POSSIBLE)."
+    },
+    {
+      "name": "Hostile Pass 2 — Market papers gospel",
+      "note": "Attack: amplifier hypothesis ignored. Response: residual explicit; C1 not KNOWN."
+    },
+    {
+      "name": "Hostile Pass 3 — Proximal Origin smear",
+      "note": "Attack: process critique is political. Response: ‘not construct’ can be true while ‘no laboratory-based scenario plausible’ over-closes accident/escape. Not a fraud verdict."
+    },
+    {
+      "name": "Hostile Pass 4 — DEFUSE recipe",
+      "note": "Attack: they wrote the virus. Response: rejected/unfunded. C7."
+    },
+    {
+      "name": "Hostile Pass 5 — FBI/DOE settle it",
+      "note": "Attack: later agency leans are KNOWN L. Response: this file’s IC pin is the 2021 split product. One-agency lean still not C3 reversal. Living-file refresh if a later assessment changes the split with comparable public text."
+    },
+    {
+      "name": "Hostile Pass 6 — Human PE missing",
+      "note": "Attack: then don’t publish origin. Response: language freeze executed. File is living; C1/C2 not frozen science; C3 is the load-bearing public sentence."
+    }
+  ],
+  "changelog": [
+    {
+      "date": "26/08/2026",
+      "change": "Evidence File 017 initial publication as a Living File under the Edition language freeze. Origin not settled (C3 KNOWN). Zoonosis PROBABLE; lab-associated POSSIBLE; bioweapon UNSUPPORTED. Proximal Origin/Lancet over-closure and PRC opacity KNOWN process. DEFUSE context not cause. No named human virologist. Author sequential-open after JFK."
+    }
+  ]
+}
