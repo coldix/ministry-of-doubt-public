@@ -1,0 +1,269 @@
+{
+  "fileNo": "020",
+  "slug": "al-ahli-first-hours",
+  "publication": "public",
+  "title": "Al-Ahli hospital — first-hours reporting",
+  "subtitle": "Confident attribution as fact was not justified in the first hours; rocket-type is PROBABLE, not KNOWN; this is not a Gaza-war verdict",
+  "chapter": "Chapter 18",
+  "livingFile": true,
+  "livingFileNotice": "This is a Living Evidence File. Cut-off 12/08/2026. Scope is the 17 October 2023 courtyard explosion’s first-hours epistemology, not the Israel–Gaza war. Refresh if authenticated munition remnants or launcher identity appear. A3b stays PROBABLE until then.",
+  "status": "Living Evidence File",
+  "firstPublished": "26/08/2026",
+  "lastReviewed": "26/08/2026",
+  "evidenceCutoff": "12/08/2026",
+  "overall": {
+    "label": "First-hours overclaim is KNOWN; large Israeli airstrike as established is UNSUPPORTED; rocket-type path is PROBABLE not KNOWN",
+    "ledger": "KNOWN",
+    "confidence": "Very high on the process failure; moderate–high on rocket-type; high against large-airstrike-as-established",
+    "summary": "At about 18:59 local on 17 October 2023 a munition hit a paved area inside the Al-Ahli Arab (Baptist) Hospital compound in Gaza City. Many people were killed and injured. Within hours, Gaza authorities attributed an Israeli airstrike and a death toll of 471; many outlets reported that attribution with more certainty than the evidence allowed. The New York Times later said its early coverage ‘relied too heavily on claims by Hamas’ and ‘did not make clear that those claims could not immediately be verified.’ Israel the same night attributed a failed Palestinian Islamic Jihad rocket. Neither kinetic story was justified as settled fact at T+2 hours. Source-tagged competing claims plus extreme toll caution were. Human Rights Watch (26 November 2023): apparent rocket-propelled munition; crater about 90×60×30–40 cm inconsistent with a large air-dropped bomb; 471 uncorroborated. US intelligence paths: high confidence Israel was not responsible; launcher identity and exact toll lower confidence. Forensic Architecture (2024) critiques the Israeli public package and keeps the misfire story short of closed. This file does not adjudicate the war. Identity-swap: the same speed rules would apply if the party labels were reversed."
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "An explosion occurred at or adjacent to Al-Ahli Arab Hospital, Gaza City, at about 18:59 local on 17 October 2023, causing mass casualties. HRW: at 6:59 p.m. a munition it could not conclusively identify hit a paved area inside the compound between a parking lot and a landscaped shelter area. Multi-camera / livestream path captures a flash into the courtyard. Exact death toll is not this claim.",
+      "why": "Event is not seriously disputed. Toll and mechanism are separate lines.",
+      "sourceIds": ["S1"]
+    },
+    {
+      "id": "C2",
+      "level": "Process",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "In the first hours, major outlets and political actors published confident Israeli-airstrike attribution based primarily on Gaza authority claims that could not immediately be verified. NYT Editors’ Note (23 October 2023): early coverage — and the prominence it received in a headline, news alert, and social channels — ‘relied too heavily on claims by Hamas, and did not make clear that those claims could not immediately be verified.’ Headline class moved Strike → Blast. Source-tagged ‘Palestinians say’ was the justified form. ‘Israel bombed the hospital’ as settled fact was not.",
+      "why": "NYT self-critique is the load-bearing process pin, not a gotcha against one paper.",
+      "sourceIds": ["S2"]
+    },
+    {
+      "id": "C3",
+      "level": "Process",
+      "ledger": "KNOWN",
+      "confidence": "Very high as a claim; package quality residual",
+      "claim": "The same night, the IDF denied an Israeli bomb and attributed a failed Islamic Jihad rocket, releasing imagery and audio. ‘Definitely PIJ rocket’ as settled fact was not justified at T+2 hours either. Official media-package authenticity and edit quality remain a process residual. A competing state claim is not automatic proof.",
+      "why": "Symmetry of speed. C3 does not settle C5.",
+      "sourceIds": ["S3", "S4"]
+    },
+    {
+      "id": "C4",
+      "level": "Object",
+      "ledger": "UNSUPPORTED",
+      "confidence": "High against as established by public crater/munition work",
+      "claim": "The claim that a large Israeli air-delivered strike on the hospital is established exceeds the public evidence. HRW: large air-dropped bomb ‘highly unlikely’; crater ~90 cm × 60 cm × 30–40 cm max depth inconsistent with point detonation of a large HE bomb; sound/fireball consistent with a motor-propelled munition, not artillery shells or air-dropped bombs. Nearby jets/flares confirm aircraft presence; HRW found no evidence they launched the munition that hit the grounds. Early GHM attribution does not close this. New forensics could move the line.",
+      "why": "HRW crater/sound plus US IC high-confidence-not-Israel. FA residual does not restore large-airstrike-as-established.",
+      "sourceIds": ["S1", "S5"]
+    },
+    {
+      "id": "C5",
+      "level": "Object",
+      "ledger": "PROBABLE",
+      "confidence": "Moderate–high on rocket-type; lower on named launcher",
+      "claim": "Cause was an apparent rocket-propelled munition of the class commonly used by Palestinian armed groups, possibly a misfire, remains the best-supported public technical account — PROBABLE, not KNOWN. HRW: further investigation needed for who launched. No public remnant images. Specific PIJ responsibility is a lower-confidence name, not a KNOWN identity. Forensic Architecture (February 2024) disputes elements of the Israeli public package (interceptor-vs-misfire footage; unspent-propellant damage story) and keeps the misfire path short of closed. US IC briefing paths: high confidence Israel not responsible; catastrophic motor failure / rocket-from-Gaza class. Alliance residual: US IC is not fully independent of the allied relationship — a separate lineage from GHM and IDF press, not gospel.",
+      "why": "Best technical account with open launcher and remnant residuals. FA is the contrary lure, not a restoration of C4.",
+      "sourceIds": ["S1", "S4", "S5"]
+    },
+    {
+      "id": "C6",
+      "level": "Method",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Time-slice rule: evaluate what each actor was entitled to claim given information available then, separate from later analyses. At T+2h, justified: explosion; many dead per local authorities, source-tagged; competing attributions as claims. Not justified: either kinetic story as settled fact. Later work can raise confidence against large airstrike without rewriting what the first hours earned.",
+      "why": "Architectural. Holds even if one later story wins.",
+      "sourceIds": ["S1", "S2"]
+    },
+    {
+      "id": "C7",
+      "level": "Process",
+      "ledger": "KNOWN",
+      "confidence": "High",
+      "claim": "Gaza Health Ministry casualty figures in wartime are process sources with known incentives and capacity limits — not automatic ground truth. GHM: 471 killed / 342 injured. HRW could not corroborate 471; unusually high killed-to-injured ratio; out of proportion with visible damage; Al-Shifa director path ~250. US IC death-toll range class 100–300 (low confidence on the exact number). Range reporting was required. ‘500’ is not a frozen fact.",
+      "why": "A5. Toll is not mechanism and not a war-verdict.",
+      "sourceIds": ["S1", "S5"]
+    },
+    {
+      "id": "C8",
+      "level": "Method",
+      "ledger": "KNOWN",
+      "confidence": "High",
+      "claim": "Corrections, hedges, and dual attribution in later reporting are part of the epistemic lesson, not mere gotchas. Political use of the first draft (mobilisation, diplomacy, protests, summit disruption) is exploitation of uncertainty, not proof of either kinetic attribution. This file is not a verdict on the Israel–Gaza war. HRW documents other hospital incidents separately. Identity-swap: the same speed and source-tag rules apply if roles reverse.",
+      "why": "Scope control plus A6/A7. Sneering at grief is not a method.",
+      "sourceIds": ["S2", "S3"]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "17/10/2023",
+      "event": "~18:59 local: munition impact in Al-Ahli courtyard. GHM 471/342; Israeli-strike attribution. IDF: failed PIJ rocket.",
+      "effect": "C1–C3; T+hours not settled fact"
+    },
+    {
+      "date": "18/10/2023",
+      "event": "Biden in Israel: appears to be ‘the other team’ / errant rocket path. Allied assessments enter.",
+      "effect": "C5 lineage starts; not KNOWN"
+    },
+    {
+      "date": "23/10/2023",
+      "event": "NYT Editors’ Note: relied too heavily on Hamas claims; unverified.",
+      "effect": "C2 load-bearing process pin"
+    },
+    {
+      "date": "24/10/2023",
+      "event": "US IC briefing paths: high confidence Israel not responsible; 100–300 toll class.",
+      "effect": "C4 / C5 / C7; alliance residual"
+    },
+    {
+      "date": "26/11/2023",
+      "event": "HRW findings: rocket-type; small crater; large air bomb highly unlikely; 471 uncorroborated.",
+      "effect": "C4 / C5 / C7"
+    },
+    {
+      "date": "02/2024",
+      "event": "Forensic Architecture: critiques Israeli public package; misfire not closed.",
+      "effect": "C5 residual; does not restore C4"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H-airstrike",
+      "title": "Large Israeli airstrike established",
+      "status": "Rejected as established",
+      "text": "Israel bombed the hospital with a large air-delivered munition.",
+      "test": "C4. Crater/sound/HRW; first-hours still not fact."
+    },
+    {
+      "id": "H-pij-closed",
+      "title": "Named PIJ misfire closed",
+      "status": "Not established",
+      "text": "A specific PIJ rocket is KNOWN cause.",
+      "test": "C5. Rocket-type PROBABLE; launcher open."
+    },
+    {
+      "id": "H-first-hours-fine",
+      "title": "Early confident Israel-strike headlines were fine",
+      "status": "Rejected",
+      "text": "Wartime speed justifies settled-fact attribution.",
+      "test": "C2 / C6. NYT note; time-slice table."
+    },
+    {
+      "id": "H-war-verdict",
+      "title": "This incident scores the war",
+      "status": "Rejected as scope",
+      "text": "One courtyard settles Israel–Gaza.",
+      "test": "C8. Out of file."
+    }
+  ],
+  "independence": [
+    "event-2023-10-17: Multi-video event.",
+    "media-t0: NYT self-critique.",
+    "us-assess: Allied intel (alliance residual).",
+    "hrw-2023-11: NGO remote technical — independent of parties; remote limits.",
+    "fa-2024: Critique of Israeli package — contrary lure, not a sixth kinetic proof.",
+    "inference-gap: Time-slice method. Not a measurement lineage."
+  ],
+  "openQuestions": [
+    "Public munition remnant identification — living-file trigger for C5.",
+    "Launcher identity (named group) under adversarial testing.",
+    "Independent casualty count.",
+    "Full first-hours wire-archive timestamps — polish.",
+    "FA package vs HRW crater: both keep C4 down and C5 short of KNOWN."
+  ],
+  "wouldChange": [
+    "Authenticated remnants matching a large air-dropped bomb would force C4 up and C5 down.",
+    "Authenticated remnants plus trajectory matching a named Gaza rocket would force C5 toward KNOWN.",
+    "Demonstration that early coverage carefully hedged throughout would lower C2.",
+    "Nothing about other incidents in the war changes this time-slice unless smuggled as a war-verdict.",
+    "US IC lean is not KNOWN launcher identity."
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "name": "Human Rights Watch — Gaza: Findings on October 17 al-Ahli Hospital Explosion (26 November 2023)",
+      "kind": "Primary-adjacent — NGO remote technical assessment",
+      "role": "C1 6:59 p.m.; C4 crater ~90×60×30–40 cm, large air bomb highly unlikely; C5 rocket-type, launcher open; C7 471 uncorroborated.",
+      "independenceGroup": "hrw-2023-11",
+      "url": "https://www.hrw.org/news/2023/11/26/gaza-findings-october-17-al-ahli-hospital-explosion",
+      "locator": "Human Rights Watch, Ida Sawyer, 26 November 2023. Photogrammetry crater; sound/fireball; interceptor-too-far; jets present ≠ launch proof."
+    },
+    {
+      "id": "S2",
+      "name": "The New York Times — Editors’ Note: Gaza Hospital Coverage (23 October 2023)",
+      "kind": "Primary — outlet self-critique",
+      "role": "C2: relied too heavily on Hamas claims; did not make clear claims could not immediately be verified.",
+      "independenceGroup": "media-t0",
+      "url": "https://www.nytimes.com/2023/10/23/pageoneplus/editors-note-gaza-hospital-coverage.html",
+      "locator": "The New York Times, Editors’ Note, 23 October 2023."
+    },
+    {
+      "id": "S3",
+      "name": "Reuters — Biden in Israel on the hospital blast (18 October 2023)",
+      "kind": "Journalism — contemporaneous allied assessment",
+      "role": "C3 IDF same-night path in the same news cycle; C8 political use of the first draft (summit disruption). Biden: appeared to be ‘the other team.’",
+      "independenceGroup": "us-assess",
+      "url": "https://web.archive.org/web/20231018130252/https://www.reuters.com/world/biden-heads-middle-east-inflamed-by-gaza-hospital-blast-2023-10-18/",
+      "locator": "Reuters, 18 October 2023, Biden with Netanyahu: blast appeared to be ‘the other team.’ Wayback capture of the same report; live Reuters slug is bot-walled from some clients."
+    },
+    {
+      "id": "S4",
+      "name": "Forensic Architecture — Israeli Disinformation: Al-Ahli Hospital (15 February 2024)",
+      "kind": "Open-source investigation — contrary residual",
+      "role": "C5: critiques Israeli public package (interceptor footage; unspent-propellant damage). Does not restore C4. Keeps misfire short of KNOWN.",
+      "independenceGroup": "fa-2024",
+      "url": "https://forensic-architecture.org/investigation/israeli-disinformation-al-ahli-hospital",
+      "locator": "Forensic Architecture, 15 February 2024. 3D trajectory analysis of the Gaza salvo referenced by Israeli officials."
+    },
+    {
+      "id": "S5",
+      "name": "Washington Post — US intelligence on Al-Ahli (24 October 2023)",
+      "kind": "Journalism — allied IC briefing path",
+      "role": "C4/C5: high confidence Israel not responsible; rocket/mechanical-failure class; C7 100–300 toll spectrum. Alliance residual stated.",
+      "independenceGroup": "us-assess",
+      "url": "https://www.washingtonpost.com/national-security/2023/10/24/al-ahli-hospital-us-intelligence/",
+      "locator": "The Washington Post, 24 October 2023. Anonymous US officials; high confidence not Israel, less certainty on named Palestinian group."
+    }
+  ],
+  "methodAudit": [
+    {
+      "name": "Grammar",
+      "note": "Event, first-hours attribution, large airstrike, rocket-type, named launcher, toll, and the war are separate. ‘Who bombed Al-Ahli’ collapses C4–C5 with C8."
+    },
+    {
+      "name": "Logic",
+      "note": "H-airstrike rejected as established. H-pij-closed not established. H-first-hours-fine rejected. H-war-verdict out of scope. Hidden premises blocked: GHM = ground truth; US IC = gospel; FA kills rocket-type; waiting is Western bias."
+    },
+    {
+      "name": "Rhetoric",
+      "note": "Stripped: massacre as settled fact; nothing to see; both-sides. Neutral: time-slice table; crater; residuals."
+    },
+    {
+      "name": "Reality",
+      "note": "Discriminators: NYT note; HRW crater; remnant absence. Controls: FA contrary; alliance residual; GHM still asserts Israel."
+    },
+    {
+      "name": "Independence",
+      "note": "HRW ≠ US IC ≠ NYT note ≠ FA. IDF and GHM are parties."
+    },
+    {
+      "name": "Hostile Pass 1 — Washing war crimes",
+      "note": "Attack: one hospital launders a war. Response: scope is this time-slice; HRW documents other incidents separately."
+    },
+    {
+      "name": "Hostile Pass 2 — US IC gospel",
+      "note": "Attack: allied intel is the file. Response: alliance residual explicit; HRW separate; C5 remains PROBABLE."
+    },
+    {
+      "name": "Hostile Pass 3 — GHM was right",
+      "note": "Attack: Israel did it; later work is cover. Response: possible residual; public crater work makes large airstrike highly unlikely per HRW; first hours still not settled fact."
+    },
+    {
+      "name": "Hostile Pass 4 — IDF package fake so rocket collapses",
+      "note": "Attack: audio/video fakery kills C5. Response: package quality residual recorded; crater/sound/fire can stand without IDF media."
+    }
+  ],
+  "changelog": [
+    {
+      "date": "26/08/2026",
+      "change": "Evidence File 020 initial publication as a Living File. Research basis: al-ahli-first-hours Pass 2. Not a war verdict. Author sequential-open of remaining RESEARCH READY files after EF018."
+    }
+  ]
+}

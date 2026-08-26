@@ -1,0 +1,249 @@
+{
+  "fileNo": "022",
+  "slug": "algorithmic-attention",
+  "publication": "public",
+  "title": "Attention without a room",
+  "subtitle": "Feeds rank for predicted engagement, not public-interest editing; a single ministry of truth is UNSUPPORTED; optimisation is not conspiracy",
+  "chapter": "Chapter 23",
+  "livingFile": true,
+  "livingFileNotice": "This is a Living Evidence File. Cut-off 12/08/2026. DSA Transparency Database counts and product weights move. Refresh the live overview numbers on recheck; the mechanism class (candidate generation + engagement ranking; illegal/TOS/automation layers) does not freeze hyperparameters. Twin file: elite forums (EF021).",
+  "status": "Living Evidence File",
+  "firstPublished": "26/08/2026",
+  "lastReviewed": "26/08/2026",
+  "evidenceCutoff": "12/08/2026",
+  "overall": {
+    "label": "Engagement ranking and layered moderation are KNOWN; hydra mind-control is UNSUPPORTED; state–platform contact is PROBABLE and layered",
+    "ledger": "KNOWN",
+    "confidence": "Very high on ranking mechanism and moderation structure; high against a single control room; moderate–high on pressure layers",
+    "summary": "Major social and video platforms rank by predicted engagement as a proxy for commercial goals. Covington, Adams and Sargin, RecSys 2016: YouTube’s two-stage system — candidate generation then ranking — with the ranking model trained to predict expected watch time, not mere click-through. Advertising-funded attention markets make time-on-platform the inventory. Content moderation mixes illegal-content obligations, private terms of service, and automated/human enforcement. The EU DSA Transparency Database (live overview at cut-off) forces statements of reasons into daylight: on the order of 3.5 billion SoRs, hundreds of platforms, about 42% of decisions fully automated, with TOS-incompatibility the dominant reported ground — not only illegal content. Public language collapses those layers into ‘censorship’ or ‘safety.’ State–platform contact is real and layered: legal order ≠ informal request ≠ platform discretion; total cross-firm command-and-control is not the default. Synthetic media raises authentication cost; looks-real is weak evidence. Twin failures: hydra mind-control, and ‘just an algorithm.’ Twin file: rooms and agendas (EF021). The citizen who automatically accepts official claims can be programmed; so can the citizen who automatically rejects them."
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "level": "Method",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Optimisation is not conspiracy. Systems can distort belief at scale via commercial incentives without a single ideological control room. States and platforms can also collude or coerce; each needs its own ledger line. Twin failures: hydra (‘they control the feed, therefore total mind control’) and innocent tool (‘just an algorithm, no power’). Both are under-specified. Illuminati completion remains extraordinary — twin to EF021 C7.",
+      "why": "Architectural. Low individual CTR does not imply ‘algorithms don’t matter’ at aggregate scale.",
+      "sourceIds": ["S1", "S3"]
+    },
+    {
+      "id": "C2",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high on mechanism class; weights proprietary",
+      "claim": "Major feeds rank by predicted engagement. Covington et al., RecSys 2016: YouTube two-stage architecture — candidate generation then ranking; ranking trained to predict expected watch time (CTR ranking promotes clickbait; watch-time better captures engagement). Narayanan (Knight, 2023): social recommenders rank by predicted engagement as proxy for ads and retention; platform flavours include watch time, weighted interactions, completion. Exact live weights are proprietary and changing. The mechanism class is still knowable. A 2016 paper is not obsolete as architecture class.",
+      "why": "Industry primary plus independent explainer. Blocks chronological/public-square myth.",
+      "sourceIds": ["S1", "S2"]
+    },
+    {
+      "id": "C3",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "High",
+      "claim": "Advertising-funded attention markets create incentives to maximise time-on-platform and targeting precision. The objective function is commercial, not public-interest editing as primary charter. Civic or safety goals can exist as secondary constraints. They do not rewrite the scored target in C2.",
+      "why": "Business-model identity sitting on C2. Auction-level pin-cites remain residual polish.",
+      "sourceIds": ["S1", "S2"]
+    },
+    {
+      "id": "C4",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high on structure; live counts move",
+      "claim": "Moderation has layers: illegal-content obligations, private terms of service, automated and human enforcement, with error and opacity residuals. DSA Transparency Database (live overview, cut-off 12/08/2026 class): platforms submit statements of reasons. Order-of-magnitude at that cut-off: ~3.5 billion SoRs; hundreds of active platforms; ~42% of decisions fully automated; most reported violation class other violation of the provider’s terms and conditions — TOS path dominates reported grounds, not only illegal content. Jurisdiction residual: EU instrument, gameable reporting, not a global census. Still the best public layer-count window.",
+      "why": "Independent of Google product papers. Frozen counts are class, not a 2026-08-26 scrape.",
+      "sourceIds": ["S3"]
+    },
+    {
+      "id": "C5",
+      "level": "Process",
+      "ledger": "KNOWN",
+      "confidence": "High",
+      "claim": "Public debate collapses illegal removal, TOS enforcement, demotion, and ranking into a single moral word — ‘censorship’ or ‘safety’ — and loses discriminators: legal basis, initiator, automation, appeal, reach effect. DSA TOS-majority grounds are the process exhibit. Discriminators are the method, not a team jersey.",
+      "why": "Process sitting on C4. Specimen gallery is polish.",
+      "sourceIds": ["S2", "S3"]
+    },
+    {
+      "id": "C6",
+      "level": "Process",
+      "ledger": "PROBABLE",
+      "confidence": "Moderate–high",
+      "claim": "State–platform contact ranges from lawful process to informal pressure to alleged coercion. Documented legal-demand volumes exist in transparency reports. Informal request and parallel caution are real residuals. Total cross-firm command-and-control of ranking is not established as the default. Twitter Files–class material is a process specimen that needs layer tags (legal / informal / discretion), not a monocausal score-settler. Capture is not ‘nothing’; it is not hydra either.",
+      "why": "Layered map. Refuse total-command default without docs; refuse innocent-tool default against documented demands.",
+      "sourceIds": ["S3", "S2"]
+    },
+    {
+      "id": "C7",
+      "level": "Object",
+      "ledger": "PROBABLE",
+      "confidence": "High",
+      "claim": "Audience capture and influencer economics reward outrage and identity performance on all sides. Ranking (C2) plus creator incentives produce programmable loyalists and programmable conspiracists. This is political economy of attention, not a unique pathology of one tribe.",
+      "why": "Observational on C2/C3. Quant exhibits residual.",
+      "sourceIds": ["S1", "S2"]
+    },
+    {
+      "id": "C8",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "High on capability and rules path; prevalence residual",
+      "claim": "Synthetic media (deepfakes, AI-generated documents and images) raises authentication costs. ‘It looks real’ is no longer strong evidence by itself. EU AI Act Article 50 path imposes transparency/labelling obligations for AI-generated or manipulated content. Labelling regimes are not solved authentication. Prevalence and real-world persuasion effects remain open.",
+      "why": "Capability + statute path. Separate lineage from ranking papers.",
+      "sourceIds": ["S4"]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2016",
+      "event": "Covington, Adams, Sargin: Deep Neural Networks for YouTube Recommendations (RecSys). Watch-time ranking.",
+      "effect": "C2"
+    },
+    {
+      "date": "03/2023",
+      "event": "Narayanan, Knight: Understanding Social Media Recommendation Algorithms.",
+      "effect": "C2 / C5 explainer lineage"
+    },
+    {
+      "date": "2024",
+      "event": "EU AI Act adopted; Art.50 transparency/labelling path.",
+      "effect": "C8"
+    },
+    {
+      "date": "12/08/2026",
+      "event": "Evidence cut-off. DSA Transparency Database live overview frozen as ~3.5B SoRs / ~42% fully automated / TOS-majority class.",
+      "effect": "C4 counts are class, not a live scrape"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H-hydra",
+      "title": "Single ministry of truth",
+      "status": "Rejected as default",
+      "text": "One room controls the feed across firms.",
+      "test": "C1 / C4. Multi-platform TOS-majority SoRs; no cross-firm ranking command docs."
+    },
+    {
+      "id": "H-plumbing",
+      "title": "Neutral public square",
+      "status": "Rejected",
+      "text": "Just an algorithm; no power.",
+      "test": "C2. Watch-time objective; 42% fully automated SoRs."
+    },
+    {
+      "id": "H-illegal-only",
+      "title": "All moderation is illegal-content law",
+      "status": "Rejected",
+      "text": "Takedowns = criminal law.",
+      "test": "C4. TOS-majority grounds."
+    },
+    {
+      "id": "H-incentives",
+      "title": "Incentive + opacity, sometimes pressure",
+      "status": "Retained",
+      "text": "Name the objective function and the legal layer.",
+      "test": "C1–C6."
+    }
+  ],
+  "independence": [
+    "recsys-engage: Google RecSys 2016 + Knight explainer.",
+    "dsa-moderation: EU regulator transparency — independent of product papers.",
+    "synthetic-media: AI Act Art.50 — separate regulatory lineage.",
+    "state-platform-layers: Legal-demand class (via DSA/transparency, not a hydra doc).",
+    "inference-gap: Optimisation≠conspiracy. Not a fifth measurement lineage."
+  ],
+  "openQuestions": [
+    "Live ranking weights remain proprietary — mechanism class still holds.",
+    "DSA jurisdiction/gameability residual; error-rate exhibits.",
+    "Case-by-case state–platform map beyond layer types.",
+    "Auction-level pin-cites; audience-capture quant exhibits.",
+    "Human recsys / digital-lawyer read before Edition freeze of C6 confidence."
+  ],
+  "wouldChange": [
+    "Evidence that major feeds are primarily chronological/editorial with negligible engagement optimisation would force C2 down.",
+    "Primary documents of a single intentional ranking command across firms would force C1/H-hydra.",
+    "Negligible, fully appealable moderation error at scale would lower the C4 residual, not the layer structure.",
+    "Nothing in EF021 forum attendance changes this file’s ranking mechanism.",
+    "Updated DSA overview numbers at the next live recheck update C4 counts, not the TOS-vs-illegal discriminator unless the mix inverts."
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "name": "Covington, Adams & Sargin — Deep Neural Networks for YouTube Recommendations (RecSys 2016)",
+      "kind": "Primary — industry research paper",
+      "role": "C2: candidate generation + ranking; expected watch time, not mere CTR. Architecture class, not frozen hyperparameters.",
+      "independenceGroup": "recsys-engage",
+      "url": "https://research.google/pubs/pub45530/",
+      "locator": "Paul Covington, Jay Adams, Emre Sargin, RecSys ’16, Boston, 15–19 September 2016. ACM: doi.org/10.1145/2959100.2959190 (publisher page is often bot-walled)."
+    },
+    {
+      "id": "S2",
+      "name": "Arvind Narayanan — Understanding Social Media Recommendation Algorithms (Knight First Amendment Institute, 9 March 2023)",
+      "kind": "Scholarship — independent explainer",
+      "role": "C2 engagement core; C5 language; C6/C7 political-economy frame. Not a Google product paper.",
+      "independenceGroup": "recsys-engage",
+      "url": "https://knightcolumbia.org/content/understanding-social-media-recommendation-algorithms",
+      "locator": "Arvind Narayanan, Knight First Amendment Institute at Columbia University, 9 March 2023."
+    },
+    {
+      "id": "S3",
+      "name": "European Commission — DSA Transparency Database (live overview)",
+      "kind": "Primary — regulator transparency instrument",
+      "role": "C4: SoR scale, automation share, TOS-majority grounds at 12/08/2026 class. Independent of ranking papers.",
+      "independenceGroup": "dsa-moderation",
+      "url": "https://transparency.dsa.ec.europa.eu/",
+      "locator": "DSA Transparency Database overview. Counts cited as order-of-magnitude class from the 12/08/2026 cut-off (~3.5 billion SoRs; ~42% fully automated; TOS-majority). Recheck live numbers; do not freeze a scrape as physics."
+    },
+    {
+      "id": "S4",
+      "name": "EU Artificial Intelligence Act — Article 50 transparency path",
+      "kind": "Primary — statute",
+      "role": "C8: labelling/transparency obligations for AI-generated or manipulated content. Not solved authentication.",
+      "independenceGroup": "synthetic-media",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "locator": "European Commission, AI Act regulatory-framework page. Statute: Regulation (EU) 2024/1689, Article 50 transparency/labelling class. EUR-Lex eli/reg/2024/1689/oj."
+    }
+  ],
+  "methodAudit": [
+    {
+      "name": "Grammar",
+      "note": "Ranking, ads, illegal, TOS, automation, state orders, informal pressure, and hydra are separate. ‘Censorship’ smuggles C4–C6 into one word."
+    },
+    {
+      "name": "Logic",
+      "note": "H-hydra rejected as default. H-plumbing rejected. H-illegal-only rejected. Hidden premises blocked: 2016 paper obsolete; DSA = global; Twitter Files = command; low CTR = no power."
+    },
+    {
+      "name": "Rhetoric",
+      "note": "Stripped: ministry of truth; just a tool; safety; free-speech collapse. Neutral: watch time; SoR layers; legal vs informal."
+    },
+    {
+      "name": "Reality",
+      "note": "Discriminators: Covington watch-time objective; DSA TOS-majority + automation share. Controls: proprietary weights; EU jurisdiction."
+    },
+    {
+      "name": "Independence",
+      "note": "Google RecSys ≠ Knight ≠ DSA DB ≠ AI Act."
+    },
+    {
+      "name": "Hostile Pass 1 — 2016 obsolete",
+      "note": "Attack: YouTube changed. Response: architecture class still load-bearing; weights change; mechanism not frozen hyperparameters."
+    },
+    {
+      "name": "Hostile Pass 2 — DSA EU-only / gameable",
+      "note": "Attack: irrelevant outside the Union. Response: jurisdiction residual stated; still the public layer-count instrument."
+    },
+    {
+      "name": "Hostile Pass 3 — Soft-pedal capture",
+      "note": "Attack: you hide state command. Response: C6 PROBABLE with layers; total-command needs docs."
+    },
+    {
+      "name": "Hostile Pass 4 — Soft-pedal speech",
+      "note": "Attack: you hide TOS as law. Response: TOS-majority is the free-speech process residual — name it, don’t collapse into safety."
+    }
+  ],
+  "changelog": [
+    {
+      "date": "26/08/2026",
+      "change": "Evidence File 022 initial publication as a Living File. Research basis: algorithmic-attention Pass 2. Twin to EF021. Author sequential-open of remaining RESEARCH READY files after EF018."
+    }
+  ]
+}

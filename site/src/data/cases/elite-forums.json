@@ -1,0 +1,253 @@
+{
+  "fileNo": "021",
+  "slug": "elite-forums",
+  "publication": "public",
+  "title": "Rooms where power meets",
+  "subtitle": "Elite forums and agenda frameworks are real; a hydra command centre is UNSUPPORTED; influence is not harmless brunch",
+  "chapter": "Chapter 23",
+  "livingFile": false,
+  "status": "Evidence File",
+  "firstPublished": "26/08/2026",
+  "lastReviewed": "26/08/2026",
+  "evidenceCutoff": "12/08/2026",
+  "overall": {
+    "label": "Forums and soft-law agendas are KNOWN; hydra world-government via Davos/Bilderberg is UNSUPPORTED; influence paths are PROBABLE",
+    "ledger": "KNOWN",
+    "confidence": "Very high on existence and non-binding character; high against hydra-as-established; high on influence as mechanism not meeting→law",
+    "summary": "People with shared interests meet, fund, hire, and lobby. That is a social fact. Secret world government is a separate extraordinary claim. The World Economic Forum exists: Klaus Schwab founded the European Management Forum in 1971; Davos is the public brand ritual. Bilderberg Meetings have run since 1954; official About text: no detailed agenda, no resolutions proposed, no votes taken, no policy statements issued; ~130 invitees; Chatham House Rule; participants as individuals. UN 2030 Agenda / SDGs are a goal framework, not automatically enforceable world statute; follow-up includes voluntary national reviews. Australia delivered its first VNR at the UN HLPF on 17 July 2018 — national mediation, not forum decree. Influence paths (networks, NGOs, consultancies, philanthropy, revolving doors, standard-setting, statutory markets such as the EU ETS) are PROBABLE as mechanism; ‘this meeting caused that law’ remains case-by-case. Twin process failures: conspiracy culture upgrades rooms into a hydra; respectable coverage downgrades them into harmless TED. Climate physics is out. Protocols-adjacent ethnic cabals are out. Twin file: algorithmic attention (EF022)."
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "level": "Method",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Coordination is not conspiracy. Shared meetings, funding, hiring, and lobbying are ordinary elite behaviour. A secret command centre that runs major policy domains via these forums is a separate claim with an extraordinary bar. Attendance is not guilt. Branding is not statute.",
+      "why": "Architectural. Twin to money-systems ‘institution without hydra’ and to EF022 A0.",
+      "sourceIds": ["S1", "S2"]
+    },
+    {
+      "id": "C2",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "WEF-class and Bilderberg-class forums are real. Bilderberg: inaugural 1954 (Hotel De Bilderberg, Oosterbeek); about 130 invitees a year; about two-thirds Europe, one-third North America; about one-third politics/government; Chatham House Rule; participants as individuals not in official capacity. Official sentence: ‘There is no detailed agenda, no resolutions are proposed, no votes are taken, and no policy statements are issued.’ WEF: Schwab founded the European Management Forum in 1971 (first European Management Symposium, Davos, January 1971); Swiss-based organisation for public–private cooperation; renamed World Economic Forum in 1987. Existence is not in serious dispute.",
+      "why": "Two independent organisational primaries. Official no-resolutions sentence constrains hydra completion; it does not erase networking power.",
+      "sourceIds": ["S1", "S2"]
+    },
+    {
+      "id": "C3",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Agenda 2030 / the SDGs are a political goal framework, not automatically binding world law. UN framing: not legally binding; countries take national ownership; follow-up includes voluntary national reviews. Australia’s first Voluntary National Review was delivered at the UN HLPF on 17 July 2018 — a ‘whole of Australia’ report (government, business, civil society), coordinated domestically (PM&C / DFAT class). Soft goals can still drive funding, reporting, consultancy markets, and statute drafting via domestic politics. That is influence, not automatic override of sovereignty.",
+      "why": "UN primary plus independent AU domestic path. Blocks both ‘world statute’ and ‘empty theatre therefore powerless.’",
+      "sourceIds": ["S3", "S4"]
+    },
+    {
+      "id": "C4",
+      "level": "Object",
+      "ledger": "PROBABLE",
+      "confidence": "High as mechanism; residual on meeting→law chains",
+      "claim": "Documented influence paths into policy include elite networking, think-tanks, NGOs, consultancies, philanthropy, revolving doors, standard-setting, and market design. EU ETS is a legal cap-and-trade instrument (2005–), not a Davos handshake; design critiques (over-allocation, free allowances, windfall, integrity) are policy-design / rent residuals, not hydra proof. Case-by-case ‘this meeting caused that law’ is not established as a general rule.",
+      "why": "Path types plus one statutory market. Near-KNOWN mechanism; not a complete causal map.",
+      "sourceIds": ["S4", "S5"]
+    },
+    {
+      "id": "C5",
+      "level": "Process",
+      "ledger": "KNOWN",
+      "confidence": "High",
+      "claim": "Twin process failures. Conspiracy upgrade: invite list + privacy → ‘they decide everything at Davos.’ Discriminator: Bilderberg’s no-resolutions/votes/statements; Agenda non-binding; WEF is not a legislature. Respectable downgrade: ‘just TED / networking brunch.’ Discriminator: invite concentration, Chatham House opacity, partner funding, agenda-setting residual. Opacity is not proof of crime and not proof of innocence of influence.",
+      "why": "Symmetry without mush. Both failures are process.",
+      "sourceIds": ["S1", "S2", "S3"]
+    },
+    {
+      "id": "C6",
+      "level": "Method",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Each strong capture claim needs its own ledger line. Climate physics is not on trial in this file; policy instruments and markets are. Protocols / ethnic-money myths stay out: agents are institutions and classes, not ethnic cabals. Algorithmic attention is a twin spine (EF022), not evidence that forums run the feed.",
+      "why": "Scope control. F6–F7.",
+      "sourceIds": ["S1", "S5"]
+    },
+    {
+      "id": "C7",
+      "level": "Object",
+      "ledger": "UNSUPPORTED",
+      "confidence": "High against as established",
+      "claim": "A single secret ownership or control conspiracy that runs major policy domains via WEF/Bilderberg-class forums as a command centre is UNSUPPORTED as established. Explaining C2–C5 does not require that hydra. Extraordinary control claims still need control documents, not invite lists. Self-description is not automatically a cover story, and official ‘no votes’ is not automatically proof of impotence.",
+      "why": "Load-bearing negative. Same discipline as money-systems cabal line.",
+      "sourceIds": ["S1", "S2", "S3"]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1954",
+      "event": "Inaugural Bilderberg Meeting, Oosterbeek.",
+      "effect": "C2"
+    },
+    {
+      "date": "01/1971",
+      "event": "First European Management Symposium, Davos; European Management Forum founded.",
+      "effect": "C2"
+    },
+    {
+      "date": "1987",
+      "event": "European Management Forum renamed World Economic Forum.",
+      "effect": "C2"
+    },
+    {
+      "date": "09/2015",
+      "event": "UN 2030 Agenda / SDGs adopted (A/RES/70/1 path).",
+      "effect": "C3"
+    },
+    {
+      "date": "17/07/2018",
+      "event": "Australia delivers first VNR at UN HLPF.",
+      "effect": "C3 domestic mediation"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H-hydra",
+      "title": "Davos/Bilderberg command centre",
+      "status": "Rejected as established",
+      "text": "These rooms decide everything.",
+      "test": "C7. No resolutions/votes; non-binding agendas; no control docs."
+    },
+    {
+      "id": "H-brunch",
+      "title": "Harmless TED",
+      "status": "Rejected",
+      "text": "Just networking; no agenda-setting power.",
+      "test": "C4 / C5. Opacity + statutory markets + VNR machinery."
+    },
+    {
+      "id": "H-world-law",
+      "title": "SDGs are binding world statute",
+      "status": "Rejected",
+      "text": "2030 overrides states.",
+      "test": "C3. UN non-binding + AU VNR."
+    },
+    {
+      "id": "H-network",
+      "title": "Soft coordination without hydra",
+      "status": "Retained",
+      "text": "Rooms and agendas matter; command is not shown.",
+      "test": "C1–C5."
+    }
+  ],
+  "independence": [
+    "bilderberg-primary: Official About / FAQ.",
+    "wef-primary: Founding / history.",
+    "agenda-2030: UN framework.",
+    "domestic-path-au: DFAT VNR — independent of WEF.",
+    "carbon-ets: EU statutory instrument.",
+    "inference-gap: Coordination≠conspiracy. Not a sixth measurement lineage."
+  ],
+  "openQuestions": [
+    "Case-by-case capture map (meeting→statute) — residual, not a C7 upgrade.",
+    "Soft-power magnitude of SDG reporting machinery.",
+    "Human IPE / network-scholar read before Edition freeze of C4 confidence.",
+    "Programme-year attendee deep-read is polish."
+  ],
+  "wouldChange": [
+    "Binding global instruments issued by WEF/Bilderberg that override domestic law without mediation would force C3/C7.",
+    "Primary control documents of a command conspiracy would force C7 up.",
+    "Evidence that soft coordination has no agenda-setting power beyond random networking would force C4/C5 down.",
+    "Climate-physics findings do not move this file.",
+    "Invite lists without decision records do not move C7."
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "name": "Bilderberg Meetings — About / FAQ (official)",
+      "kind": "Primary — organisation self-description",
+      "role": "C2: 1954, ~130, Chatham House, individuals. Load-bearing sentence: no detailed agenda, no resolutions, no votes, no policy statements. Constrains C7; does not erase C4/C5.",
+      "independenceGroup": "bilderberg-primary",
+      "url": "https://www.bilderbergmeetings.org/",
+      "locator": "Bilderberg Meetings official homepage About text and Frequently Asked Questions, inspected 2026. FAQ restates no resolutions/votes/closing statement."
+    },
+    {
+      "id": "S2",
+      "name": "World Economic Forum — History / 1971 founding path",
+      "kind": "Primary — organisation history",
+      "role": "C2: Schwab; European Management Forum 1971; Davos symposium; public–private cooperation; 1987 rename.",
+      "independenceGroup": "wef-primary",
+      "url": "https://www.weforum.org/about/history",
+      "locator": "World Economic Forum History page. Companion widget path: widgets.weforum.org/history/1971.html (first European Management Symposium, 24 January–7 February 1971)."
+    },
+    {
+      "id": "S3",
+      "name": "UN — Transforming our world: the 2030 Agenda for Sustainable Development",
+      "kind": "Primary — UN goal framework",
+      "role": "C3: 17 SDGs; not legally binding; national ownership; voluntary review class.",
+      "independenceGroup": "agenda-2030",
+      "url": "https://sdgs.un.org/2030agenda",
+      "locator": "UN SDGs 2030 Agenda page (A/RES/70/1 path, September 2015). Companion: UN Sustainable Development ‘not legally binding’ FAQ class."
+    },
+    {
+      "id": "S4",
+      "name": "DFAT — Australia’s Report on the Implementation of the Sustainable Development Goals (VNR 2018)",
+      "kind": "Primary — national mediation",
+      "role": "C3/C4: first AU VNR delivered 17 July 2018 at UN HLPF; whole-of-Australia report; domestic path not forum decree.",
+      "independenceGroup": "domestic-path-au",
+      "url": "https://www.dfat.gov.au/aid/topics/development-issues/2030-agenda/australias-report-implementation-sustainable-development-goals",
+      "locator": "Australian Government DFAT, Australia’s first Voluntary National Review, HLPF 17 July 2018. PDF: dfat.gov.au/sites/default/files/sdg-voluntary-national-review.pdf."
+    },
+    {
+      "id": "S5",
+      "name": "European Commission — EU Emissions Trading System",
+      "kind": "Primary — statutory market design",
+      "role": "C4: cap-and-trade as legal instrument, not a handshake. Design-rent critiques are policy residuals, not hydra.",
+      "independenceGroup": "carbon-ets",
+      "url": "https://climate.ec.europa.eu/areas-action/carbon-markets/eu-emissions-trading-system-eu-ets_en",
+      "locator": "European Commission Climate Action, EU ETS overview (redirected 2026 path from /eu-action/…). 2005– statutory class."
+    }
+  ],
+  "methodAudit": [
+    {
+      "name": "Grammar",
+      "note": "Rooms, soft law, influence paths, hydra, and climate physics are separate. ‘They’ as one noun smuggles C7 into C2."
+    },
+    {
+      "name": "Logic",
+      "note": "H-hydra rejected as established. H-brunch rejected. H-world-law rejected. Hidden premises blocked: privacy = crime; no votes = impotence; SDGs = statute; attendance = guilt."
+    },
+    {
+      "name": "Rhetoric",
+      "note": "Stripped: Davos world government; just TED; Protocols adjacency. Neutral: invite rules; non-binding; VNR; ETS statute."
+    },
+    {
+      "name": "Reality",
+      "note": "Discriminators: Bilderberg no-resolutions sentence; AU VNR 2018; EU ETS as law. Controls: opacity residual; design rents."
+    },
+    {
+      "name": "Independence",
+      "note": "Bilderberg ≠ WEF ≠ UN ≠ DFAT ≠ EU ETS."
+    },
+    {
+      "name": "Hostile Pass 1 — Laundering Davos",
+      "note": "Attack: you protect elites. Response: C5 downgrade residual explicit; C4 influence PROBABLE; C7 still UNSUPPORTED."
+    },
+    {
+      "name": "Hostile Pass 2 — Cover story",
+      "note": "Attack: ‘no votes’ is camouflage. Response: official text constrains resolution claims; extraordinary control still needs control docs."
+    },
+    {
+      "name": "Hostile Pass 3 — VNR is theatre",
+      "note": "Attack: paperwork proves nothing. Response: theatre is still national mediation — proves domestic path, not impotence of soft goals."
+    },
+    {
+      "name": "Hostile Pass 4 — Protocols adjacency",
+      "note": "Attack: forums are the ethnic cabal. Response: explicit non-goal; institutions and classes, not ethnic myths."
+    }
+  ],
+  "changelog": [
+    {
+      "date": "26/08/2026",
+      "change": "Evidence File 021 initial publication. Research basis: elite-forums Pass 2. Hydra UNSUPPORTED. Twin to EF022. Author sequential-open of remaining RESEARCH READY files after EF018."
+    }
+  ]
+}

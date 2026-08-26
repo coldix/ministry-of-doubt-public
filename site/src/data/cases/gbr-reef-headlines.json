@@ -1,0 +1,233 @@
+{
+  "fileNo": "019",
+  "slug": "gbr-reef-headlines",
+  "publication": "public",
+  "title": "Great Barrier Reef dual headlines",
+  "subtitle": "The same monitoring series can produce ‘record cover’ and ‘largest decline’ without either being a simple lie; unscoped dying and climate-disproof are both UNSUPPORTED",
+  "chapter": "Chapter 20",
+  "livingFile": true,
+  "livingFileNotice": "This is a Living Evidence File. Cut-off 12/08/2026. Refresh when the next AIMS Long-Term Monitoring Program annual summary is published. Cover is not composition; climate physics is not on trial in this file.",
+  "status": "Living Evidence File",
+  "firstPublished": "26/08/2026",
+  "lastReviewed": "26/08/2026",
+  "evidenceCutoff": "12/08/2026",
+  "overall": {
+    "label": "Dual headlines from window selection are KNOWN; unscoped terminal dying and record-cover-as-climate-disproof are UNSUPPORTED",
+    "ledger": "KNOWN",
+    "confidence": "Very high on the cover series and the communication failure; high against the unscoped slogans",
+    "summary": "There is no single Great Barrier Reef number. AIMS Long-Term Monitoring Program reports northern, central, and southern hard-coral cover separately, against a long-term average, for a stated year. In 2022 AIMS recorded the highest northern (36%) and central (33%) cover in 36 years of monitoring. In 2024/25 the same programme recorded the largest annual regional declines from those high bases: northern 39.8%→30.0% (−24.8%), central 33.2%→28.6% (−13.9%), southern 38.9%→26.9% (−30.6%); northern and central remained above long-term average, southern fell below. Mass bleaching damage is real (2016, 2017, 2020, 2022, 2024 class). Cover is not composition: fast-growing Acropora can inflate cover while diversity lags. Unscoped ‘the Reef is dying’ is not a testable claim. ‘Record cover disproves climate threat’ is UNSUPPORTED. Climate physics is out of this file’s scope. This file scores communication and measurement windows, not a culture-war verdict on the Reef."
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "The Great Barrier Reef is not one number. AIMS reports northern, central, and southern regions separately. Hard-coral cover, bleaching mortality, composition, and cyclone/COTS impacts are different metrics. A claim that does not specify region, metric, baseline, and end year is not yet a claim.",
+      "why": "Architectural object of the monitoring programme. Blocks both fatalism and recovery-as-proof slogans.",
+      "sourceIds": ["S1", "S2"]
+    },
+    {
+      "id": "C2",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Cover rises and falls. Both can be true in different windows of the same series. 2022 northern/central highs and 2024/25 high-base declines are not competing datasets. They are sequential readings of one Long-Term Monitoring Program.",
+      "why": "Same lineage, two years. Dual-headline pedagogy sits on this identity.",
+      "sourceIds": ["S1", "S2"]
+    },
+    {
+      "id": "C3",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high as an LTMP-series maximum, not as ‘ever’",
+      "claim": "AIMS media release 4 August 2022: northern and central GBR recorded their highest hard-coral cover since AIMS began monitoring 36 years earlier. Surveys of 87 representative reefs (August 2021–May 2022): northern average 36% (from 27% in 2021); central 33% (from 26%). Southern decreased 38%→34%. ‘Highest since monitoring began’ is an LTMP-series max, not geological ‘ever,’ and not a climate-threat disproof.",
+      "why": "Primary AIMS pin. Fast-growing Acropora drove much of the gain — cover ≠ composition residual.",
+      "sourceIds": ["S1"]
+    },
+    {
+      "id": "C4",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "AIMS Annual Summary 2024/25: from 2024 highs, northern cover 39.8% (34.8–44.2% CI) → 30.0% (26.6–33.8%) , relative −24.8% (largest annual decline for the region since monitoring began; 2025 still above long-term average 26.6%). Central 33.2%→28.6% (−13.9%; still above LTA 19.8%). Southern 38.9%→26.9% (−30.6%; below LTA 29.3%). AIMS framing: primarily 2024 mass-bleaching mortality, compounded by cyclones, freshwater, some COTS; some reefs up to ~70% local loss. ‘Largest annual decline’ and ‘still above long-term average’ (N/C) can both be true.",
+      "why": "Primary annual. Relative decline from a high base is not ‘reef dead.’ Southern below LTA blocks recovery-only.",
+      "sourceIds": ["S2"]
+    },
+    {
+      "id": "C5",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Mass bleaching damage on the GBR is real. AIMS records multiple mass bleaching events including 2016, 2017, 2020, 2022, and 2024 class. Recovery windows after late-2010s losses produced 2022-class record cover; subsequent heat stress produced 2024/25 high-base losses. Cumulative frequency shortens recovery. This is a disturbance series, not a climate-physics trial in this file.",
+      "why": "Blocks ‘record cover means the threat was fake.’ Physics of forcing stays out of this file’s claim budget.",
+      "sourceIds": ["S1", "S2", "S3"]
+    },
+    {
+      "id": "C6",
+      "level": "Process",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "The same AIMS series generates opposite headlines by window and baseline selection. ‘Record coral cover’ is true for northern/central 2022 versus LTMP start. ‘Largest decline’ is true as 2024→2025 relative change for northern and southern. Both fail when used as unscoped total stories. Neither requires fabrication. Both require metric · region · baseline · end year.",
+      "why": "The chapter’s reason for existing. Communication process, not a secret second dataset.",
+      "sourceIds": ["S1", "S2"]
+    },
+    {
+      "id": "C7",
+      "level": "Method",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Audit every Reef claim for metric, region, baseline, and end year. Cover is not composition, not diversity, not resilience. Symmetry is not both-sides mush: unscoped terminal dying and unscoped climate-disproof are both under-specified. Recovery does not deny damage. Alarm that erases recovery also fails the protocol.",
+      "why": "Method of the Live File. Identity-swap test applies.",
+      "sourceIds": ["S1", "S2"]
+    },
+    {
+      "id": "C8",
+      "level": "Object",
+      "ledger": "UNSUPPORTED",
+      "confidence": "High against unscoped dying; very high against climate-disproof-by-cover",
+      "claim": "Unscoped ‘the Reef is dying’ is not a precise, testable claim. Scoped predictions (region, metric, window) can be tested. ‘Record cover disproves climate threat’ is UNSUPPORTED: bleaching frequency, AIMS’s own disturbance caveats, and 2024/25 high-base losses sit on the same series as the 2022 highs. This file does not score climate attribution physics.",
+      "why": "Load-bearing negative. Damage episodes are real; terminal unfalsifiable form is not earned.",
+      "sourceIds": ["S1", "S2", "S3"]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "08/2022",
+      "event": "AIMS: northern 36% / central 33% — highest LTMP cover in 36 years of monitoring.",
+      "effect": "C3; ‘record cover’ window"
+    },
+    {
+      "date": "2024",
+      "event": "Mass bleaching (AIMS framing of 2024/25 mortality) plus cyclones Dec 2023 / Jan 2024.",
+      "effect": "C4 / C5"
+    },
+    {
+      "date": "08/2025",
+      "event": "AIMS 2024/25 annual: largest regional annual declines from 2024 highs; N/C still above LTA, S below.",
+      "effect": "C4; ‘largest decline’ window"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H-dying",
+      "title": "Unscoped terminal dying",
+      "status": "Rejected as a precise claim",
+      "text": "The Reef is dying, full stop.",
+      "test": "C8. Recovery windows and N/C 2025 still above LTA."
+    },
+    {
+      "id": "H-fine",
+      "title": "Record cover kills the climate story",
+      "status": "Rejected",
+      "text": "2022 highs prove the threat was fake.",
+      "test": "C5 / C8. Bleaching series and 2024/25 losses."
+    },
+    {
+      "id": "H-both-true",
+      "title": "Both unscoped slogans equally true",
+      "status": "Rejected",
+      "text": "Symmetry means both total stories win.",
+      "test": "C7. Symmetry is method, not mush."
+    },
+    {
+      "id": "H-windows",
+      "title": "Windows, not rival datasets",
+      "status": "Retained",
+      "text": "Opposite headlines from one series by selection.",
+      "test": "C2 / C6."
+    }
+  ],
+  "independence": [
+    "aims-ltmp: Primary monitoring series (single gold standard for cover).",
+    "aims-2022: Record-cover window.",
+    "aims-2025: High-base decline window.",
+    "bleach-series: Disturbance events via same agency, different product page.",
+    "inference-gap: Dual-headline method. Not a fifth measurement lineage."
+  ],
+  "openQuestions": [
+    "Composition and diversity lag behind cover after Acropora-driven rebounds — residual, not a C3 kill.",
+    "Per-event mortality polish for 2016–2024 class.",
+    "Next AIMS annual after the 12/08/2026 cut-off — living-file trigger.",
+    "Media clip archive of specific dual headlines is polish, not a ledger hole."
+  ],
+  "wouldChange": [
+    "AIMS revising the 2022 or 2024/25 regional percentages would force C3/C4.",
+    "A closed composition series showing cover gains with collapsed diversity would raise the cover≠composition residual without erasing C3.",
+    "Nothing in climate-attribution physics changes this communication file unless it is smuggled in as a Reef-cover slogan.",
+    "A new monitoring programme that contradicted LTMP regional trajectories would force a re-open — none is public at this cut-off."
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "name": "AIMS — Highest coral cover in central, northern Reef in 36 years (4 August 2022)",
+      "kind": "Primary — monitoring agency media release",
+      "role": "C3: N 36% (from 27%), C 33% (from 26%), 87 reefs, LTMP-series max not ‘ever’.",
+      "independenceGroup": "aims-2022",
+      "url": "https://www.aims.gov.au/information-centre/news-and-stories/highest-coral-cover-central-northern-reef-36-years",
+      "locator": "Australian Institute of Marine Science, media release, 4 August 2022. Companion annual: aims.gov.au/monitoring-great-barrier-reef/gbr-condition-summary-2021-22."
+    },
+    {
+      "id": "S2",
+      "name": "AIMS — Annual Summary Report of Coral Reef Condition 2024/25 (6 August 2025)",
+      "kind": "Primary — monitoring annual",
+      "role": "C4: N 39.8→30.0 (−24.8%); C 33.2→28.6 (−13.9%); S 38.9→26.9 (−30.6%); LTA comparison; bleaching/cyclone drivers.",
+      "independenceGroup": "aims-2025",
+      "url": "https://www.aims.gov.au/monitoring-great-barrier-reef/gbr-condition-summary-2024-25",
+      "locator": "AIMS Long-Term Monitoring Program, Annual Summary Report of Coral Reef Condition 2024/25, published 6 August 2025."
+    },
+    {
+      "id": "S3",
+      "name": "AIMS — coral bleaching / disturbance series (ongoing)",
+      "kind": "Primary — agency topic page plus annuals",
+      "role": "C5: 2016+ mass bleaching class as documented disturbance, not a physics trial.",
+      "independenceGroup": "bleach-series",
+      "url": "https://www.aims.gov.au/research-topics/environmental-issues/coral-bleaching",
+      "locator": "AIMS coral bleaching topic path, used with S1/S2 annuals. If the topic slug moves, the annuals remain the locator class for 2024 mortality."
+    }
+  ],
+  "methodAudit": [
+    {
+      "name": "Grammar",
+      "note": "Cover, composition, bleaching, dying, and climate attribution are separate. ‘The Reef’ as one noun smuggles C1."
+    },
+    {
+      "name": "Logic",
+      "note": "H-dying rejected as precise. H-fine rejected. H-both-true rejected. Hidden premises blocked: relative decline = dead; LTMP max = ever; recovery = no threat."
+    },
+    {
+      "name": "Rhetoric",
+      "note": "Stripped: dying Reef; thriving Reef; both-sides. Neutral: windows, percentages, LTA."
+    },
+    {
+      "name": "Reality",
+      "note": "Discriminators: 2022 N/C highs; 2024/25 table with LTA; Acropora caveat. Control: one monitoring lineage, not rival datasets."
+    },
+    {
+      "name": "Independence",
+      "note": "Cover series is one lineage (AIMS LTMP). Dual headlines are process failures of selection. Composition literature is residual."
+    },
+    {
+      "name": "Hostile Pass 1 — Both-sides the climate crisis",
+      "note": "Attack: you launder denial. Response: C5 bleaching KNOWN; C8 climate-disproof UNSUPPORTED. This file is communication, not physics."
+    },
+    {
+      "name": "Hostile Pass 2 — Record cover was greenwashing",
+      "note": "Attack: AIMS cooked 2022. Response: primary monitoring; misuse is media process (C6)."
+    },
+    {
+      "name": "Hostile Pass 3 — Largest decline = dead",
+      "note": "Attack: −24.8% ends the story. Response: high base; N/C 2025 still above LTA."
+    },
+    {
+      "name": "Hostile Pass 4 — Cover is useless",
+      "note": "Attack: drop the metric. Response: incomplete (composition residual) but load-bearing for the headline phenomenon."
+    }
+  ],
+  "changelog": [
+    {
+      "date": "26/08/2026",
+      "change": "Evidence File 019 initial publication as a Living File. Research basis: gbr-reef-headlines Pass 2. Dual-headline method KNOWN; unscoped dying and climate-disproof UNSUPPORTED. Author sequential-open of remaining RESEARCH READY Live/systems files after EF018."
+    }
+  ]
+}
