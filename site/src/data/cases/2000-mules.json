@@ -1,0 +1,268 @@
+{
+  "fileNo": "018",
+  "slug": "2000-mules",
+  "publication": "public",
+  "title": "*2000 Mules* — election data specimen",
+  "subtitle": "Geolocation measures vicinity, not stuffing; the film’s outcome-changing mule network is UNSUPPORTED",
+  "chapter": "Chapter 17",
+  "livingFile": true,
+  "livingFileNotice": "This is a Living Evidence File. Cut-off 12/08/2026. Refresh if authenticated ballots plus identity at claimed scale appear, or if an adversarial court finding of fact adopts the method. A Gemini blind ledger compared on 26/08/2026 agrees that the outcome claim is UNSUPPORTED; that agreement is not a third evidence line and the blind branch is not merged.",
+  "status": "Living Evidence File",
+  "firstPublished": "26/08/2026",
+  "lastReviewed": "26/08/2026",
+  "evidenceCutoff": "12/08/2026",
+  "overall": {
+    "label": "Measurement gap is KNOWN; organised outcome-changing fraud via this specimen is UNSUPPORTED",
+    "ledger": "UNSUPPORTED",
+    "confidence": "Very high against the film’s outcome claim; very high on the measurement limits",
+    "summary": "*2000 Mules* (2022, D’Souza / True the Vote) alleged about 2,000 paid ‘mules’ illegally stuffed drop boxes across five states using commercial cellphone geolocation and selected video, at a scale that swung the 2020 presidential outcome. What the data can show is presence near a location within error bounds — not at-the-slot stuffing, voter identity, or ballot validity. Multi-visit patterns and multi-envelope video are not illegal multi-ballot trafficking: Georgia household/caregiver law makes some multi-ballot returns lawful, and SEB investigator Dana DeWeese’s identifiable cases (including Mark Andrews) were family ballots with no Georgia-code violation. GBI Director D. Victor Reynolds (30 September 2021): the data were ‘curious’ but did not rise to probable cause; the claimed validating source was not provided to GBI or FBI. TTV’s later court path did not produce the promised identity/contact package. D’Souza (December 2024): surveillance videos used in the film may not have been correlated with the geolocation data — the film’s own corroboration story is broken. He still asserts the geo premise; that does not restore the outcome claim. Isolated real handling-rule cases (Yuma *Fuentes*, 2020 primary, four ballots, local police — not TTV geo, not the November general) do not complete a 2,000-mule network and do not vanish because the film failed. This file does not find that the 2020 election was perfect. Irregularity, organised fraud, and outcome-changing fraud are three thresholds."
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "*2000 Mules* alleges a large set of ‘mules’ delivered illegal ballots using patterns of cellphone geolocation near drop boxes plus selected video, in Georgia, Arizona, Wisconsin, Michigan, and Pennsylvania, sufficient to change the 2020 presidential outcome. Public method as reported: True the Vote purchased commercial geolocation (about $2 million; ‘~10 trillion’ signals claimed); geofences around drop boxes and unnamed nonprofits; devices near ≥10 drop boxes and ≥5 liberal nonprofits labelled mules; about 2,000 such devices. This is the allegation content. It is not an endorsement.",
+      "why": "Film and TTV public method. FactCheck synthesis of thresholds. Claim vehicle, not proof.",
+      "sourceIds": ["S1", "S5"]
+    },
+    {
+      "id": "C2",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Cellphone-derived commercial geolocation of the type used can establish presence near a location within error bounds. It does not, by itself, prove ballot stuffing, voter identity, or ballot validity. Typical app GPS accuracy is on the order of tens of feet or metres under good conditions (EFF Cooper Quintin ~40 feet class; literature 7–13 m). That is not ‘at the slot.’ High-traffic legitimate reasons exist (delivery, poll workers, residents, commuters). Film rhetoric that vicinity of 10 or more drop boxes means ‘only one thing you can do’ overstates the measurement.",
+      "why": "Geospatial measurement science quoted in FactCheck (Striegel; Quintin). Independent of GBI process.",
+      "sourceIds": ["S1", "S2"]
+    },
+    {
+      "id": "C3",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Visits to multiple drop boxes, even if accurately measured, and video of a person depositing more than one envelope, are not sufficient to prove illegal multi-ballot delivery. Georgia O.C.G.A. § 21-2-385(a) allows specified relatives and household co-residents to return absentee ballots. SEB investigator Dana DeWeese (17 May 2022 path): identifiable video cases including Mark Andrews were family ballots confirmed in voter records; no Georgia code violation. The film’s public video package does not show any single person depositing at multiple different drop boxes. Legal multi-ballot is a false-positive class for the film’s crime framing.",
+      "why": "Law plus investigator cases. Andrews later sued; D’Souza apologised. Family law is not a ‘cover story’ without identity failure.",
+      "sourceIds": ["S1", "S3"]
+    },
+    {
+      "id": "C4",
+      "level": "Object",
+      "ledger": "UNSUPPORTED",
+      "confidence": "Very high against as established by this specimen",
+      "claim": "The film’s inference from geolocation plus selected video to an organised, paid, outcome-changing ballot-trafficking scheme in 2020 exceeds what the measurements establish. No authenticated illegal ballots at claimed mule scale. No adversarial court finding of fact adopting the TTV method as outcome-determinative. GBI: no probable cause. TTV court path: no identity/contact package in possession. Video–geo correlation broken by the filmmaker’s own 2024 statement. Small-scale illegal collection exists in US elections (C7) and does not validate this network or magnitude. Drop-box expansion is a real risk-surface debate; it is not proof of an Electoral College flip via mules. This specimen does not score the entire 2020 election.",
+      "why": "Gap between measurement and fraud predicates plus failed LE validation plus empty identity package plus broken corroboration. AI second-lineage agreement is not counted as a pin.",
+      "sourceIds": ["S1", "S2", "S3"]
+    },
+    {
+      "id": "C5",
+      "level": "Process",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Law-enforcement and records process did not validate the package. GBI Director D. Victor Reynolds, 30 September 2021 letter to Georgia GOP chair and TTV/Phillips: no witness statements; no names of potential defendants; claimed source validating ballot harvesting not provided to GBI or FBI despite repeated requests; data ‘while curious, does not rise to the level of probable cause that a crime has been committed’; without probable cause GBI cannot obtain comparable CSLI by warrant. Georgia SEB later compelled TTV evidence including identity/contact of people TTV claimed had knowledge; TTV December 2023 response path: TTV does not have in its possession, custody, or control such identity and contact information. Arizona EIU memos (Mayes release): TTV showed maps/spreadsheets and a hypothesis; did not produce device-owner identification or stuffing video. Do not cite the EIU’s 10,000-hour figure as a 2000 Mules-specific audit — that is unit-wide work across hundreds of 2020-related investigations.",
+      "why": "Reynolds letter is specific, not a vibe dismissal. Empty identity package is a process fact. TTV still ‘stands by’ work product — recorded, not a C4 upgrade.",
+      "sourceIds": ["S1", "S2"]
+    },
+    {
+      "id": "C6",
+      "level": "Process",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "The film’s video-as-corroboration story is broken. D’Souza statement (published path 26 November–2 December 2024): the team was assured videos depicted individuals with ≥10 drop-box visits linked to geo; ‘We recently learned that surveillance videos used in the film may not have actually been correlated with the geolocation data’; apology to Mark Andrews; inaccurate information; would have produced/edited differently. He continues to assert the underlying geo premise and ‘systematic election fraud sufficient to call the outcome into question.’ That residual assertion does not restore C4 and does not recouple video to geo. True the Vote responded that Andrews was not part of its geospatial study and that it had no editorial control over video selection — a split between film and research vendor, not a completed mule network.",
+      "why": "Claimant admission. Primary process pin for C4’s corroboration collapse.",
+      "sourceIds": ["S3"]
+    },
+    {
+      "id": "C7",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "High as an isolated handling-rule case — not the film’s network",
+      "claim": "Isolated real ballot-handling crimes exist and must not be erased because this film failed. State v. Guillermina Fuentes (Yuma County): August 2020 primary in San Luis, not the November general; four early ballots returned in violation of A.R.S. § 16-1005 (non-family/non-caregiver); local video/sheriff path, not True the Vote geolocation; plea to ballot abuse (AP 2 June 2022); more serious marking/forgery counts dropped. Use: cannot complete the 2,000-mule network; cannot support ‘nothing illegal ever happens.’",
+      "why": "Contrary lure. Identity-swap test: same three thresholds would apply if the party labels were reversed.",
+      "sourceIds": ["S4"]
+    },
+    {
+      "id": "C8",
+      "level": "Method",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Irregularity ≠ organised fraud ≠ outcome-changing fraud. Each step needs more evidence than the last. ‘Debunked’ is not a substitute for stating the measurement gap. ‘The election was perfect’ is not a finding of this file. 2016 interference is a different evidence class — no false equivalence with mule geo. Treating this specimen as the whole 2020 catalogue is out of scope.",
+      "why": "Live File architecture. Political symmetry without both-sides mush.",
+      "sourceIds": ["S1", "S3"]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "11/2020",
+      "event": "US presidential election. Film later claims five-state drop-box mule network changed the outcome.",
+      "effect": "C1 allegation frame"
+    },
+    {
+      "date": "30/09/2021",
+      "event": "GBI Reynolds letter: data curious; no probable cause; source not provided.",
+      "effect": "C5"
+    },
+    {
+      "date": "05/2022",
+      "event": "*2000 Mules* released. SEB hearing: DeWeese family-ballot cases including Andrews.",
+      "effect": "C1 / C3"
+    },
+    {
+      "date": "12/2023–02/2024",
+      "event": "TTV court response path: no identity/contact package in possession.",
+      "effect": "C5"
+    },
+    {
+      "date": "26/11–02/12/2024",
+      "event": "D’Souza: videos may not have been correlated with geo; apology to Andrews; still asserts geo premise.",
+      "effect": "C6; does not restore C4"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H-mules",
+      "title": "Paid 2,000-mule network swung 2020",
+      "status": "Rejected as established by this specimen",
+      "text": "Geo plus video proves organised outcome-changing trafficking.",
+      "test": "C4. Measurement gap + no PC + empty package + broken video–geo."
+    },
+    {
+      "id": "H-perfect",
+      "title": "The election was perfect",
+      "status": "Rejected as a finding of this file",
+      "text": "Because the film failed, nothing went wrong.",
+      "test": "C7 / C8. Isolated crimes exist; this specimen is not the whole election."
+    },
+    {
+      "id": "H-geo-truth",
+      "title": "Commercial geo is at-the-slot proof",
+      "status": "Rejected",
+      "text": "Pings place a hand at the box.",
+      "test": "C2. Vicinity with error."
+    },
+    {
+      "id": "H-fuentes-completes",
+      "title": "Fuentes is the network",
+      "status": "Rejected",
+      "text": "One Yuma primary case proves 2,000 mules.",
+      "test": "C7. Different election, local police, four ballots, not TTV geo."
+    }
+  ],
+  "independence": [
+    "film-2022: Claim vehicle.",
+    "geo-accuracy: Measurement science (Striegel; Quintin/EFF) via FactCheck/AP.",
+    "ga-process: GBI Reynolds letter; SEB/TTV court null.",
+    "dsouza-2024: Claimant admission on video–geo.",
+    "contrary-lure: Fuentes — real handling-rule case, not the film’s method.",
+    "inference-gap: Three-threshold method. Not a sixth measurement lineage."
+  ],
+  "openQuestions": [
+    "Independent reanalysis of raw vendor data if ever produced — residual, not a current C4 upgrade.",
+    "Full TTV methodology PDF (FILE_5193 class) — polish.",
+    "Vendor data-dictionary / stated accuracy specs.",
+    "Other-state LE packages of similar quality to GBI’s letter.",
+    "Future authenticated ballot+identity chain at claimed scale — living-file trigger."
+  ],
+  "wouldChange": [
+    "Authenticated ballots plus identity chain at claimed mule scale under adversarial testing would force C4 up.",
+    "A court finding of fact adopting the TTV method as outcome-determinative would force C4 up.",
+    "Vendor documentation showing precision sufficient for at-the-slot inference would force C2 down.",
+    "Nothing in 2016 interference findings changes this specimen.",
+    "AI agreement that M4 is UNSUPPORTED does not move the ledger."
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "name": "FactCheck.org — Evidence Gaps in ‘2000 Mules’ (10 June 2022, updated)",
+      "kind": "Journalism — method synthesis with primary quotations",
+      "role": "C1 thresholds ($2M, ≥10 boxes / ≥5 nonprofits); C2 Striegel/Quintin accuracy; C3 DeWeese/Andrews; C5 Reynolds letter quotations.",
+      "independenceGroup": "inference-gap",
+      "url": "https://www.factcheck.org/2022/06/evidence-gaps-in-2000-mules/",
+      "locator": "FactCheck.org, Eugene Kiely et al., ‘Evidence Gaps in “2000 Mules,”’ 10 June 2022 with later updates including D’Souza 2024. Quotes GBI Reynolds 30 September 2021 letter at length."
+    },
+    {
+      "id": "S2",
+      "name": "AP — FACT FOCUS: Gaping holes in the claim of 2K ballot ‘mules’ (3 May 2022)",
+      "kind": "Journalism — contemporaneous fact check",
+      "role": "C2 geo not precise enough for at-the-slot; C5 Georgia SOS family-ballot investigation of circulated video.",
+      "independenceGroup": "geo-accuracy",
+      "url": "https://apnews.com/article/2022-midterm-elections-covid-technology-health-arizona-e1b49d2311bf900f44fa5c6dac406762",
+      "locator": "Associated Press, ‘FACT FOCUS: Gaping holes in the claim of 2K ballot “mules,”’ 3 May 2022."
+    },
+    {
+      "id": "S3",
+      "name": "Dinesh D’Souza — Statement on 2000 Mules (November–December 2024)",
+      "kind": "Primary — filmmaker statement",
+      "role": "C6: videos may not have been correlated with geo; Andrews apology; still asserts geo premise (does not restore C4).",
+      "independenceGroup": "dsouza-2024",
+      "url": "https://storage.courtlistener.com/recap/gov.uscourts.gand.308676/gov.uscourts.gand.308676.250.11.pdf",
+      "locator": "Dinesh D’Souza, ‘Statement on 2000 Mules,’ originally posted at dineshdsouza.com/statement-on-2000-mules/ (site path reported 26 November–2 December 2024; live URL 404 as of 26/08/2026). Wayback: web.archive.org/web/20241203003825/https://dineshdsouza.com/statement-on-2000-mules/. Court file: Andrews v. D’Souza, N.D. Ga. 1:22-cv-04259, RECAP exhibit 250-11."
+    },
+    {
+      "id": "S4",
+      "name": "AP — Guillermina Fuentes ballot-abuse plea, Yuma County (2 June 2022)",
+      "kind": "Journalism — contemporaneous court report",
+      "role": "C7: four primary ballots, non-family, local police; not TTV geo; not November general.",
+      "independenceGroup": "contrary-lure",
+      "url": "https://apnews.com/article/arizona-government-and-politics-conspiracy-election-2020-presidential-elections-4a22fd2a2b4851a62fff4f7bd8a1be50",
+      "locator": "Associated Press, Bob Christie, ‘Arizona woman admits guilt in ballot collection scheme,’ 2 June 2022. State v. Guillermina Fuentes, Yuma County, August 2020 primary, A.R.S. § 16-1005; four ballots; more serious marking/forgery counts dropped. Not the film’s five-state geo study."
+    },
+    {
+      "id": "S5",
+      "name": "*2000 Mules* (D’Souza Media / True the Vote research path, 2022)",
+      "kind": "Primary — claim vehicle",
+      "role": "C1 allegation content. Not independent proof of C4.",
+      "independenceGroup": "film-2022",
+      "url": "https://en.wikipedia.org/wiki/2000_Mules",
+      "locator": "Dinesh D’Souza, *2000 Mules*, 2022 (D’Souza Media; True the Vote research path: Catherine Engelbrecht; Gregg Phillips). Original marketing site 2000mules.com was unreachable 26/08/2026. Wikipedia is a catalog pointer, not independent proof of C4."
+    }
+  ],
+  "methodAudit": [
+    {
+      "name": "Grammar",
+      "note": "Allegation content, geo limits, multi-visit≠crime, outcome claim, LE non-validation, video–geo break, isolated real crime, and three-threshold method are separate. ‘Stolen election’ collapses C4 with the whole 2020 catalogue. ‘Debunked’ collapses C2–C6 into a slogan."
+    },
+    {
+      "name": "Logic",
+      "note": "H-mules rejected as established. H-perfect rejected. H-geo-truth rejected. H-fuentes-completes rejected. Hidden premises blocked: vicinity=stuffing; family envelopes=crime; GBI captured because no PC; film failed therefore election perfect; Gemini agreement=third lineage."
+    },
+    {
+      "name": "Rhetoric",
+      "note": "Stripped: most secure election; 2,000 paid mules stole it; Fuentes is the network. Neutral: geo is vicinity; GBI found no PC; videos may not match geo; isolated handling-rule crimes exist."
+    },
+    {
+      "name": "Reality",
+      "note": "Discriminators: Quintin/Striegel accuracy; Reynolds no-PC letter; TTV empty identity package; D’Souza uncorrelated-videos sentence. Controls: Fuentes as contrary lure; D’Souza still asserts geo; raw data not public."
+    },
+    {
+      "name": "Independence",
+      "note": "FactCheck ≠ AP ≠ D’Souza statement ≠ GBI letter (quoted). Gemini comparison is process, not a source."
+    },
+    {
+      "name": "Hostile Pass 1 — Protecting institutions",
+      "note": "Attack: you debunk to save 2020. Response: score physics + Reynolds specifics + claimant admission. Irregularity investigation remains legitimate."
+    },
+    {
+      "name": "Hostile Pass 2 — GBI captured",
+      "note": "Attack: they refused to look. Response: letter lists what was missing (names, source, PC). SEB still subpoenaed TTV."
+    },
+    {
+      "name": "Hostile Pass 3 — Family-ballot cover",
+      "note": "Attack: Andrews is a story. Response: eNet household electors; film never showed multi-box same-person video."
+    },
+    {
+      "name": "Hostile Pass 4 — Election was perfect",
+      "note": "Attack: you imply nothing went wrong. Response: C7/C8. Out of specimen for other 2020 claims."
+    },
+    {
+      "name": "Hostile Pass 5 — Two AIs agree",
+      "note": "Attack: therefore M4 is extra-true. Response: same public records counted twice. Blind branch unmerged."
+    }
+  ],
+  "changelog": [
+    {
+      "date": "26/08/2026",
+      "change": "Evidence File 018 initial publication as a Living File. Research basis: 2000-mules Pass 2+3. M4 UNSUPPORTED. Gemini blind comparison 26/08/2026 agrees on the outcome posterior; not a third lineage; branch unmerged. Author sequential-open after COVID."
+    }
+  ]
+}
