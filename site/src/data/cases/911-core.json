@@ -1,0 +1,389 @@
+{
+  "fileNo": "013",
+  "slug": "911-core",
+  "publication": "public",
+  "title": "9/11: attack, intelligence, towers, and Building 7",
+  "subtitle": "Four families, scored separately — including Pilots for 9/11 Truth and Architects & Engineers for 9/11 Truth",
+  "chapter": "Chapter 13",
+  "livingFile": false,
+  "status": "Evidence File",
+  "firstPublished": "26/08/2026",
+  "lastReviewed": "26/08/2026",
+  "evidenceCutoff": "12/08/2026",
+  "overall": {
+    "label": "Al-Qaeda attack and intelligence failure are KNOWN; tower CD and LIHOP/MIHOP are not; Building 7 is a separate technical contest",
+    "ledger": "KNOWN",
+    "confidence": "Very high on the attack and warning-failure families; mixed on Building 7 mechanism",
+    "summary": "“9/11” is not one claim. On 11 September 2001 four commercial airliners were hijacked; two struck the World Trade Center towers, one struck the Pentagon, and United 93 crashed in Pennsylvania after passenger intervention. The operational network was al-Qaeda under Osama bin Laden’s organisation. US intelligence and security institutions had warning indicators that were inadequately imagined, shared, and acted on — the 6 August 2001 PDB is a load-bearing example. That failure is not a finding that they let it happen or made it happen. NIST’s account of WTC 1 and 2 is impact damage plus multi-floor fires plus dislodged fireproofing; it found no corroborating evidence of pre-planted controlled demolition of the towers. World Trade Center 7, not hit by an aircraft, collapsed that afternoon after debris-ignited fires. NIST’s Column 79 fire-induced sequence is the best official engineering account and is scored PROBABLE, not frozen: no named human structural engineer has signed the Ministry’s hostile brief. A free-fall interval of the exterior is a measured kinematic fact; it is not automatic proof of demolition. Architects & Engineers for 9/11 Truth and Pilots for 9/11 Truth are real credentialed-dissent organisations. Petitions, videos, and the AE911Truth-funded Hulsey/UAF WTC 7 study do not establish controlled demolition or government authorship. Aftermath policy is real. Benefit after an event is not proof of authorship."
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "On 11 September 2001 four commercial airliners were hijacked. American 11 and United 175 struck the World Trade Center towers. American 77 struck the Pentagon. United 93 crashed in Pennsylvania after passenger intervention. This is the day-of operational event, reconstructed in the 9/11 Commission Report Chapter 1 from ATC, radar, cockpit, and witness paths. Fringe no-plane variants fail this claim’s multi-source bar. Pentagon-impact disputes from Pilots for 9/11 Truth are scored at C15 and do not reverse C1.",
+      "why": "Commission Chapter 1 is a reconstruction, not scripture. It sits on a contemporaneous multi-source record that no serious competing operational reconstruction has replaced.",
+      "sourceIds": ["S1"]
+    },
+    {
+      "id": "C2",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "The operational hijacker network was directed by al-Qaeda under Osama bin Laden’s organisation. The Commission names Khalid Sheikh Mohammed as the principal architect of the 9/11 attacks (Chapter 5). Named hijackers, prior al-Qaeda pattern, and later claim-of-responsibility paths (including bin Laden’s October 2004 video) are independent-enough strands to score operational authorship KNOWN. KSM statements arise in detention and are not a sole pin. An incomplete facilitator or financing map, including later Saudi-related residuals, is not a substitute for a different primary author.",
+      "why": "Multi-line: Commission operational reconstruction, KSM-as-architect pin with detention caveat, adversary claims path. Facilitator residuals stay process, not A2 reversal.",
+      "sourceIds": ["S1"]
+    },
+    {
+      "id": "C3",
+      "level": "Object",
+      "ledger": "UNSUPPORTED",
+      "confidence": "Very high against as established",
+      "claim": "The claim that the US government was the primary author of the attacks (MIHOP), or that the Twin Towers were brought down by pre-planted controlled demolition as the attack mechanism, is UNSUPPORTED as established. Extraordinary claim. NIST found no corroborating evidence that the towers were brought down by explosives planted before 11 September 2001: collapse initiated at the fire and impact floors and progressed downward. C1 and C2 already identify hijacked aircraft and an al-Qaeda operational network. Building 7 (C7–C11) is a separate technical proposition and must not be imported here.",
+      "why": "Positive CD/authorship evidence at the same bar demanded of NIST is not in this file. Visual resemblance and institutional distrust are not that evidence.",
+      "sourceIds": ["S1", "S3"]
+    },
+    {
+      "id": "C4",
+      "level": "Process",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "US intelligence and security institutions possessed warning indicators about al-Qaeda and some plot-class activity before 11 September 2001 that were inadequately imagined, shared, prioritised, or acted on. The Commission (Chapter 11): the attacks revealed four kinds of failures — in imagination, policy, capabilities, and management. The 6 August 2001 Presidential Daily Brief, ‘Bin Ladin Determined To Strike in US,’ reported that clandestine, foreign-government, and media reporting indicated Bin Ladin had wanted to conduct terrorist attacks in the US since 1997, and that FBI information indicated patterns of suspicious activity consistent with preparations for hijackings or other types of attacks, including surveillance of federal buildings in New York. The PDB is a warning product, not a day-of blueprint with time and place.",
+      "why": "Commission failure typology plus a declassified specific warning product. Two lineages. Optional Phoenix/Minneapolis depth is polish, not a C4 blocker.",
+      "sourceIds": ["S1", "S2"]
+    },
+    {
+      "id": "C5",
+      "level": "Process",
+      "ledger": "UNSUPPORTED",
+      "confidence": "High against as established",
+      "claim": "‘They let it happen on purpose’ (LIHOP) and ‘they made it happen on purpose’ (MIHOP, already C3 on the object side) are not established by C4. Failure of imagination, policy, capabilities, and management is not a finding of knowing permission or orchestration. No pass-2 primary of a presidential or agency order to allow this specific plot is in this file. Incompetence, fragmentation, and threat-priority error remain the scored process account until intent documents appear.",
+      "why": "Category error blocked by protocol. B1 facts do not upgrade to B2.",
+      "sourceIds": ["S1", "S2"]
+    },
+    {
+      "id": "C6",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "High",
+      "claim": "WTC 1 and WTC 2 collapsed primarily because of aircraft-impact damage plus ensuing multi-floor fires, with widespread dislodgement of thermal insulation as a load-bearing contributor. NIST NCSTAR 1: the towers likely would not have collapsed under the combined effects of impact damage and those fires if the thermal insulation had not been widely dislodged. In the absence of structural and insulation damage, a conventional fire substantially similar to or less intense than the 11 September fires likely would not have led to collapse of a WTC tower. NIST found no corroborating evidence for controlled demolition of the towers using explosives planted beforehand. NIST is a US government laboratory — authoritative, not foreign-independent. That independence residual is real. It does not convert popular ‘jet fuel can’t melt steel’ slogans into a competing engineering reconstruction. Serious peer engineering critique remains welcome; it has not replaced NCSTAR 1 as the best available account of the towers.",
+      "why": "NCSTAR 1 Executive Summary findings. Confidence High rather than Very high because of the single-agency engineering family. Still KNOWN as the load-bearing official reconstruction of WTC 1/2.",
+      "sourceIds": ["S3"]
+    },
+    {
+      "id": "C7",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "World Trade Center Building 7, a 47-storey steel-frame building not struck by an aircraft, collapsed in the afternoon of 11 September 2001 (about 17:20). Fires in WTC 7 were ignited by debris from the collapse of WTC 1, not by jet-fuel-sprayed multi-floor ignition of the tower type. Diesel-tank folklore is not the NIST ignition path. This is the event and ignition-source claim. It is not a mechanism finding (C8) and not an authorship finding (C11).",
+      "why": "Multi-source video of the collapse plus NCSTAR 1A §2.4 debris-ignition path.",
+      "sourceIds": ["S4"]
+    },
+    {
+      "id": "C8",
+      "level": "Object",
+      "ledger": "PROBABLE",
+      "confidence": "High — not Edition-frozen",
+      "claim": "NIST’s initiating local failure for WTC 7 is buckling of Column 79 after fire-induced thermal expansion and girder walk-off at Floor 13, then progressive interior collapse and exterior facade failure (NCSTAR 1A §2.4). Key finding: responses primarily at temperatures below about 400 °C — well below temperatures at which structural steel loses significant strength — so the official mechanism is expansion and connection failure, not ‘steel melted.’ This is the best available official engineering account. It is scored PROBABLE, not KNOWN, and it is not frozen: the Ministry has no named human structural or fire-protection engineer review of NCSTAR 1A plus Hulsey. Readers who require that bar should treat C8 as an open technical contest. NIST modelling opacity and data-release residuals are legitimate process complaints. They do not, by themselves, establish demolition.",
+      "why": "Demotion-class language from the Edition fallback, applied because the human PE gate is still TBD. Do not rubber-stamp NIST as settled science. Do not treat the gate as a licence to upgrade C10.",
+      "sourceIds": ["S4", "S6"]
+    },
+    {
+      "id": "C9",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "A significant portion of WTC 7’s north-face descent exhibited a period of near-free-fall acceleration. NIST NCSTAR 1A §3.6: about 5.4 seconds for 18 storeys versus 3.9 seconds pure free-fall; Stage 2 (about 1.75–4.0 s in that framing; commonly cited ~2.25 s) is the free-fall interval. NIST FAQs: Stage 1, exterior still offering buckling resistance; Stage 2, interior already failed so exterior support is negligible; Stage 3, debris resistance. The overall descent is not free-fall of the whole building for the whole time. The interval is a kinematic fact. It is not automatic proof of simultaneous cutter charges (C10).",
+      "why": "NIST measured and published the interval. Denying it is a credibility error. Equating it with demolition is a category error.",
+      "sourceIds": ["S4", "S5"]
+    },
+    {
+      "id": "C10",
+      "level": "Object",
+      "ledger": "UNSUPPORTED",
+      "confidence": "High against as established",
+      "claim": "Controlled demolition — pre-placed explosives or incendiaries as the primary cause of WTC 7’s collapse — is UNSUPPORTED as established. NIST: blast events did not play a role; no evidence whose explanation required a blast event; the smallest charge NIST analysed to fail Column 79 would have produced about 130–140 dB at half a mile if unobstructed, not found on video audio or matching witness reports of that intensity. The strongest formal adversary engineering product is Hulsey et al., University of Alaska Fairbanks, A Structural Reevaluation of the Collapse of World Trade Center 7 (final March 2020), funded by Architects & Engineers for 9/11 Truth: fire did not cause the collapse; global failure with near-simultaneous failure of every column. Funding is a quality filter, not a content refutation. The study is recorded and not sneered. Independent non-advocacy replication is still required before elevating this claim. Visual symmetry and ‘it looks like demolition’ are not the engineering bar.",
+      "why": "Positive prep/residue/acoustic evidence at the NIST bar is absent. Hulsey is the steelman, not a silent ignore. Rarity of total fire-collapse of modern steel high-rises is a real contrary residual; novelty is not a CD proof.",
+      "sourceIds": ["S4", "S5", "S6"]
+    },
+    {
+      "id": "C11",
+      "level": "Method",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Whatever the ledger on WTC 7’s mechanism, that mechanism does not by itself establish 9/11 Family A authorship. Building failure is not attacker identity. Free-fall clips must not settle C2 or C3. Iraq WMD and later war policy must not settle C3 either (pair: Evidence File 011).",
+      "why": "Architectural rule of this file. Even a future upgrade of C10 would still need a separate authorship case.",
+      "sourceIds": ["S4", "S9"]
+    },
+    {
+      "id": "C12",
+      "level": "Process",
+      "ledger": "PROBABLE",
+      "confidence": "High",
+      "claim": "After 11 September 2001, governments used the crisis to advance policies — war, surveillance, legal authorities — that would have been harder to pass without the attacks. Observable aftermath is real. Realpolitik exploitation is not authorship. This claim is PROBABLE as political use-of-shock, not as a complete causal map of every later statute.",
+      "why": "Observational. Soft on ‘used for’ versus ordinary wartime politics. Does not touch C2–C3.",
+      "sourceIds": ["S1", "S9"]
+    },
+    {
+      "id": "C13",
+      "level": "Method",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Benefit after an event is not proof of authorship. Problem-Reaction-Solution is a temptation, not a finding. C12 cannot upgrade C3 or C5.",
+      "why": "Method rule. Pair with Iraq WMD so later intelligence failure is not smuggled back as 9/11 MIHOP.",
+      "sourceIds": ["S9"]
+    },
+    {
+      "id": "C14",
+      "level": "Process",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Credentialed professional-dissent organisations exist and are part of the public record. Architects & Engineers for 9/11 Truth organises licensed architects and engineers who reject the official collapse accounts, especially for WTC 7, and funded the Hulsey/UAF study (C10). Pilots for 9/11 Truth organises aviation professionals who argue that NTSB flight-data products for American 77 do not support the Commission’s Pentagon-impact account. Their existence, petitions, and publications are KNOWN. A petition of licence-holders is a sociological and process fact. It is not, by itself, an independent engineering or radar lineage.",
+      "why": "Count organisations and products, not applause. Same rule as counting URLs: signatures are not independence groups.",
+      "sourceIds": ["S6", "S7", "S8"]
+    },
+    {
+      "id": "C15",
+      "level": "Object",
+      "ledger": "UNSUPPORTED",
+      "confidence": "High against as established",
+      "claim": "Neither Architects & Engineers for 9/11 Truth nor Pilots for 9/11 Truth has established that the Twin Towers or WTC 7 were controlled demolitions, that American 77 did not strike the Pentagon, or that the US government authored the attacks. AE911Truth’s strongest technical product is Hulsey — already scored at C10, not elevated. Pilots for 9/11 Truth’s load-bearing public claim is that NTSB FDR/flight-path products put Flight 77 too high, or on a path, that cannot match the Pentagon damage trail and light-pole sequence; they present this as analysis of government data, not as a named alternative aircraft. That FDR-interpretation dispute does not overturn C1’s multi-source operational reconstruction. Professional title is not a discriminator. Other licensed pilots and engineers reject those conclusions. Credentialed dissent is a reason to keep C8 unfrozen and to keep C10’s adversary study on the table. It is not a reason to reverse C1–C3.",
+      "why": "C14 existence does not promote C3, C10, or a no-Pentagon-plane finding. Treat Hulsey as content; treat petitions as petitions.",
+      "sourceIds": ["S1", "S6", "S7", "S8"]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "06/08/2001",
+      "event": "PDB: ‘Bin Ladin Determined To Strike in US’ — hijacking-pattern warning, New York federal-building surveillance note.",
+      "effect": "C4; does not upgrade C5"
+    },
+    {
+      "date": "11/09/2001",
+      "event": "Four hijackings. WTC 1 and 2 struck and collapse. Pentagon struck. UA93 Pennsylvania. WTC 7 collapses about 17:20 without aircraft impact.",
+      "effect": "C1, C6, C7"
+    },
+    {
+      "date": "22/07/2004",
+      "event": "9/11 Commission Report: Chapter 1 flights; Chapter 5 KSM principal architect; Chapter 11 four failures.",
+      "effect": "C1–C5 reconstruction spine"
+    },
+    {
+      "date": "09/2005",
+      "event": "NIST NCSTAR 1: WTC 1/2 impact + fire + insulation dislodgement; no corroborating tower CD evidence.",
+      "effect": "C6"
+    },
+    {
+      "date": "11/2008",
+      "event": "NIST NCSTAR 1A: WTC 7 Column 79 sequence; free-fall stages; no blast role at the analysed charge.",
+      "effect": "C7–C10"
+    },
+    {
+      "date": "03/2020",
+      "event": "Hulsey/UAF final report (AE911Truth-funded): fire did not cause WTC 7 collapse; near-simultaneous column failure.",
+      "effect": "C10/C14 steelman; not a C10 upgrade"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H-aq-ops",
+      "title": "Al-Qaeda operational attack plus institutional warning failure",
+      "status": "Best supported",
+      "text": "Hijacked aircraft, AQ network, real B1 failure, NIST-class tower mechanism, WTC7 as a separate fire-collapse contest.",
+      "test": "C1–C2, C4, C6. Holds. C8 stays unfrozen."
+    },
+    {
+      "id": "H-lihop",
+      "title": "They let it happen on purpose",
+      "status": "Rejected as established",
+      "text": "Warning plus incompetence proves knowing permission.",
+      "test": "C5. Failure ≠ intent."
+    },
+    {
+      "id": "H-mihop-cd",
+      "title": "Inside job / demolition as the attack",
+      "status": "Rejected as established",
+      "text": "Towers and/or WTC 7 were pre-planted demolitions proving US authorship.",
+      "test": "C3, C10, C11. Visuals and petitions fail the bar."
+    },
+    {
+      "id": "H-no-pentagon-plane",
+      "title": "AA77 did not strike the Pentagon",
+      "status": "Rejected as established",
+      "text": "FDR altitude/path data from Pilots for 9/11 Truth overturn C1 at the Pentagon.",
+      "test": "C15. Dispute recorded; multi-source C1 not reversed."
+    },
+    {
+      "id": "H-petition-equals-proof",
+      "title": "Enough licensed professionals settle the physics",
+      "status": "Rejected as method",
+      "text": "AE911Truth or Pilots membership is an independence lineage.",
+      "test": "C14. Count lineages, not signatures."
+    }
+  ],
+  "independence": [
+    "event-2001-09-11: Day-of multi-source operational record.",
+    "commission-2004: Reconstruction and failure typology — political product, not scripture.",
+    "pdb-2001-08-06: Specific pre-attack warning product.",
+    "nist-wtc12: Official engineering of the towers — US government lab.",
+    "nist-ncstar-1a: Official engineering of WTC 7 — same agency family as towers; separate report.",
+    "hulsey-uaf: Competing WTC 7 model — AE911Truth-funded; content recorded.",
+    "ae911truth: Advocacy organisation and petition — not a third engineering lineage.",
+    "pilots-for-911-truth: Aviation-dissent organisation and FDR interpretation — not a third radar lineage.",
+    "ef-iraq-pair: Architectural pair only — exploitation ≠ authorship."
+  ],
+  "openQuestions": [
+    "Named human structural / fire-protection engineer review of NCSTAR 1A §2.4–3.6 plus Hulsey March 2020 — can move C8 toward KNOWN or toward POSSIBLE; cannot by itself move C3.",
+    "Optional Phoenix / Minneapolis / Mihdhar–Hazmi watchlist pin depth for C4.",
+    "Independent non-advocacy replication of Hulsey.",
+    "FDR-file calibration disputes (including critical-literature recalibrations that support the official Pentagon path) — polish on C15, not a C1 reversal.",
+    "Saudi / facilitator financing residuals — process, not A2 reversal."
+  ],
+  "wouldChange": [
+    "Forensic evidence of cutter charges or explosive residue at the NIST bar would force C10 up and still leave C11 (authorship) separate.",
+    "A named PE review that breaks Column 79 as physically incapable of the observed sequence would force C8 down.",
+    "Documents of knowing permission for this specific plot would force C5 up.",
+    "A robust operational reconstruction that the Pentagon was not struck by AA77, surviving radar, wreckage, and damage-trail evidence, would force C1’s Pentagon leaf down — not currently met.",
+    "Nothing in aftermath policy changes C13."
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "name": "The 9/11 Commission Report (22 July 2004)",
+      "kind": "Primary — statutory US commission",
+      "role": "C1 Chapter 1 flights; C2 Chapter 5 KSM principal architect; C4 Chapter 11 four failures; C5 frames failure not permission.",
+      "independenceGroup": "commission-2004",
+      "url": "https://www.govinfo.gov/content/pkg/GPO-911REPORT/pdf/GPO-911REPORT.pdf",
+      "locator": "National Commission on Terrorist Attacks Upon the United States, The 9/11 Commission Report, 22 July 2004. Ch.1 ‘We Have Some Planes’; Ch.5 p.145 path KSM; Ch.11 p.339 four kinds of failures."
+    },
+    {
+      "id": "S2",
+      "name": "PDB — Bin Ladin Determined To Strike in US (6 August 2001)",
+      "kind": "Primary — declassified Presidential Daily Brief",
+      "role": "C4: hijacking-pattern warning; New York federal-building surveillance note. Not a day-of blueprint.",
+      "independenceGroup": "pdb-2001-08-06",
+      "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB116/pdb8-6-2001.pdf",
+      "locator": "National Security Archive EBB 116, declassified 10 April 2004, CIA PDB 6 August 2001."
+    },
+    {
+      "id": "S3",
+      "name": "NIST NCSTAR 1 — Final Report on the Collapse of the World Trade Center Towers (September 2005)",
+      "kind": "Primary — US government laboratory engineering report",
+      "role": "C6: impact + fires + insulation dislodgement; no corroborating tower CD evidence. C3 colour.",
+      "independenceGroup": "nist-wtc12",
+      "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/NCSTAR/ncstar1.pdf",
+      "locator": "NIST NCSTAR 1, September 2005. Executive Summary probable sequences; insulation-dislodgement finding; controlled-demolition paragraph (no corroborating evidence; initiation at fire/impact floors)."
+    },
+    {
+      "id": "S4",
+      "name": "NIST NCSTAR 1A — Final Report on the Collapse of World Trade Center Building 7 (November 2008)",
+      "kind": "Primary — US government laboratory engineering report",
+      "role": "C7 debris ignition; C8 Column 79 sequence; C9 §3.6 free-fall stages; C10 no-blast / 130–140 dB finding.",
+      "independenceGroup": "nist-ncstar-1a",
+      "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/NCSTAR/ncstar1a.pdf",
+      "locator": "NIST NCSTAR 1A, November 2008. §2.4 initiating local failure Column 79; §3.6 descent 5.4 s vs 3.9 s free-fall; blast finding."
+    },
+    {
+      "id": "S5",
+      "name": "NIST — WTC 7 Investigation FAQs",
+      "kind": "Primary — NIST public technical FAQ",
+      "role": "C9 Stages 1–3 free-fall clarification; not free-fall of the entire building for the entire descent.",
+      "independenceGroup": "nist-ncstar-1a",
+      "url": "https://www.nist.gov/world-trade-center-investigation/study-faqs/wtc-7-investigation",
+      "locator": "NIST World Trade Center Investigation, Study FAQs, WTC 7 Investigation (2011 path)."
+    },
+    {
+      "id": "S6",
+      "name": "Hulsey et al. — A Structural Reevaluation of the Collapse of World Trade Center 7 (UAF, March 2020 final)",
+      "kind": "Adversary engineering study — AE911Truth-funded",
+      "role": "C8 contrary; C10 strongest formal CD-adjacent engineering product; C14/C15 AE911Truth technical flagship.",
+      "independenceGroup": "hulsey-uaf",
+      "url": "https://ine.uaf.edu/wtc7",
+      "locator": "University of Alaska Fairbanks Institute of Northern Engineering, Hulsey, Quan, and Xiao, final March 2020. Principal conclusion: fire did not cause the collapse; near-simultaneous failure of every column. Funding: Architects & Engineers for 9/11 Truth."
+    },
+    {
+      "id": "S7",
+      "name": "Architects & Engineers for 9/11 Truth",
+      "kind": "Advocacy organisation — professional petition and Hulsey sponsor",
+      "role": "C14 existence of credentialed dissent; C15 petition ≠ engineering lineage.",
+      "independenceGroup": "ae911truth",
+      "url": "https://www.ae911truth.org/",
+      "locator": "Architects & Engineers for 9/11 Truth public site: petition of licensed architects and engineers; WTC 7 focus; sponsor of the UAF Hulsey study."
+    },
+    {
+      "id": "S8",
+      "name": "Pilots for 9/11 Truth — NTSB Flight 77 data press path (26 March 2007 class)",
+      "kind": "Advocacy organisation — aviation professionals",
+      "role": "C14 existence; C15 FDR/path interpretation offered as contradiction of AA77 Pentagon impact. Not a replacement operational reconstruction.",
+      "independenceGroup": "pilots-for-911-truth",
+      "url": "https://pilotsfor911truth.org/pressrelease.html",
+      "locator": "Pilots for 9/11 Truth, official comment on NTSB Flight Path Study — American Airlines Flight 77. Claims altitude/path/descent-rate conflict with light-pole and Pentagon-lawn official events. Organisation states it does not, in its own words, claim ‘no Boeing 757 hit the Pentagon’; the offered analysis is still used that way in adjacent literature and is scored here as UNSUPPORTED as established disproof of C1."
+    },
+    {
+      "id": "S9",
+      "name": "Ministry Evidence File 011 — Iraq WMD / the case for war",
+      "kind": "Paired Ministry evidence file",
+      "role": "C11/C12/C13: later WMD failure and war policy are not 9/11 authorship. Benefit ≠ authorship.",
+      "independenceGroup": "ef-iraq-pair",
+      "url": "/cases/iraq-wmd",
+      "locator": "Evidence File 011, /cases/iraq-wmd."
+    }
+  ],
+  "methodAudit": [
+    {
+      "name": "Grammar",
+      "note": "Attack event, attacker identity, MIHOP, warning failure, LIHOP intent, tower mechanism, WTC7 event, WTC7 NIST sequence, free-fall kinematics, WTC7 CD, category separation, exploitation, PRS rule, dissent-organisation existence, and dissent-as-proof are fifteen separate claims. ‘9/11 was an inside job’ collapses most of them. ‘Free-fall’ collapses C9 with C10. ‘Thousands of architects’ collapses C14 with C15."
+    },
+    {
+      "name": "Logic",
+      "note": "H-aq-ops best. H-lihop rejected as established. H-mihop-cd rejected as established. H-no-pentagon-plane rejected as established. H-petition-equals-proof rejected as method. Hidden premises blocked: B1→B2; WTC7→A3; Iraq→A3; free-fall interval→cutter charges; licence-holder petition→physics."
+    },
+    {
+      "name": "Rhetoric",
+      "note": "Stripped: ‘jet fuel can’t melt steel’; ‘it looks like demolition’; ‘they all knew’; ‘debunked’ as a substitute for C8’s open gate. Neutral: hijacked aircraft and an al-Qaeda network; warnings existed and were mishandled; towers failed from impact, fire, and lost insulation on the NIST account; Building 7 is a separate, unfrozen technical contest; petitions are not lineages."
+    },
+    {
+      "name": "Reality",
+      "note": "Discriminators: Commission Ch.1/5/11; PDB hijacking sentence; NCSTAR 1 insulation and no-CD paragraphs; NCSTAR 1A Col.79 and §3.6 stages; Hulsey fire-did-not-cause sentence. Controls: NIST agency-family residual; Hulsey funding filter without content-sneer; Pilots FDR dispute recorded against C1 multi-source."
+    },
+    {
+      "name": "Independence",
+      "note": "Commission ≠ PDB ≠ NIST towers ≠ NIST WTC7 ≠ Hulsey. AE911Truth and Pilots are organisations, not a fifth and sixth measurement lineage. Hulsey is funded by AE911Truth — related advocacy, distinct technical product."
+    },
+    {
+      "name": "Hostile Pass 1 — Rubber-stamp",
+      "note": "Attack: Commission and NIST are political. Response: political-product caveat kept. C8 not frozen. CD still needs positive evidence."
+    },
+    {
+      "name": "Hostile Pass 2 — Free-fall proves CD",
+      "note": "Attack: Stage 2 is simultaneous column cut. Response: C9 is kinematics; NIST’s interpretation is lost interior then exterior. C10 needs prep/residue/acoustic positives."
+    },
+    {
+      "name": "Hostile Pass 3 — Hulsey ignored because funding",
+      "note": "Attack: ad hominem. Response: funding is a quality filter. Conclusions recorded. Independent replication residual. Not elevated."
+    },
+    {
+      "name": "Hostile Pass 4 — LIHOP from incompetence",
+      "note": "Attack: PDB plus four failures equals permission. Response: C5. Category error."
+    },
+    {
+      "name": "Hostile Pass 5 — WTC7 smuggled into MIHOP",
+      "note": "Attack: Building 7 settles inside job. Response: C11. Mechanism ≠ authorship."
+    },
+    {
+      "name": "Hostile Pass 6 — Pilots and architects",
+      "note": "Attack: thousands of professionals cannot all be wrong. Response: C14/C15. Count lineages. Other professionals disagree. Hulsey is the content to answer, not the petition headcount."
+    },
+    {
+      "name": "Hostile Pass 7 — Human PE missing",
+      "note": "Attack: then you must not publish Building 7. Response: user assigned coverage. C8 published as PROBABLE non-frozen, matching the Edition demotion claim budget, inside the 9/11 file rather than as a standalone WTC7 Evidence File."
+    }
+  ],
+  "changelog": [
+    {
+      "date": "26/08/2026",
+      "change": "Evidence File 013 initial publication. Research basis: 911-core Pass 2 plus WTC7 Pass 2. Towers and attack/intelligence families from 911-core; Building 7 included as a separate family with W3/C8 PROBABLE and not frozen (no named human PE). Architects & Engineers for 9/11 Truth and Pilots for 9/11 Truth scored as real dissent (C14) that does not establish demolition or no-Pentagon-plane (C15). Not a standalone WTC7 file."
+    }
+  ]
+}
