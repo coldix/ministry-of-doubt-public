@@ -1,0 +1,297 @@
+{
+  "fileNo": "016",
+  "slug": "jfk",
+  "publication": "public",
+  "title": "JFK: archive and assassin",
+  "subtitle": "Oswald as a shooter is KNOWN at commission standard; single-bullet is PROBABLE; organisational conspiracy is an open residual; secrecy is not a skeleton key",
+  "chapter": "Chapter 12",
+  "livingFile": false,
+  "status": "Evidence File",
+  "firstPublished": "26/08/2026",
+  "lastReviewed": "26/08/2026",
+  "evidenceCutoff": "12/08/2026",
+  "overall": {
+    "label": "Death and Oswald-as-shooter KNOWN; SBT PROBABLE; plot OPEN; secrecy KNOWN as process",
+    "ledger": "KNOWN",
+    "confidence": "Very high on death, TSBD shots, and Oswald-as-shooter; mixed on lone-versus-plot",
+    "summary": "The Edition treats Oswald as a shooter from the Depository as KNOWN at commission/ballistics-path standard, the single-bullet reconstruction as PROBABLE (not sole load-bearing), and organisational conspiracy as an open residual: absence of identified co-conspirators is not a metaphysical proof that no plot ever existed. Acoustic ‘probable conspiracy’ from HSCA does not survive NAS 1982 as established. Archival secrecy is KNOWN as process failure and is not used as a skeleton key for a preferred theory. Teach the sequence: Warren (1964) lone path; HSCA (1979) Oswald shooter plus probable conspiracy on acoustics; NAS Committee on Ballistic Acoustics (1982) undercuts the grassy-knoll acoustic prop; ARRB (1998) documents secrecy and draws no assassination verdict. Do not stop at Warren alone or at HSCA without NAS. This file is Path B residual-accepted: autopsy/SBT specialist re-score remains optional polish, not a publication blocker."
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "On 22 November 1963 in Dallas, President John F. Kennedy was killed by gunfire during a motorcade. This is the event fact. It is not a finding about how many shooters or whether anyone besides Oswald ordered the killing.",
+      "why": "Contemporaneous universal record. Not seriously disputed as the fact of death by gunfire.",
+      "sourceIds": ["S1"]
+    },
+    {
+      "id": "C2",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "The shots that killed the President and wounded Governor Connally were fired from the sixth-floor southeast window of the Texas School Book Depository. Warren Commission Chapter 1: witnesses, Mannlicher-Carcano ballistics to the exclusion of other weapons, three used cartridge cases, windshield fragment pattern, and wound geometry from above and behind. HSCA Summary agrees: two rifle shots from behind struck the President from that window. Knoll-origin witness reports remain a contrary residual and do not reverse this commission-level finding.",
+      "why": "Two official investigations agree on origin of the fatal shots. Independence: Warren ≠ HSCA.",
+      "sourceIds": ["S1", "S2"]
+    },
+    {
+      "id": "C3",
+      "level": "Object",
+      "ledger": "KNOWN",
+      "confidence": "High",
+      "claim": "Lee Harvey Oswald fired three shots from that window and was a shooter who struck the President. HSCA Summary: the second and third shots he fired struck the President; the third killed him. Oswald owned the rifle; he had access and presence on the sixth floor. Warren found no evidence he was part of a conspiracy. HSCA still treated him as a shooter while asserting conspiracy — conspiracy does not require Oswald innocent. This is commission-level plus ballistics path, not ‘end of historiography.’ Autopsy specialist residual remains (Path B).",
+      "why": "Warren and HSCA agree on Oswald as shooter even where they diverge on conspiracy. Confidence High rather than Very high because of durable public contest and medical residual.",
+      "sourceIds": ["S1", "S2"]
+    },
+    {
+      "id": "C4",
+      "level": "Object",
+      "ledger": "PROBABLE",
+      "confidence": "Moderate",
+      "claim": "The single-bullet reconstruction — that the same bullet which pierced the President’s throat also caused Governor Connally’s wounds — is PROBABLE, not sole load-bearing for C2–C3. Warren: ‘very persuasive evidence from the experts’ and ‘some difference of opinion as to this probability,’ with the Commission still unanimous that all wounding shots came from the sixth-floor window. Connally’s own testimony and geometric/medical critique keep this from KNOWN. Do not let SBT swallow Oswald-as-shooter.",
+      "why": "Path B residual. Specialist re-score optional. Timing arguments that need SBT as a hinge stay one notch below C3.",
+      "sourceIds": ["S1"]
+    },
+    {
+      "id": "C5",
+      "level": "Object",
+      "ledger": "PROBABLE",
+      "confidence": "Moderate–high against as established",
+      "claim": "A second gunman is not established on the acoustic evidence that carried HSCA’s ‘probable conspiracy.’ HSCA I.B: Dictabelt analysis and Weiss/Aschkenasy ‘95 percent or better’ grassy-knoll shot. NAS Committee on Ballistic Acoustics (1982): the acoustic analyses do not demonstrate a grassy-knoll shot; there is no acoustic basis for the 95% claim; impulses attributed to gunshots were recorded about one minute after the President had been shot and the motorcade had been instructed to go to the hospital; reliable acoustic data do not support a second gunman. NAS undercuts the acoustic prop. It does not by itself kill every non-acoustic multi-shooter claim (knoll witnesses; medical narrative conflicts). Those remain residual, not promoted.",
+      "why": "Discriminating scientific line against HSCA’s load-bearing prop. Later academic re-openings of acoustics exist as residual and do not erase NAS mainline without specialist re-score.",
+      "sourceIds": ["S2", "S3", "S4"]
+    },
+    {
+      "id": "C6",
+      "level": "Object",
+      "ledger": "UNKNOWN",
+      "confidence": "Open residual — no identified co-conspirators; no universal negative",
+      "claim": "Whether an organisational conspiracy beyond Oswald accomplished the killing is an OPEN residual. HSCA believed the President was probably assassinated as a result of a conspiracy and was unable to identify the other gunman or the extent of the conspiracy. It surveyed and did not find involvement as groups of the Soviet government, Cuban government, anti-Castro groups, the national crime syndicate, Secret Service, FBI, or CIA — individuals not precluded for some categories. Warren found no conspiracy evidence on its reviewed record. Absence of identified co-conspirators is not a metaphysical proof that no plot ever existed. Motive catalogues and secrecy do not name one. Theory-menu sprawl is out of scope.",
+      "why": "UNKNOWN is allowed to win. Path B language. Do not launder this into a preferred named plot.",
+      "sourceIds": ["S1", "S2"]
+    },
+    {
+      "id": "C7",
+      "level": "Process",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Official investigations reached different public conclusions on conspiracy versus lone assassin, and the public story must include the full sequence. Warren (1964): lone path; no conspiracy evidence found. HSCA (1979): Oswald shooter plus probable conspiracy, heavily on acoustics. NAS (1982): acoustics do not support a second gunman. ARRB (1998): records body, not a verdict. Stopping at Warren alone or at HSCA without NAS is a pedagogical failure. HSCA also found the earlier conspiracy investigation inadequate — a process finding, not C6 object proof.",
+      "why": "Required pedagogy of this file. Two commissions plus an independent scientific review plus a records board.",
+      "sourceIds": ["S1", "S2", "S4", "S5"]
+    },
+    {
+      "id": "C8",
+      "level": "Process",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "US government agencies withheld, delayed, or sealed assassination records for decades. The President John F. Kennedy Assassination Records Collection Act of 1992 created a release process after public distrust (including after Oliver Stone’s JFK and sealed HSCA records). ARRB Final Report Chapter 1: 30 years of government secrecy led the American public to believe the government had something to hide; suspicions eroded confidence in federal agencies’ truthfulness and damaged credibility. ARRB Preface: Congress did not direct the Board to draw conclusions about the assassination; the Final Report does not offer conclusions about what the records did or did not prove. Ongoing NARA releases remain a process residual, not a smoking-gun calendar.",
+      "why": "Process KNOWN. ARRB is not an assassination verdict body. Do not miscast it.",
+      "sourceIds": ["S5"]
+    },
+    {
+      "id": "C9",
+      "level": "Method",
+      "ledger": "KNOWN",
+      "confidence": "Very high",
+      "claim": "Archival opacity and investigative failure raise suspicion and lower trust. They do not by themselves prove a specific conspiracy theory. Anomaly ≠ discrimination. Secrecy ≠ proof of a named plot. Northwoods documents a willingness to plan public deception on paper; that is a separate file (Evidence File 005) and is not JFK authorship. ‘The next release will prove my villain’ is a fallacy this file pre-commits against.",
+      "why": "Load-bearing method. Identity-swap: same pins if the preferred plot were reversed.",
+      "sourceIds": ["S5", "S6"]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "22/11/1963",
+      "event": "Kennedy killed by gunfire in Dallas. Oswald arrested; killed by Jack Ruby two days later.",
+      "effect": "C1 event"
+    },
+    {
+      "date": "24/09/1964",
+      "event": "Warren Report: shots from TSBD sixth floor; Oswald the assassin; SBT very persuasive; no conspiracy evidence found.",
+      "effect": "C2–C4 / C7 start of sequence"
+    },
+    {
+      "date": "1979",
+      "event": "HSCA: Oswald fired three shots and killed the President; probable conspiracy on acoustics; co-conspirators unidentified.",
+      "effect": "C3 / C5 / C6 / C7 divergence"
+    },
+    {
+      "date": "1982",
+      "event": "NAS Committee on Ballistic Acoustics: reliable acoustic data do not support a second gunman; 95% knoll claim has no acoustic basis.",
+      "effect": "C5 discrimination"
+    },
+    {
+      "date": "1992",
+      "event": "JFK Assassination Records Collection Act.",
+      "effect": "C8 process"
+    },
+    {
+      "date": "09/1998",
+      "event": "ARRB Final Report: secrecy eroded confidence; board draws no assassination verdict.",
+      "effect": "C8 / C9"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H-oswald-shooter",
+      "title": "Oswald fired from the Depository and struck the President",
+      "status": "Best supported",
+      "text": "Warren and HSCA agree on shooter and window even where they diverge on conspiracy.",
+      "test": "C2–C3. Holds at commission standard."
+    },
+    {
+      "id": "H-lone-forever",
+      "title": "Lone assassin, settled forever",
+      "status": "Overclaim — rejected as file slogan",
+      "text": "C2c and C6 are closed; no residuals.",
+      "test": "C4 PROBABLE; C6 UNKNOWN. Path B forbids this dunk."
+    },
+    {
+      "id": "H-acoustics-plot",
+      "title": "HSCA acoustics prove a second gunman",
+      "status": "Rejected as established",
+      "text": "95% knoll shot survives.",
+      "test": "C5. NAS 1982 undercuts the prop."
+    },
+    {
+      "id": "H-secrecy-skeleton",
+      "title": "Secrecy proves a named plot",
+      "status": "Rejected as method",
+      "text": "ARRB process is a verdict on who did it.",
+      "test": "C8–C9. Process without theory laundering."
+    },
+    {
+      "id": "H-catalogue",
+      "title": "CIA / Mafia / Cubans / LBJ as co-equal chapters",
+      "status": "Rejected as method",
+      "text": "Every theory gets equal print space.",
+      "test": "C6 / C9. Claim budget."
+    }
+  ],
+  "independence": [
+    "event-1963-11-22: Contemporaneous death record.",
+    "warren-1964: Official investigation 1 — lone path.",
+    "hsca-1979: Official investigation 2 — agrees Oswald shooter; diverges on conspiracy.",
+    "nas-acoustics-1982: Scientific review of HSCA acoustic prop. Independent of HSCA.",
+    "arrb-1998: Records release process. Not an assassination verdict body.",
+    "ef-northwoods-pair: Architectural non-smuggle only."
+  ],
+  "openQuestions": [
+    "Autopsy / medical evidence deep map (Parkland–Bethesda narrative conflicts) — Path A optional specialist.",
+    "Single-bullet geometry re-score by a firearms/medical specialist — C4 stays PROBABLE until then.",
+    "Non-acoustic multi-shooter props after NAS (knoll witnesses as discriminators, not catalogue).",
+    "Ongoing NARA releases — process residual, not a smoking-gun calendar.",
+    "Later academic re-openings of Dictabelt acoustics (Thomas 2001 class) — residual; not NAS reversal without specialist."
+  ],
+  "wouldChange": [
+    "Robust multi-shooter physical evidence that survives hostile review would force C5 down and could reopen C6.",
+    "A specialist finding that SBT is physically impossible would force C4 down without automatically reversing C3.",
+    "Identified co-conspirators on a primary path would move C6 off UNKNOWN.",
+    "Evidence that ARRB overstated secrecy would force C8 down — not currently shown.",
+    "Nothing in Northwoods planning documents changes C6."
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "name": "Warren Commission Report — Chapter 1, Summary and Conclusions (1964)",
+      "kind": "Primary — US presidential commission",
+      "role": "C1–C4: TSBD sixth-floor shots; Oswald; SBT very persuasive; no conspiracy evidence found.",
+      "independenceGroup": "warren-1964",
+      "url": "https://www.archives.gov/research/jfk/warren-commission-report/chapter-1.html",
+      "locator": "NARA HTML, Report of the President's Commission on the Assassination of President John F. Kennedy, Chapter 1. Companion shots chapter: archives.gov/research/jfk/warren-commission-report/chapter-3.html."
+    },
+    {
+      "id": "S2",
+      "name": "HSCA — Summary of Findings (1979)",
+      "kind": "Primary — US House Select Committee on Assassinations",
+      "role": "C2–C3 Oswald three shots; C5–C6 probable conspiracy, unidentified other gunman; organisational group negations; earlier conspiracy investigation inadequate.",
+      "independenceGroup": "hsca-1979",
+      "url": "https://www.archives.gov/research/jfk/select-committee-report/summary.html",
+      "locator": "NARA HTML, Report of the Select Committee on Assassinations, Summary of Findings."
+    },
+    {
+      "id": "S3",
+      "name": "HSCA — Findings I.B Scientific Acoustical Evidence (1979)",
+      "kind": "Primary — HSCA acoustics section",
+      "role": "C5: 95% grassy-knoll shot path that NAS later undercuts.",
+      "independenceGroup": "hsca-1979",
+      "url": "https://www.archives.gov/research/jfk/select-committee-report/part-1b.html",
+      "locator": "NARA HTML, HSCA Findings I.B, ‘Scientific Acoustical Evidence Establishes a High Probability That Two Gunmen Fired…’ Weiss/Aschkenasy 95% language."
+    },
+    {
+      "id": "S4",
+      "name": "NAS — Report of the Committee on Ballistic Acoustics (1982)",
+      "kind": "Primary — National Academy of Sciences scientific review",
+      "role": "C5: acoustic analyses do not demonstrate a grassy-knoll shot; no acoustic basis for 95%; impulses about one minute after the shooting; reliable acoustic data do not support a second gunman.",
+      "independenceGroup": "nas-acoustics-1982",
+      "url": "https://nap.nationalacademies.org/catalog/10264/report-of-the-committee-on-ballistic-acoustics",
+      "locator": "National Academies Press, Report of the Committee on Ballistic Acoustics, 1982 (ISBN catalog 10264). Independent of HSCA."
+    },
+    {
+      "id": "S5",
+      "name": "ARRB — Final Report (September 1998)",
+      "kind": "Primary — Assassination Records Review Board",
+      "role": "C7–C9: no assassination conclusions; Chapter 1 secrecy eroded confidence; JFK Act process.",
+      "independenceGroup": "arrb-1998",
+      "url": "https://www.archives.gov/files/research/jfk/review-board/report/arrb-final-report.pdf",
+      "locator": "Final Report of the Assassination Records Review Board, September 1998. Preface mandate distinction; Chapter 1 ‘The Problem of Secrecy.’"
+    },
+    {
+      "id": "S6",
+      "name": "Ministry Evidence File 005 — Operation Northwoods",
+      "kind": "Paired Ministry evidence file",
+      "role": "C9: documented willingness to plan public deception is not JFK authorship. Do not smuggle motive.",
+      "independenceGroup": "ef-northwoods-pair",
+      "url": "/cases/operation-northwoods",
+      "locator": "Evidence File 005, /cases/operation-northwoods."
+    }
+  ],
+  "methodAudit": [
+    {
+      "name": "Grammar",
+      "note": "Death, TSBD origin, Oswald-as-shooter, SBT, acoustic second-gunman, organisational plot, investigation sequence, archival secrecy, and method rule are separate. ‘Lone nut’ collapses C3 with C4 and C6. ‘CIA did it’ collapses C8 with C6."
+    },
+    {
+      "name": "Logic",
+      "note": "H-oswald-shooter best. H-lone-forever overclaim. H-acoustics-plot rejected as established. H-secrecy-skeleton rejected. H-catalogue rejected. Hidden premises blocked: HSCA conspiracy = acoustics forever; NAS = all multi-shooter dead; ARRB = preferred plot; Northwoods = JFK."
+    },
+    {
+      "name": "Rhetoric",
+      "note": "Stripped: ‘settled forever’; ‘obvious conspiracy’; theory menu. Neutral: two commissions agree Oswald fired from the Depository; HSCA’s acoustic conspiracy prop fails NAS; secrecy is real process; plot remains UNKNOWN. Identity-swap: same pins if the preferred villain were reversed."
+    },
+    {
+      "name": "Reality",
+      "note": "Discriminators: Warren/HSCA Oswald-as-shooter agreement; NAS one-minute / no-95% / no-second-gunman lines; ARRB no-verdict plus secrecy chapter. Controls: SBT difference of opinion; knoll witnesses; ongoing releases."
+    },
+    {
+      "name": "Independence",
+      "note": "Warren ≠ HSCA ≠ NAS ≠ ARRB. NAS is a scientific review of an HSCA prop, not a third assassination commission."
+    },
+    {
+      "name": "Hostile Pass 1 — Lone forever",
+      "note": "Attack: you settled it. Response: C4 PROBABLE; C6 UNKNOWN. Path B language in the overall summary."
+    },
+    {
+      "name": "Hostile Pass 2 — NAS kills all multi-shooter",
+      "note": "Attack: knoll witnesses and medical conflicts ignored. Response: parked as residual; not promoted. Acoustics only."
+    },
+    {
+      "name": "Hostile Pass 3 — Secrecy laundering",
+      "note": "Attack: 30 years of hiding proves CIA. Response: C8–C9. Process without a named plot."
+    },
+    {
+      "name": "Hostile Pass 4 — Theory catalogue",
+      "note": "Attack: cowardice not to pick a villain. Response: claim budget. Encyclopaedia is out of scope."
+    },
+    {
+      "name": "Hostile Pass 5 — Northwoods",
+      "note": "Attack: they planned false flags, therefore Dallas. Response: EF005 is a different object. Explicit non-goal."
+    }
+  ],
+  "changelog": [
+    {
+      "date": "26/08/2026",
+      "change": "Evidence File 016 initial publication. Path B residual-accepted: C2c/SBT PROBABLE; C3b organisational plot UNKNOWN/open; no ‘lone forever settled.’ Research basis: jfk Pass 2 (12/08/2026) Warren/HSCA/NAS/ARRB. Author sequential-open after Apollo."
+    }
+  ]
+}
