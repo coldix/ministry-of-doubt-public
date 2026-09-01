@@ -2,11 +2,11 @@
  * File: src/styles/adnet.css
  * Website: ministryofdoubt.com
  * Description: adnet ad-slot styling, tuned to the Ministry of Doubt ink/paper/plum theme
- * Version: 1.0.0
- * Date: 26 Aug 2026 | 11:45 AM AEST
+ * Version: 1.1.0
+ * Date: 26 Aug 2026 | 4:40 PM AEST
  * Author: Colin Dixon + Claude Opus 5
  *
- * Source of truth is https://github.com/coldix/adnet -> embed/adnet.css (0.3.0). Keep the
+ * Source of truth is https://github.com/coldix/adnet -> embed/adnet.css (0.4.0). Keep the
  * two in step; only the theme overrides at the bottom of this file are site-specific.
  */
 
@@ -117,6 +117,11 @@
 .ad-728x90 .adnet-body { -webkit-line-clamp: 2; }
 
 /* Required on every unit, house ads included (docs/04-ad-tag.md). */
+/* The label is absolutely positioned, so on a text unit the headline runs under it — it
+   is the only element that starts at the top of the box. Reserve the corner rather than
+   moving the label: the label has a fixed place on every unit, artwork included. */
+.adnet-text .adnet-headline { padding-right: 3.25rem; }
+
 .adnet-label {
   position: absolute;
   top: .4rem;
@@ -145,7 +150,6 @@
   opacity: .85;
 }
 .adnet-html iframe { display: block; border: 0; max-width: 100%; }
-
 
 /* --- Ministry of Doubt theme ---------------------------------------------------------
    The band sits between the last section and the footer, so it is separated by a rule

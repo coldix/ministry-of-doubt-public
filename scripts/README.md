@@ -2,6 +2,8 @@
 
 These operate on the public/preview projection only. They never publish private research dossiers from `docs/`.
 
+**Historical — do not run.** `start-claude-*-evidence-00*.sh` and `setup-grok-research-completion-edition-1.sh` launched completed August 2026 missions (EF001–EF007, Grok residual-closure). They are kept for provenance. Current operational state is `docs/11-current-project-state.md`. No active autonomous mission.
+
 ## `case-tool.mjs` — Evidence File data
 
 Validates and manages the structured case data under `site/src/data/cases/`, and validates the research index.
