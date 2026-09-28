@@ -38,3 +38,27 @@ export const NAV = [
   { href: "/tracker", label: "Tracker" },
   { href: "/about", label: "About" },
 ];
+
+/** Sibling evidence sites. Same lines as the "Same family" block on cantexplain.au. */
+export const FAMILY = [
+  {
+    name: "Can’t Explain",
+    href: "https://cantexplain.au",
+    line: "A receipt-first hall of ridiculous claims.",
+  },
+  {
+    name: "Election Tracker",
+    href: "https://electiontracker.au",
+    line: "Sourced Australian election ledger. Not a forecast.",
+  },
+  {
+    name: "FixMap",
+    href: "https://fixmap.au/",
+    line: "Spot it. Map it. Fix it. Civic reporting for Australia.",
+  },
+  {
+    name: "Oze Unleashed",
+    href: "https://ozeunleashed.substack.com",
+    line: "Longer essays. Still sourced.",
+  },
+];
