@@ -56,4 +56,9 @@ export const FAMILY = [
     href: "https://fixmap.au/",
     line: "Spot it. Map it. Fix it. Civic reporting for Australia.",
   },
+  {
+    name: "Oze Unleashed",
+    href: "https://ozeunleashed.substack.com",
+    line: "Longer essays. Still sourced.",
+  },
 ];

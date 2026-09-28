@@ -1,5 +1,5 @@
 ---
-import { SITE, AUTHOR } from "../lib/site.mjs";
+import { SITE, AUTHOR, FAMILY } from "../lib/site.mjs";
 import buildMeta from "../generated/build-meta.json";
 
 const year = new Date().getFullYear();
@@ -64,7 +64,11 @@ const footerCases = Object.values(caseModules)
       <div class="footer-col">
         <p class="eyebrow">Elsewhere</p>
         <ul>
-          <li><a href={AUTHOR.electionTracker}>electiontracker.au</a></li>
+          {
+            FAMILY.map((f) => (
+              <li><a href={f.href}>{f.name}</a></li>
+            ))
+          }
           <li><a href={SITE.publisherUrl}>{SITE.publisher}</a></li>
           <li><a href={AUTHOR.x} rel="me noopener">X · {AUTHOR.xHandle}</a></li>
           <li><a href={AUTHOR.linkedin} rel="me noopener">LinkedIn</a></li>
