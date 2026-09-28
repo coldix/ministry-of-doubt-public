@@ -1,6 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
-import { SITE, AUTHOR } from "../lib/site.mjs";
+import { SITE, AUTHOR, FAMILY } from "../lib/site.mjs";
 ---
 
 <Base
@@ -39,6 +39,17 @@ import { SITE, AUTHOR } from "../lib/site.mjs";
       affiliated with any political party, intelligence agency, activist organisation or media group.
       Related public work includes the <a href={AUTHOR.electionTracker}>Australian Election Tracker</a>.
     </p>
+
+    <h2 id="family">Same family</h2>
+    <ul>
+      {
+        FAMILY.map((f) => (
+          <li>
+            <a href={f.href} rel="noopener">{f.name}</a> — {f.line}
+          </li>
+        ))
+      }
+    </ul>
 
     <h2>Contact</h2>
     <p>
